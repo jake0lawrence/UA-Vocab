@@ -1,0 +1,1214 @@
+{
+  "source": "synchak_2025",
+  "note": "Per-lemma CEFR level assignments from Synchak, Starko, Burak and Svystun (eLex 2025) and the PULS platform they published (puls.peremova.org). Points with a ref of Table N or Section N are transcribed verbatim from the paper; points with ref PULS were looked up individually on the public PULS entries interface (an exact-headword match, one lookup per lemma, its own robots.txt permitting /entries). pos is the sense's part of speech (UD tag) so gold matching is POS-aware. This is the closest thing to a validated gold standard for Ukrainian CEFR vocabulary; the experimental overlay is measured against it. Levels above what a source states are never inferred, and homographs listed at more than one PULS level are excluded rather than guessed.",
+  "levelOrder": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "points": [
+    {
+      "lemma": "традиція",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Table 4"
+    },
+    {
+      "lemma": "традиційний",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Table 4"
+    },
+    {
+      "lemma": "типовий",
+      "pos": "ADJ",
+      "level": "A2",
+      "ref": "Table 4"
+    },
+    {
+      "lemma": "звичний",
+      "pos": "ADJ",
+      "level": "B1",
+      "ref": "Table 4"
+    },
+    {
+      "lemma": "стандартний",
+      "pos": "ADJ",
+      "level": "B2",
+      "ref": "Table 4"
+    },
+    {
+      "lemma": "стандарт",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "Table 4"
+    },
+    {
+      "lemma": "писати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "написати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "підпис",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "дописати",
+      "pos": "VERB",
+      "level": "A2",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "переписати",
+      "pos": "VERB",
+      "level": "A2",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "підписати",
+      "pos": "VERB",
+      "level": "A2",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "записка",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "допис",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "писатися",
+      "pos": "VERB",
+      "level": "B2",
+      "ref": "Table 7"
+    },
+    {
+      "lemma": "жити",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "Table 8"
+    },
+    {
+      "lemma": "життя",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Table 8"
+    },
+    {
+      "lemma": "житель",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "Table 8"
+    },
+    {
+      "lemma": "жителька",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "Table 8"
+    },
+    {
+      "lemma": "прожити",
+      "pos": "VERB",
+      "level": "B1",
+      "ref": "Table 8"
+    },
+    {
+      "lemma": "проживання",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 8"
+    },
+    {
+      "lemma": "проживати",
+      "pos": "VERB",
+      "level": "B1",
+      "ref": "Table 8"
+    },
+    {
+      "lemma": "оселедець",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "лосось",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "форель",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "тунець",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "скумбрія",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "дорадо",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "окунь",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "хек",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "карась",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "короп",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "щука",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "камбала",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "сом",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "кілька",
+      "pos": "NOUN",
+      "level": "C1",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "вугор",
+      "pos": "NOUN",
+      "level": "C1",
+      "ref": "Table 6"
+    },
+    {
+      "lemma": "я",
+      "pos": "PRON",
+      "level": "A1",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "працювати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "добрий",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "наука",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "освіта",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "мета",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "захоплюватися",
+      "pos": "VERB",
+      "level": "A2",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "цікавитися",
+      "pos": "VERB",
+      "level": "A2",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "займатися",
+      "pos": "VERB",
+      "level": "A2",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "петрушка",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "кекс",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "Section 4.2"
+    },
+    {
+      "lemma": "стіл",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "стілець",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "шафа",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "ліжко",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "лампа",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "годинник",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "диван",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "рушник",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "посуд",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "холодильник",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "меблі",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "крісло",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "килим",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "ваза",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "Section 3.5.1"
+    },
+    {
+      "lemma": "зелений",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Table 3"
+    },
+    {
+      "lemma": "чорний",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Table 3"
+    },
+    {
+      "lemma": "червоний",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Table 3"
+    },
+    {
+      "lemma": "білий",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Table 3"
+    },
+    {
+      "lemma": "синій",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Table 3"
+    },
+    {
+      "lemma": "оранжевий",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "Section 3.4.2"
+    },
+    {
+      "lemma": "помаранчевий",
+      "pos": "ADJ",
+      "level": "A2",
+      "ref": "Table 3"
+    },
+    {
+      "lemma": "фіолетовий",
+      "pos": "ADJ",
+      "level": "A2",
+      "ref": "Table 3"
+    },
+    {
+      "lemma": "бути",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "який",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "рік",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "він",
+      "pos": "PRON",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "цей",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "для",
+      "pos": "ADP",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "вони",
+      "pos": "PRON",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "свій",
+      "pos": "DET",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "також",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "вона",
+      "pos": "PRON",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "час",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "такий",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "мати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "могти",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "той",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "його",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "людина",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "один",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "інший",
+      "pos": "DET",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "після",
+      "pos": "ADP",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "президент",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "новий",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "перший",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "країна",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "сказати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "стати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "особа",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "через",
+      "pos": "ADP",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "область",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "заявити",
+      "pos": "VERB",
+      "level": "C1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "або",
+      "pos": "CCONJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "щоб",
+      "pos": "SCONJ",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "голова",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "наш",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "два",
+      "pos": "NUM",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "місто",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "повідомити",
+      "pos": "VERB",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "слово",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "день",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "рада",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "справа",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "державний",
+      "pos": "ADJ",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "коли",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "місце",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "робота",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "повідомляти",
+      "pos": "VERB",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "себе",
+      "pos": "PRON",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "якщо",
+      "pos": "SCONJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "питання",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "великий",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "щодо",
+      "pos": "ADP",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "рішення",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "суд",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "компанія",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "рок",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "район",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "влада",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "національний",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "раніше",
+      "pos": "ADV",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "отримати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "лише",
+      "pos": "PART",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "нагадати",
+      "pos": "VERB",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "міністр",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "частина",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "партія",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "хто",
+      "pos": "PRON",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "депутат",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "результат",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "більше",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "світ",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "раз",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "можна",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "зазначити",
+      "pos": "VERB",
+      "level": "B2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "населення",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "дуже",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "група",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "проти",
+      "pos": "ADP",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "дитина",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "головний",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "без",
+      "pos": "ADP",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "сила",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "село",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "склад",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "держава",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "територія",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "закон",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "система",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "участь",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "чоловік",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "хотіти",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "інформація",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "захід",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "останній",
+      "pos": "ADJ",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "право",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "сьогодні",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "уряд",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "навіть",
+      "pos": "PART",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "сам",
+      "pos": "DET",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "між",
+      "pos": "ADP",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "міжнародний",
+      "pos": "ADJ",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "вибори",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "представник",
+      "pos": "NOUN",
+      "level": "B2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "тисяча",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "все",
+      "pos": "PRON",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "знати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "дія",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "ситуація",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "військовий",
+      "pos": "ADJ",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "тут",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "зараз",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "центр",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "становити",
+      "pos": "VERB",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "допомога",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "рівень",
+      "pos": "NOUN",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "три",
+      "pos": "NUM",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "організація",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "зокрема",
+      "pos": "ADV",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "березень",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "зробити",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "відбутися",
+      "pos": "VERB",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "місцевий",
+      "pos": "ADJ",
+      "level": "A2",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "політичний",
+      "pos": "ADJ",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "кількість",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "початок",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "другий",
+      "pos": "ADJ",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "почати",
+      "pos": "VERB",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "мій",
+      "pos": "DET",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "гривня",
+      "pos": "NOUN",
+      "level": "A1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "стан",
+      "pos": "NOUN",
+      "level": "B1",
+      "ref": "PULS"
+    },
+    {
+      "lemma": "там",
+      "pos": "ADV",
+      "level": "A1",
+      "ref": "PULS"
+    }
+  ]
+}

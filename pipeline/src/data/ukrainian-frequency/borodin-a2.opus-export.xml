@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export-example>
+  <doc>
+    <id>1448</id>
+    <completedYear>2026</completedYear>
+    <publishedYear/>
+    <thesisYearAccepted/>
+    <language>ukr</language>
+    <pageFirst/>
+    <pageLast/>
+    <pageNumber>108 Seiten</pageNumber>
+    <edition/>
+    <issue/>
+    <volume/>
+    <type>book</type>
+    <publisherName/>
+    <publisherPlace/>
+    <creatingCorporation/>
+    <contributingCorporation/>
+    <belongsToBibliography>1</belongsToBibliography>
+    <completedDate>2026-04-27</completedDate>
+    <publishedDate>2026-05-08</publishedDate>
+    <thesisDateAccepted>--</thesisDateAccepted>
+    <title language="ukr">1000 i 1 слово (A2)   /   1000 i 1 slovo (A2)</title>
+    <abstract language="ukr">Навчальний посібник “1000 і 1 слово” (А2) пропонує лексичний мінімум, укладений для вивчення сучасної української мови як іноземної на базовому рівні. Він містить мовні одиниці (слова і словосполуки), які подано за алфавітом та погруповано за темами. При мовних одиницях є відповідний для А2 граматичний коментар і типові приклади вживання. Навчальний посібник призначений викладачам української мови як іноземної, студентам (зокрема для самостійної роботи), а також науковцям у галузі лінгводидактики, які працюють з навчальними матеріалами з української мови як іноземної.</abstract>
+    <abstract language="eng">The “1000 and 1 Words” (A2) handbook offers a lexical minimum compiled for learning modern Ukrainian as a foreign language at the elementary level. It contains language units (words and phrases), which are arranged alphabetically and grouped by topic. The language units are accompanied by grammatical explanations suitable for an A2 level of language proficiency, along with typical usage examples. The handbook is intended for teachers of Ukrainian as a foreign language, students (in particular for self-study), and researchers in the field of Ukrainian language education.</abstract>
+    <abstract language="deu">Das Lehrbuch „1000 und 1 Wort“ (A2) bietet einen Wortschatz, der für das Erlernen der modernen ukrainischen Sprache als Fremdsprache auf Grundstufe zusammengestellt wurde. Es enthält Spracheinheiten (Wörter und Wortverbindungen), die alphabetisch geordnet und nach Themen gruppiert sind. Zu den Spracheinheiten gibt es einen für das Niveau A2 geeigneten grammatikalischen Kommentar sowie typische Anwendungsbeispiele. Das Lehrbuch richtet sich an Lehrkräfte für Ukrainisch als Fremdsprache, an Studierende (insbesondere für das Selbststudium) sowie an Wissenschaftler im Bereich der Sprachdidaktik, die mit Lehrmaterialien für Ukrainisch als Fremdsprache arbeiten.</abstract>
+    <subTitle language="ukr">лексичниѝ мінімум з української мови (A2) - навчальниѝ посібник   /   leksyčnyj minimum z ukraïnsʹkoï movy (A2) - navčalʹnyj posibnyk</subTitle>
+    <identifier type="urn">urn:nbn:de:kobv:521-opus4-14485</identifier>
+    <identifier type="doi">10.11584/opus4-1448</identifier>
+    <enrichment key="opus.source">publish</enrichment>
+    <licence>Creative Commons - CC BY 4.0 International - Namensnennung</licence>
+    <author>Kseniia Borodin</author>
+    <author>Olesia Lazarenko</author>
+    <subject>
+      <language>ukr</language>
+      <type>uncontrolled</type>
+      <value>Українська як іноземна мова</value>
+    </subject>
+    <subject>
+      <language>ukr</language>
+      <type>uncontrolled</type>
+      <value>Базові знання української мови</value>
+    </subject>
+    <subject>
+      <language>ukr</language>
+      <type>uncontrolled</type>
+      <value>Словник рівня А2</value>
+    </subject>
+    <subject>
+      <language>ukr</language>
+      <type>uncontrolled</type>
+      <value>Тематичний словник для рівня А2</value>
+    </subject>
+    <subject>
+      <language>eng</language>
+      <type>uncontrolled</type>
+      <value>Ukrainian as a Foreign Language</value>
+    </subject>
+    <subject>
+      <language>eng</language>
+      <type>uncontrolled</type>
+      <value>Basic knowledge of the Ukrainian language</value>
+    </subject>
+    <subject>
+      <language>eng</language>
+      <type>uncontrolled</type>
+      <value>A2 vocabulary list</value>
+    </subject>
+    <subject>
+      <language>eng</language>
+      <type>uncontrolled</type>
+      <value>Thematic vocabulary for A2</value>
+    </subject>
+    <subject>
+      <language>deu</language>
+      <type>uncontrolled</type>
+      <value>Ukrainisch als Fremdsprache</value>
+    </subject>
+    <subject>
+      <language>deu</language>
+      <type>uncontrolled</type>
+      <value>Grundkenntnisse der ukrainischen Sprache</value>
+    </subject>
+    <subject>
+      <language>deu</language>
+      <type>uncontrolled</type>
+      <value>A2-Vokabelliste</value>
+    </subject>
+    <subject>
+      <language>deu</language>
+      <type>uncontrolled</type>
+      <value>Thematischer Wortschatz für A2</value>
+    </subject>
+    <collection role="disciplines" number="">Slawistik allgemein</collection>
+    <collection role="researchfields" number="">Sprache und Spracherlernen</collection>
+    <thesisPublisher>Europa-Universität Viadrina Frankfurt</thesisPublisher>
+    <thesisGrantor>Europa-Universität Viadrina Frankfurt</thesisGrantor>
+    <file>https://opus4.kobv.de/opus4-euv/files/1448/Borodin_Lazarenko.pdf</file>
+  </doc>
+</export-example>

@@ -44,6 +44,13 @@ own license and attribution. Its code is under the same terms, to keep one
 license on the wheel. `python/ukvocab/` (a re-export with no data) and the two
 scripts in `scripts/` are under the same terms as `python/uavocab/`.
 
+## The pipeline
+
+The code in `pipeline/` is under the same terms as `python/uavocab/`. Each
+source snapshot in `pipeline/src/data/` keeps its source's license, which its
+`*.SOURCE.md` states; [pipeline/README.md](pipeline/README.md) summarizes them
+and names what is withheld.
+
 ## The datasheets and READMEs
 
 Each datasheet in `datasheets/` and each README in `downloads/` describes one

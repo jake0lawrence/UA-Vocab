@@ -1,0 +1,3966 @@
+{
+ "note": "The pre-registered accuracy audit of the stress column: a seeded, stratified random sample of in-scope rows, drawn once by scripts/ukrainian-frequency/build-stress-audit.mjs and never redrawn; each row is a Validation Desk task (stress.verdict) and the accepted verdicts come back as stress-audit-reviews.json. Design and criterion: docs/ukrainian-frequency/stress-audit.md.",
+ "version": "v1",
+ "column": "v1.0.0",
+ "drawn": "2026-10-02",
+ "seed": "stress-audit v1 2026-10-02 over stress v1.0.0",
+ "sizes": {
+  "confident": 200,
+  "labeled": 60,
+  "homograph_corpus": null,
+  "homograph": null
+ },
+ "counts": {
+  "confident": {
+   "pool": 9674,
+   "drawn": 200,
+   "census": false
+  },
+  "labeled": {
+   "pool": 137,
+   "drawn": 60,
+   "census": false
+  },
+  "homograph_corpus": {
+   "pool": 31,
+   "drawn": 31,
+   "census": true
+  },
+  "homograph": {
+   "pool": 57,
+   "drawn": 57,
+   "census": true
+  }
+ },
+ "items": [
+  {
+   "rank": 177,
+   "lemma": "місцевий",
+   "pos": "ADJ",
+   "stress": "місце́вий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 199,
+   "lemma": "посилання",
+   "pos": "NOUN",
+   "stress": "посила́ння",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 241,
+   "lemma": "земля",
+   "pos": "NOUN",
+   "stress": "земля́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 295,
+   "lemma": "українець",
+   "pos": "NOUN",
+   "stress": "украї́нець",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 378,
+   "lemma": "прийняти",
+   "pos": "VERB",
+   "stress": "прийня́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 384,
+   "lemma": "загинути",
+   "pos": "VERB",
+   "stress": "заги́нути",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 386,
+   "lemma": "назва",
+   "pos": "NOUN",
+   "stress": "на́зва",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 391,
+   "lemma": "відомо",
+   "pos": "ADV",
+   "stress": "відо́мо",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 538,
+   "lemma": "виявити",
+   "pos": "VERB",
+   "stress": "ви́явити",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 561,
+   "lemma": "можливий",
+   "pos": "ADJ",
+   "stress": "можли́вий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 587,
+   "lemma": "наука",
+   "pos": "NOUN",
+   "stress": "нау́ка",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 625,
+   "lemma": "бізнес",
+   "pos": "NOUN",
+   "stress": "бі́знес",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 749,
+   "lemma": "мешканець",
+   "pos": "NOUN",
+   "stress": "ме́шканець",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 793,
+   "lemma": "ставати",
+   "pos": "VERB",
+   "stress": "става́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 819,
+   "lemma": "мистецтво",
+   "pos": "NOUN",
+   "stress": "мисте́цтво",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 868,
+   "lemma": "одеський",
+   "pos": "ADJ",
+   "stress": "оде́ський",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1039,
+   "lemma": "інформаційний",
+   "pos": "ADJ",
+   "stress": "інформаці́йний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1119,
+   "lemma": "коаліція",
+   "pos": "NOUN",
+   "stress": "коалі́ція",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1217,
+   "lemma": "олімпійський",
+   "pos": "ADJ",
+   "stress": "олімпі́йський",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1224,
+   "lemma": "фактично",
+   "pos": "ADV",
+   "stress": "факти́чно",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1228,
+   "lemma": "десяток",
+   "pos": "NOUN",
+   "stress": "деся́ток",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1235,
+   "lemma": "вікно",
+   "pos": "NOUN",
+   "stress": "вікно́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1311,
+   "lemma": "лежати",
+   "pos": "VERB",
+   "stress": "лежа́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1324,
+   "lemma": "зняти",
+   "pos": "VERB",
+   "stress": "зня́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1453,
+   "lemma": "митний",
+   "pos": "ADJ",
+   "stress": "ми́тний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1469,
+   "lemma": "містити",
+   "pos": "VERB",
+   "stress": "місти́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1471,
+   "lemma": "довжина",
+   "pos": "NOUN",
+   "stress": "довжина́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1503,
+   "lemma": "міськрада",
+   "pos": "NOUN",
+   "stress": "міськра́да",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1505,
+   "lemma": "подивитися",
+   "pos": "VERB",
+   "stress": "подиви́тися",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1506,
+   "lemma": "тимчасово",
+   "pos": "ADV",
+   "stress": "тимчасо́во",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1679,
+   "lemma": "відмова",
+   "pos": "NOUN",
+   "stress": "відмо́ва",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1691,
+   "lemma": "повертатися",
+   "pos": "VERB",
+   "stress": "поверта́тися",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1698,
+   "lemma": "опублікований",
+   "pos": "ADJ",
+   "stress": "опубліко́ваний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1803,
+   "lemma": "білоруський",
+   "pos": "ADJ",
+   "stress": "білору́ський",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1829,
+   "lemma": "впливати",
+   "pos": "VERB",
+   "stress": "вплива́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1858,
+   "lemma": "титул",
+   "pos": "NOUN",
+   "stress": "ти́тул",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1927,
+   "lemma": "вірус",
+   "pos": "NOUN",
+   "stress": "ві́рус",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1948,
+   "lemma": "теракт",
+   "pos": "NOUN",
+   "stress": "тера́кт",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 1993,
+   "lemma": "грошовий",
+   "pos": "ADJ",
+   "stress": "грошови́й",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2033,
+   "lemma": "вилучити",
+   "pos": "VERB",
+   "stress": "ви́лучити",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2040,
+   "lemma": "вище",
+   "pos": "ADV",
+   "stress": "ви́ще",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2076,
+   "lemma": "законодавчий",
+   "pos": "ADJ",
+   "stress": "законода́вчий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2340,
+   "lemma": "дещо",
+   "pos": "ADV",
+   "stress": "де́що",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2396,
+   "lemma": "ефект",
+   "pos": "NOUN",
+   "stress": "ефе́кт",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2402,
+   "lemma": "ефективність",
+   "pos": "NOUN",
+   "stress": "ефекти́вність",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2455,
+   "lemma": "поблизу",
+   "pos": "ADV",
+   "stress": "поблизу́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2464,
+   "lemma": "розміщення",
+   "pos": "NOUN",
+   "stress": "розмі́щення",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2511,
+   "lemma": "надзвичайно",
+   "pos": "ADV",
+   "stress": "надзвича́йно",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2590,
+   "lemma": "прикордонник",
+   "pos": "NOUN",
+   "stress": "прикордо́нник",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2634,
+   "lemma": "взаємодія",
+   "pos": "NOUN",
+   "stress": "взаємоді́я",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2647,
+   "lemma": "спілкування",
+   "pos": "NOUN",
+   "stress": "спілкува́ння",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2683,
+   "lemma": "виробничий",
+   "pos": "ADJ",
+   "stress": "виробни́чий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2724,
+   "lemma": "поляк",
+   "pos": "NOUN",
+   "stress": "поля́к",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2747,
+   "lemma": "воювати",
+   "pos": "VERB",
+   "stress": "воюва́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2762,
+   "lemma": "достроковий",
+   "pos": "ADJ",
+   "stress": "достроко́вий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2838,
+   "lemma": "ліквідувати",
+   "pos": "VERB",
+   "stress": "ліквідува́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2887,
+   "lemma": "якісний",
+   "pos": "ADJ",
+   "stress": "я́кісний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 2902,
+   "lemma": "двадцять",
+   "pos": "NUM",
+   "stress": "два́дцять",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3004,
+   "lemma": "шоу",
+   "pos": "NOUN",
+   "stress": "шо́у",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3069,
+   "lemma": "архітектор",
+   "pos": "NOUN",
+   "stress": "архіте́ктор",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3132,
+   "lemma": "утримувати",
+   "pos": "VERB",
+   "stress": "утри́мувати",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3142,
+   "lemma": "козацький",
+   "pos": "ADJ",
+   "stress": "коза́цький",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3340,
+   "lemma": "артилерійський",
+   "pos": "ADJ",
+   "stress": "артилері́йський",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3359,
+   "lemma": "напасти",
+   "pos": "VERB",
+   "stress": "напа́сти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3567,
+   "lemma": "діловий",
+   "pos": "ADJ",
+   "stress": "ділови́й",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3605,
+   "lemma": "землетрус",
+   "pos": "NOUN",
+   "stress": "землетру́с",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3645,
+   "lemma": "академічний",
+   "pos": "ADJ",
+   "stress": "академі́чний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3757,
+   "lemma": "документальний",
+   "pos": "ADJ",
+   "stress": "документа́льний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3959,
+   "lemma": "похований",
+   "pos": "ADJ",
+   "stress": "похо́ваний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3971,
+   "lemma": "звідси",
+   "pos": "ADV",
+   "stress": "зві́дси",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 3975,
+   "lemma": "профільний",
+   "pos": "ADJ",
+   "stress": "про́фільний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4005,
+   "lemma": "детектив",
+   "pos": "NOUN",
+   "stress": "детекти́в",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4010,
+   "lemma": "викрадення",
+   "pos": "NOUN",
+   "stress": "ви́крадення",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4066,
+   "lemma": "мода",
+   "pos": "NOUN",
+   "stress": "мо́да",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4164,
+   "lemma": "немов",
+   "pos": "SCONJ",
+   "stress": "немо́в",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4211,
+   "lemma": "вболівальник",
+   "pos": "NOUN",
+   "stress": "вболіва́льник",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4239,
+   "lemma": "дзвінок",
+   "pos": "NOUN",
+   "stress": "дзвіно́к",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4373,
+   "lemma": "організовувати",
+   "pos": "VERB",
+   "stress": "організо́вувати",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4410,
+   "lemma": "врахувати",
+   "pos": "VERB",
+   "stress": "врахува́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4508,
+   "lemma": "менеджмент",
+   "pos": "NOUN",
+   "stress": "ме́неджмент",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4524,
+   "lemma": "наземний",
+   "pos": "ADJ",
+   "stress": "назе́мний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4546,
+   "lemma": "днями",
+   "pos": "ADV",
+   "stress": "дня́ми",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4686,
+   "lemma": "випадковий",
+   "pos": "ADJ",
+   "stress": "випадко́вий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4688,
+   "lemma": "тридцять",
+   "pos": "NUM",
+   "stress": "три́дцять",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4759,
+   "lemma": "обвинувачений",
+   "pos": "ADJ",
+   "stress": "обвинува́чений",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4918,
+   "lemma": "якраз",
+   "pos": "PART",
+   "stress": "якра́з",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4930,
+   "lemma": "локомотив",
+   "pos": "NOUN",
+   "stress": "локомоти́в",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 4945,
+   "lemma": "винагорода",
+   "pos": "NOUN",
+   "stress": "винагоро́да",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5007,
+   "lemma": "утім",
+   "pos": "CCONJ",
+   "stress": "уті́м",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5177,
+   "lemma": "спалити",
+   "pos": "VERB",
+   "stress": "спали́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5223,
+   "lemma": "сп’яніння",
+   "pos": "NOUN",
+   "stress": "сп’яні́ння",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5281,
+   "lemma": "швидкісний",
+   "pos": "ADJ",
+   "stress": "шви́дкісний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5381,
+   "lemma": "скульптор",
+   "pos": "NOUN",
+   "stress": "ску́льптор",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5384,
+   "lemma": "утворити",
+   "pos": "VERB",
+   "stress": "утвори́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5767,
+   "lemma": "механічний",
+   "pos": "ADJ",
+   "stress": "механі́чний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5773,
+   "lemma": "сторіччя",
+   "pos": "NOUN",
+   "stress": "сторі́ччя",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5852,
+   "lemma": "бомбардир",
+   "pos": "NOUN",
+   "stress": "бомбарди́р",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5888,
+   "lemma": "вкладати",
+   "pos": "VERB",
+   "stress": "вклада́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5900,
+   "lemma": "трибунал",
+   "pos": "NOUN",
+   "stress": "трибуна́л",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 5949,
+   "lemma": "роса",
+   "pos": "NOUN",
+   "stress": "роса́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6183,
+   "lemma": "контент",
+   "pos": "NOUN",
+   "stress": "конте́нт",
+   "variants": [],
+   "status": "wiktionary_filled",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6189,
+   "lemma": "вулкан",
+   "pos": "NOUN",
+   "stress": "вулка́н",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6220,
+   "lemma": "еквівалент",
+   "pos": "NOUN",
+   "stress": "еквівале́нт",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6292,
+   "lemma": "виховувати",
+   "pos": "VERB",
+   "stress": "вихо́вувати",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6467,
+   "lemma": "серійний",
+   "pos": "ADJ",
+   "stress": "сері́йний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6471,
+   "lemma": "шабля",
+   "pos": "NOUN",
+   "stress": "ша́бля",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6588,
+   "lemma": "воліти",
+   "pos": "VERB",
+   "stress": "волі́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6632,
+   "lemma": "військово-морський",
+   "pos": "ADJ",
+   "stress": "військово-морськи́й",
+   "variants": [],
+   "status": "compound",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6643,
+   "lemma": "крейсер",
+   "pos": "NOUN",
+   "stress": "кре́йсер",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6796,
+   "lemma": "покійний",
+   "pos": "ADJ",
+   "stress": "покі́йний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6844,
+   "lemma": "управляти",
+   "pos": "VERB",
+   "stress": "управля́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6899,
+   "lemma": "намагання",
+   "pos": "NOUN",
+   "stress": "намага́ння",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6915,
+   "lemma": "обурений",
+   "pos": "ADJ",
+   "stress": "обу́рений",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 6955,
+   "lemma": "блискавка",
+   "pos": "NOUN",
+   "stress": "бли́скавка",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7013,
+   "lemma": "синод",
+   "pos": "NOUN",
+   "stress": "сино́д",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7065,
+   "lemma": "одноразовий",
+   "pos": "ADJ",
+   "stress": "одноразо́вий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7078,
+   "lemma": "оселя",
+   "pos": "NOUN",
+   "stress": "осе́ля",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7121,
+   "lemma": "танкер",
+   "pos": "NOUN",
+   "stress": "та́нкер",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7229,
+   "lemma": "лампа",
+   "pos": "NOUN",
+   "stress": "ла́мпа",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7231,
+   "lemma": "роз’яснення",
+   "pos": "NOUN",
+   "stress": "роз’я́снення",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7262,
+   "lemma": "тематичний",
+   "pos": "ADJ",
+   "stress": "темати́чний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7282,
+   "lemma": "обґрунтування",
+   "pos": "NOUN",
+   "stress": "обґрунтува́ння",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7296,
+   "lemma": "здобувати",
+   "pos": "VERB",
+   "stress": "здобува́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7317,
+   "lemma": "орда",
+   "pos": "NOUN",
+   "stress": "орда́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7348,
+   "lemma": "оса",
+   "pos": "NOUN",
+   "stress": "оса́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7472,
+   "lemma": "бомбардування",
+   "pos": "NOUN",
+   "stress": "бомбардува́ння",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7476,
+   "lemma": "дарницький",
+   "pos": "ADJ",
+   "stress": "да́рницький",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7496,
+   "lemma": "їдальня",
+   "pos": "NOUN",
+   "stress": "їда́льня",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7500,
+   "lemma": "турбіна",
+   "pos": "NOUN",
+   "stress": "турбі́на",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7519,
+   "lemma": "подорожчання",
+   "pos": "NOUN",
+   "stress": "подоро́жчання",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7524,
+   "lemma": "вірусний",
+   "pos": "ADJ",
+   "stress": "ві́русний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7527,
+   "lemma": "братство",
+   "pos": "NOUN",
+   "stress": "бра́тство",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7571,
+   "lemma": "вислів",
+   "pos": "NOUN",
+   "stress": "ви́слів",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7573,
+   "lemma": "обранець",
+   "pos": "NOUN",
+   "stress": "обра́нець",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7589,
+   "lemma": "канцелярія",
+   "pos": "NOUN",
+   "stress": "канцеля́рія",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7713,
+   "lemma": "найголовніший",
+   "pos": "ADJ",
+   "stress": "найголовні́ший",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7924,
+   "lemma": "репортер",
+   "pos": "NOUN",
+   "stress": "репорте́р",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 7995,
+   "lemma": "розглянутий",
+   "pos": "ADJ",
+   "stress": "розгля́нутий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8026,
+   "lemma": "каліфорній",
+   "pos": "NOUN",
+   "stress": "каліфо́рній",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8036,
+   "lemma": "харчуватися",
+   "pos": "VERB",
+   "stress": "харчува́тися",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8046,
+   "lemma": "касовий",
+   "pos": "ADJ",
+   "stress": "ка́совий",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8092,
+   "lemma": "літальний",
+   "pos": "ADJ",
+   "stress": "літа́льний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8139,
+   "lemma": "ширший",
+   "pos": "ADJ",
+   "stress": "ши́рший",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8140,
+   "lemma": "освоєння",
+   "pos": "NOUN",
+   "stress": "осво́єння",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8183,
+   "lemma": "владика",
+   "pos": "NOUN",
+   "stress": "влади́ка",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8272,
+   "lemma": "посилитися",
+   "pos": "VERB",
+   "stress": "поси́литися",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8362,
+   "lemma": "оце",
+   "pos": "PART",
+   "stress": "оце́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8414,
+   "lemma": "жителька",
+   "pos": "NOUN",
+   "stress": "жи́телька",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8416,
+   "lemma": "міськвиконком",
+   "pos": "NOUN",
+   "stress": "міськвиконко́м",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8434,
+   "lemma": "по-різному",
+   "pos": "ADV",
+   "stress": "по-рі́зному",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8481,
+   "lemma": "весільний",
+   "pos": "ADJ",
+   "stress": "весі́льний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8527,
+   "lemma": "гаманець",
+   "pos": "NOUN",
+   "stress": "гамане́ць",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8608,
+   "lemma": "пом’якшення",
+   "pos": "NOUN",
+   "stress": "пом’я́кшення",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8656,
+   "lemma": "перехопити",
+   "pos": "VERB",
+   "stress": "перехопи́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8698,
+   "lemma": "квадрат",
+   "pos": "NOUN",
+   "stress": "квадра́т",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8699,
+   "lemma": "стеження",
+   "pos": "NOUN",
+   "stress": "сте́ження",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8842,
+   "lemma": "біометричний",
+   "pos": "ADJ",
+   "stress": "біометри́чний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8914,
+   "lemma": "інсульт",
+   "pos": "NOUN",
+   "stress": "інсу́льт",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8918,
+   "lemma": "пропорційний",
+   "pos": "ADJ",
+   "stress": "пропорці́йний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 8944,
+   "lemma": "відати",
+   "pos": "VERB",
+   "stress": "ві́дати",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9064,
+   "lemma": "начальство",
+   "pos": "NOUN",
+   "stress": "нача́льство",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9112,
+   "lemma": "палуба",
+   "pos": "NOUN",
+   "stress": "па́луба",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9217,
+   "lemma": "сором",
+   "pos": "NOUN",
+   "stress": "со́ром",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9379,
+   "lemma": "підтверджуватися",
+   "pos": "VERB",
+   "stress": "підтве́рджуватися",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9581,
+   "lemma": "Прес-секретар",
+   "pos": "NOUN",
+   "stress": "Прес-секрета́р",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9616,
+   "lemma": "завантажити",
+   "pos": "VERB",
+   "stress": "заванта́жити",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9656,
+   "lemma": "комета",
+   "pos": "NOUN",
+   "stress": "коме́та",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9667,
+   "lemma": "охолодження",
+   "pos": "NOUN",
+   "stress": "охоло́дження",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9776,
+   "lemma": "неплатоспроможний",
+   "pos": "ADJ",
+   "stress": "неплатоспромо́жний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9878,
+   "lemma": "травматичний",
+   "pos": "ADJ",
+   "stress": "травмати́чний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9957,
+   "lemma": "повторюватися",
+   "pos": "VERB",
+   "stress": "повто́рюватися",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 9998,
+   "lemma": "стратити",
+   "pos": "VERB",
+   "stress": "стра́тити",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10008,
+   "lemma": "сонний",
+   "pos": "ADJ",
+   "stress": "со́нний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10025,
+   "lemma": "бібліографія",
+   "pos": "NOUN",
+   "stress": "бібліогра́фія",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10045,
+   "lemma": "окупувати",
+   "pos": "VERB",
+   "stress": "окупува́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10090,
+   "lemma": "простити",
+   "pos": "VERB",
+   "stress": "прости́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10189,
+   "lemma": "аналогія",
+   "pos": "NOUN",
+   "stress": "анало́гія",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10231,
+   "lemma": "містобудівний",
+   "pos": "ADJ",
+   "stress": "містобудівни́й",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10252,
+   "lemma": "реінтеграція",
+   "pos": "NOUN",
+   "stress": "реінтегра́ція",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10310,
+   "lemma": "складнощі",
+   "pos": "NOUN",
+   "stress": "скла́днощі",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10405,
+   "lemma": "розпитувати",
+   "pos": "VERB",
+   "stress": "розпи́тувати",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10519,
+   "lemma": "геніальний",
+   "pos": "ADJ",
+   "stress": "геніа́льний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10555,
+   "lemma": "розсуд",
+   "pos": "NOUN",
+   "stress": "ро́зсуд",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10611,
+   "lemma": "пальто",
+   "pos": "NOUN",
+   "stress": "пальто́",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10686,
+   "lemma": "попід",
+   "pos": "ADP",
+   "stress": "попі́д",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10746,
+   "lemma": "вірянин",
+   "pos": "NOUN",
+   "stress": "віря́нин",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10753,
+   "lemma": "іммігрант",
+   "pos": "NOUN",
+   "stress": "іммігра́нт",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10837,
+   "lemma": "підключити",
+   "pos": "VERB",
+   "stress": "підключи́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 10902,
+   "lemma": "артефакт",
+   "pos": "NOUN",
+   "stress": "артефа́кт",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11002,
+   "lemma": "парадокс",
+   "pos": "NOUN",
+   "stress": "парадо́кс",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11058,
+   "lemma": "порошок",
+   "pos": "NOUN",
+   "stress": "порошо́к",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11067,
+   "lemma": "колекціонер",
+   "pos": "NOUN",
+   "stress": "колекціоне́р",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11161,
+   "lemma": "рибальський",
+   "pos": "ADJ",
+   "stress": "риба́льський",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11225,
+   "lemma": "одежа",
+   "pos": "NOUN",
+   "stress": "оде́жа",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11319,
+   "lemma": "худий",
+   "pos": "ADJ",
+   "stress": "худи́й",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11605,
+   "lemma": "Південно-Західний",
+   "pos": "ADJ",
+   "stress": "Південно-За́хідний",
+   "variants": [
+    "Південно-За́хідний",
+    "Півде́нно-Західний"
+   ],
+   "status": "compound_main_stress",
+   "stratum": "confident",
+   "note": "secondary stress: Півде́нно-Західний"
+  },
+  {
+   "rank": 11794,
+   "lemma": "впізнавати",
+   "pos": "VERB",
+   "stress": "впізнава́ти",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11830,
+   "lemma": "кузня",
+   "pos": "NOUN",
+   "stress": "ку́зня",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11874,
+   "lemma": "надійно",
+   "pos": "ADV",
+   "stress": "наді́йно",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 11877,
+   "lemma": "приймальний",
+   "pos": "ADJ",
+   "stress": "прийма́льний",
+   "variants": [],
+   "status": "dictionary",
+   "stratum": "confident",
+   "note": ""
+  },
+  {
+   "rank": 28,
+   "lemma": "також",
+   "pos": "ADV",
+   "stress": "та́кож",
+   "variants": [
+    "та́кож",
+    "тако́ж"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 318,
+   "lemma": "розповісти",
+   "pos": "VERB",
+   "stress": "розпові́сти",
+   "variants": [
+    "розпові́сти",
+    "розповісти́"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 670,
+   "lemma": "договір",
+   "pos": "NOUN",
+   "stress": "до́говір",
+   "variants": [
+    "до́говір",
+    "догові́р"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 758,
+   "lemma": "відповісти",
+   "pos": "VERB",
+   "stress": "відпові́сти",
+   "variants": [
+    "відпові́сти",
+    "відповісти́"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 815,
+   "lemma": "залишити",
+   "pos": "VERB",
+   "stress": "зали́шити",
+   "variants": [
+    "зали́шити",
+    "залиши́ти"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 881,
+   "lemma": "відзначити",
+   "pos": "VERB",
+   "stress": "відзна́чити",
+   "variants": [
+    "відзна́чити",
+    "відзначи́ти"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1170,
+   "lemma": "селище",
+   "pos": "NOUN",
+   "stress": "се́лище",
+   "variants": [
+    "се́лище",
+    "сели́ще"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1333,
+   "lemma": "мабуть",
+   "pos": "ADV",
+   "stress": "ма́буть",
+   "variants": [
+    "ма́буть",
+    "мабу́ть"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1365,
+   "lemma": "користувач",
+   "pos": "NOUN",
+   "stress": "кори́стувач",
+   "variants": [
+    "кори́стувач",
+    "користува́ч"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1430,
+   "lemma": "простий",
+   "pos": "ADJ",
+   "stress": "про́стий",
+   "variants": [
+    "про́стий",
+    "прости́й"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1574,
+   "lemma": "помилка",
+   "pos": "NOUN",
+   "stress": "по́милка",
+   "variants": [
+    "по́милка",
+    "поми́лка"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1591,
+   "lemma": "вітчизняний",
+   "pos": "ADJ",
+   "stress": "вітчи́зняний",
+   "variants": [
+    "вітчи́зняний",
+    "вітчизня́ний"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1615,
+   "lemma": "користуватися",
+   "pos": "VERB",
+   "stress": "кори́стуватися",
+   "variants": [
+    "кори́стуватися",
+    "користува́тися"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1655,
+   "lemma": "повітряний",
+   "pos": "ADJ",
+   "stress": "пові́тряний",
+   "variants": [
+    "пові́тряний",
+    "повітря́ний"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1876,
+   "lemma": "коштувати",
+   "pos": "VERB",
+   "stress": "ко́штувати",
+   "variants": [
+    "ко́штувати",
+    "коштува́ти"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 1915,
+   "lemma": "закінчитися",
+   "pos": "VERB",
+   "stress": "закі́нчитися",
+   "variants": [
+    "закі́нчитися",
+    "закінчи́тися"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 2942,
+   "lemma": "користування",
+   "pos": "NOUN",
+   "stress": "кори́стування",
+   "variants": [
+    "кори́стування",
+    "користува́ння"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 3411,
+   "lemma": "танець",
+   "pos": "NOUN",
+   "stress": "та́нець",
+   "variants": [
+    "та́нець",
+    "тане́ць"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 3433,
+   "lemma": "вугільний",
+   "pos": "ADJ",
+   "stress": "ву́гільний",
+   "variants": [
+    "ву́гільний",
+    "вугі́льний"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 3552,
+   "lemma": "нафтовий",
+   "pos": "ADJ",
+   "stress": "на́фтовий",
+   "variants": [
+    "на́фтовий",
+    "нафто́вий"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 3674,
+   "lemma": "кладовище",
+   "pos": "NOUN",
+   "stress": "кла́довище",
+   "variants": [
+    "кла́довище",
+    "кладови́ще"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 3907,
+   "lemma": "виховання",
+   "pos": "NOUN",
+   "stress": "вихова́ння",
+   "variants": [
+    "вихова́ння",
+    "ви́ховання"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 3933,
+   "lemma": "відзначитися",
+   "pos": "VERB",
+   "stress": "відзна́читися",
+   "variants": [
+    "відзна́читися",
+    "відзначи́тися"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 4317,
+   "lemma": "відтоді",
+   "pos": "ADV",
+   "stress": "відто́ді",
+   "variants": [
+    "відто́ді",
+    "відтоді́"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 4664,
+   "lemma": "вихованець",
+   "pos": "NOUN",
+   "stress": "ви́хованець",
+   "variants": [
+    "ви́хованець",
+    "вихова́нець"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5042,
+   "lemma": "високо",
+   "pos": "ADV",
+   "stress": "ви́соко",
+   "variants": [
+    "ви́соко",
+    "висо́ко"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5076,
+   "lemma": "чималий",
+   "pos": "ADJ",
+   "stress": "чима́лий",
+   "variants": [
+    "чима́лий",
+    "чимали́й"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5079,
+   "lemma": "поміж",
+   "pos": "ADP",
+   "stress": "помі́ж",
+   "variants": [
+    "помі́ж",
+    "по́між"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5105,
+   "lemma": "непростий",
+   "pos": "ADJ",
+   "stress": "непро́стий",
+   "variants": [
+    "непро́стий",
+    "непрости́й"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5372,
+   "lemma": "трубопровід",
+   "pos": "NOUN",
+   "stress": "трубопро́від",
+   "variants": [
+    "трубопро́від",
+    "трубопрові́д"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5607,
+   "lemma": "позначитися",
+   "pos": "VERB",
+   "stress": "позна́читися",
+   "variants": [
+    "позна́читися",
+    "позначи́тися"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5656,
+   "lemma": "посеред",
+   "pos": "ADP",
+   "stress": "по́серед",
+   "variants": [
+    "по́серед",
+    "посе́ред",
+    "посере́д"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 5999,
+   "lemma": "мандрівник",
+   "pos": "NOUN",
+   "stress": "мандрі́вник",
+   "variants": [
+    "мандрі́вник",
+    "мандрівни́к"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 6001,
+   "lemma": "висіти",
+   "pos": "VERB",
+   "stress": "ви́сіти",
+   "variants": [
+    "ви́сіти",
+    "висі́ти"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 6368,
+   "lemma": "вбрання",
+   "pos": "NOUN",
+   "stress": "вбра́ння",
+   "variants": [
+    "вбра́ння",
+    "вбрання́"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 6488,
+   "lemma": "значитися",
+   "pos": "VERB",
+   "stress": "зна́читися",
+   "variants": [
+    "зна́читися",
+    "значи́тися"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 6770,
+   "lemma": "обмежуватися",
+   "pos": "VERB",
+   "stress": "обме́жуватися",
+   "variants": [
+    "обме́жуватися",
+    "обмежува́тися"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 6836,
+   "lemma": "вразливий",
+   "pos": "ADJ",
+   "stress": "вра́зливий",
+   "variants": [
+    "вра́зливий",
+    "вразли́вий"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 6845,
+   "lemma": "позивач",
+   "pos": "NOUN",
+   "stress": "пози́вач",
+   "variants": [
+    "пози́вач",
+    "позива́ч"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 7254,
+   "lemma": "наїзд",
+   "pos": "NOUN",
+   "stress": "на́їзд",
+   "variants": [
+    "на́їзд",
+    "наї́зд"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 7715,
+   "lemma": "прикладний",
+   "pos": "ADJ",
+   "stress": "при́кладний",
+   "variants": [
+    "при́кладний",
+    "прикладни́й"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 8149,
+   "lemma": "сосна",
+   "pos": "NOUN",
+   "stress": "со́сна",
+   "variants": [
+    "со́сна",
+    "сосна́"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 8583,
+   "lemma": "старше",
+   "pos": "ADV",
+   "stress": "ста́рше",
+   "variants": [
+    "ста́рше",
+    "старше́"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 8620,
+   "lemma": "видатися",
+   "pos": "VERB",
+   "stress": "ви́датися",
+   "variants": [
+    "ви́датися",
+    "вида́тися"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 8665,
+   "lemma": "пологовий",
+   "pos": "ADJ",
+   "stress": "поло́говий",
+   "variants": [
+    "поло́говий",
+    "полого́вий"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 8979,
+   "lemma": "вівтар",
+   "pos": "NOUN",
+   "stress": "ві́втар",
+   "variants": [
+    "ві́втар",
+    "вівта́р"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 9041,
+   "lemma": "заголовок",
+   "pos": "NOUN",
+   "stress": "за́головок",
+   "variants": [
+    "за́головок",
+    "заголо́вок"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 9445,
+   "lemma": "бали",
+   "pos": "NOUN",
+   "stress": "ба́ли",
+   "variants": [
+    "ба́ли",
+    "бали́"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 9520,
+   "lemma": "мережевий",
+   "pos": "ADJ",
+   "stress": "мере́жевий",
+   "variants": [
+    "мере́жевий",
+    "мережеви́й"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 9598,
+   "lemma": "прикрасити",
+   "pos": "VERB",
+   "stress": "прикра́сити",
+   "variants": [
+    "прикра́сити",
+    "прикраси́ти"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 9650,
+   "lemma": "важливіший",
+   "pos": "ADJ",
+   "stress": "важли́віший",
+   "variants": [
+    "важли́віший",
+    "важливі́ший"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 9819,
+   "lemma": "затишний",
+   "pos": "ADJ",
+   "stress": "за́тишний",
+   "variants": [
+    "за́тишний",
+    "зати́шний",
+    "затишни́й"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 9885,
+   "lemma": "фірмовий",
+   "pos": "ADJ",
+   "stress": "фі́рмовий",
+   "variants": [
+    "фі́рмовий",
+    "фірмо́вий"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 10244,
+   "lemma": "канівський",
+   "pos": "ADJ",
+   "stress": "ка́нівський",
+   "variants": [
+    "ка́нівський",
+    "канівськи́й"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 10564,
+   "lemma": "контролер",
+   "pos": "NOUN",
+   "stress": "контро́лер",
+   "variants": [
+    "контро́лер",
+    "контроле́р"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 10829,
+   "lemma": "портовий",
+   "pos": "ADJ",
+   "stress": "порто́вий",
+   "variants": [
+    "порто́вий",
+    "портови́й"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 11123,
+   "lemma": "протиповітряний",
+   "pos": "ADJ",
+   "stress": "протипові́тряний",
+   "variants": [
+    "протипові́тряний",
+    "протиповітря́ний"
+   ],
+   "status": "free_variant",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 11676,
+   "lemma": "тяга",
+   "pos": "NOUN",
+   "stress": "тя́га",
+   "variants": [
+    "тя́га",
+    "тяга́"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 11857,
+   "lemma": "дослухатися",
+   "pos": "VERB",
+   "stress": "дослу́хатися",
+   "variants": [
+    "дослу́хатися",
+    "дослуха́тися"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 11970,
+   "lemma": "спиртний",
+   "pos": "ADJ",
+   "stress": "спи́ртний",
+   "variants": [
+    "спи́ртний",
+    "спиртни́й"
+   ],
+   "status": "doublet_dictionary_only",
+   "stratum": "labeled",
+   "note": ""
+  },
+  {
+   "rank": 571,
+   "lemma": "проходити",
+   "pos": "VERB",
+   "stress": "прохо́дити",
+   "variants": [
+    "прохо́дити",
+    "проходи́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "прохо́дити = to go, to pass, to walk ; проходи́ти = to walk (:a certain distance)"
+  },
+  {
+   "rank": 575,
+   "lemma": "закликати",
+   "pos": "VERB",
+   "stress": "заклика́ти",
+   "variants": [
+    "заклика́ти",
+    "закли́кати"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "заклика́ти = to call on, to appeal to, to exhort, to urge (someone to do  ; закли́кати = to call on, to appeal to, to exhort, to urge (someone to do"
+  },
+  {
+   "rank": 617,
+   "lemma": "виходити",
+   "pos": "VERB",
+   "stress": "вихо́дити",
+   "variants": [
+    "вихо́дити",
+    "ви́ходити"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "вихо́дити = to go out, to come out, to get out, to walk out, to exit ; ви́ходити = to walk all over, to walk all around ; ви́ходити = to nurse, to tend to (restore to health)"
+  },
+  {
+   "rank": 634,
+   "lemma": "викликати",
+   "pos": "VERB",
+   "stress": "виклика́ти",
+   "variants": [
+    "виклика́ти",
+    "ви́кликати"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "виклика́ти = to call out, to call for, to send for, to summon (ask or ord ; ви́кликати = to call out, to call for, to send for, to summon (ask or ord"
+  },
+  {
+   "rank": 1378,
+   "lemma": "погодитися",
+   "pos": "VERB",
+   "stress": "пого́дитися",
+   "variants": [
+    "пого́дитися",
+    "погоди́тися"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "пого́дитися = to agree, to consent (give approval) ; погоди́тися = to be reconciled"
+  },
+  {
+   "rank": 2608,
+   "lemma": "пора",
+   "pos": "NOUN",
+   "stress": "пора́",
+   "variants": [
+    "пора́",
+    "по́ра"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "пора́ = time, period ; по́ра = aperture, pore"
+  },
+  {
+   "rank": 2805,
+   "lemma": "переходити",
+   "pos": "VERB",
+   "stress": "перехо́дити",
+   "variants": [
+    "перехо́дити",
+    "переходи́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "перехо́дити = to cross, to cross over, to pass across ; переходи́ти ="
+  },
+  {
+   "rank": 3436,
+   "lemma": "виносити",
+   "pos": "VERB",
+   "stress": "вино́сити",
+   "variants": [
+    "вино́сити",
+    "ви́носити"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "вино́сити = to bring out, to carry out, to take out ; ви́носити = to bear, to carry (:child in pregnancy, eggs)"
+  },
+  {
+   "rank": 3445,
+   "lemma": "заходити",
+   "pos": "VERB",
+   "stress": "захо́дити",
+   "variants": [
+    "захо́дити",
+    "заходи́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "захо́дити = to come in, to go in, to enter ; заходи́ти = to start walking (back and forth, around)"
+  },
+  {
+   "rank": 3570,
+   "lemma": "поділ",
+   "pos": "NOUN",
+   "stress": "по́діл",
+   "variants": [
+    "по́діл",
+    "поді́л"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "по́діл = division ; поді́л = lowlands"
+  },
+  {
+   "rank": 3755,
+   "lemma": "обід",
+   "pos": "NOUN",
+   "stress": "обі́д",
+   "variants": [
+    "обі́д",
+    "о́бід"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "обі́д = dinner, lunch (midday meal) ; о́бід = rim, felly"
+  },
+  {
+   "rank": 4440,
+   "lemma": "погодити",
+   "pos": "VERB",
+   "stress": "пого́дити",
+   "variants": [
+    "пого́дити",
+    "погоди́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "пого́дити = to agree on ; погоди́ти = to please, to satisfy"
+  },
+  {
+   "rank": 4720,
+   "lemma": "відкликати",
+   "pos": "VERB",
+   "stress": "відклика́ти",
+   "variants": [
+    "відклика́ти",
+    "відкли́кати"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "відклика́ти = to call away ; відкли́кати = to call away"
+  },
+  {
+   "rank": 4983,
+   "lemma": "перевозити",
+   "pos": "VERB",
+   "stress": "перево́зити",
+   "variants": [
+    "перево́зити",
+    "перевози́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "перево́зити = to transport, to carry, to convey, to haul, to shift ; перевози́ти = to transport, to carry (:many or all people or things)"
+  },
+  {
+   "rank": 5422,
+   "lemma": "виводити",
+   "pos": "VERB",
+   "stress": "виво́дити",
+   "variants": [
+    "виво́дити",
+    "ви́водити"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "виво́дити = to lead out, to bring out (to cause or help to leave a place ; виво́дити = to ride out (:horse for a specific purpose) ; ви́водити = to ride out (:horse for a specific purpose)"
+  },
+  {
+   "rank": 5824,
+   "lemma": "сходити",
+   "pos": "VERB",
+   "stress": "сходи́ти",
+   "variants": [
+    "сходи́ти",
+    "схо́дити"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "схо́дити = to ascend, to climb, to go up, to rise ; сходи́ти = to go and come back"
+  },
+  {
+   "rank": 5826,
+   "lemma": "покликати",
+   "pos": "VERB",
+   "stress": "покли́кати",
+   "variants": [
+    "покли́кати",
+    "поклика́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "покли́кати = to call (to reach out with one's voice to; to summon) ; поклика́ти = synonym of вигу́кувати impf (vyhúkuvaty)"
+  },
+  {
+   "rank": 5865,
+   "lemma": "зводити",
+   "pos": "VERB",
+   "stress": "зво́дити",
+   "variants": [
+    "зво́дити",
+    "зводи́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": ""
+  },
+  {
+   "rank": 6042,
+   "lemma": "скликати",
+   "pos": "VERB",
+   "stress": "склика́ти",
+   "variants": [
+    "склика́ти",
+    "скли́кати"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "склика́ти = to call together, to summon together ; скли́кати = to call together, to summon together"
+  },
+  {
+   "rank": 6358,
+   "lemma": "відходити",
+   "pos": "VERB",
+   "stress": "відхо́дити",
+   "variants": [
+    "відхо́дити",
+    "відходи́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "відхо́дити = to go away ; відходи́ти = to walk away"
+  },
+  {
+   "rank": 6530,
+   "lemma": "переносити",
+   "pos": "VERB",
+   "stress": "перено́сити",
+   "variants": [
+    "перено́сити",
+    "переноси́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "перено́сити = to carry, to carry across, to transport ; переноси́ти = to carry (all or many things from one place to another)"
+  },
+  {
+   "rank": 7382,
+   "lemma": "вивозити",
+   "pos": "VERB",
+   "stress": "виво́зити",
+   "variants": [
+    "виво́зити",
+    "ви́возити"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "виво́зити = to bring out, to carry out, to drive out, to remove, to ship ; ви́возити = to take out (:people or things from a place by vehicle in mu"
+  },
+  {
+   "rank": 8110,
+   "lemma": "розходитися",
+   "pos": "VERB",
+   "stress": "розхо́дитися",
+   "variants": [
+    "розхо́дитися",
+    "розходи́тися"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "розхо́дитися = to go off (in different directions), to go their separate wa ; розходи́тися = to start walking around"
+  },
+  {
+   "rank": 8248,
+   "lemma": "переводити",
+   "pos": "VERB",
+   "stress": "перево́дити",
+   "variants": [
+    "перево́дити",
+    "переводи́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "перево́дити = to transfer, to move ; переводи́ти = to lead (accompany: many or all people or things)"
+  },
+  {
+   "rank": 8613,
+   "lemma": "твердити",
+   "pos": "VERB",
+   "stress": "тверди́ти",
+   "variants": [
+    "тверди́ти",
+    "тве́рдити"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "тве́рдити = to affirm, to assert, to aver, to claim, to insist, to maint ; тверди́ти = to keep repeating, to harp on, to talk on and on about"
+  },
+  {
+   "rank": 10430,
+   "lemma": "згодитися",
+   "pos": "VERB",
+   "stress": "зго́дитися",
+   "variants": [
+    "зго́дитися",
+    "згоди́тися"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "згоди́тися = to come in handy, to be/prove useful ; зго́дитися = to agree to, to consent to"
+  },
+  {
+   "rank": 10520,
+   "lemma": "засипати",
+   "pos": "VERB",
+   "stress": "засипа́ти",
+   "variants": [
+    "засипа́ти",
+    "заси́пати"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "засипа́ти = to fill, to fill in ; заси́пати = to fill, to fill in ; засипа́ти = to fall asleep ; засипа́ти = to oversleep"
+  },
+  {
+   "rank": 10577,
+   "lemma": "надихати",
+   "pos": "VERB",
+   "stress": "надиха́ти",
+   "variants": [
+    "надиха́ти",
+    "нади́хати"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "надиха́ти = to inspire (:somebody) ; нади́хати = to breathe on (make warm with one's breath)"
+  },
+  {
+   "rank": 11447,
+   "lemma": "наносити",
+   "pos": "VERB",
+   "stress": "нано́сити",
+   "variants": [
+    "нано́сити",
+    "наноси́ти"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "нано́сити = to bring, to bring in (:a large quantity of something) ; наноси́ти = to bring (:a lot of something in several batches)"
+  },
+  {
+   "rank": 11604,
+   "lemma": "вирізати",
+   "pos": "VERB",
+   "stress": "виріза́ти",
+   "variants": [
+    "виріза́ти",
+    "ви́різати"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "ви́різати = to cut out, to excise ; виріза́ти = to cut out, to excise"
+  },
+  {
+   "rank": 11632,
+   "lemma": "пора",
+   "pos": "ADV",
+   "stress": "пора́",
+   "variants": [
+    "пора́",
+    "по́ра"
+   ],
+   "status": "homograph_corpus",
+   "stratum": "homograph_corpus",
+   "note": "пора́ = time, period ; по́ра = aperture, pore [POS mismatch]"
+  },
+  {
+   "rank": 143,
+   "lemma": "захід",
+   "pos": "NOUN",
+   "stress": "за́хід",
+   "variants": [
+    "за́хід",
+    "захі́д"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "за́хід = west (compass point) ; за́хід/захі́д = sunset ; за́хід = action, measure, means to achieve something ; primary unverified: en.wiktionary has one stress group for this spelling"
+  },
+  {
+   "rank": 263,
+   "lemma": "орган",
+   "pos": "NOUN",
+   "stress": "о́рган",
+   "variants": [
+    "о́рган",
+    "орга́н"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "о́рган = organ ; орга́н = organ (large musical instrument with pipes) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 301,
+   "lemma": "основний",
+   "pos": "ADJ",
+   "stress": "основни́й",
+   "variants": [
+    "основни́й",
+    "осно́вний"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "основни́й = basic, fundamental ; осно́вний = base, basic, alkaline ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 353,
+   "lemma": "самий",
+   "pos": "DET",
+   "stress": "са́мий",
+   "variants": [
+    "са́мий",
+    "сами́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "са́мий = the very, the selfsame, the very same ; сами́й = alone, by oneself ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 442,
+   "lemma": "сума",
+   "pos": "NOUN",
+   "stress": "су́ма",
+   "variants": [
+    "су́ма",
+    "сума́"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "су́ма = sum (a quantity obtained by addition or aggregation) ; сума́ = bag ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 452,
+   "lemma": "видання",
+   "pos": "NOUN",
+   "stress": "вида́ння",
+   "variants": [
+    "вида́ння",
+    "видання́"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "вида́ння = edition ; видання́ = the age when a girl is marriageable ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 555,
+   "lemma": "використання",
+   "pos": "NOUN",
+   "stress": "використа́ння",
+   "variants": [
+    "використа́ння",
+    "ви́користання"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "використа́ння = use, usage ; ви́користання = utilization, application, applying ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 640,
+   "lemma": "заклад",
+   "pos": "NOUN",
+   "stress": "за́клад",
+   "variants": [
+    "за́клад",
+    "закла́д"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "за́клад = institution, establishment ; закла́д = wager, bet ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 800,
+   "lemma": "підсумок",
+   "pos": "NOUN",
+   "stress": "пі́дсумок",
+   "variants": [
+    "пі́дсумок",
+    "підсу́мок"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "пі́дсумок = sum, total ; підсу́мок = pouch ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 960,
+   "lemma": "кредит",
+   "pos": "NOUN",
+   "stress": "кре́дит",
+   "variants": [
+    "кре́дит",
+    "креди́т"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "кре́дит = credit account ; креди́т = loan, credit ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1116,
+   "lemma": "приклад",
+   "pos": "NOUN",
+   "stress": "прикла́д",
+   "variants": [
+    "прикла́д",
+    "при́клад"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "прикла́д = butt ; при́клад = example, primer ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1204,
+   "lemma": "тварина",
+   "pos": "NOUN",
+   "stress": "твари́на",
+   "variants": [
+    "твари́на",
+    "тварина́"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "твари́на = animal ; тварина́ = animals, livestock ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1263,
+   "lemma": "музика",
+   "pos": "NOUN",
+   "stress": "му́зика",
+   "variants": [
+    "му́зика",
+    "музи́ка"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1350,
+   "lemma": "складний",
+   "pos": "ADJ",
+   "stress": "складни́й",
+   "variants": [
+    "складни́й",
+    "скла́дний"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "складни́й = complex, complicated ; скла́дний = well-built, well-made, well-proportioned (of a person or obj ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1366,
+   "lemma": "ядерний",
+   "pos": "ADJ",
+   "stress": "я́дерний",
+   "variants": [
+    "я́дерний",
+    "яде́рний"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "я́дерний = nuclear (pertaining to the nucleus of an atom) ; я́дерний/яде́рний = large, big, full (said of grains, seeds etc.) ; primary unverified: en.wiktionary has one stress group for this spelling"
+  },
+  {
+   "rank": 1557,
+   "lemma": "привід",
+   "pos": "NOUN",
+   "stress": "при́від",
+   "variants": [
+    "при́від",
+    "приві́д"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "при́від = occasion ; приві́д = bringing ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1786,
+   "lemma": "батьківщина",
+   "pos": "NOUN",
+   "stress": "ба́тьківщина",
+   "variants": [
+    "ба́тьківщина",
+    "батьківщи́на"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "ба́тьківщина/батьківщи́на = motherland, fatherland, homeland ; ба́тьківщина = heritage, legacy ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1903,
+   "lemma": "якось",
+   "pos": "ADV",
+   "stress": "я́кось",
+   "variants": [
+    "я́кось",
+    "яко́сь"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "я́кось = somehow ; я́кось/яко́сь = once (at some point in the past) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1917,
+   "lemma": "замок",
+   "pos": "NOUN",
+   "stress": "за́мок",
+   "variants": [
+    "за́мок",
+    "замо́к"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "за́мок = castle ; замо́к = lock ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 1992,
+   "lemma": "провідний",
+   "pos": "ADJ",
+   "stress": "провідни́й",
+   "variants": [
+    "провідни́й",
+    "про́відний"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "провідни́й = guiding, leading (providing guidance or direction) ; про́відний = electrical wire (attributive) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 2238,
+   "lemma": "господарський",
+   "pos": "ADJ",
+   "stress": "госпо́дарський",
+   "variants": [
+    "госпо́дарський",
+    "господа́рський"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "госпо́дарський = landlord's, master's, owner's, proprietor's ; господа́рський = economic (pertaining to an economy) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 2833,
+   "lemma": "окружний",
+   "pos": "ADJ",
+   "stress": "окру́жний",
+   "variants": [
+    "окру́жний",
+    "окружни́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "окру́жний = surrounding ; окружни́й = district (attributive) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 3255,
+   "lemma": "підліток",
+   "pos": "NOUN",
+   "stress": "пі́дліток",
+   "variants": [
+    "пі́дліток",
+    "підлі́ток"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "пі́дліток = adolescent, juvenile, teenager ; пі́дліток/підлі́ток = fledgling (young bird that has just learned to fly) ; primary unverified: en.wiktionary has one stress group for this spelling"
+  },
+  {
+   "rank": 3615,
+   "lemma": "лікарський",
+   "pos": "ADJ",
+   "stress": "лі́карський",
+   "variants": [
+    "лі́карський",
+    "ліка́рський"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "лі́карський = doctor (attributive), doctor's, physician's ; лі́карський/ліка́рський = medicinal ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 4220,
+   "lemma": "тікати",
+   "pos": "VERB",
+   "stress": "ті́кати",
+   "variants": [
+    "ті́кати",
+    "тіка́ти"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "ті́кати = to tick (of a clock) ; тіка́ти = to run away, to flee ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 4485,
+   "lemma": "типовий",
+   "pos": "ADJ",
+   "stress": "типо́вий",
+   "variants": [
+    "типо́вий",
+    "типови́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "типо́вий = typical ; типови́й = type (attributive), model (attributive), standard ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 4652,
+   "lemma": "парний",
+   "pos": "ADJ",
+   "stress": "па́рний",
+   "variants": [
+    "па́рний",
+    "парни́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "па́рний = paired, in pairs ; парни́й = steamy, sultry, muggy, close (hot and humid) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 4861,
+   "lemma": "нікуди",
+   "pos": "ADV",
+   "stress": "ніку́ди",
+   "variants": [
+    "ніку́ди",
+    "ні́куди"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "ніку́ди = to nowhere, not to anywhere ; ні́куди = nowhere to go, no destination ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 4968,
+   "lemma": "відкидати",
+   "pos": "VERB",
+   "stress": "відкида́ти",
+   "variants": [
+    "відкида́ти",
+    "відки́дати"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "відкида́ти = to throw off, to throw away, to cast off, to cast away ; відки́дати = to throw off (in several or many goes) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 4980,
+   "lemma": "ніде",
+   "pos": "ADV",
+   "stress": "ніде́",
+   "variants": [
+    "ніде́",
+    "ні́де"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "ніде́ = nowhere, not... anywhere ; ні́де = there is nowhere (to), there is no place (to) (+ infinitive) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 5749,
+   "lemma": "прислухатися",
+   "pos": "VERB",
+   "stress": "прислуха́тися",
+   "variants": [
+    "прислуха́тися",
+    "прислу́хатися"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "прислуха́тися = to listen, to lend an ear, to harken ; прислу́хатися = to listen, to lend an ear, to harken ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 5802,
+   "lemma": "терен",
+   "pos": "NOUN",
+   "stress": "те́рен",
+   "variants": [
+    "те́рен",
+    "тере́н"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "те́рен = sloe, blackthorn (Prunus spinosa) ; тере́н = land, territory ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 6356,
+   "lemma": "виправний",
+   "pos": "ADJ",
+   "stress": "випра́вний",
+   "variants": [
+    "випра́вний",
+    "виправни́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "випра́вний = corrigible, correctable, rectifiable ; виправни́й = corrective ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 6409,
+   "lemma": "коса",
+   "pos": "NOUN",
+   "stress": "коса́",
+   "variants": [
+    "коса́",
+    "ко́са"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "коса́ = A standard, three-strand hair braid ; ко́са/коса́ = cockeyed female person ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 6533,
+   "lemma": "деревина",
+   "pos": "NOUN",
+   "stress": "дереви́на",
+   "variants": [
+    "дереви́на",
+    "деревина́"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "дереви́на = tree ; деревина́ = wood (the substance making up the central part of the trunk ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 6852,
+   "lemma": "білизна",
+   "pos": "NOUN",
+   "stress": "біли́зна",
+   "variants": [
+    "біли́зна",
+    "білизна́"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "біли́зна = linens, white goods (domestic textiles, such as tablecloths, ; біли́зна = Aspius, Leuciscus (genus of fish within the family Cyprinida ; білизна́ = whiteness ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 7138,
+   "lemma": "пересічний",
+   "pos": "ADJ",
+   "stress": "пересі́чний",
+   "variants": [
+    "пересі́чний",
+    "пересічни́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "пересі́чний = ordinary, average ; пересічни́й = decussate, intersected ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 7304,
+   "lemma": "покидати",
+   "pos": "VERB",
+   "stress": "поки́дати",
+   "variants": [
+    "поки́дати",
+    "покида́ти"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "поки́дати = to throw (all or much of something) ; покида́ти = to leave (not take away) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 7861,
+   "lemma": "захват",
+   "pos": "NOUN",
+   "stress": "за́хват",
+   "variants": [
+    "за́хват",
+    "захва́т"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "за́хват = exaltation, rapture, enthusiasm ; захва́т = length of something spread or unfolded ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 7921,
+   "lemma": "нападати",
+   "pos": "VERB",
+   "stress": "напада́ти",
+   "variants": [
+    "напада́ти",
+    "напа́дати"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "напада́ти = to attack, to assault, to descend (on), to fall upon ; напа́дати = to fall (in some quantity) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 8114,
+   "lemma": "рибний",
+   "pos": "ADJ",
+   "stress": "ри́бний",
+   "variants": [
+    "ри́бний",
+    "рибни́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "ри́бний = fish (attributive) (relating to fish) ; рибни́й = abounding in fish ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 8142,
+   "lemma": "роздільний",
+   "pos": "ADJ",
+   "stress": "розді́льний",
+   "variants": [
+    "розді́льний",
+    "роздільни́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "розді́льний = separate, distinct ; роздільни́й = separative (serving to separate) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 8232,
+   "lemma": "випробувати",
+   "pos": "VERB",
+   "stress": "ви́пробувати",
+   "variants": [
+    "ви́пробувати",
+    "випро́бувати"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "ви́пробувати = to test, to put to the test, to try, to try out (to evaluate ; випро́бувати = to test, to put to the test, to try, to try out (to evaluate ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 8319,
+   "lemma": "діяння",
+   "pos": "NOUN",
+   "stress": "ді́яння",
+   "variants": [
+    "ді́яння",
+    "дія́ння"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "ді́яння = action, deed ; дія́ння = lection (particularly concerning the Acts of the Apostles) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 8723,
+   "lemma": "гладкий",
+   "pos": "ADJ",
+   "stress": "гла́дкий",
+   "variants": [
+    "гла́дкий",
+    "гладки́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "гла́дкий = smooth ; гладки́й = fat, obese ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 8763,
+   "lemma": "викидати",
+   "pos": "VERB",
+   "stress": "викида́ти",
+   "variants": [
+    "викида́ти",
+    "ви́кидати"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "викида́ти = to throw out (propel or project in an outward direction) ; ви́кидати = to throw out (all people or items in several goes) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 8922,
+   "lemma": "відкликання",
+   "pos": "NOUN",
+   "stress": "відклика́ння",
+   "variants": [
+    "відклика́ння",
+    "відкли́кання"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "відклика́ння = verbal noun of відклика́ти impf (vidklykáty): ; відкли́кання = recall (of representatives, ambassadors, etc.) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 9279,
+   "lemma": "запальний",
+   "pos": "ADJ",
+   "stress": "запальни́й",
+   "variants": [
+    "запальни́й",
+    "запа́льний"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "запальни́й = incendiary (capable of, or used for, or actually causing fir ; запа́льний = fuse, igniter, primer (all attributive) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 9522,
+   "lemma": "відрізати",
+   "pos": "VERB",
+   "stress": "відрі́зати",
+   "variants": [
+    "відрі́зати",
+    "відріза́ти"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "відрі́зати = to cut away, to cut off (to remove by cutting) ; відріза́ти = to cut away, to cut off (to remove by cutting) ; primary unverified: too close or too few: 1,423 against 1,407 hits (floor 20, ratio 1.5)"
+  },
+  {
+   "rank": 9540,
+   "lemma": "запал",
+   "pos": "NOUN",
+   "stress": "за́пал",
+   "variants": [
+    "за́пал",
+    "запа́л"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "за́пал = ardour (UK), ardor (US), fervour (UK), fervor (US), enthusia ; запа́л = fuse, fuze (the mechanism that ignites the charge in an expl ; запа́л = spoilage of grain still on the stalk due to drought ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 10672,
+   "lemma": "копати",
+   "pos": "VERB",
+   "stress": "копа́ти",
+   "variants": [
+    "копа́ти",
+    "ко́пати"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "копа́ти = to dig ; ко́пати = to kick ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 10692,
+   "lemma": "похідний",
+   "pos": "ADJ",
+   "stress": "похі́дний",
+   "variants": [
+    "похі́дний",
+    "похідни́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "похі́дний = march, marching (attributive) ; похідни́й = derivative, derived (obtained by derivation) ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 11169,
+   "lemma": "родовий",
+   "pos": "ADJ",
+   "stress": "родо́вий",
+   "variants": [
+    "родо́вий",
+    "родови́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "родо́вий/родови́й = ancestral, patrimonial ; родови́й = familial ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 11472,
+   "lemma": "квітковий",
+   "pos": "ADJ",
+   "stress": "квітко́вий",
+   "variants": [
+    "квітко́вий",
+    "квіткови́й"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "квітко́вий/квіткови́й = flower (attributive) ; квітко́вий = flowering (of a plant: that produces flowers) ; primary unverified: en.wiktionary has one stress group for this spelling"
+  },
+  {
+   "rank": 11502,
+   "lemma": "броня",
+   "pos": "NOUN",
+   "stress": "броня́",
+   "variants": [
+    "броня́",
+    "бро́ня"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "броня́ = armor, armour, armoring ; бро́ня = reservation, booking ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 11933,
+   "lemma": "помилувати",
+   "pos": "VERB",
+   "stress": "поми́лувати",
+   "variants": [
+    "поми́лувати",
+    "помилува́ти"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "поми́лувати = to have mercy (on), to show mercy (to), to spare ; помилува́ти = to caress, to dandle, to pet, to fondle ; primary unverified: the readings' forms are spelled alike in every cell"
+  },
+  {
+   "rank": 11989,
+   "lemma": "невигідний",
+   "pos": "ADJ",
+   "stress": "неви́гідний",
+   "variants": [
+    "неви́гідний",
+    "невигі́дний"
+   ],
+   "status": "homograph",
+   "stratum": "homograph",
+   "note": "неви́гідний = unprofitable ; невигі́дний = uncomfortable ; primary unverified: the readings' forms are spelled alike in every cell"
+  }
+ ]
+}

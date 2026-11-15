@@ -68,6 +68,8 @@ datasheets/                      the Zenodo datasheet of each dataset
 registry/zenodo.json             the DOIs minted so far
 scripts/verify.py                check every release against its checksums
 scripts/build-package.py         rebuild the package's data from the releases
+pipeline/                        how the releases are made: builders, extractors,
+                                 the open source snapshots, rebuild.mjs
 ```
 
 ## Check it
@@ -77,9 +79,17 @@ python3 scripts/verify.py
 ```
 
 checks every file in every versioned folder against its `SHA256SUMS` and
-`manifest.json`, with nothing but the Python standard library. The same check,
-the package rebuild and the package tests run on every push
-([.github/workflows/verify.yml](.github/workflows/verify.yml)).
+`manifest.json`, with nothing but the Python standard library.
+
+```
+node pipeline/rebuild.mjs --check
+```
+
+re-derives 4 releases (the frequency list, the stress column, the
+dictionary tier, the stress audit sample) from the source snapshots in
+[`pipeline/`](pipeline/README.md) and compares them byte for byte with what
+is here. Both checks, the package rebuild and the package tests run on every
+push ([.github/workflows/verify.yml](.github/workflows/verify.yml)).
 
 ## Releases
 
@@ -124,9 +134,11 @@ Fork freely within each file's license.
 This repository is generated from the study's source repository on each
 release: the data files are copied byte for byte from the releases (only the
 HTML browse pages are left out), and the packages are published to PyPI from
-here. The pipeline that builds each release from its sources
-(the corpus snapshot, the PULS harvest, the Wiktionary extraction, the stress
-vote) lives in that source repository, which is private for now; every folder's
-README and every datasheet describe its method step by step.
+here. The pipeline that builds the releases is in
+[`pipeline/`](pipeline/README.md) as far as it can be open: every builder
+and extractor, and every source snapshot whose license lets it travel. What
+stays behind is named there with the reason, file by file: the raw PULS
+harvest, anything derived from the VESUM dictionary, the PARSEME read, and the
+operations around the study (its production review, its Zenodo tooling).
 
 Edited by Jake Lawrence. Published by [UA Vocab](https://uavocab.org).

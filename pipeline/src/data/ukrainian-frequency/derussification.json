@@ -1,0 +1,1279 @@
+{
+  "generator": "scripts/ukrainian-frequency/extract-derussification.py",
+  "generatedNote": "Thread 03, the derussification pass. Top-12,000 lemmas the open LanguageTool Ukrainian style tooling flags, each with the native alternative it recommends. Unvalidated (a prescriptive editorial signal), CC/LGPL source, proper nouns dropped. Not run in CI.",
+  "source": "languagetool_uk",
+  "sourceLabel": "LanguageTool Ukrainian replacement tables (brown-uk)",
+  "sourceUrl": "https://github.com/languagetool-org/languagetool/tree/master/languagetool-language-modules/uk/src/main/resources/org/languagetool/rules/uk",
+  "license": "LGPL-2.1",
+  "validated": false,
+  "listSize": 12000,
+  "count": 83,
+  "coveragePct": 0.7,
+  "tierCounts": {
+    "hard": 63,
+    "soft": 20
+  },
+  "posCounts": {
+    "NOUN": 38,
+    "ADJ": 31,
+    "ADV": 4,
+    "VERB": 9,
+    "PART": 1
+  },
+  "perBand": {
+    "2": 2,
+    "3": 5,
+    "4": 6,
+    "5": 11,
+    "6": 9,
+    "7": 3,
+    "8": 11,
+    "9": 4,
+    "10": 11,
+    "11": 13,
+    "12": 8
+  },
+  "swapCounts": {
+    "rarer": 8,
+    "commoner": 25,
+    "off-list": 36,
+    "phrase": 14
+  },
+  "cleanSwaps": 69,
+  "altOnList": 33,
+  "participleCount": 12,
+  "finding": {
+    "cleanSwaps": 69,
+    "nativeRarerOrAbsent": 44,
+    "nativeRarerOrAbsentPct": 63.8
+  },
+  "flaggedInTopN": {
+    "1000": 0,
+    "2000": 2,
+    "5000": 24,
+    "12000": 83
+  },
+  "rows": [
+    {
+      "rank": 1257,
+      "lemma": "поліцейський",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "поліційний",
+      "suggestions": [
+        "поліційний",
+        "поліціянт",
+        "поліцай"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 1394,
+      "lemma": "поставка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "постачання",
+      "suggestions": [
+        "постачання",
+        "достачання",
+        "постача"
+      ],
+      "swap": "rarer",
+      "altRank": 1477,
+      "participle": false
+    },
+    {
+      "rank": 2206,
+      "lemma": "прийом",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "приймання",
+      "suggestions": [
+        "приймання",
+        "прийняття",
+        "спосіб",
+        "захід",
+        "раз"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 2606,
+      "lemma": "відеозйомка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "відеознімання",
+      "suggestions": [
+        "відеознімання",
+        "фільмування"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 2654,
+      "lemma": "діючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що діє",
+      "suggestions": [
+        "що діє",
+        "чинний",
+        "дієвий",
+        "діяльний",
+        "наявний; робочий; активний; поточний"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 2907,
+      "lemma": "зйомка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "знімання",
+      "suggestions": [
+        "знімання",
+        "фільмування"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 2929,
+      "lemma": "існуючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що існує",
+      "suggestions": [
+        "що існує",
+        "чинний",
+        "теперішній",
+        "наявний",
+        "присутній; реальний; заведений"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 3085,
+      "lemma": "безкоштовний",
+      "pos": "ADJ",
+      "tier": "soft",
+      "suggestion": "безплатний",
+      "suggestions": [
+        "безплатний"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 3292,
+      "lemma": "поліцейський",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "поліційний",
+      "suggestions": [
+        "поліційний",
+        "поліціянт",
+        "поліцай"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 3350,
+      "lemma": "гонка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "перегони",
+      "suggestions": [
+        "перегони",
+        "гонитва",
+        "гоніння"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 3668,
+      "lemma": "схоже",
+      "pos": "ADV",
+      "tier": "hard",
+      "suggestion": "видно",
+      "suggestions": [
+        "видно",
+        "виглядає",
+        "видається"
+      ],
+      "swap": "commoner",
+      "altRank": 1660,
+      "participle": false
+    },
+    {
+      "rank": 3764,
+      "lemma": "доставка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "доставлення",
+      "suggestions": [
+        "доставлення",
+        "доставляння"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 3868,
+      "lemma": "задіяний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "залучений",
+      "suggestions": [
+        "залучений",
+        "пущений в дію",
+        "уведений в експлуатацію",
+        "долучений"
+      ],
+      "swap": "rarer",
+      "altRank": 4679,
+      "participle": false
+    },
+    {
+      "rank": 4177,
+      "lemma": "безкоштовно",
+      "pos": "ADV",
+      "tier": "soft",
+      "suggestion": "безплатно",
+      "suggestions": [
+        "безплатно"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 4245,
+      "lemma": "співтовариство",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "спільнота",
+      "suggestions": [
+        "спільнота",
+        "товариство",
+        "спілка",
+        "компанія"
+      ],
+      "swap": "commoner",
+      "altRank": 2323,
+      "participle": false
+    },
+    {
+      "rank": 4312,
+      "lemma": "будучи",
+      "pos": "VERB",
+      "tier": "hard",
+      "suggestion": "бувши",
+      "suggestions": [
+        "бувши"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 4367,
+      "lemma": "продажа",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "продаж",
+      "suggestions": [
+        "продаж",
+        "спродаж",
+        "продавання",
+        "продання"
+      ],
+      "swap": "commoner",
+      "altRank": 699,
+      "participle": false
+    },
+    {
+      "rank": 4493,
+      "lemma": "правлячий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "керівний",
+      "suggestions": [
+        "керівний",
+        "керівничий",
+        "владущий",
+        "панівний"
+      ],
+      "swap": "commoner",
+      "altRank": 3537,
+      "participle": false
+    },
+    {
+      "rank": 4529,
+      "lemma": "одиночний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "одиничний",
+      "suggestions": [
+        "одиничний",
+        "окремий",
+        "поодинокий",
+        "поодинчий",
+        "одинарний; самотній; індивідуальний"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 4538,
+      "lemma": "обстановка",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "обстава",
+      "suggestions": [
+        "обстава",
+        "обставини"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 4576,
+      "lemma": "зарубіжний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "закордонний",
+      "suggestions": [
+        "закордонний"
+      ],
+      "swap": "commoner",
+      "altRank": 732,
+      "participle": false
+    },
+    {
+      "rank": 4626,
+      "lemma": "числитися",
+      "pos": "VERB",
+      "tier": "hard",
+      "suggestion": "бути",
+      "suggestions": [
+        "бути",
+        "бути зазначеним",
+        "бути вписаним"
+      ],
+      "swap": "commoner",
+      "altRank": 6,
+      "participle": false
+    },
+    {
+      "rank": 4895,
+      "lemma": "піднімати",
+      "pos": "VERB",
+      "tier": "soft",
+      "suggestion": "підіймати",
+      "suggestions": [
+        "підіймати"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 4924,
+      "lemma": "підніматися",
+      "pos": "VERB",
+      "tier": "soft",
+      "suggestion": "підійматися",
+      "suggestions": [
+        "підійматися"
+      ],
+      "swap": "rarer",
+      "altRank": 11301,
+      "participle": false
+    },
+    {
+      "rank": 5233,
+      "lemma": "передвиборний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "передвиборчий",
+      "suggestions": [
+        "передвиборчий"
+      ],
+      "swap": "commoner",
+      "altRank": 4407,
+      "participle": false
+    },
+    {
+      "rank": 5369,
+      "lemma": "дача",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "давання",
+      "suggestions": [
+        "давання",
+        "подача"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 5436,
+      "lemma": "співвітчизник",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "земляк",
+      "suggestions": [
+        "земляк",
+        "краянин"
+      ],
+      "swap": "rarer",
+      "altRank": 6272,
+      "participle": false
+    },
+    {
+      "rank": 5537,
+      "lemma": "керуючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що керує",
+      "suggestions": [
+        "що керує",
+        "керівник",
+        "управитель",
+        "адміністратор",
+        "провідник; лідер; керманич; стерновий; керівний; провідний; адміністративний; кермовий"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 5596,
+      "lemma": "азіат",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "азієць",
+      "suggestions": [
+        "азієць"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 5764,
+      "lemma": "вуз",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "виш",
+      "suggestions": [
+        "виш",
+        "ВНЗ"
+      ],
+      "swap": "commoner",
+      "altRank": 5213,
+      "participle": false
+    },
+    {
+      "rank": 5799,
+      "lemma": "виконуючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що виконує",
+      "suggestions": [
+        "що виконує",
+        "виконувач",
+        "виконавець"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 5947,
+      "lemma": "да",
+      "pos": "PART",
+      "tier": "hard",
+      "suggestion": "так",
+      "suggestions": [
+        "так"
+      ],
+      "swap": "commoner",
+      "altRank": 53,
+      "participle": false
+    },
+    {
+      "rank": 5970,
+      "lemma": "община",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "громада",
+      "suggestions": [
+        "громада",
+        "спільнота",
+        "товариство"
+      ],
+      "swap": "commoner",
+      "altRank": 724,
+      "participle": false
+    },
+    {
+      "rank": 6676,
+      "lemma": "держдепартамент",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "Держдепартамент",
+      "suggestions": [
+        "Держдепартамент"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 6786,
+      "lemma": "благоустрій",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "доброустрій",
+      "suggestions": [
+        "доброустрій",
+        "порядок",
+        "добрий лад"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 6930,
+      "lemma": "задіяти",
+      "pos": "VERB",
+      "tier": "hard",
+      "suggestion": "залучити",
+      "suggestions": [
+        "залучити",
+        "пустити в дію",
+        "увести в експлуатацію",
+        "долучити"
+      ],
+      "swap": "commoner",
+      "altRank": 2430,
+      "participle": false
+    },
+    {
+      "rank": 7099,
+      "lemma": "місцезнаходження",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "місце",
+      "suggestions": [
+        "місце",
+        "місцеперебування",
+        "становище",
+        "географічне місце",
+        "географічне становище; позиція; ситуація; розташування"
+      ],
+      "swap": "commoner",
+      "altRank": 81,
+      "participle": false
+    },
+    {
+      "rank": 7128,
+      "lemma": "бажаючий",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "охочий",
+      "suggestions": [
+        "охочий",
+        "який бажає (хоче)"
+      ],
+      "swap": "commoner",
+      "altRank": 5728,
+      "participle": false
+    },
+    {
+      "rank": 7335,
+      "lemma": "предстоятель",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "настоятель",
+      "suggestions": [
+        "настоятель",
+        "настоятелька",
+        "голова"
+      ],
+      "swap": "rarer",
+      "altRank": 8567,
+      "participle": false
+    },
+    {
+      "rank": 7450,
+      "lemma": "оптовий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "гуртовий",
+      "suggestions": [
+        "гуртовий"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 7553,
+      "lemma": "спецназ",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "спецпідрозділи",
+      "suggestions": [
+        "спецпідрозділи",
+        "спецзагони",
+        "спецсили",
+        "спецвійська"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 7673,
+      "lemma": "русло",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "річище",
+      "suggestions": [
+        "річище"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 7692,
+      "lemma": "заключний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "прикінцевий",
+      "suggestions": [
+        "прикінцевий",
+        "кінцевий",
+        "остаточний",
+        "завершальний"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 7730,
+      "lemma": "зростаючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що росте (зростає)",
+      "suggestions": [
+        "що росте (зростає)",
+        "висхідний",
+        "наростальний",
+        "зростальний",
+        "чимраз (все, дедалі) більший (вищий тощо)"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 7894,
+      "lemma": "поставляти",
+      "pos": "VERB",
+      "tier": "hard",
+      "suggestion": "постачати",
+      "suggestions": [
+        "постачати"
+      ],
+      "swap": "commoner",
+      "altRank": 5029,
+      "participle": false
+    },
+    {
+      "rank": 7968,
+      "lemma": "ємність",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "місткість",
+      "suggestions": [
+        "місткість"
+      ],
+      "swap": "rarer",
+      "altRank": 9716,
+      "participle": false
+    },
+    {
+      "rank": 7974,
+      "lemma": "кримчанин",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "кримець",
+      "suggestions": [
+        "кримець"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 8184,
+      "lemma": "власть",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "влада",
+      "suggestions": [
+        "влада",
+        "сила",
+        "право",
+        "воля",
+        "верх"
+      ],
+      "swap": "commoner",
+      "altRank": 100,
+      "participle": false
+    },
+    {
+      "rank": 8382,
+      "lemma": "вражаючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що вражає",
+      "suggestions": [
+        "що вражає",
+        "вражальний",
+        "разючий",
+        "дивовижний",
+        "винятковий"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 8778,
+      "lemma": "минулорічний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "торішній",
+      "suggestions": [
+        "торішній",
+        "тогорічний"
+      ],
+      "swap": "rarer",
+      "altRank": 8971,
+      "participle": false
+    },
+    {
+      "rank": 8947,
+      "lemma": "відправка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "виряджання",
+      "suggestions": [
+        "виряджання",
+        "відряджання",
+        "виправляння",
+        "посилання",
+        "вирушення"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 9219,
+      "lemma": "міліцейський",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "міліціонер",
+      "suggestions": [
+        "міліціонер",
+        "міліційний"
+      ],
+      "swap": "commoner",
+      "altRank": 3301,
+      "participle": false
+    },
+    {
+      "rank": 9415,
+      "lemma": "качка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "гойдання",
+      "suggestions": [
+        "гойдання",
+        "колихання",
+        "коливання",
+        "хитання",
+        "гойданина; хитанина на морі; хитавиця; гойдавиця (морська)"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 9447,
+      "lemma": "контролюючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що контролює",
+      "suggestions": [
+        "що контролює",
+        "контрольний",
+        "контролювальний",
+        "перевірчий"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 9532,
+      "lemma": "працюючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що працює",
+      "suggestions": [
+        "що працює",
+        "робітний",
+        "робочий",
+        "справний",
+        "працівник; робітник"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 9547,
+      "lemma": "черкащанин",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "черкасець",
+      "suggestions": [
+        "черкасець"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 9636,
+      "lemma": "удостоєний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "відзначений",
+      "suggestions": [
+        "відзначений",
+        "ушанований",
+        "нагороджений"
+      ],
+      "swap": "commoner",
+      "altRank": 7156,
+      "participle": false
+    },
+    {
+      "rank": 9643,
+      "lemma": "протиріччя",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "сперечання",
+      "suggestions": [
+        "сперечання",
+        "суперечність",
+        "супротивність",
+        "розбіжність"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 9654,
+      "lemma": "казначейство",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "скарбниця",
+      "suggestions": [
+        "скарбниця"
+      ],
+      "swap": "commoner",
+      "altRank": 9021,
+      "participle": false
+    },
+    {
+      "rank": 9697,
+      "lemma": "завідомо",
+      "pos": "ADV",
+      "tier": "hard",
+      "suggestion": "свідомо",
+      "suggestions": [
+        "свідомо",
+        "знаючи наперед"
+      ],
+      "swap": "commoner",
+      "altRank": 5312,
+      "participle": false
+    },
+    {
+      "rank": 9780,
+      "lemma": "витоки",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "джерела",
+      "suggestions": [
+        "джерела",
+        "початок"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 9875,
+      "lemma": "гонщик",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "перегонник",
+      "suggestions": [
+        "перегонник"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10263,
+      "lemma": "подалі",
+      "pos": "ADV",
+      "tier": "soft",
+      "suggestion": "трохи далі",
+      "suggestions": [
+        "трохи далі",
+        "якомога далі"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10314,
+      "lemma": "палаючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що палає",
+      "suggestions": [
+        "що палає",
+        "у вогні",
+        "у полум'ї",
+        "палкий",
+        "пекучий; пломінкий; палючий; палахкотючий; палахтючий; палахкотливий; палахкий"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 10331,
+      "lemma": "охарактеризувати",
+      "pos": "VERB",
+      "tier": "hard",
+      "suggestion": "схарактеризувати",
+      "suggestions": [
+        "схарактеризувати"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10371,
+      "lemma": "головуючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що головує",
+      "suggestions": [
+        "що головує",
+        "голова"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 10489,
+      "lemma": "поставлятися",
+      "pos": "VERB",
+      "tier": "hard",
+      "suggestion": "постачатися",
+      "suggestions": [
+        "постачатися"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10580,
+      "lemma": "парковка",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "стоянка",
+      "suggestions": [
+        "стоянка",
+        "парковання",
+        "паркування"
+      ],
+      "swap": "commoner",
+      "altRank": 8661,
+      "participle": false
+    },
+    {
+      "rank": 10593,
+      "lemma": "азіатський",
+      "pos": "ADJ",
+      "tier": "soft",
+      "suggestion": "азійський",
+      "suggestions": [
+        "азійський"
+      ],
+      "swap": "commoner",
+      "altRank": 9997,
+      "participle": false
+    },
+    {
+      "rank": 10659,
+      "lemma": "казначейський",
+      "pos": "ADJ",
+      "tier": "soft",
+      "suggestion": "скарбничий",
+      "suggestions": [
+        "скарбничий"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10776,
+      "lemma": "металобрухт",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "брухт",
+      "suggestions": [
+        "брухт",
+        "металолом"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10837,
+      "lemma": "підключити",
+      "pos": "VERB",
+      "tier": "soft",
+      "suggestion": "увімкнути",
+      "suggestions": [
+        "увімкнути",
+        "під'єднати",
+        "приєднати"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10979,
+      "lemma": "благополуччя",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "добра доля",
+      "suggestions": [
+        "добра доля",
+        "щастя",
+        "добробут",
+        "гаразд"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 10987,
+      "lemma": "приурочений",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "присвячений",
+      "suggestions": [
+        "присвячений",
+        "пов'язаний"
+      ],
+      "swap": "commoner",
+      "altRank": 1898,
+      "participle": false
+    },
+    {
+      "rank": 11000,
+      "lemma": "насос",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "помпа",
+      "suggestions": [
+        "помпа"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 11228,
+      "lemma": "затребуваний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "потрібний",
+      "suggestions": [
+        "потрібний",
+        "популярний",
+        "що має попит",
+        "зажаданий",
+        "запрошений; викликаний"
+      ],
+      "swap": "commoner",
+      "altRank": 706,
+      "participle": false
+    },
+    {
+      "rank": 11245,
+      "lemma": "енергозбереження",
+      "pos": "NOUN",
+      "tier": "hard",
+      "suggestion": "енергоощадження",
+      "suggestions": [
+        "енергоощадження"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 11466,
+      "lemma": "прийомний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "приймальний",
+      "suggestions": [
+        "приймальний",
+        "вступний",
+        "вітальний",
+        "порційний",
+        "названий"
+      ],
+      "swap": "rarer",
+      "altRank": 11877,
+      "participle": false
+    },
+    {
+      "rank": 11480,
+      "lemma": "крупний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "великий",
+      "suggestions": [
+        "великий",
+        "немалий",
+        "чималий",
+        "грубий",
+        "буйний; дорідний; дорідливий; краплистий; краплястий; крапчастий; ядерний; значний; важливий; видатний; визначний; славний; славетний; знаний"
+      ],
+      "swap": "commoner",
+      "altRank": 89,
+      "participle": false
+    },
+    {
+      "rank": 11492,
+      "lemma": "золотовалютний",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "золото-валютний",
+      "suggestions": [
+        "золото-валютний"
+      ],
+      "swap": "off-list",
+      "altRank": null,
+      "participle": false
+    },
+    {
+      "rank": 11692,
+      "lemma": "вишка",
+      "pos": "NOUN",
+      "tier": "soft",
+      "suggestion": "вежа",
+      "suggestions": [
+        "вежа",
+        "вартівня",
+        "шпилик"
+      ],
+      "swap": "commoner",
+      "altRank": 3588,
+      "participle": false
+    },
+    {
+      "rank": 11714,
+      "lemma": "віруючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що вірить",
+      "suggestions": [
+        "що вірить",
+        "вірянин",
+        "вірянка"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    },
+    {
+      "rank": 11979,
+      "lemma": "протестуючий",
+      "pos": "ADJ",
+      "tier": "hard",
+      "suggestion": "що протестує",
+      "suggestions": [
+        "що протестує",
+        "протестаційний",
+        "протестант"
+      ],
+      "swap": "phrase",
+      "altRank": null,
+      "participle": true
+    }
+  ]
+}
