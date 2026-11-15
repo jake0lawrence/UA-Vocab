@@ -68,8 +68,8 @@ with usefulness at the learning stage (method published separately: Borodin and
 Lazarenko, New Directions in Slavic Studies, Editorial Universidad de Granada,
 2026, 41-52). A teaching syllabus, about 2,000 words.
 
-**The profile.** The Ukrainian Vocabulary Profile on PULS (Roman Synchak, Vasyl
-Starko, Anastasiia Burak, Iryna Svystun; eLex 2025), the one corpus-VALIDATED
+**The profile.** The Ukrainian Vocabulary Profile on PULS (O. Synchak,
+V. Starko, M. Burak, M. Svystun; eLex 2025), the one corpus-VALIDATED
 CEFR profile for Ukrainian. ${counts.profileLemmas.toLocaleString("en-US")} lemma strings, A1 to C1. Redistributed
 here by permission of the authors. A descriptive map, not a syllabus.
 
