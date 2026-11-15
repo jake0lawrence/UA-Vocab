@@ -80,6 +80,16 @@ checks every file in every versioned folder against its `SHA256SUMS` and
 the package rebuild and the package tests run on every push
 ([.github/workflows/verify.yml](.github/workflows/verify.yml)).
 
+## Releases
+
+The Python packages are published to PyPI from this repository, by hand, with
+[.github/workflows/publish.yml](.github/workflows/publish.yml). It refuses to
+upload until every release matches its checksums, the package data rebuilds
+byte for byte from `downloads/`, and the package's tests pass against the
+installed wheel. PyPI's trusted publishing ties each release on
+https://pypi.org/project/uavocab/ to the run here that built it, so anyone can see exactly which commit
+and checks produced it.
+
 ## Licenses
 
 The data carries several licenses, because its tables are built over sources
@@ -112,8 +122,8 @@ Fork freely within each file's license.
 
 This repository is generated from the study's source repository on each
 release: the data files are copied byte for byte from the releases (only the
-HTML browse pages are left out), and the package is the same source PyPI's
-release was built from. The pipeline that builds each release from its sources
+HTML browse pages are left out), and the packages are published to PyPI from
+here. The pipeline that builds each release from its sources
 (the corpus snapshot, the PULS harvest, the Wiktionary extraction, the stress
 vote) lives in that source repository, which is private for now; every folder's
 README and every datasheet describe its method step by step.
