@@ -21,7 +21,8 @@
           "doi": "10.5281/zenodo.22949965",
           "recordId": 22949965,
           "date": "2026-09-25",
-          "url": "https://zenodo.org/records/22949965"
+          "url": "https://zenodo.org/records/22949965",
+          "metadataEdited": "2026-11-15"
         }
       ]
     },
@@ -72,6 +73,13 @@
           "recordId": 23222864,
           "date": "2026-10-07",
           "url": "https://zenodo.org/records/23222864"
+        },
+        {
+          "version": "v1.0.2",
+          "doi": "10.5281/zenodo.24237775",
+          "recordId": 24237775,
+          "date": "2026-11-15",
+          "url": "https://zenodo.org/records/24237775"
         }
       ]
     }
