@@ -23,6 +23,7 @@ authoritative for its own files**; this page is the summary.
 | [`b1-extension/`](downloads/ukrainian-frequency/b1-extension) | CC-BY-NC-SA-4.0 where a level column is present; CC-BY-SA-4.0 for the rest |
 | [`profiler/`](downloads/ukrainian-frequency/profiler) | CC-BY-NC-SA-4.0 (see its manifest) |
 | [`vocab-test/`](downloads/ukrainian-frequency/vocab-test) | CC-BY-4.0 (see its manifest) |
+| [`descriptors/`](downloads/ukrainian-frequency/descriptors) | Each under the license of the dataset it describes |
 
 **The PULS levels are CC BY-NC-SA 4.0.** Every file that carries a level from the
 Ukrainian Vocabulary Profile (PULS) is licensed CC-BY-NC-SA-4.0 as a whole, the
