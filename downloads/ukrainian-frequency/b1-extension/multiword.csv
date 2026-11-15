@@ -1,0 +1,143 @@
+id,expression,kind,words,variants,discontinuous,sources,cats,senses,minimum_levels,gating_level,all_parts_on_list,all_parts_leveled,max_part_rank,occurrences,per_million,rarest_part_occurrences
+mw0113,таким чином,connective,2,1,no,uk-dimlex,other,cause_result manner_arg1-as-manner,,C1,yes,yes,414,773,164.66,945
+mw0056,крім того,connective,2,1,no,uk-dimlex,other,conjunction contrast level-of-detail_arg2-as-detail,,B1,yes,yes,194,668,142.3,1531
+mw0006,або...або,connective,2,1,yes,uk-dimlex,other,disjunction similarity substitution_arg1-as-subst,,A1,yes,yes,62,644,137.18,6564
+mw0088,при цьому,connective,2,1,no,uk-dimlex,adverb,contrast disjunction,,B1,yes,yes,80,519,110.56,1373
+mw0121,тому що,connective,2,1,no,borodin-a1 uk-dimlex,subord_conj,cause_reason,A1,A1,yes,yes,96,514,109.49,4375
+mw0038,до того,connective,2,2,no,uk-dimlex,other,level-of-detail_arg2-as-detail precedence,,A1,yes,yes,35,500,106.51,2945
+mw0123,у зв’язку з,connective,3,2,no,uk-dimlex,preposition,cause_reason exception_arg1-as-excpt precedence,,A1,yes,no,3161,480,102.25,896
+mw0139,якщо...то,connective,2,1,yes,uk-dimlex,subord_conj,cause_reason condition_arg2-as-cond,,A2,yes,yes,223,451,96.07,1087
+mw0022,Велика Британія,phrase,2,1,no,borodin-a1,,,A1,A1,yes,no,894,406,86.49,561
+mw0066,не лише...а й,connective,4,5,yes,uk-dimlex,other,contrast similarity synchronous,,A2,yes,yes,105,369,78.6,2835
+mw0072,незважаючи на,connective,2,1,yes,uk-dimlex,adverb,cause_negResult contrast negCondition_arg2-as-negCond,,A1,yes,no,1130,349,74.34,353
+mw0070,не тільки...а й,connective,4,3,yes,uk-dimlex,other,contrast similarity synchronous,,A1,yes,yes,94,348,74.13,2246
+mw0041,за винятком,connective,2,1,yes,uk-dimlex,subord_conj,disjunction exception_arg2-as-excpt,,A2,yes,yes,2533,281,59.86,305
+mw0124,у свою чергу,connective,3,2,no,uk-dimlex,adverb,contrast succession,,B1,yes,yes,551,240,51.12,376
+mw0020,в цілому,connective,2,1,no,uk-dimlex,adverb,level-of-detail_arg1-as-detail,,A1,yes,no,1719,236,50.27,312
+mw0067,не менш,connective,2,2,no,uk-dimlex,adverb,contrast similarity,,A1,yes,no,1520,218,46.44,341
+mw0108,так само,connective,2,1,no,borodin-a2 uk-dimlex,adverb,manner_arg1-as-manner similarity,A2,B2,yes,yes,1276,197,41.96,348
+mw0002,а саме,connective,2,1,no,uk-dimlex,adverb,equivalence instantiation_arg2-as-instance,,A2,yes,yes,217,192,40.9,1416
+mw0033,День Незалежності,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,871,183,38.98,848
+mw0009,ані...ані,connective,2,2,yes,uk-dimlex,coord_conj,contrast similarity,,B2,yes,yes,2260,183,38.98,71
+mw0042,за кордоном,phrase,2,1,no,borodin-a1,,,A1,A2,yes,yes,360,179,38.13,231
+mw0125,у той час як,connective,4,2,no,uk-dimlex,subord_conj,contrast synchronous,,A1,yes,yes,35,176,37.49,1523
+mw0026,все ж,connective,2,1,no,uk-dimlex,other,concession_arg1-as-denier contrast,,B1,yes,yes,157,154,32.8,1235
+mw0071,незалежно від,connective,2,1,yes,uk-dimlex,adverb,concession_arg2-as-denier,,B2,yes,yes,3205,142,30.25,171
+mw0018,в той же час,connective,4,2,no,uk-dimlex,coord_conj,contrast synchronous,,B1,yes,yes,415,134,28.54,696
+mw0035,для того щоб,connective,3,1,no,uk-dimlex,preposition,purpose_arg2-as-goal,,A2,yes,yes,63,130,27.69,1820
+mw0068,не менше,connective,2,1,no,uk-dimlex,adverb,concession_arg2-as-denier conjunction,,A1,yes,yes,710,124,26.41,532
+mw0118,тим самим,connective,2,1,no,uk-dimlex,other,cause_result equivalence,,B1,yes,no,5108,115,24.5,186
+mw0049,коли...то,connective,2,1,yes,uk-dimlex,subord_conj,condition_arg2-as-cond succession synchronous,,A2,yes,yes,223,101,21.51,1087
+mw0119,тим часом,connective,2,2,no,uk-dimlex,other,conjunction contrast synchronous,,B1,yes,no,5108,101,21.51,567
+mw0039,до того ж,connective,3,1,no,uk-dimlex,other,conjunction level-of-detail_arg2-as-detail,,B1,yes,yes,75,99,21.09,2383
+mw0032,день народження,phrase,2,1,no,borodin-a1,,,A1,B1,yes,yes,1092,94,20.02,720
+mw0079,по суті,connective,2,1,no,uk-dimlex,adverb,equivalence,,B2,yes,yes,1806,94,20.02,113
+mw0076,перш за все,connective,3,1,no,uk-dimlex,other,precedence,,A2,yes,no,2646,93,19.81,148
+mw0111,так що,connective,2,1,no,uk-dimlex,subord_conj,cause_result,,A1,yes,yes,53,85,18.11,3407
+mw0073,Новий рік,phrase,2,1,no,borodin-a1,,,A1,A1,yes,yes,49,82,17.47,1028
+mw0019,в той час як,connective,4,1,no,uk-dimlex,subord_conj,contrast synchronous,,A1,yes,yes,35,82,17.47,1523
+mw0085,поруч з,connective,2,1,no,uk-dimlex,adverb,conjunction synchronous,,A2,yes,yes,1749,80,17.04,188
+mw0040,з собою,phrase,2,1,no,borodin-a1,,,A1,A2,yes,yes,85,79,16.83,1044
+mw0140,Європейський Союз,phrase,2,1,no,borodin-a2,,,A2,B2,yes,no,510,73,15.55,257
+mw0037,до речі,connective,2,2,no,borodin-a2 uk-dimlex,other,exception_arg2-as-excpt level-of-detail_arg2-as-detail synchronous,A2,A1,yes,yes,471,72,15.34,658
+mw0095,Північна Америка,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,1242,71,15.12,172
+mw0013,брати участь,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,302,67,14.27,316
+mw0109,так само...як і,connective,4,1,yes,uk-dimlex,adverb,manner_arg1-as-manner similarity,,B2,yes,yes,1276,66,14.06,348
+mw0031,День Конституції,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,937,64,13.63,552
+mw0065,На жаль,phrase,2,1,no,borodin-a2,,,A2,A1,yes,yes,1304,61,12.99,71
+mw0131,Чорне море,phrase,2,1,no,borodin-a1,,,A1,A1,yes,yes,675,61,12.99,121
+mw0010,Атлантичний океан,phrase,2,1,no,borodin-a2,,,A2,A2,yes,no,7596,56,11.93,82
+mw0141,і ще,connective,2,1,no,uk-dimlex,subord_conj,conjunction succession,,A1,yes,yes,54,56,11.93,2854
+mw0077,перш ніж,connective,2,2,no,uk-dimlex,subord_conj,precedence,,A1,yes,no,2646,47,10.01,148
+mw0082,поки що,connective,2,1,no,uk-dimlex,adverb,level-of-detail_arg2-as-detail manner_arg1-as-manner synchronous,,B1,yes,yes,347,45,9.59,290
+mw0083,попри це,connective,2,1,no,uk-dimlex,preposition,concession_arg1-as-denier condition_arg2-as-cond disjunction,,B2,yes,yes,1712,43,9.16,423
+mw0093,Південна Америка,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,1242,39,8.31,172
+mw0116,тим більше,connective,2,1,no,uk-dimlex,adverb,level-of-detail_arg1-as-detail level-of-detail_arg2-as-detail,,A1,yes,no,5108,38,8.09,1006
+mw0117,тим не менше,connective,3,1,no,uk-dimlex,adverb,contrast instantiation_arg1-as-instance,,A1,yes,no,5108,37,7.88,532
+mw0080,по тому,connective,2,1,no,uk-dimlex,adverb,precedence,,A2,yes,yes,96,35,7.46,4375
+mw0120,Тихий океан,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,3281,34,7.24,67
+mw0134,штучний інтелект,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,5774,34,7.24,49
+mw0008,Азовське море,phrase,2,1,no,borodin-a1,,,A1,A1,yes,no,3987,32,6.82,54
+mw0023,взяти участь,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,366,31,6.6,153
+mw0142,Індійський океан,phrase,2,1,no,borodin-a2,,,A2,A2,yes,no,3983,27,5.75,100
+mw0136,як тільки,connective,2,1,no,uk-dimlex,subord_conj,succession synchronous,,A1,yes,yes,94,24,5.11,2246
+mw0017,більше того,connective,2,1,no,uk-dimlex,other,conjunction level-of-detail_arg1-as-detail,,A1,yes,yes,117,23,4.9,1579
+mw0138,якби...то,connective,2,1,yes,uk-dimlex,subord_conj,cause_result concession_arg1-as-denier condition_arg2-as-cond,,B1,yes,yes,1153,23,4.9,86
+mw0062,місце проживання,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,2150,21,4.47,181
+mw0069,не працює,phrase,2,1,no,borodin-a2,,,A2,A1,yes,yes,115,20,4.26,636
+mw0096,Північний Льодовитий океан,phrase,3,1,no,borodin-a2,,,A2,A2,no,no,2548,18,3.83,26
+mw0078,по батькові,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,524,18,3.83,55
+mw0101,стан здоров’я,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,396,18,3.83,344
+mw0034,дитячий садок,phrase,2,1,no,borodin-a1,,,A1,B1,yes,yes,4188,16,3.41,32
+mw0075,ось чому,connective,2,1,no,uk-dimlex,other,cause_reason level-of-detail_arg1-as-detail,,A1,yes,yes,656,16,3.41,120
+mw0127,хіба що,connective,2,1,no,uk-dimlex,subord_conj,exception_arg1-as-excpt negCondition_arg2-as-negCond,,B1,yes,yes,2679,16,3.41,31
+mw0061,місце народження,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,1092,15,3.2,720
+mw0058,між тим,connective,2,1,no,uk-dimlex,adverb,conjunction synchronous,,A2,yes,no,5108,14,2.98,1006
+mw0060,мінеральна вода,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,5991,13,2.77,30
+mw0122,торговий центр,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,1764,13,2.77,58
+mw0021,в іншому випадку,connective,3,1,no,uk-dimlex,adverb,contrast negCondition_arg1-as-negCond,,B1,yes,yes,220,11,2.34,94
+mw0114,термін дії,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,516,10,2.13,577
+mw0137,якби не,connective,2,1,no,uk-dimlex,subord_conj,cause_negResult concession_arg1-as-denier condition_arg2-as-cond,,B1,yes,yes,1153,9,1.92,86
+mw0094,Південний океан,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,2548,8,1.7,262
+mw0100,соціальна мережа,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,525,7,1.49,268
+mw0027,вільний час,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,754,6,1.28,113
+mw0048,коли ще,connective,2,1,no,uk-dimlex,other,concession_arg1-as-denier exception_arg1-as-excpt,,A1,yes,yes,79,6,1.28,2854
+mw0112,такий самий,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,353,6,1.28,70
+mw0011,Ба більше,connective,2,1,no,uk-dimlex,subord_conj,conjunction disjunction level-of-detail_arg1-as-detail,,C1,yes,yes,7674,5,1.07,11
+mw0064,На добраніч,phrase,2,1,no,borodin-a1,,,A1,A1,no,no,2,5,1.07,6
+mw0025,водійські права,phrase,2,1,no,borodin-a2,,,A2,B2,yes,no,10758,4,0.85,4
+mw0030,дарма що,connective,2,1,no,uk-dimlex,other,concession_arg2-as-denier,,B2,yes,yes,8423,4,0.85,6
+mw0044,знайти роботу,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,1931,4,0.85,194
+mw0063,м’який знак,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,3632,4,0.85,58
+mw0084,пора року,phrase,2,1,no,borodin-a1,,,A1,A2,yes,yes,2608,3,0.64,25
+mw0097,під час того,connective,3,1,no,uk-dimlex,subord_conj,synchronous,,A2,yes,yes,38,3,0.64,2945
+mw0016,Будь ласка,phrase,2,1,no,borodin-a1,,,A1,B1,yes,yes,3962,2,0.43,15
+mw0036,До побачення,phrase,2,1,no,borodin-a1,,,A1,B1,yes,yes,5986,2,0.43,17
+mw0099,Святий Миколай,phrase,2,1,no,borodin-a2,,,A2,A2,yes,no,4766,2,0.43,66
+mw0055,кримський татарин,phrase,2,1,no,borodin-a2,,,A2,,yes,no,2577,2,0.43,3
+mw0132,швидка допомога,phrase,2,1,no,borodin-a1,,,A1,A2,yes,yes,7194,2,0.43,18
+mw0135,шукати роботу,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,1931,2,0.43,92
+mw0110,Так собі,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,85,1,0.21,1070
+mw0133,Шенгенська зона,phrase,2,1,no,borodin-a2,,,A2,B2,yes,no,8967,1,0.21,5
+mw0001,а все-таки,connective,2,3,no,uk-dimlex,other,concession_arg2-as-denier,,A1,yes,no,2883,1,0.21,26
+mw0043,займатися спортом,phrase,2,1,no,borodin-a1,,,A1,A2,yes,yes,1111,1,0.21,38
+mw0046,зубна щітка,phrase,2,1,no,borodin-a1,,,A1,,no,no,,1,0.21,1
+mw0052,коротко кажучи,connective,2,1,no,uk-dimlex,other,equivalence level-of-detail_arg1-as-detail,,A2,no,no,6763,1,0.21,26
+mw0053,кредитна картка,phrase,2,1,no,borodin-a1,,,A1,B2,yes,yes,2507,1,0.21,9
+mw0086,посудомийна машина,phrase,2,1,no,borodin-a2,,,A2,A1,no,no,655,1,0.21,1
+mw0090,проводити час,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,558,1,0.21,98
+mw0098,салон краси,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,3776,1,0.21,4
+mw0115,термін придатності,phrase,2,1,no,borodin-a2,,,A2,A2,no,no,516,1,0.21,3
+mw0003,а усе,connective,2,1,no,uk-dimlex,other,concession_arg2-as-denier,,A2,yes,yes,1186,0,0.0,245
+mw0004,а усе-таки,connective,2,1,no,uk-dimlex,other,concession_arg2-as-denier,,A1,no,no,18,0,0.0,2
+mw0005,а щодо...то,connective,3,1,yes,uk-dimlex,other,instantiation_arg1-as-instance,,B1,yes,yes,223,0,0.0,1087
+mw0007,адже ж,connective,2,1,no,uk-dimlex,subord_conj,cause_reason contrast,,B1,yes,yes,492,0,0.0,228
+mw0012,багажне відділення,phrase,2,1,no,borodin-a2,,,A2,B2,no,no,1084,0,0.0,0
+mw0014,брати шлюб,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,2627,0,0.0,159
+mw0015,бритва для гоління,phrase,3,1,no,borodin-a2,,,A2,A1,no,no,21,0,0.0,1
+mw0024,взяти шлюб,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,2627,0,0.0,153
+mw0028,гаряча лінія,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,2039,0,0.0,9
+mw0029,гігієнічна прокладка,phrase,2,1,no,borodin-a2,,,A2,,no,no,,0,0.0,0
+mw0045,зубна паста,phrase,2,1,no,borodin-a1,,,A1,,no,no,,0,0.0,1
+mw0047,каса самообслуговування,phrase,2,1,no,borodin-a2,,,A2,A1,no,no,5275,0,0.0,4
+mw0050,комунальна послуга,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,1327,0,0.0,1
+mw0051,комунальний платіж,phrase,2,1,no,borodin-a2,,,A2,B1,yes,no,2810,0,0.0,1
+mw0054,кримська татарка,phrase,2,1,no,borodin-a2,,,A2,,no,no,1281,0,0.0,3
+mw0057,медичний огляд,phrase,2,1,no,borodin-a2,,,A2,B2,yes,yes,1293,0,0.0,85
+mw0059,мікрохвильова піч,phrase,2,1,no,borodin-a2,,,A2,A2,no,no,4897,0,0.0,0
+mw0074,обмін валют,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,1465,0,0.0,47
+mw0081,податковий номер,phrase,2,1,no,borodin-a2,,,A2,A1,yes,no,1005,0,0.0,6
+mw0087,пральна машина,phrase,2,1,no,borodin-a2,,,A2,A1,no,no,655,0,0.0,0
+mw0089,провести час,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,228,0,0.0,122
+mw0091,пройти кордон,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,407,0,0.0,54
+mw0092,проходити кордон,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,571,0,0.0,26
+mw0102,страховий поліс,phrase,2,1,no,borodin-a1,,,A1,B2,no,no,3847,0,0.0,2
+mw0103,студентський квиток,phrase,2,1,no,borodin-a2,,,A2,A2,yes,yes,4359,0,0.0,21
+mw0104,сімейний стан,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,2487,0,0.0,12
+mw0105,та все-таки,connective,2,1,no,uk-dimlex,other,concession_arg2-as-denier,,A2,yes,no,2883,0,0.0,26
+mw0106,та усе,connective,2,1,no,uk-dimlex,other,concession_arg2-as-denier,,A2,yes,yes,1186,0,0.0,245
+mw0107,та усе-таки,connective,2,1,no,uk-dimlex,other,concession_arg2-as-denier precedence,,A2,no,no,11,0,0.0,2
+mw0126,усе включено,phrase,2,1,no,borodin-a2,,,A2,B1,yes,yes,3222,0,0.0,95
+mw0128,час виселення,phrase,2,1,no,borodin-a2,,,A2,A1,no,no,30,0,0.0,21
+mw0129,час заселення,phrase,2,1,no,borodin-a2,,,A2,A1,no,no,30,0,0.0,145
+mw0130,читацький квиток,phrase,2,1,no,borodin-a2,,,A2,A1,no,no,1885,0,0.0,2

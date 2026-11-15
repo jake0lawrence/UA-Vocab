@@ -1,0 +1,79 @@
+{
+  "note": "Zenodo deposit registry for the Ukrainian Frequency datasets (WO-2). One deposit per dataset because the licenses differ. conceptDoi is the version-independent DOI Zenodo assigns on the first publish; scripts/ukrainian-frequency/zenodo-deposit.mjs fills it in and mints a new version DOI under it on every release. null means not deposited yet. The site pages and the uavocab package read this file; never hand-edit a DOI. A deposit may carry `contributors`: [{name: \"Last, First\", type?}], the named reviewers whose accepted corrections the next version carries, sent to Zenodo as contributors (Researcher by default). Add a name only after the person has agreed in writing (owner decision 2026-11-07: reviewers are credited on the dataset, not paid per answer).",
+  "sandbox": true,
+  "deposits": {
+    "frequency": {
+      "title": "Ukrainian Frequency: a lemma-based, coverage-graded open frequency list for modern Ukrainian (top 12,000, over UberText 2.0)",
+      "license": "CC-BY-4.0",
+      "hold": false,
+      "conceptDoi": "10.5281/zenodo.22823134",
+      "conceptRecordId": "22823134",
+      "versions": [
+        {
+          "version": "v0.1.0",
+          "doi": "10.5281/zenodo.22823135",
+          "recordId": 22823135,
+          "date": "2026-09-18",
+          "url": "https://zenodo.org/records/22823135"
+        },
+        {
+          "version": "v0.2.0",
+          "doi": "10.5281/zenodo.22949965",
+          "recordId": 22949965,
+          "date": "2026-09-25",
+          "url": "https://zenodo.org/records/22949965"
+        }
+      ]
+    },
+    "validated-cefr": {
+      "title": "Ukrainian Frequency: the PULS CEFR overlay (validated A1 to C1 levels joined onto the top-12,000 list)",
+      "license": "CC-BY-NC-SA-4.0",
+      "hold": true,
+      "holdReason": "Relabeled CC-BY-NC-SA-4.0 on 2026-09-24, the license the PULS authors decided on (O. Synchak, by email; the July permission had been carried as CC-BY-SA 4.0 to match the paper). Held until puls.peremova.org posts that notice, so the deposit's license line can cite the authors' published terms rather than an email.",
+      "conceptDoi": null,
+      "conceptRecordId": null,
+      "versions": []
+    },
+    "minimums-crosswalk": {
+      "title": "A crosswalk of the Ukrainian lexical minimums (Borodin et al., A1 and A2) against the validated Ukrainian Vocabulary Profile",
+      "license": "CC-BY-NC-SA-4.0",
+      "hold": true,
+      "holdReason": "Every row carries a PULS level (CC-BY-NC-SA-4.0 since 2026-09-24); held with the overlay until puls.peremova.org posts its notice.",
+      "conceptDoi": null,
+      "conceptRecordId": null,
+      "versions": []
+    },
+    "b1-enrichment": {
+      "title": "Ukrainian Frequency: the B1 enrichment tables (aspect relations, case government, collocations)",
+      "license": "CC-BY-NC-SA-4.0",
+      "hold": true,
+      "holdReason": "The aspect table carries PULS levels per related verb (CC-BY-NC-SA-4.0 since 2026-09-24); held with the overlay until puls.peremova.org posts its notice.",
+      "conceptDoi": null,
+      "conceptRecordId": null,
+      "versions": []
+    },
+    "stress": {
+      "title": "Ukrainian Frequency: word stress for every lemma of the top-12,000 list (over ukrainian-word-stress, en.wiktionary and uk.wiktionary)",
+      "license": "CC-BY-SA-4.0",
+      "hold": false,
+      "conceptDoi": "10.5281/zenodo.23092388",
+      "conceptRecordId": "23092388",
+      "versions": [
+        {
+          "version": "v1.0.0",
+          "doi": "10.5281/zenodo.23092389",
+          "recordId": 23092389,
+          "date": "2026-10-01",
+          "url": "https://zenodo.org/records/23092389"
+        },
+        {
+          "version": "v1.0.1",
+          "doi": "10.5281/zenodo.23222864",
+          "recordId": 23222864,
+          "date": "2026-10-07",
+          "url": "https://zenodo.org/records/23222864"
+        }
+      ]
+    }
+  }
+}

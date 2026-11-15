@@ -1,0 +1,25 @@
+{
+  "version": "v1.2.0",
+  "dataset": "ukrainian-frequency-vocab-test",
+  "subject": "A self-scoring Yes/No vocabulary-size test for modern Ukrainian, drawn from the Ukrainian Frequency lemma list",
+  "tier": "public",
+  "method": "60 real lemmas and 60 constructed pseudowords, 5 of each per thousand-rank frequency band (12 bands, top 12000 lemmas). Each pseudoword is a real lemma from elsewhere in the same band with one deterministic phonological letter substitution, kept only if it collides with none of the 12000-lemma list, another generated pseudoword, or a 333k-headword reference Ukrainian dictionary (dict_uk / LibreOffice dictionaries, MPL-1.1) checked at build time, and never built from a lemma that is also asked as a real item in any band (v1.2.0; v1.1.0 let one spelling listed at two ranks leak). This is a constructed instrument; it has not been independently validated against a psycholinguistic norming study.",
+  "canonical": "/research/ukrainian-frequency/vocab-test",
+  "bandCount": 12,
+  "realPerBand": 5,
+  "pseudoPerBand": 5,
+  "itemCount": 120,
+  "realCount": 60,
+  "pseudoCount": 60,
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "file": "items.json",
+      "about": "The full item bank: id, form, isReal, band, and (real items) source rank or (pseudowords) source lemma and rank."
+    }
+  ],
+  "citation": "Lawrence, J. (2026). Ukrainian Frequency: a self-scoring vocabulary-size test (v1.2.0). jakelawrence.xyz/research/ukrainian-frequency/vocab-test. Item bank drawn from the Ukrainian Frequency lemma list, itself derived from UberText 2.0 (Chaplynskyi, 2023).",
+  "sha256": {
+    "items.json": "3b606aa9b819ed924fc91aad94cec899b9378dfb83fb972969695a220d3ee51a"
+  }
+}

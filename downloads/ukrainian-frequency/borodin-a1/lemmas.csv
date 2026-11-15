@@ -1,0 +1,930 @@
+entry,kind,matched,rank,lemma,pos,puls_level
+"а",word,yes,18,а,CCONJ,A1
+"або",word,yes,62,або,CCONJ,A1
+"Австралія",word,yes,2254,Австралія,PROPN,A1
+"автобус",word,yes,1308,автобус,NOUN,A1
+"автовокзал",word,no,,,,
+"автомат",word,yes,3636,автомат,NOUN,C1
+"адреса",word,yes,1342,адреса,NOUN,A1
+"аеропорт",word,yes,804,аеропорт,NOUN,A1
+"Азія",word,yes,2415,Азія,PROPN,A1
+"Азовське море",phrase,no,,,,
+"активний",word,yes,1085,активний,ADJ,A1
+"але",word,yes,31,але,CCONJ,A1
+"алергія",word,no,,,,
+"алфавіт",word,no,,,,
+"Америка",word,yes,1242,Америка,PROPN,A1
+"англійський",word,yes,1413,англійський,ADJ,
+"апельсин",word,no,,,,
+"аптека",word,yes,5247,аптека,NOUN,A1
+"Африка",word,yes,2565,Африка,PROPN,A1
+"б (би)",word,yes,153,б,PART,B1
+"баба",word,yes,4477,баба,NOUN,A1
+"багаж",word,yes,9517,багаж,NOUN,A2
+"багато",word,yes,280,багато,DET,A1
+"бажати",word,yes,2363,бажати,VERB,A1
+"балкон",word,yes,6555,балкон,NOUN,A2
+"банан",word,no,,,,
+"банк",word,yes,275,банк,NOUN,A1
+"басейн",word,yes,3158,басейн,NOUN,A1
+"баскетбол",word,yes,7552,баскетбол,NOUN,A2
+"батьки",word,yes,1362,батьки,NOUN,A1
+"бачити",word,yes,324,бачити,VERB,A1
+"березень",word,yes,173,березень,NOUN,A1
+"бібліотека",word,yes,1784,бібліотека,NOUN,A1
+"бігати",word,yes,5523,бігати,VERB,A1
+"бізнес",word,yes,625,бізнес,NOUN,A2
+"бізнесмен / бізнесменка",word,yes,1823,бізнесмен,NOUN,A2
+"білий",word,yes,605,білий,ADJ,A1
+"Білорусь",word,yes,673,Білорусь,PROPN,
+"більше",word,yes,117,більше,ADV,A1
+"біологія",word,yes,7442,біологія,NOUN,B1
+"близько",word,yes,166,близько,ADP,A1
+"блокнот",word,no,,,,
+"блузка",word,no,,,,
+"бо = тому що",word,yes,274,бо,SCONJ,A1
+"Бог",word,yes,918,бог,NOUN,A2
+"бокс",word,yes,4851,бокс,NOUN,A1
+"боліти",word,yes,6442,боліти,VERB,A1
+"борошно",word,yes,5765,борошно,NOUN,A2
+"борщ",word,yes,9418,борщ,NOUN,A1
+"боятися",word,yes,1297,боятися,VERB,A2
+"брат",word,yes,972,брат,NOUN,A1
+"бра́ти – взяти",word,yes,302,брати,VERB,A2
+"брудний",word,yes,4976,брудний,ADJ,A2
+"будинок",word,yes,246,будинок,NOUN,A1
+"Будь ласка",phrase,no,,,,
+"буква (велика, мала)",word,yes,7193,буква,NOUN,A1
+"бутерброд",word,no,,,,
+"бути",word,yes,6,бути,VERB,A1
+"бути (є, був, була, були, буду, будеш …) (будь, будьте)",word,yes,6,бути,VERB,A1
+"в, у",word,yes,1,в,ADP,A1
+"вагон",word,yes,2466,вагон,NOUN,A2
+"важкий",word,yes,888,важкий,ADJ,A2
+"важко",word,yes,1261,важко,ADV,A1
+"важливий",word,yes,601,важливий,ADJ,A1
+"валіза",word,yes,9627,валіза,NOUN,A1
+"ванна",word,yes,8761,ванна,NOUN,A1
+"вантажний",word,yes,3143,вантажний,ADJ,B2
+"вареники",word,no,,,,
+"ваш (ваша, ваше, ваші)",word,yes,608,ваш,DET,A1
+"ввечері, увечері",word,yes,1945,ввечері,ADV,A1
+"вдень, удень",word,yes,1231,вдень,ADV,A1
+"вдома, удома",word,yes,2123,вдома,ADV,A1
+"вегетаріанський",word,no,,,,
+"Велика Британія",phrase,no,,,,
+"Великдень",word,yes,6426,Великдень,PROPN,A1
+"великий",word,yes,89,великий,ADJ,A1
+"велосипед",word,yes,4953,велосипед,NOUN,A1
+"вересень",word,yes,214,вересень,NOUN,A1
+"веселий",word,yes,3613,веселий,ADJ,A1
+"весілля",word,yes,3509,весілля,NOUN,A2
+"весна",word,yes,2966,весна,NOUN,A1
+"весь (вся, все, всі); увесь (уся, усе, усі)",word,yes,41,весь,DET,A2
+"вечеря",word,yes,5383,вечеря,NOUN,A1
+"вечеряти",word,no,,,,
+"вечір",word,yes,1647,вечір,NOUN,A1
+"вечірка",word,yes,6038,вечірка,NOUN,A2
+"вже, уже",word,yes,55,вже,ADV,A1
+"взимку, узимку",word,yes,4901,взимку,ADV,A1
+"взуття",word,yes,5425,взуття,NOUN,A1
+"ви / Ви",word,yes,84,ви,PRON,A1
+"Вибач, вибачте (вибачити)",word,yes,6495,вибачити,VERB,A2
+"вивчати",word,yes,2309,вивчати,VERB,A2
+"виделка",word,no,,,,
+"викладач / викладачка",word,yes,2861,викладач,NOUN,A1
+"використовувати",word,yes,500,використовувати,VERB,A2
+"вино",word,yes,3036,вино,NOUN,A1
+"виноград",word,yes,8916,виноград,NOUN,A1
+"високий",word,yes,507,високий,ADJ,A1
+"вихід",word,yes,751,вихід,NOUN,A2
+"вихідний",word,yes,2630,вихідний,ADJ,A1
+"вівторок",word,yes,1058,вівторок,NOUN,A1
+"відео",word,yes,1025,відео,NOUN,A1
+"відкривати",word,yes,2050,відкривати,VERB,A2
+"відомий",word,yes,354,відомий,ADJ,A1
+"відповідати",word,yes,530,відповідати,VERB,A1
+"відповідь",word,yes,576,відповідь,NOUN,A1
+"відпочивати",word,yes,4556,відпочивати,VERB,A1
+"відпустка",word,yes,3394,відпустка,NOUN,A1
+"відчинено! ≠ зачинено!",word,no,,,,
+"віза",word,yes,3028,віза,NOUN,A2
+"вікно",word,yes,1235,вікно,NOUN,A1
+"вільний",word,yes,754,вільний,ADJ,A2
+"він",word,yes,15,він,PRON,A1
+"вісім",word,yes,1504,вісім,NUM,A1
+"вісімдесят",word,no,,,,
+"вісімнадцять",word,no,,,,
+"вісімсот",word,no,,,,
+"вітати",word,yes,3286,вітати,VERB,A1
+"вітер",word,yes,1064,вітер,NOUN,A1
+"влітку, улітку",word,yes,2246,влітку,ADV,A1
+"вночі, уночі",word,yes,788,вночі,ADV,A1
+"внук / внучка",word,no,,,,
+"вода",word,yes,325,вода,NOUN,A1
+"водій / водійка",word,yes,807,водій,NOUN,A1
+"вокзал",word,yes,3229,вокзал,NOUN,A1
+"волосся",word,yes,2881,волосся,NOUN,A1
+"вона",word,yes,29,вона,PRON,A1
+"вони",word,yes,24,вони,PRON,A1
+"воно",word,yes,533,воно,PRON,A1
+"восени",word,yes,2866,восени,ADV,A1
+"восьмий",word,yes,4744,восьмий,ADJ,A1
+"вперед (уперед)",word,yes,2730,вперед,ADV,A1
+"вправа",word,yes,5087,вправа,NOUN,A1
+"вранці, уранці",word,yes,1529,вранці,ADV,A1
+"всередині, усередині",word,yes,3448,всередині,ADP,A2
+"вставати",word,yes,6295,вставати,VERB,A1
+"вузький",word,yes,3974,вузький,ADJ,A2
+"вулиця",word,yes,289,вулиця,NOUN,A1
+"вухо",word,yes,3178,вухо,NOUN,A1
+"вхід",word,yes,2256,вхід,NOUN,A2
+"вчитель (учитель) / вчителька (учителька)",word,yes,2008,вчитель,NOUN,A1
+"вчитися, учитися",word,yes,3253,вчитися,VERB,A1
+"вчора, учора",word,yes,1491,вчора,ADV,A1
+"газета",word,yes,678,газета,NOUN,A1
+"гаманець",word,yes,8527,гаманець,NOUN,A2
+"Гаразд",word,yes,4847,гаразд,PART,A2
+"гарний",word,yes,1882,гарний,ADJ,A1
+"гарячий",word,yes,2039,гарячий,ADJ,A1
+"географія",word,yes,1963,географія,NOUN,A2
+"гість / гостя",word,yes,1325,гість,NOUN,A1
+"гітара",word,yes,5959,гітара,NOUN,A1
+"говорити",word,yes,268,говорити,VERB,A1
+"година",word,yes,440,година,NOUN,A1
+"голова",word,yes,64,голова,NOUN,A1
+"головний",word,yes,129,головний,ADJ,A1
+"голодний",word,yes,6233,голодний,ADJ,A2
+"голосно",word,yes,6105,голосно,ADV,A2
+"голубий",word,yes,9950,голубий,ADJ,A2
+"гора",word,yes,1118,гора,NOUN,A1
+"готель",word,yes,1538,готель,NOUN,A1
+"готівка",word,yes,4646,готівка,NOUN,A2
+"готовий",word,yes,467,готовий,ADJ,A1
+"готувати",word,yes,1549,готувати,VERB,A1
+"гра",word,yes,357,гра,NOUN,A1
+"градус",word,yes,1019,градус,NOUN,A1
+"грам",word,yes,6160,грам,NOUN,A2
+"грати",word,yes,702,грати,VERB,A1
+"гривня",word,yes,186,гривня,NOUN,A1
+"гроші",word,yes,334,гроші,NOUN,A1
+"грудень",word,yes,205,грудень,NOUN,A1
+"груди",word,yes,2411,груди,NOUN,A2
+"група",word,yes,126,група,NOUN,A1
+"груша",word,yes,11064,груша,NOUN,A2
+"губа",word,yes,3782,губа,NOUN,A2
+"гуляти",word,yes,5399,гуляти,VERB,A1
+"давати – дати (дайте)",word,yes,287,дати,VERB,A1
+"давній",word,yes,2453,давній,ADJ,A2
+"давно",word,yes,1268,давно,ADV,A1
+"далеко",word,yes,2043,далеко,ADV,A1
+"дарувати – подарувати",word,yes,3441,подарувати,VERB,A1
+"дата",word,yes,1207,дата,NOUN,A1
+"два (дві)",word,yes,66,два,NUM,A1
+"двадцять",word,yes,2902,двадцять,NUM,A1
+"дванадцятий",word,no,,,,
+"дванадцять",word,yes,6128,дванадцять,NUM,A1
+"двері",word,yes,993,двері,NOUN,A1
+"двісті",word,yes,8154,двісті,NUM,A1
+"де",word,yes,92,де,ADV,A1
+"дев’яносто",word,no,,,,
+"дев’ятий",word,yes,5590,дев’ятий,ADJ,A1
+"дев’ятнадцять",word,no,,,,
+"дев’ятсот",word,no,,,,
+"дев’ять",word,yes,2275,дев’ять,NUM,A1
+"день",word,yes,71,день,NOUN,A1
+"день народження",phrase,no,,,,
+"дерево",word,yes,1157,дерево,NOUN,A1
+"десятий",word,yes,5254,десятий,ADJ,A1
+"десять",word,yes,1229,десять,NUM,A1
+"дешевий",word,yes,4695,дешевий,ADJ,A2
+"джинси",word,no,,,,
+"дзвонити",word,yes,6087,дзвонити,VERB,A2
+"дзеркало",word,yes,2539,дзеркало,NOUN,A2
+"диван",word,yes,9699,диван,NOUN,A1
+"дивитися",word,yes,628,дивитися,VERB,A1
+"директор / директорка",word,yes,346,директор,NOUN,A1
+"дитина",word,yes,128,дитина,NOUN,A1
+"дитячий садок",phrase,no,,,,
+"дівчина (дівчата), дівчинка",word,yes,685,дівчина,NOUN,A1
+"дід",word,yes,2656,дід,NOUN,A1
+"дім",word,yes,1384,дім,NOUN,A1
+"Дніпро",word,yes,750,Дніпро,PROPN,
+"До побачення",phrase,no,,,,
+"Добре",word,yes,620,добре,ADV,A1
+"добре",word,yes,620,добре,ADV,A1
+"добрий",word,yes,1169,добрий,ADJ,A1
+"довгий",word,yes,1192,довгий,ADJ,A1
+"довго",word,yes,1528,довго,ADV,A1
+"додому",word,yes,1612,додому,ADV,A1
+"документ",word,yes,245,документ,NOUN,A1
+"долар",word,yes,195,долар,NOUN,A1
+"домашній",word,yes,1256,домашній,ADJ,A1
+"допомагати – допомогти (допоможіть!)",word,yes,695,допомогти,VERB,A1
+"дорога",word,yes,450,дорога,NOUN,A2
+"дорогий",word,yes,2057,дорогий,ADJ,A1
+"дорослий",word,yes,3272,дорослий,ADJ,A2
+"дочка",word,yes,1546,дочка,NOUN,A1
+"дощ",word,yes,1301,дощ,NOUN,A1
+"друг / подруга",word,yes,843,друг,NOUN,A1
+"другий",word,yes,182,другий,ADJ,A1
+"дружина",word,yes,644,дружина,NOUN,A1
+"дуже",word,yes,125,дуже,ADV,A1
+"думати",word,yes,427,думати,VERB,A1
+"душ",word,yes,8095,душ,NOUN,A1
+"дядько",word,yes,3768,дядько,NOUN,A1
+"дякувати",word,yes,3325,дякувати,VERB,A1
+"економіка",word,yes,404,економіка,NOUN,A2
+"екскурсія",word,yes,5705,екскурсія,NOUN,A1
+"євро",word,yes,570,євро,NOUN,A2
+"Європа",word,yes,234,Європа,PROPN,A1
+"живіт",word,yes,5127,живіт,NOUN,A1
+"жити",word,yes,400,жити,VERB,A1
+"жінка",word,yes,211,жінка,NOUN,A1
+"жіночий",word,yes,1182,жіночий,ADJ,A1
+"жовтень",word,yes,202,жовтень,NOUN,A1
+"жовтий",word,yes,2436,жовтий,ADJ,A1
+"журналіст / журналістка",word,yes,315,журналіст,NOUN,A1
+"з собою",phrase,no,,,,
+"з, із, зі",word,yes,5,з,ADP,A1
+"за",word,yes,10,за,ADP,A1
+"за кордоном",phrase,no,,,,
+"забути (док.)",word,yes,1864,забути,VERB,A1
+"завдання",word,yes,630,завдання,NOUN,A1
+"завжди",word,yes,579,завжди,ADV,A1
+"завтра",word,yes,1690,завтра,ADV,A1
+"задоволений",word,yes,3469,задоволений,ADJ,A2
+"зазвичай",word,yes,1620,зазвичай,ADV,A2
+"займатися спортом",phrase,no,,,,
+"зайнятий",word,yes,4653,зайнятий,ADJ,A2
+"замовляти – замовити",word,yes,3813,замовити,VERB,A1
+"запитання",word,yes,1093,запитання,NOUN,A1
+"запрошувати",word,yes,3304,запрошувати,VERB,A1
+"зараз / тепер",word,yes,164,зараз,ADV,A1
+"зарплата",word,yes,1183,зарплата,NOUN,B1
+"затори",word,no,,,,
+"захід",word,yes,143,захід,NOUN,A2
+"звати",word,yes,4780,звати,VERB,A1
+"звичайний",word,yes,1232,звичайний,ADJ,A2
+"Звичайно",word,yes,1080,звичайно,ADV,A1
+"звідки",word,yes,2454,звідки,ADV,A1
+"здоров’я",word,yes,396,здоров’я,NOUN,A1
+"здоровий",word,yes,2104,здоровий,ADJ,A1
+"зелений",word,yes,1243,зелений,ADJ,A1
+"земля",word,yes,241,земля,NOUN,A1
+"зима",word,yes,2948,зима,NOUN,A1
+"зірка",word,yes,1399,зірка,NOUN,A2
+"зліва",word,yes,9830,зліва,ADV,A2
+"знайомий",word,yes,3604,знайомий,ADJ,A2
+"знайти (док.)",word,yes,375,знайти,VERB,A1
+"знати",word,yes,158,знати,VERB,A1
+"знову",word,yes,367,знову,ADV,A1
+"зоопарк",word,yes,5286,зоопарк,NOUN,A2
+"зошит",word,yes,10774,зошит,NOUN,A1
+"зуб",word,yes,2958,зуб,NOUN,A1
+"зубна паста",phrase,no,,,,
+"зубна щітка",phrase,no,,,,
+"зупинити (зупиніть!) (док.)",word,yes,1588,зупинити,VERB,B1
+"зупинка",word,yes,2605,зупинка,NOUN,A1
+"зустріч",word,yes,337,зустріч,NOUN,A1
+"і, й, та",word,yes,4,і,CCONJ,A1
+"ім’я",word,yes,311,ім’я,NOUN,A1
+"імейл",word,no,,,,
+"іноді",word,yes,1812,іноді,ADV,A1
+"іноземець, іноземка",word,yes,2716,іноземець,NOUN,A1
+"іноземний",word,yes,833,іноземний,ADJ,A1
+"інститут",word,yes,444,інститут,NOUN,A1
+"інтернет",word,yes,1437,інтернет,NOUN,A1
+"інформація",word,yes,142,інформація,NOUN,A1
+"інший (інша, інше, інші)",word,yes,46,інший,DET,A2
+"історія",word,yes,189,історія,NOUN,A1
+"Італія",word,yes,862,Італія,PROPN,
+"іти",word,yes,1450,іти,VERB,A1
+"іти (йти; іди! ідіть!) – піти",word,yes,329,піти,VERB,A1
+"їздити",word,yes,2641,їздити,VERB,A2
+"її",word,yes,107,її,DET,A1
+"їсти",word,yes,2431,їсти,VERB,A1
+"їхати",word,yes,1274,їхати,VERB,A1
+"їхній (їхня, їхнє, їхні)",word,yes,233,їхній,DET,A1
+"його",word,yes,40,його,DET,A1
+"йогурт",word,no,,,,
+"кабінет",word,yes,633,кабінет,NOUN,A2
+"кава",word,yes,3752,кава,NOUN,A1
+"казати – сказати (скажіть)",word,yes,52,сказати,VERB,A1
+"Канада",word,yes,1451,Канада,PROPN,
+"канікули",word,yes,5648,канікули,NOUN,A1
+"Карпати",word,yes,2408,Карпати,PROPN,
+"карта",word,yes,1644,карта,NOUN,A1
+"картина",word,yes,1208,картина,NOUN,A1
+"картопля",word,yes,4943,картопля,NOUN,A1
+"каса",word,yes,5275,каса,NOUN,A1
+"кафе",word,yes,4142,кафе,NOUN,A1
+"квартира",word,yes,969,квартира,NOUN,A1
+"квиток",word,yes,1885,квиток,NOUN,A1
+"квітень",word,yes,210,квітень,NOUN,A1
+"квітка (квіти)",word,yes,2798,квіти,NOUN,A1
+"Київ",word,yes,76,Київ,PROPN,
+"кілограм",word,yes,4327,кілограм,NOUN,A1
+"кілометр",word,yes,1671,кілометр,NOUN,A1
+"кімната",word,yes,1440,кімната,NOUN,A1
+"кіно",word,yes,1857,кіно,NOUN,A1
+"кіоск",word,yes,7712,кіоск,NOUN,B1
+"кіт",word,yes,4459,кіт,NOUN,A1
+"клас",word,yes,851,клас,NOUN,A1
+"клієнт / клієнтка",word,yes,1624,клієнт,NOUN,A1
+"клуб",word,yes,363,клуб,NOUN,A1
+"ключ",word,yes,3289,ключ,NOUN,A2
+"книжка",word,yes,1441,книжка,NOUN,A1
+"ковбаса",word,yes,9408,ковбаса,NOUN,A1
+"ковдра",word,yes,9249,ковдра,NOUN,A2
+"колега",word,yes,1255,колега,NOUN,A1
+"коли",word,yes,79,коли,ADV,A1
+"колір",word,yes,1253,колір,NOUN,A1
+"комп’ютер",word,yes,2686,комп’ютер,NOUN,A1
+"копійка",word,yes,3079,копійка,NOUN,A1
+"корабель",word,yes,898,корабель,NOUN,A2
+"кордон",word,yes,360,кордон,NOUN,A2
+"коридор",word,yes,3191,коридор,NOUN,A2
+"коричневий",word,yes,8101,коричневий,ADJ,A1
+"коробка",word,yes,5225,коробка,NOUN,A2
+"короткий",word,yes,1508,короткий,ADJ,A1
+"косметика",word,no,,,,
+"костюм",word,yes,3402,костюм,NOUN,A1
+"котрий (котра, котре, котрі)",word,yes,701,котрий,DET,A1
+"кохати",word,yes,7148,кохати,VERB,A2
+"коштувати",word,yes,1876,коштувати,VERB,A1
+"країна",word,yes,51,країна,NOUN,A1
+"краще",word,yes,1103,краще,ADV,A2
+"кращий",word,yes,1040,кращий,ADJ,A2
+"кредитна картка",phrase,no,,,,
+"крем",word,yes,11781,крем,NOUN,A2
+"Крим",word,yes,277,Крим,PROPN,
+"крісло",word,yes,3293,крісло,NOUN,A1
+"кров",word,yes,1258,кров,NOUN,A2
+"куди",word,yes,1175,куди,ADV,A1
+"купувати – купити",word,yes,1570,купити,VERB,A1
+"курити (не курити!)",word,yes,7447,курити,VERB,A1
+"курка",word,yes,11703,курка,NOUN,A1
+"курс",word,yes,545,курс,NOUN,A1
+"кухня",word,yes,3354,кухня,NOUN,A1
+"кущ",word,yes,4631,кущ,NOUN,B1
+"лампа",word,yes,7229,лампа,NOUN,A1
+"Ласкаво просимо!",phrase,no,,,,
+"легкий",word,yes,1740,легкий,ADJ,A2
+"легко",word,yes,2143,легко,ADV,A2
+"лежати",word,yes,1311,лежати,VERB,A1
+"летіти",word,yes,3332,летіти,VERB,A2
+"лимон",word,no,,,,
+"липень",word,yes,221,липень,NOUN,A1
+"лист",word,yes,720,лист,NOUN,A1
+"листопад",word,yes,247,листопад,NOUN,A1
+"лівий",word,yes,1709,лівий,ADJ,A1
+"ліворуч",word,yes,6394,ліворуч,ADV,A2
+"ліжко",word,yes,2680,ліжко,NOUN,A1
+"лікар / лікарка",word,yes,613,лікар,NOUN,A1
+"лікарня",word,yes,509,лікарня,NOUN,A1
+"ліки",word,yes,2361,ліки,NOUN,A1
+"ліс",word,yes,1049,ліс,NOUN,A1
+"літак",word,yes,502,літак,NOUN,A1
+"література",word,yes,764,література,NOUN,A1
+"літо",word,yes,2230,літо,NOUN,A1
+"літр",word,yes,2829,літр,NOUN,A1
+"ліфт",word,yes,6135,ліфт,NOUN,A1
+"ложка",word,yes,6576,ложка,NOUN,A1
+"любити",word,yes,1070,любити,VERB,A1
+"любов",word,yes,1522,любов,NOUN,A1
+"людина (люди)",word,yes,42,людина,NOUN,A1
+"лютий",word,yes,271,лютий,NOUN,A1
+"м’ясо",word,yes,2850,м’ясо,NOUN,A1
+"м’яч",word,yes,2017,м’яч,NOUN,A2
+"Мабуть",word,yes,1333,мабуть,ADV,A2
+"магазин",word,yes,1455,магазин,NOUN,A1
+"майдан",word,yes,1738,Майдан,PROPN,B1
+"майже",word,yes,290,майже,ADV,A2
+"макарони",word,no,,,,
+"малий, маленький",word,yes,966,малий,ADJ,A1
+"мало",word,yes,1122,мало,ADV,A1
+"малювати",word,yes,5342,малювати,VERB,A1
+"мама, мати",word,yes,33,мати,VERB,A1
+"маска",word,yes,2305,маска,NOUN,B1
+"масло",word,yes,5051,масло,NOUN,A1
+"математика",word,yes,4973,математика,NOUN,A1
+"мати",word,yes,33,мати,VERB,A1
+"машина",word,yes,655,машина,NOUN,A1
+"меблі",word,yes,5444,меблі,NOUN,A1
+"мед",word,yes,5064,мед,NOUN,A1
+"медичний",word,yes,577,медичний,ADJ,A2
+"менше",word,yes,710,менше,ADV,A1
+"меню",word,yes,8810,меню,NOUN,A1
+"метр",word,yes,825,метр,NOUN,A1
+"метро",word,yes,2122,метро,NOUN,A1
+"ми",word,yes,26,ми,PRON,A1
+"мило",word,no,,,,
+"мистецтво",word,yes,819,мистецтво,NOUN,A1
+"мити",word,yes,8191,мити,VERB,A1
+"міжнародний",word,yes,151,міжнародний,ADJ,A2
+"мій (моя, моє, мої)",word,yes,185,мій,DET,A1
+"мільйон",word,yes,349,мільйон,NOUN,A1
+"мінус",word,yes,7622,мінус,NOUN,A1
+"міняти",word,yes,5704,міняти,VERB,B1
+"місто",word,yes,67,місто,NOUN,A1
+"місяць",word,yes,232,місяць,NOUN,A1
+"мобільний",word,yes,1684,мобільний,ADJ,A1
+"мова",word,yes,216,мова,NOUN,A1
+"мовчати",word,yes,2944,мовчати,VERB,B1
+"могти – змогти",word,yes,34,могти,VERB,A1
+"може",word,yes,1388,може,ADV,
+"Можливо",word,yes,726,можливо,ADV,A2
+"можна",word,yes,120,можна,ADV,A1
+"Молдова",word,yes,1919,Молдова,PROPN,
+"молодий",word,yes,626,молодий,ADJ,A1
+"молодший",word,yes,1701,молодший,ADJ,A1
+"молоко",word,yes,3125,молоко,NOUN,A1
+"море",word,yes,675,море,NOUN,A1
+"морква",word,yes,11050,морква,NOUN,A1
+"морозиво",word,yes,11408,морозиво,NOUN,A1
+"музика",word,yes,1263,музика,NOUN,A1
+"мусити",word,yes,1743,мусити,VERB,A2
+"на",word,yes,2,на,ADP,A1
+"На добраніч",phrase,no,,,,
+"навесні",word,yes,3471,навесні,ADV,A1
+"навіть",word,yes,148,навіть,PART,A2
+"назад",word,yes,1849,назад,ADV,A1
+"називатися",word,yes,1860,називатися,VERB,A1
+"найбільше",word,yes,1507,найбільше,ADV,A2
+"найменше",word,yes,10197,найменше,ADV,A2
+"напій",word,yes,2997,напій,NOUN,A1
+"наприклад",word,yes,519,наприклад,ADV,A1
+"нарешті",word,yes,1361,нарешті,ADV,A2
+"народитися (док.)",word,yes,892,народитися,VERB,A2
+"наступний",word,yes,310,наступний,ADJ,A1
+"національність",word,yes,4523,національність,NOUN,A1
+"наш (наша, наше, наші)",word,yes,65,наш,DET,A1
+"не",word,yes,7,не,PART,A1
+"Небезпечно!",word,yes,7151,небезпечно,ADV,A2
+"небо",word,yes,1509,небо,NOUN,A1
+"негарний",word,no,,,,
+"негативний",word,yes,1702,негативний,ADJ,B1
+"недавно",word,yes,3745,недавно,ADV,A2
+"неділя",word,yes,1230,неділя,NOUN,A1
+"нема (немає)",word,no,,,,
+"неодружений",word,no,,,,
+"неправда",word,yes,7419,неправда,NOUN,A1
+"неправильно",word,yes,6152,неправильно,ADV,A1
+"нести",word,yes,1652,нести,VERB,A2
+"низький",word,yes,1672,низький,ADJ,A1
+"ні",word,yes,659,ні,CCONJ,A1
+"ніж",word,yes,222,ніж,SCONJ,A1
+"ніколи",word,yes,704,ніколи,ADV,A1
+"німецький",word,yes,604,німецький,ADJ,
+"Німеччина",word,yes,401,Німеччина,PROPN,
+"ніс",word,yes,2917,ніс,NOUN,A1
+"ніч",word,yes,677,ніч,NOUN,A1
+"Нічого",word,no,,,,
+"новий",word,yes,49,новий,ADJ,A1
+"Новий рік",phrase,no,,,,
+"нога",word,yes,869,нога,NOUN,A1
+"номер",word,yes,1005,номер,NOUN,A1
+"нормальний",word,yes,2242,нормальний,ADJ,A2
+"нуль",word,yes,4372,нуль,NOUN,A1
+"Обережно",word,yes,4987,обережно,ADV,A2
+"обід",word,yes,3755,обід,NOUN,A1
+"обідати",word,no,,,,
+"обличчя",word,yes,943,обличчя,NOUN,A1
+"овочі",word,no,,,,
+"огірок",word,yes,10996,огірок,NOUN,A1
+"один (одна, одне)",word,yes,43,один,DET,A1
+"одинадцятий",word,no,,,,
+"одинадцять",word,yes,9657,одинадцять,NUM,A1
+"одружений",word,yes,5619,одружений,ADJ,A1
+"одяг",word,yes,1941,одяг,NOUN,A1
+"одягати",word,yes,11111,одягати,VERB,A2
+"одягатися",word,no,,,,
+"озеро",word,yes,2064,озеро,NOUN,A2
+"означати",word,yes,1008,означати,VERB,A1
+"океан",word,yes,2548,океан,NOUN,A2
+"око (очі)",word,yes,392,око,NOUN,A1
+"окуляри",word,yes,6192,окуляри,NOUN,A1
+"олівець",word,yes,10392,олівець,NOUN,A1
+"олія",word,yes,3968,олія,NOUN,A2
+"онлайн",word,yes,4935,онлайн,NOUN,
+"оранжевий",word,no,,,,
+"організація",word,yes,171,організація,NOUN,B1
+"оренда",word,yes,1771,оренда,NOUN,A2
+"осінь",word,yes,3545,осінь,NOUN,A1
+"основний",word,yes,301,основний,ADJ,A2
+"особливий",word,yes,928,особливий,ADJ,A2
+"острів",word,yes,812,острів,NOUN,A2
+"ось",word,yes,656,ось,PART,A1
+"отримувати",word,yes,719,отримувати,VERB,A1
+"офіс",word,yes,1101,офіс,NOUN,A1
+"офлайн",word,no,,,,
+"п’ятдесят",word,yes,6268,п’ятдесят,NUM,A1
+"п’ятий",word,yes,1853,п’ятий,ADJ,A1
+"п’ятнадцять",word,yes,7074,п’ятнадцять,NUM,A1
+"п’ятниця",word,yes,974,п’ятниця,NOUN,A1
+"п’ятсот",word,no,,,,
+"п’ять",word,yes,483,п’ять,NUM,A1
+"падати",word,yes,2920,падати,VERB,A2
+"пакет",word,yes,1581,пакет,NOUN,A2
+"палець",word,yes,2201,палець,NOUN,A2
+"пальто",word,yes,10611,пальто,NOUN,A1
+"пам’ятати – запам’ятати",word,yes,1733,пам’ятати,VERB,A2
+"пан / пані",word,yes,698,пан,NOUN,A1
+"Па-па",word,no,,,,
+"папір",word,yes,1566,папір,NOUN,A1
+"пара",word,yes,1425,пара,NOUN,A2
+"парасоля",word,no,,,,
+"парк",word,yes,1089,парк,NOUN,A1
+"партнер / партнерка",word,yes,981,партнер,NOUN,A1
+"паспорт",word,yes,1744,паспорт,NOUN,A1
+"перевірити (док.)",word,yes,2270,перевірити,VERB,A2
+"перекладач / перекладачка",word,yes,5219,перекладач,NOUN,A1
+"перекласти",word,yes,5747,перекласти,VERB,A1
+"перерва",word,yes,2896,перерва,NOUN,A1
+"перець",word,yes,8440,перець,NOUN,A1
+"перукарня",word,no,,,,
+"перший",word,yes,50,перший,ADJ,A1
+"печиво",word,no,,,,
+"пиво",word,yes,3861,пиво,NOUN,A1
+"пиріг",word,yes,10601,пиріг,NOUN,A2
+"писати – написати",word,yes,296,писати,VERB,A1
+"письменник / письменниця",word,yes,1339,письменник,NOUN,A1
+"питати – спитати",word,yes,2174,спитати,VERB,A2
+"пити",word,yes,2733,пити,VERB,A1
+"піаніно",word,no,,,,
+"пів",word,yes,7620,пів,NOUN,
+"південь",word,yes,1211,південь,NOUN,A1
+"північ",word,yes,1260,північ,NOUN,A1
+"піджак",word,yes,11473,піджак,NOUN,A2
+"підпис",word,yes,2247,підпис,NOUN,A1
+"пізно",word,yes,3490,пізно,ADV,A2
+"пісня",word,yes,780,пісня,NOUN,A1
+"піца",word,no,,,,
+"плавати",word,yes,7823,плавати,VERB,A1
+"плакати",word,yes,2916,плакати,VERB,A2
+"план",word,yes,406,план,NOUN,A1
+"планшет",word,yes,8315,планшет,NOUN,A2
+"платити",word,yes,1594,платити,VERB,A1
+"плече",word,yes,1799,плече,NOUN,A2
+"площа",word,yes,424,площа,NOUN,A1
+"плюс",word,yes,3964,плюс,CCONJ,A1
+"пляшка",word,yes,3410,пляшка,NOUN,A2
+"по",word,yes,45,по,ADP,A2
+"повернути (поверніть!) (док.)",word,yes,1055,повернути,VERB,A2
+"поверх",word,yes,2215,поверх,NOUN,A1
+"повільно",word,yes,4324,повільно,ADV,A2
+"повітря",word,yes,978,повітря,NOUN,A2
+"повторити (повторіть) (док.)",word,yes,4013,повторити,VERB,A1
+"поганий",word,yes,2074,поганий,ADJ,A1
+"погано",word,yes,2940,погано,ADV,A1
+"погода",word,yes,1930,погода,NOUN,A1
+"подарунок",word,yes,2650,подарунок,NOUN,A1
+"подвір’я",word,yes,4841,подвір’я,NOUN,A2
+"подібний",word,yes,902,подібний,ADJ,B1
+"подія",word,yes,306,подія,NOUN,B1
+"подобатися",word,yes,2621,подобатися,VERB,A1
+"подорожувати",word,yes,5576,подорожувати,VERB,A1
+"подушка",word,yes,6689,подушка,NOUN,A2
+"позитивний",word,yes,1354,позитивний,ADJ,A2
+"поїзд",word,yes,1677,поїзд,NOUN,A1
+"показати (покажіть) (док.)",word,yes,598,показати,VERB,A1
+"покласти (покладіть) (док.)",word,yes,1815,покласти,VERB,A2
+"поле",word,yes,784,поле,NOUN,A2
+"поліклініка",word,yes,7443,поліклініка,NOUN,A2
+"поліція",word,yes,250,поліція,NOUN,A2
+"польський",word,yes,708,польський,ADJ,
+"Польща",word,yes,390,Польща,PROPN,
+"померти",word,yes,564,померти,VERB,A2
+"помилка",word,yes,1574,помилка,NOUN,A2
+"помідор",word,yes,9925,помідор,NOUN,A1
+"понеділок",word,yes,959,понеділок,NOUN,A1
+"пора року",phrase,no,,,,
+"поруч",word,yes,1749,поруч,ADV,A2
+"посуд",word,yes,6971,посуд,NOUN,A1
+"потрібно",word,yes,457,потрібно,ADV,A2
+"по-українськи",word,no,,,,
+"пошта",word,yes,3677,пошта,NOUN,A1
+"правда",word,yes,484,правда,NOUN,A1
+"правий",word,yes,1343,правий,ADJ,A1
+"правильно",word,yes,3024,правильно,ADV,A1
+"праворуч",word,yes,5988,праворуч,ADV,A2
+"працівник / працівниця",word,yes,422,працівник,NOUN,A2
+"працювати",word,yes,115,працювати,VERB,A1
+"прибирати",word,yes,7840,прибирати,VERB,A2
+"приватний",word,yes,763,приватний,ADJ,A2
+"Привіт",word,yes,9653,привіт,NOUN,
+"приємний",word,yes,4672,приємний,ADJ,A1
+"приємно",word,yes,4789,приємно,ADV,A1
+"приклад",word,yes,1116,приклад,NOUN,A1
+"природа",word,yes,1704,природа,NOUN,A1
+"прізвище",word,yes,1596,прізвище,NOUN,A1
+"про",word,yes,14,про,ADP,A1
+"проблема",word,yes,231,проблема,NOUN,A1
+"програма",word,yes,248,програма,NOUN,A1
+"продавати",word,yes,1934,продавати,VERB,A1
+"продавець / продавчиня",word,yes,4574,продавець,NOUN,A1
+"проєкт",word,yes,1725,проєкт,NOUN,B1
+"пропонувати",word,yes,755,пропонувати,VERB,A2
+"просити",word,yes,742,просити,VERB,A1
+"проспект",word,yes,2811,проспект,NOUN,A1
+"простий",word,yes,1430,простий,ADJ,A2
+"проти",word,yes,127,проти,ADP,A2
+"процент",word,yes,11164,процент,NOUN,B1
+"прямо",word,yes,3728,прямо,ADV,A1
+"птах",word,yes,2473,птах,NOUN,A1
+"радий",word,yes,1537,радий,ADJ,A1
+"радість",word,yes,3643,радість,NOUN,A2
+"разом",word,yes,269,разом,ADV,A1
+"район",word,yes,99,район,NOUN,A1
+"рано",word,yes,3689,рано,ADV,A1
+"ранок",word,yes,1495,ранок,NOUN,A1
+"рахунок",word,yes,395,рахунок,NOUN,A1
+"результат",word,yes,116,результат,NOUN,A1
+"ремонтувати",word,yes,8298,ремонтувати,VERB,B1
+"ресторан",word,yes,2283,ресторан,NOUN,A1
+"рецепт",word,yes,4830,рецепт,NOUN,A1
+"решта",word,yes,1462,решта,NOUN,A2
+"риба",word,yes,2164,риба,NOUN,A1
+"ринок",word,yes,283,ринок,NOUN,A2
+"рис",word,yes,8442,рис,NOUN,A1
+"рідко",word,yes,4328,рідко,ADV,A2
+"рідний",word,yes,1056,рідний,ADJ,A2
+"Різдво",word,yes,3874,різдво,NOUN,A1
+"різний",word,yes,258,різний,ADJ,A1
+"рік",word,yes,13,рік,NOUN,A1
+"річ (речі)",word,yes,471,річ,NOUN,A1
+"річка",word,yes,705,річка,NOUN,A1
+"робити – зробити",word,yes,174,зробити,VERB,A1
+"робота",word,yes,82,робота,NOUN,A1
+"робочий",word,yes,728,робочий,ADJ,A2
+"родина",word,yes,567,родина,NOUN,A2
+"рожевий",word,yes,5456,рожевий,ADJ,A2
+"роздрукувати (док.)",word,no,,,,
+"розказувати",word,yes,7628,розказувати,VERB,A2
+"розклад",word,yes,4934,розклад,NOUN,A1
+"розмір",word,yes,534,розмір,NOUN,A1
+"розмовляти",word,yes,2574,розмовляти,VERB,A2
+"розуміти – зрозуміти",word,yes,614,розуміти,VERB,A1
+"розумний",word,yes,3173,розумний,ADJ,A1
+"російський",word,yes,68,російський,ADJ,
+"рослина",word,yes,1976,рослина,NOUN,A2
+"рот",word,yes,3290,рот,NOUN,A2
+"рука",word,yes,255,рука,NOUN,A1
+"рукавиця",word,no,,,,
+"Румунія",word,yes,1817,Румунія,PROPN,
+"ручка",word,yes,6298,ручка,NOUN,A1
+"рушник",word,yes,8448,рушник,NOUN,A1
+"рюкзак",word,yes,9562,рюкзак,NOUN,A2
+"сад",word,yes,2575,сад,NOUN,A1
+"сайт",word,yes,235,сайт,NOUN,A2
+"салат",word,yes,8855,салат,NOUN,A1
+"сам (сама, саме, самі)",word,yes,149,сам,DET,A2
+"сантиметр",word,yes,7117,сантиметр,NOUN,A2
+"свіжий",word,yes,2792,свіжий,ADJ,A1
+"світлий",word,yes,3177,світлий,ADJ,A1
+"святий",word,yes,973,святий,ADJ,A2
+"святкувати",word,yes,4351,святкувати,VERB,A1
+"свято",word,yes,1288,свято,NOUN,A1
+"секунда",word,yes,2754,секунда,NOUN,A1
+"село",word,yes,132,село,NOUN,A1
+"семестр",word,no,,,,
+"серветка",word,no,,,,
+"середа",word,yes,1041,середа,NOUN,A1
+"середній",word,yes,351,середній,ADJ,A1
+"серпень",word,yes,257,серпень,NOUN,A1
+"серце",word,yes,957,серце,NOUN,A1
+"сестра",word,yes,1802,сестра,NOUN,A1
+"сидіти",word,yes,987,сидіти,VERB,A1
+"сильний",word,yes,970,сильний,ADJ,A1
+"син",word,yes,497,син,NOUN,A1
+"синій",word,yes,3059,синій,ADJ,A1
+"сир",word,yes,4408,сир,NOUN,A1
+"сік",word,yes,5565,сік,NOUN,A1
+"сіль",word,yes,4093,сіль,NOUN,A1
+"сім",word,yes,1367,сім,NUM,A1
+"сімдесят",word,no,,,,
+"сімнадцять",word,no,,,,
+"сімсот",word,no,,,,
+"сім'я",word,no,,,,
+"сірий",word,yes,2925,сірий,ADJ,A1
+"січень",word,yes,198,січень,NOUN,A1
+"скільки",word,yes,1286,скільки,ADV,A1
+"склянка",word,yes,6984,склянка,NOUN,A1
+"скоро",word,yes,2973,скоро,ADV,A1
+"словник",word,yes,4745,словник,NOUN,A1
+"слово",word,yes,70,слово,NOUN,A1
+"слухати (слухай! слухайте!)",word,yes,1902,слухати,VERB,A1
+"смачний",word,yes,7495,смачний,ADJ,A1
+"смачно",word,no,,,,
+"смачного",word,no,,,,
+"смітник",word,yes,11395,смітник,NOUN,B1
+"сміття",word,yes,3231,сміття,NOUN,A2
+"сміятися",word,yes,3457,сміятися,VERB,A1
+"сніг",word,yes,1657,сніг,NOUN,A1
+"сніданок",word,yes,6560,сніданок,NOUN,A1
+"снідати",word,no,,,,
+"собака",word,yes,2106,собака,NOUN,A1
+"сонце",word,yes,1403,сонце,NOUN,A1
+"сорок",word,yes,5092,сорок,NUM,A1
+"сорочка",word,yes,4540,сорочка,NOUN,A1
+"спальня",word,yes,9941,спальня,NOUN,A1
+"спати",word,yes,2093,спати,VERB,A1
+"спина",word,yes,2571,спина,NOUN,A1
+"список",word,yes,385,список,NOUN,A2
+"співати",word,yes,2598,співати,VERB,A1
+"спідниця",word,yes,9672,спідниця,NOUN,A1
+"спокійний",word,yes,4099,спокійний,ADJ,A1
+"спорт",word,yes,1111,спорт,NOUN,A1
+"спортсмен / спортсменка",word,yes,2173,спортсмен,NOUN,A1
+"спочатку ≠ потім",word,yes,278,потім,ADV,A1
+"справа",word,yes,74,справа,NOUN,A2
+"стадіон",word,yes,1685,стадіон,NOUN,A1
+"станція",word,yes,650,станція,NOUN,A1
+"старий",word,yes,624,старий,ADJ,A1
+"старший",word,yes,618,старший,ADJ,A1
+"стать",word,yes,1545,стать,NOUN,A2
+"стіл",word,yes,1147,стіл,NOUN,A1
+"стілець",word,yes,5207,стілець,NOUN,A1
+"стіна",word,yes,1065,стіна,NOUN,A1
+"сто",word,yes,2690,сто,NUM,A1
+"столиця",word,yes,638,столиця,NOUN,A1
+"Стоп",word,no,,,,
+"сторінка",word,yes,709,сторінка,NOUN,A1
+"стояти (стій!)",word,yes,474,стояти,VERB,A1
+"страва",word,yes,3579,страва,NOUN,A1
+"страховий поліс",phrase,no,,,,
+"студент / студентка",word,yes,1125,студент,NOUN,A1
+"субота",word,yes,1387,субота,NOUN,A1
+"сукня",word,yes,4591,сукня,NOUN,A1
+"сумка",word,yes,5709,сумка,NOUN,A1
+"суп",word,yes,10270,суп,NOUN,A1
+"супермаркет",word,yes,5188,супермаркет,NOUN,A1
+"сусід / сусідка",word,yes,2303,сусід,NOUN,A1
+"сучасний",word,yes,580,сучасний,ADJ,A1
+"схід",word,yes,494,схід,NOUN,A1
+"сходи",word,yes,4779,сходи,NOUN,A2
+"США",word,yes,86,США,PROPN,
+"сьогодні",word,yes,146,сьогодні,ADV,A1
+"сьомий",word,yes,3972,сьомий,ADJ,A1
+"сюди",word,yes,2063,сюди,ADV,A1
+"Так",word,yes,53,так,ADV,A1
+"таксі",word,yes,5273,таксі,NOUN,A1
+"там",word,yes,188,там,ADV,A1
+"танцювати",word,yes,5348,танцювати,VERB,A1
+"тарілка",word,yes,8343,тарілка,NOUN,A1
+"тато, батько",word,yes,524,батько,NOUN,A1
+"тварина",word,yes,1204,тварина,NOUN,A1
+"твій (твоя, твоє, твої)",word,yes,1201,твій,DET,A1
+"театр",word,yes,896,театр,NOUN,A1
+"теж (також)",word,yes,28,також,ADV,A1
+"текст",word,yes,1034,текст,NOUN,A1
+"телевізор",word,yes,4611,телевізор,NOUN,A1
+"телефон",word,yes,1334,телефон,NOUN,A1
+"телефонувати",word,yes,6698,телефонувати,VERB,A1
+"тема",word,yes,786,тема,NOUN,A1
+"темний",word,yes,2446,темний,ADJ,A1
+"температура",word,yes,725,температура,NOUN,A1
+"теплий",word,yes,2682,теплий,ADJ,A1
+"тепло",word,yes,1920,тепло,NOUN,A1
+"ти",word,yes,114,ти,PRON,A1
+"тиждень",word,yes,276,тиждень,NOUN,A1
+"тисяча",word,yes,156,тисяча,NOUN,A1
+"тихий",word,yes,3281,тихий,ADJ,A2
+"тихо",word,yes,3218,тихо,ADV,A2
+"тіло",word,yes,666,тіло,NOUN,A1
+"тільки",word,yes,94,тільки,PART,A1
+"тітка",word,yes,5500,тітка,NOUN,A1
+"тоді",word,yes,206,тоді,ADV,A1
+"торт",word,yes,10278,торт,NOUN,A1
+"трава",word,yes,2882,трава,NOUN,A2
+"травень",word,yes,193,травень,NOUN,A1
+"травма",word,yes,1573,травма,NOUN,B1
+"трамвай",word,yes,3791,трамвай,NOUN,A1
+"транспорт",word,yes,830,транспорт,NOUN,A1
+"треба",word,yes,316,треба,ADV,A1
+"третій",word,yes,557,третій,ADJ,A1
+"три",word,yes,170,три,NUM,A1
+"тридцять",word,yes,4688,тридцять,NUM,A1
+"тринадцять",word,no,,,,
+"триста",word,yes,10332,триста,NUM,A1
+"тролейбус",word,yes,3990,тролейбус,NOUN,A1
+"трохи",word,yes,795,трохи,ADV,A1
+"туалет",word,yes,6459,туалет,NOUN,A1
+"туди",word,yes,1592,туди,ADV,A1
+"Туреччина",word,yes,860,Туреччина,PROPN,
+"турист / туристка",word,yes,2131,турист,NOUN,A1
+"тут",word,yes,163,тут,ADV,A1
+"Увага!",word,yes,461,увага,NOUN,A1
+"Угорщина",word,yes,1656,Угорщина,PROPN,
+"Україна",word,yes,16,Україна,PROPN,
+"українець, українка",word,yes,295,українець,NOUN,
+"український",word,yes,36,український,ADJ,
+"улюблений",word,yes,3413,улюблений,ADJ,A1
+"університет",word,yes,443,університет,NOUN,A1
+"урок",word,yes,3263,урок,NOUN,A1
+"учень / учениця",word,yes,1575,учень,NOUN,A1
+"ферма",word,yes,5624,ферма,NOUN,A2
+"фізика",word,yes,4501,фізика,NOUN,A2
+"філософія",word,yes,3692,філософія,NOUN,B1
+"фільм",word,yes,342,фільм,NOUN,A1
+"фіолетовий",word,no,,,,
+"флешка",word,no,,,,
+"фото",word,yes,491,фото,NOUN,A1
+"фотографія",word,yes,2042,фотографія,NOUN,A1
+"фотографувати",word,yes,11811,фотографувати,VERB,A1
+"Франція",word,yes,562,Франція,PROPN,
+"фрукт",word,yes,5101,фрукт,NOUN,A1
+"футбол",word,yes,1021,футбол,NOUN,A1
+"футболка",word,yes,5715,футболка,NOUN,A1
+"характер",word,yes,1396,характер,NOUN,A1
+"хвилина",word,yes,590,хвилина,NOUN,A1
+"хвилюватися",word,yes,6349,хвилюватися,VERB,B1
+"хворий",word,yes,1464,хворий,ADJ,A1
+"хімія",word,yes,5068,хімія,NOUN,B1
+"хліб",word,yes,2458,хліб,NOUN,A1
+"хлопець",word,yes,820,хлопець,NOUN,A1
+"хмара",word,yes,3526,хмара,NOUN,A1
+"хмарно",word,yes,6859,хмарно,ADV,A2
+"хобі",word,no,,,,
+"ходити",word,yes,1155,ходити,VERB,A1
+"холодильник",word,yes,8295,холодильник,NOUN,A1
+"холодний",word,yes,2006,холодний,ADJ,A1
+"холодно",word,yes,8771,холодно,ADV,A1
+"хотіти",word,yes,140,хотіти,VERB,A1
+"хто",word,yes,112,хто,PRON,A1
+"це",word,yes,17,це,PRON,A1
+"цей (ця, це, ці)",word,yes,17,це,PRON,A1
+"центр",word,yes,165,центр,NOUN,A1
+"церква",word,yes,410,церква,NOUN,A1
+"цибуля",word,yes,7931,цибуля,NOUN,A1
+"цифра",word,yes,2267,цифра,NOUN,A2
+"цікавий",word,yes,1467,цікавий,ADJ,A1
+"цілий",word,yes,903,цілий,ADJ,A2
+"цілувати",word,yes,8188,цілувати,VERB,A2
+"ціна",word,yes,218,ціна,NOUN,A1
+"цукерка",word,yes,11598,цукерка,NOUN,A1
+"цукор",word,yes,3367,цукор,NOUN,A1
+"чай",word,yes,4087,чай,NOUN,A1
+"чайник",word,no,,,,
+"час",word,yes,30,час,NOUN,A1
+"часто",word,yes,747,часто,ADV,A1
+"чашка",word,yes,9583,чашка,NOUN,A1
+"чекати (чекай! чекайте!)",word,yes,657,чекати,VERB,A1
+"червень",word,yes,229,червень,NOUN,A1
+"червоний",word,yes,668,червоний,ADJ,A1
+"черга",word,yes,551,черга,NOUN,B1
+"через",word,yes,58,через,ADP,A1
+"четвер",word,yes,1032,четвер,NOUN,A1
+"четвертий",word,yes,1517,четвертий,ADJ,A1
+"чи",word,yes,98,чи,CCONJ,A1
+"чий (чия, чиє, чиї)",word,yes,2358,чий,DET,A1
+"чистий",word,yes,1599,чистий,ADJ,A2
+"читати",word,yes,437,читати,VERB,A1
+"чоловік",word,yes,139,чоловік,NOUN,A1
+"чоловічий",word,yes,2496,чоловічий,ADJ,A1
+"чому",word,yes,569,чому,ADV,A1
+"Чорне море",phrase,no,,,,
+"чорний",word,yes,586,чорний,ADJ,A1
+"чотири",word,yes,560,чотири,NUM,A1
+"чотириста",word,no,,,,
+"чотирнадцять",word,no,,,,
+"чудовий",word,yes,2469,чудовий,ADJ,A1
+"Чудово",word,yes,4086,чудово,ADV,A1
+"чути",word,yes,1009,чути,VERB,A1
+"шампунь",word,no,,,,
+"шановний",word,yes,6501,шановний,ADJ,B1
+"шапка",word,yes,5819,шапка,NOUN,A1
+"шарф",word,no,,,,
+"шафа",word,yes,7515,шафа,NOUN,A1
+"шахи",word,yes,9048,шахи,NOUN,A1
+"швидка допомога",phrase,no,,,,
+"швидкий",word,yes,1306,швидкий,ADJ,A1
+"швидко",word,yes,1075,швидко,ADV,A1
+"широкий",word,yes,1275,широкий,ADJ,A2
+"шістдесят",word,no,,,,
+"шістнадцять",word,no,,,,
+"шістсот",word,no,,,,
+"шість",word,yes,879,шість,NUM,A1
+"шкарпетка",word,no,,,,
+"Шкода",word,yes,2508,шкода,NOUN,A2
+"школа",word,yes,303,школа,NOUN,A1
+"шоколад",word,yes,7939,шоколад,NOUN,A1
+"шостий",word,yes,4002,шостий,ADJ,A1
+"штани",word,yes,6215,штани,NOUN,A1
+"штраф",word,yes,1763,штраф,NOUN,A2
+"шукати",word,yes,982,шукати,VERB,A1
+"щасливий",word,yes,2707,щасливий,ADJ,A1
+"щастя",word,yes,1834,щастя,NOUN,A1
+"ще",word,yes,54,ще,ADV,A1
+"що",word,yes,8,що,SCONJ,A1
+"Що сталося? (Статися)",phrase,yes,364,статися,VERB,A2
+"щодня",word,yes,2463,щодня,ADV,A2
+"я",word,yes,23,я,PRON,A1
+"яблуко",word,yes,5310,яблуко,NOUN,A1
+"язик",word,yes,4917,язик,NOUN,A2
+"яйце",word,yes,3066,яйце,NOUN,A1
+"як",word,yes,20,як,SCONJ,A1
+"Як справи? (Справа)",phrase,yes,74,справа,NOUN,A2
+"який (яка, яке, які)",word,yes,12,який,DET,A1
+"Японія",word,yes,1473,Японія,PROPN,

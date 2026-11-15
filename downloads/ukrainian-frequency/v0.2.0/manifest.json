@@ -1,0 +1,200 @@
+{
+  "version": "v0.2.0",
+  "dataset": "ukrainian-frequency-lemmas",
+  "subject": "A lemma-based, coverage-graded open frequency list for modern Ukrainian",
+  "tier": "public",
+  "provenance": "Derived aggregate counts (facts) from the UberText 2.0 lemma frequency dictionary (lang-uk, Chaplynskyi 2023), the same 2023-04-03 source file as v0.1.0. The list re-publishes counts, not the source corpus text. Rows are filtered to Ukrainian-Cyrillic-alphabetic lemmas with a linguistic Universal Dependencies POS tag, then a reviewed cleanup ledger (cleanup.json) is applied over every source row: the lemmatizer's case forms and tag-split compounds are folded into their lemmas, mislabeled names rejoined, non-words and Russian words dropped, apostrophes written one way. Coverage is recomputed here from raw counts over the unchanged token universe. Top 12000 lemma+POS rows after the cleanup; crosswalk.json maps every v0.1.0 rank onto this list.",
+  "source": {
+    "name": "UberText 2.0 lemma frequency dictionary",
+    "publisher": "lang-uk",
+    "url": "https://lang.org.ua/static/downloads/ubertext2.0/dicts/ubertext_freq.csv.xz",
+    "citation": "Chaplynskyi, D. (2023). Introducing UberText 2.0: A Corpus of Modern Ukrainian at Scale. Proc. 2nd Ukrainian NLP Workshop (UNLP), ACL.",
+    "accessed": "2026-07-14"
+  },
+  "canonical": "/research/ukrainian-frequency",
+  "supersedes": "v0.1.0",
+  "cleanup": "docs/ukrainian-frequency/list-v0.2.0.md",
+  "migration": {
+    "from": "v0.1.0",
+    "to": "v0.2.0",
+    "kept": 11914,
+    "merged": 68,
+    "dropped": 18,
+    "entered": 86,
+    "moved": 11182,
+    "medianMove": 20
+  },
+  "note": "Every other table on the study page joins on this list's ranks. A table keyed on v0.1.0 ranks migrates through crosswalk.json. Cite the version you used.",
+  "wordTokenUniverse": 1495772089,
+  "lemmas": 12000,
+  "properNouns": 1348,
+  "posHistogram": {
+    "ADP": 77,
+    "CCONJ": 25,
+    "VERB": 2115,
+    "PART": 84,
+    "SCONJ": 32,
+    "DET": 44,
+    "NOUN": 5157,
+    "PRON": 30,
+    "PROPN": 1348,
+    "ADV": 625,
+    "ADJ": 2422,
+    "NUM": 31,
+    "INTJ": 10
+  },
+  "coverage": [
+    {
+      "lemmas": 100,
+      "coverage": 0.3312,
+      "coveragePct": 33.12
+    },
+    {
+      "lemmas": 250,
+      "coverage": 0.4243,
+      "coveragePct": 42.43
+    },
+    {
+      "lemmas": 500,
+      "coverage": 0.512,
+      "coveragePct": 51.2
+    },
+    {
+      "lemmas": 1000,
+      "coverage": 0.6081,
+      "coveragePct": 60.81
+    },
+    {
+      "lemmas": 1500,
+      "coverage": 0.6654,
+      "coveragePct": 66.54
+    },
+    {
+      "lemmas": 2000,
+      "coverage": 0.7058,
+      "coveragePct": 70.58
+    },
+    {
+      "lemmas": 3000,
+      "coverage": 0.7604,
+      "coveragePct": 76.04
+    },
+    {
+      "lemmas": 4000,
+      "coverage": 0.7958,
+      "coveragePct": 79.58
+    },
+    {
+      "lemmas": 5000,
+      "coverage": 0.8207,
+      "coveragePct": 82.07
+    },
+    {
+      "lemmas": 6000,
+      "coverage": 0.8392,
+      "coveragePct": 83.92
+    },
+    {
+      "lemmas": 8000,
+      "coverage": 0.8657,
+      "coveragePct": 86.57
+    },
+    {
+      "lemmas": 10000,
+      "coverage": 0.8842,
+      "coveragePct": 88.42
+    },
+    {
+      "lemmas": 12000,
+      "coverage": 0.8977,
+      "coveragePct": 89.77
+    }
+  ],
+  "milestones": [
+    {
+      "rank": 1000,
+      "lemma": "підозра",
+      "pos": "NOUN",
+      "coveragePct": 60.81
+    },
+    {
+      "rank": 2000,
+      "lemma": "власне",
+      "pos": "PART",
+      "coveragePct": 70.58
+    },
+    {
+      "rank": 5000,
+      "lemma": "афроамериканець",
+      "pos": "NOUN",
+      "coveragePct": 82.07
+    },
+    {
+      "rank": 10000,
+      "lemma": "Сулейман",
+      "pos": "PROPN",
+      "coveragePct": 88.42
+    }
+  ],
+  "checkpoints": [
+    100,
+    250,
+    500,
+    1000,
+    1500,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000,
+    8000,
+    10000,
+    12000
+  ],
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "file": "lemmas.json",
+      "about": "The ranked lemma list: rank, lemma, UD part of speech, corpus count, per-mille frequency, cumulative coverage, and the thousand-rank frequency band. The source's doc_count column is not carried: it exceeds the row's own count in a fifth of the rows and is defined nowhere upstream."
+    },
+    {
+      "file": "lemmas.csv",
+      "about": "The same ranked lemma list as CSV, for spreadsheets and scripts."
+    },
+    {
+      "file": "lemmas.anki.tsv",
+      "about": "An Anki-importable frequency deck seed: lemma, part of speech, rank, per-mille. One note per lemma, ordered most frequent first."
+    },
+    {
+      "file": "coverage.json",
+      "about": "The empirical running-text coverage curve: what share of word tokens the top N lemmas account for, at each checkpoint."
+    },
+    {
+      "file": "coverage.csv",
+      "about": "The coverage curve as CSV."
+    },
+    {
+      "file": "crosswalk.json",
+      "about": "Every v0.1.0 row once, in v0.1.0 order, with its fate in v0.2.0 (kept, merged, dropped) and the v0.2.0 rank it now counts toward, then the rows that entered from below the v0.1.0 cut. A table keyed on v0.1.0 ranks migrates through this file."
+    },
+    {
+      "file": "crosswalk.csv",
+      "about": "The crosswalk as one CSV: the v0.1.0 rows with their fate, then the entered rows (fate `entered`, no v1Rank)."
+    },
+    {
+      "file": "cleanup.json",
+      "about": "The reviewed cleanup ledger the list was built with: every explicit merge and drop with its reason, the two general rules (apostrophe glyph, mislabeled names), and the six recorded decisions."
+    }
+  ],
+  "citation": "Lawrence, J. (2026). Ukrainian Frequency: a lemma-based, coverage-graded open frequency list (v0.2.0). jakelawrence.xyz/research/ukrainian-frequency. Derived from UberText 2.0 (Chaplynskyi, 2023).",
+  "sha256": {
+    "lemmas.json": "886eda824ca993f4fdfebf7917ddca02144fc738ecbcabbf23b1d6b6df11e41e",
+    "lemmas.csv": "185f108882d024e880f4432bcaeac1bcaab7abd0596121b8581609945cf6a0b2",
+    "lemmas.anki.tsv": "9fc1e21beab72e7f8ab98aaddd19969b93d81d119afbdf5af709863d3eec45fe",
+    "coverage.json": "befdde2251ea09d445db29f4ae50108d1e8b3220b2c2c7286156d85875ab91d5",
+    "coverage.csv": "66d97ee8dea437d2068e9530b12beb758752585212fffc030a83dfce005e2668",
+    "crosswalk.json": "ab3eb9842db39cce234016ab9c3730b6d93092769beb133a50203e1627858373",
+    "crosswalk.csv": "17a3e8eb82e3d6a218b78af12c9073baeb5447d8435e7e8d7ed7114d765ae6c9",
+    "cleanup.json": "07e42356f1e850141e0e1ad4a0a1e891c95c05ec2f56e48f6fdd6d8e3aa3c53a"
+  }
+}

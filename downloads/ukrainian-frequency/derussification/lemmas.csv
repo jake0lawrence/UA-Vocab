@@ -1,0 +1,84 @@
+rank,lemma,pos,tier,suggestion,swap
+1257,поліцейський,NOUN,hard,поліційний,off-list
+1394,поставка,NOUN,hard,постачання,rarer
+2206,прийом,NOUN,hard,приймання,off-list
+2606,відеозйомка,NOUN,hard,відеознімання,off-list
+2654,діючий,ADJ,hard,що діє,phrase
+2907,зйомка,NOUN,hard,знімання,off-list
+2929,існуючий,ADJ,hard,що існує,phrase
+3085,безкоштовний,ADJ,soft,безплатний,off-list
+3292,поліцейський,ADJ,hard,поліційний,off-list
+3350,гонка,NOUN,hard,перегони,off-list
+3668,схоже,ADV,hard,видно,commoner
+3764,доставка,NOUN,hard,доставлення,off-list
+3868,задіяний,ADJ,hard,залучений,rarer
+4177,безкоштовно,ADV,soft,безплатно,off-list
+4245,співтовариство,NOUN,hard,спільнота,commoner
+4312,будучи,VERB,hard,бувши,off-list
+4367,продажа,NOUN,hard,продаж,commoner
+4493,правлячий,ADJ,hard,керівний,commoner
+4529,одиночний,ADJ,hard,одиничний,off-list
+4538,обстановка,NOUN,soft,обстава,off-list
+4576,зарубіжний,ADJ,hard,закордонний,commoner
+4626,числитися,VERB,hard,бути,commoner
+4895,піднімати,VERB,soft,підіймати,off-list
+4924,підніматися,VERB,soft,підійматися,rarer
+5233,передвиборний,ADJ,hard,передвиборчий,commoner
+5369,дача,NOUN,hard,давання,off-list
+5436,співвітчизник,NOUN,soft,земляк,rarer
+5537,керуючий,ADJ,hard,що керує,phrase
+5596,азіат,NOUN,soft,азієць,off-list
+5764,вуз,NOUN,hard,виш,commoner
+5799,виконуючий,ADJ,hard,що виконує,phrase
+5947,да,PART,hard,так,commoner
+5970,община,NOUN,hard,громада,commoner
+6676,держдепартамент,NOUN,hard,Держдепартамент,off-list
+6786,благоустрій,NOUN,soft,доброустрій,off-list
+6930,задіяти,VERB,hard,залучити,commoner
+7099,місцезнаходження,NOUN,hard,місце,commoner
+7128,бажаючий,NOUN,hard,охочий,commoner
+7335,предстоятель,NOUN,hard,настоятель,rarer
+7450,оптовий,ADJ,hard,гуртовий,off-list
+7553,спецназ,NOUN,hard,спецпідрозділи,off-list
+7673,русло,NOUN,soft,річище,off-list
+7692,заключний,ADJ,hard,прикінцевий,off-list
+7730,зростаючий,ADJ,hard,що росте (зростає),phrase
+7894,поставляти,VERB,hard,постачати,commoner
+7968,ємність,NOUN,soft,місткість,rarer
+7974,кримчанин,NOUN,soft,кримець,off-list
+8184,власть,NOUN,hard,влада,commoner
+8382,вражаючий,ADJ,hard,що вражає,phrase
+8778,минулорічний,ADJ,hard,торішній,rarer
+8947,відправка,NOUN,hard,виряджання,off-list
+9219,міліцейський,ADJ,hard,міліціонер,commoner
+9415,качка,NOUN,hard,гойдання,off-list
+9447,контролюючий,ADJ,hard,що контролює,phrase
+9532,працюючий,ADJ,hard,що працює,phrase
+9547,черкащанин,NOUN,soft,черкасець,off-list
+9636,удостоєний,ADJ,hard,відзначений,commoner
+9643,протиріччя,NOUN,hard,сперечання,off-list
+9654,казначейство,NOUN,soft,скарбниця,commoner
+9697,завідомо,ADV,hard,свідомо,commoner
+9780,витоки,NOUN,hard,джерела,off-list
+9875,гонщик,NOUN,hard,перегонник,off-list
+10263,подалі,ADV,soft,трохи далі,phrase
+10314,палаючий,ADJ,hard,що палає,phrase
+10331,охарактеризувати,VERB,hard,схарактеризувати,off-list
+10371,головуючий,ADJ,hard,що головує,phrase
+10489,поставлятися,VERB,hard,постачатися,off-list
+10580,парковка,NOUN,hard,стоянка,commoner
+10593,азіатський,ADJ,soft,азійський,commoner
+10659,казначейський,ADJ,soft,скарбничий,off-list
+10776,металобрухт,NOUN,soft,брухт,off-list
+10837,підключити,VERB,soft,увімкнути,off-list
+10979,благополуччя,NOUN,hard,добра доля,phrase
+10987,приурочений,ADJ,hard,присвячений,commoner
+11000,насос,NOUN,soft,помпа,off-list
+11228,затребуваний,ADJ,hard,потрібний,commoner
+11245,енергозбереження,NOUN,hard,енергоощадження,off-list
+11466,прийомний,ADJ,hard,приймальний,rarer
+11480,крупний,ADJ,hard,великий,commoner
+11492,золотовалютний,ADJ,hard,золото-валютний,off-list
+11692,вишка,NOUN,soft,вежа,commoner
+11714,віруючий,ADJ,hard,що вірить,phrase
+11979,протестуючий,ADJ,hard,що протестує,phrase

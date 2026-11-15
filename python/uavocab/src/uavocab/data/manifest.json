@@ -1,0 +1,278 @@
+{
+  "package": "uavocab",
+  "packageVersion": "0.5.0",
+  "generatedBy": "build-package.py (scripts/build-package.py in https://github.com/jake0lawrence/UA-Vocab), from the release files under downloads/ukrainian-frequency",
+  "site": "https://uavocab.org/research",
+  "combinedLicense": "CC-BY-NC-SA-4.0",
+  "combinedLicenseWhy": "The PULS levels (the validated CEFR overlay, the crosswalk, the related-verb levels in the aspect table and the puls_level column of the two Borodin tables) are CC BY-NC-SA 4.0 at the authors' decision (O. Synchak, 2026-09-24), and NonCommercial and share-alike propagate to the combined work. They are the one NonCommercial component, redistributed with the authors' permission; nothing else NonCommercial is shipped. The frequency list and the two Borodin minimums are CC-BY 4.0 on their own and stay so, and the government and collocation tables are CC-BY-SA 4.0; each dataset's own license is recorded beside it, so a downstream user who drops the PULS level columns owes attribution and share-alike only. The stress column is CC-BY-SA 4.0 (Wiktionary-derived rows) and stays its own table, joined on rank.",
+  "notShipped": [
+    "predicted CEFR levels (the gap-fill model's file on the site; predictions are never merged into the validated overlay)",
+    "VESUM-derived lexicon or wordform data (CC BY-NC-SA)",
+    "UniMorph derivational families (CC BY-NC 4.0; a modeling input, not data)",
+    "Wikipedia example sentences (b1-extension/examples.csv)",
+    "the Wiktionary paradigm tables (the profiler bundle)"
+  ],
+  "datasets": {
+    "frequency": {
+      "file": "frequency.parquet",
+      "rows": 12000,
+      "columns": [
+        "rank",
+        "lemma",
+        "pos",
+        "count",
+        "permille",
+        "cumulativeCoverage",
+        "freqBand"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/v0.2.0/lemmas.csv",
+        "sha256": "185f108882d024e880f4432bcaeac1bcaab7abd0596121b8581609945cf6a0b2",
+        "rows": 12000
+      },
+      "sha256": "d2e51f1041ba554bfbeb562b26c78b6489eab9f118b49ea8bd22c3406f521d39",
+      "version": "v0.2.0",
+      "snapshot": "2026-07-14",
+      "license": "CC-BY-4.0",
+      "title": "Ukrainian Frequency: the top-12,000 lemma list",
+      "description": "Lemma, UD part of speech, raw occurrence and document counts, per-mille share, cumulative running-text coverage and thousand-rank band, over the UberText 2.0 lemma frequency dictionary (derived aggregate counts, not corpus text).",
+      "attribution": "Chaplynskyi, D. (2023). Introducing UberText 2.0: A Corpus of Modern Ukrainian at Scale. Proc. 2nd Ukrainian NLP Workshop (UNLP), ACL. lang-uk, CC-BY 4.0.",
+      "citation": "Lawrence, J. (2026). Ukrainian Frequency: a lemma-based, coverage-graded open frequency list (v0.2.0). uavocab.org/research. Derived from UberText 2.0 (Chaplynskyi, 2023).",
+      "url": "https://uavocab.org/research#list",
+      "conceptDoi": "10.5281/zenodo.22823134"
+    },
+    "validated_cefr": {
+      "file": "validated_cefr.parquet",
+      "rows": 6403,
+      "columns": [
+        "rank",
+        "lemma",
+        "pos",
+        "level",
+        "confidence",
+        "join"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/validated-cefr/lemmas.csv",
+        "sha256": "07247fcd79b08475ecc98ace56e45d263046b093574fa96e64781688c30ab5ef",
+        "rows": 6403
+      },
+      "sha256": "40c1b9d4d717c1f7875126351d006c2a8cd38669bc9ec6e273c94ad3c9e2d3a2",
+      "version": "2026-09-23",
+      "snapshot": "2026-07-23",
+      "license": "CC-BY-NC-SA-4.0",
+      "title": "The PULS CEFR overlay: validated A1 to C1 levels on the top-12,000 list",
+      "description": "Per lemma and part of speech, the onset level from the Ukrainian Vocabulary Profile (PULS), joined POS-aware onto the frequency list; the join column records how each row matched (pos-family, lemma-only, or one of ten declared cross-tag rules). Validated levels only; no predicted level is in this package.",
+      "attribution": "Ukrainian Vocabulary Profile (PULS), Synchak, O., Starko, V., Burak, M., Svystun, M., https://puls.peremova.org/ (eLex 2025). Per-lemma levels redistributed with the authors' permission (V. Starko, 2026-07), CC BY-NC-SA 4.0 at the authors' decision (O. Synchak, 2026-09-24). Cite as: Профіль української лексики (ПУЛЬС) / О. Синчак, В. Старко, М. Бурак, М. Свистун та ін. Львів: Школа української мови та культури УКУ, 2026. Snapshot of the published profile taken 2026-07-23; the profile is not final.",
+      "citation": "Synchak, O., Starko, V., Burak, M. and Svystun, M. (2025). Corpus-Based Vocabulary Profiling for Ukrainian: From Lexical Analysis to CEFR. eLex 2025. Joined onto the Ukrainian Frequency list (Lawrence, 2026).",
+      "url": "https://uavocab.org/research#cefr-validated",
+      "conceptDoi": null
+    },
+    "borodin_a1": {
+      "file": "borodin_a1.parquet",
+      "rows": 929,
+      "columns": [
+        "entry",
+        "kind",
+        "matched",
+        "rank",
+        "lemma",
+        "pos",
+        "puls_level"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/borodin-a1/lemmas.csv",
+        "sha256": "9b3d054dc9611c8fe3b2c62ddf7edb513586e42faf39e23687e8bab9c5334aab",
+        "rows": 929
+      },
+      "sha256": "9069450ba7dbfb32dc957c11f5a09d4a83ed11eb60a8673ef7951e3aaa2c7862",
+      "version": "2026-09-23",
+      "snapshot": "2026-07-27",
+      "license": "CC-BY-4.0",
+      "title": "1000 i 1 slovo, A1: the lexical minimum joined onto the frequency list",
+      "description": "One row per published entry, verbatim, with the frequency rank, lemma, POS and validated PULS level where a headword matches the list. The puls_level column is CC-BY-NC-SA (PULS); the entries and ranks are CC-BY.",
+      "attribution": "Borodin, K. and Turkevych, O. 1000 i 1 slovo. Leksychnyi minimum z ukrainskoi movy yak inozemnoi. Riven A1. Slavic Language Education 3, LANGUAGE-LAB, Humboldt-Universitat zu Berlin. https://doi.org/10.18452/28236. CC-BY 4.0. Machine-readable list provided by the authors, 2026-07-27.",
+      "citation": "Borodin, K. and Turkevych, O. (2023). 1000 i 1 slovo: Lexical Minimum in Ukrainian as a Foreign Language, Level A1. https://doi.org/10.18452/28236",
+      "url": "https://uavocab.org/research#cefr-borodin-a1",
+      "conceptDoi": null
+    },
+    "borodin_a2": {
+      "file": "borodin_a2.parquet",
+      "rows": 1000,
+      "columns": [
+        "entry",
+        "kind",
+        "in_a1",
+        "matched",
+        "rank",
+        "lemma",
+        "pos",
+        "puls_level"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/borodin-a2/lemmas.csv",
+        "sha256": "904190e6e0a76acbf6e5c0f41fa1f171d71245bf616903e010055280703d17f8",
+        "rows": 1000
+      },
+      "sha256": "6c6c55cdbf2fe23c297ccadee34597c02ef30ea0207f4b3331211b2450be71ac",
+      "version": "2026-09-23",
+      "snapshot": "2026-07-28",
+      "license": "CC-BY-4.0",
+      "title": "1000 i 1 slovo, A2: the lexical minimum joined onto the frequency list",
+      "description": "One row per published register entry, verbatim, with whether the A1 volume already carried it, and the frequency rank, lemma, POS and validated PULS level where a headword matches the list. The puls_level column is CC-BY-NC-SA (PULS); the entries and ranks are CC-BY.",
+      "attribution": "Borodin, K. and Lazarenko, O. (2026). 1000 i 1 slovo. Leksychnyi minimum z ukrainskoi movy yak inozemnoi. Riven A2. Europa-Universitat Viadrina Frankfurt (Oder). https://doi.org/10.11584/opus4-1448. CC-BY 4.0.",
+      "citation": "Borodin, K. and Lazarenko, O. (2026). 1000 i 1 slovo: Lexical Minimum in Ukrainian as a Foreign Language, Level A2. https://doi.org/10.11584/opus4-1448",
+      "url": "https://uavocab.org/research#cefr-borodin-a2",
+      "conceptDoi": null
+    },
+    "crosswalk": {
+      "file": "crosswalk.parquet",
+      "rows": 10366,
+      "columns": [
+        "lemma",
+        "rank",
+        "pos",
+        "volume",
+        "entry",
+        "validatedLevel",
+        "class",
+        "relative",
+        "relativeVia"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/minimums-crosswalk/v1.2.0/crosswalk.csv",
+        "sha256": "deddcb787c459e699e8bed4a234cb00e7d189cfb9b075d1a7d3bdeb2c6a7adc3",
+        "rows": 10366
+      },
+      "sha256": "1fd1770c9d461218640a97012f78542a7d66b52516db0d111a384d5d42e0a2ff",
+      "version": "v1.2.0",
+      "snapshot": "2026-09-13",
+      "license": "CC-BY-NC-SA-4.0",
+      "title": "The minimums crosswalk: every lemma in the union of the two minimums and the validated profile, classified",
+      "description": "One row per lemma string in the union of the Borodin A1 and A2 minimums and the whole published PULS profile, joined by lemma string (no POS on the minimum side), with the class of each agreement or disagreement: agree, earlier, later, absent, beyond, unprofiled.",
+      "attribution": "Borodin and Turkevych (A1, https://doi.org/10.18452/28236) and Borodin and Lazarenko (A2, https://doi.org/10.11584/opus4-1448), CC-BY 4.0; Ukrainian Vocabulary Profile (PULS), Synchak, O., Starko, V., Burak, M., Svystun, M., by permission, CC BY-NC-SA 4.0; ranks from UberText 2.0 (lang-uk), CC-BY 4.0.",
+      "citation": "Lawrence, J. (2026). A crosswalk between the \"1000 i 1 slovo\" A1 and A2 lexical minimums and the validated Ukrainian Vocabulary Profile (v1.2.0). uavocab.org/research.",
+      "url": "https://uavocab.org/research/crosswalk",
+      "conceptDoi": null
+    },
+    "b1_aspect": {
+      "file": "b1_aspect.parquet",
+      "rows": 1028,
+      "columns": [
+        "b1_verb",
+        "b1_rank",
+        "b1_aspect",
+        "related",
+        "kind",
+        "related_aspect",
+        "related_level",
+        "related_validated",
+        "related_rank",
+        "ubertext_count",
+        "attested",
+        "split_level"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/b1-extension/aspect-relations.csv",
+        "sha256": "fb40340e6829dba542a43679ff7c286c783a23fb950deee4bae338eebdd60a37",
+        "rows": 1028
+      },
+      "sha256": "7eca2f9fe7aae444c4e08afca163b1e354ecf1477c16f2d595d295a58a059171",
+      "version": "2026-09-23",
+      "snapshot": "2026-09-11",
+      "license": "CC-BY-NC-SA-4.0",
+      "title": "B1 aspect relations: each validated-B1 verb with its aspect partner and its attested prefixed derivatives",
+      "description": "One row per (B1 verb, related verb). kind is partner (Wiktionary-listed or hand-curated suppletive) or prefixed (a corpus-attested prefix derivative); each related verb keeps its own PULS level, so split_level marks a pair the profile places at two levels.",
+      "attribution": "Levels: PULS (Synchak, O., Starko, V., Burak, M., Svystun, M.), by permission, CC BY-NC-SA 4.0. Aspect partners: Wiktionary via kaikki.org, CC-BY-SA 3.0. Counts: UberText 2.0 (lang-uk), CC-BY 4.0. No VESUM data is bundled.",
+      "citation": "Lawrence, J. (2026). Ukrainian Frequency: the B1 extension, aspect relations. uavocab.org/research.",
+      "url": "https://uavocab.org/research#b1-aspect",
+      "conceptDoi": null
+    },
+    "b1_government": {
+      "file": "b1_government.parquet",
+      "rows": 3157,
+      "columns": [
+        "verb",
+        "rank",
+        "total_dependents",
+        "preposition",
+        "case",
+        "n",
+        "share",
+        "shown"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/b1-extension/government.csv",
+        "sha256": "2df2019cd92a74b441c9304bf77b08a90aa6444a2c40b766d43fc9f10b262d62",
+        "rows": 3157
+      },
+      "sha256": "ba5484257b308d7597efcd9ec449e6ebbece054208070f729081e1e331ab816b",
+      "version": "2026-09-23",
+      "snapshot": "2026-09-11",
+      "license": "CC-BY-SA-4.0",
+      "title": "B1 case government: verb + preposition + case counts",
+      "description": "Per validated-B1 verb, each preposition + case pattern with its count and share of the verb's nominal dependents, over 2,880,835 parsed tokens of the UberText 2.0 Wikipedia subcorpus (spaCy uk_core_news_sm 3.8.0). shown marks patterns above the display threshold; every counted pattern is present. The corpus slice was cut on the 1,585-lemma B1 set of 2026-09-11.",
+      "attribution": "Counts over UberText 2.0, Wikipedia subcorpus (lang-uk), CC-BY 4.0; derived statistics CC-BY-SA 4.0.",
+      "citation": "Lawrence, J. (2026). Ukrainian Frequency: the B1 extension, case government. uavocab.org/research.",
+      "url": "https://uavocab.org/research#b1-usage",
+      "conceptDoi": null
+    },
+    "b1_collocations": {
+      "file": "b1_collocations.parquet",
+      "rows": 6219,
+      "columns": [
+        "lemma",
+        "relation",
+        "side",
+        "collocate",
+        "collocate_pos",
+        "n",
+        "logdice"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/b1-extension/collocations.csv",
+        "sha256": "bc8178f7a6b2fcc20f4cad7629232c63ec4a796d3b538d03cf896cddfd0b1d92",
+        "rows": 6219
+      },
+      "sha256": "18656b18631400ba12730b39a66004467b48e097c9f8b18acefa7b6ef16db1b0",
+      "version": "2026-09-23",
+      "snapshot": "2026-09-11",
+      "license": "CC-BY-SA-4.0",
+      "title": "B1 collocations: dependency-linked lemma pairs ranked by logDice",
+      "description": "Per validated-B1 lemma, the strongest dependency-linked collocates by logDice (14 + log2(2 f_xy / (f_x + f_y))), at least three co-occurrences, up to eight per lemma; relation is the UD dependency label and side says whether the B1 lemma is the head or the child. Same corpus slice as the government table.",
+      "attribution": "Counts over UberText 2.0, Wikipedia subcorpus (lang-uk), CC-BY 4.0; derived statistics CC-BY-SA 4.0.",
+      "citation": "Lawrence, J. (2026). Ukrainian Frequency: the B1 extension, collocations. uavocab.org/research.",
+      "url": "https://uavocab.org/research#b1-usage",
+      "conceptDoi": null
+    },
+    "stress": {
+      "file": "stress.parquet",
+      "rows": 12000,
+      "columns": [
+        "rank",
+        "lemma",
+        "pos",
+        "stress",
+        "stress_variants",
+        "stress_status",
+        "note",
+        "source"
+      ],
+      "source": {
+        "path": "public/downloads/ukrainian-frequency/stress/v1.0.2/stress.csv",
+        "sha256": "5df3863cad89877048c6ddf937ba5d939c2f21fc574df0028065c174e2c2b92e",
+        "rows": 12000
+      },
+      "sha256": "407c98fddf9d76b6b007c000145b555a755392b598da1a711b6dafc0b60ea70c",
+      "version": "v1.0.2",
+      "snapshot": "2026-10-01",
+      "license": "CC-BY-SA-4.0",
+      "title": "Word stress for every lemma of the top-12,000 list",
+      "description": "Per rank, the primary stressed form (combining acute U+0301), the pipe-separated accepted variants with the primary first, the resolution status (one confident stress, a labeled free variant, homograph, dictionary-only doublet or variable name, a monosyllable, or missing), a note (homograph glosses, a compound's secondary stress, the standard spelling of a nonstandard lemma) and the provenance of the chosen stress. Keyed on the v0.2.0 ranks; the lemma and pos columns are the list's own.",
+      "attribution": "ukrainian-word-stress 2.1.0 (lang-uk: Oleksiy Syvokon, maintained by Dmytro Chaplynskyi), MIT, https://github.com/lang-uk/ukrainian-word-stress; en.wiktionary via kaikki.org and uk.wiktionary (the dump), CC-BY-SA 3.0; uk.wikipedia lead sentences for 116 names, CC-BY-SA 4.0; goroh.pp.ua consulted for 19 tiebreaks (attested stress only, no content copied); ranks from UberText 2.0 (lang-uk), CC-BY 4.0.",
+      "citation": "Lawrence, J. (2026). Ukrainian Frequency: a per-lemma word-stress column for the top-12,000 list (v1.0.2). uavocab.org/research. Over ukrainian-word-stress (lang-uk), en.wiktionary and uk.wiktionary.",
+      "url": "https://uavocab.org/research#stress",
+      "conceptDoi": "10.5281/zenodo.23092388"
+    }
+  }
+}

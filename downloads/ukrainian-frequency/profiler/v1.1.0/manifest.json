@@ -1,0 +1,49 @@
+{
+  "version": "v1.1.0",
+  "dataset": "ukrainian-frequency-profiler",
+  "subject": "The lexicon bundle behind the Ukrainian text profiler: top-12000 lemmas with validated CEFR levels, Wiktionary paradigm forms and word families, B1 aspect pairs, and two published lexical minimums, packaged for in-browser lemmatization and coverage profiling",
+  "tier": "public",
+  "method": "lexicon.json: the thread-01 lemma list (rank order) joined per rank to the validated PULS level (null where the profile has none; nothing is guessed), the Wiktionary derivational family id, the aspect-partner pairs from the B1 relation table plus the hand-curated suppletive pairs, and the Borodin A1 and A2 minimums as index sets (with their off-list headwords kept as strings). forms.json: every surface form in the thread-04 Wiktionary paradigm tables mapped to its lemma index, frequency-ordered where a form belongs to several lemmas, omitted where the form equals the lemma. The profiler resolves a token to its exact lemma first, otherwise to the most frequent lemma listed for the form.",
+  "canonical": "/research/ukrainian-frequency/profiler",
+  "counts": {
+    "lemmas": 12000,
+    "leveled": 6403,
+    "unlabeled": 5597,
+    "forms": 115873,
+    "lemmasWithForms": 8700,
+    "families": 1000,
+    "lemmasInFamilies": 3252,
+    "aspectPairs": 228,
+    "sets": {
+      "borodinA1": {
+        "onList": 891,
+        "offList": 150
+      },
+      "borodinA2": {
+        "onList": 829,
+        "offList": 322
+      }
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "files": [
+    {
+      "file": "lexicon.json",
+      "about": "lemmas [lemma, pos, level|null, familyId|null] in rank order; families {id: [lemma indices]}; aspectPairs [[i, j]]; sets {borodinA1, borodinA2: {idx, offList}}; listVersion (the list the indices are ranks on); migrate {from, toIndex} (the previous list's index of every row mapped to its index here, -1 where the row was dropped)"
+    },
+    {
+      "file": "forms.json",
+      "about": "forms {surface form: lemma index | [lemma indices, most frequent first]}"
+    },
+    {
+      "file": "validation.json",
+      "about": "the level-asserted validation texts (learn-ukrainian, CC BY-SA 4.0, attributed) the frozen validation run was computed on: id, level, title, url, text"
+    }
+  ],
+  "citation": "Lawrence, J. (2026). Ukrainian Frequency: a text profiler for Ukrainian, lexicon bundle (v1.1.0). jakelawrence.xyz/research/ukrainian-frequency/profiler. Lemmas from UberText 2.0 (Chaplynskyi, 2023); paradigm forms and word families from Wiktionary via kaikki.org (CC BY-SA); validated levels from the Ukrainian Vocabulary Profile (Synchak et al., 2025; PULS, by permission, CC BY-SA); lexical minimums from Borodin et al. (CC BY).",
+  "sha256": {
+    "lexicon.json": "aa95010eca29ed5aaab5a173f357a6b645db3d8b5d0ad2b9acb99b2c45e00e30",
+    "forms.json": "8a45e0fcae767c9c47f8e6b0807f7777393377a0db4c08aca167ac484a63d25d",
+    "validation.json": "defa5c9fffad150350eeb4fa15bda63351f1e1cb8e98a2c0182eadefec36f1fc"
+  }
+}

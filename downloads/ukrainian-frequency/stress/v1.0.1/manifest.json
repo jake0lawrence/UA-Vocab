@@ -1,0 +1,114 @@
+{
+  "version": "v1.0.1",
+  "dataset": "ukrainian-frequency-stress",
+  "subject": "Word stress for every lemma of the top-12,000 Ukrainian frequency list: one confident stress where the sources agree, labeled variants and homographs where they do not, provenance per row; proper nouns kept but out of scope",
+  "tier": "public",
+  "method": "Nine stages, applied in order: the lang-uk ukrainian-word-stress dictionary read directly from its trie and filtered by the list's own UD part of speech and lemma features (no tagger guess on a bare lemma); en.wiktionary (kaikki.org), which separates free variants, homographs and minor variants; uk.wiktionary (the dump); a two-of-three vote where the three disagree; rules for conflicts that are only apparent (compound secondary stress, doubled-accent artifacts); goroh.pp.ua tiebreaks for what is left, one reference lookup per word, recorded as the attested stress only; rules for lemmas no source covers (standard spelling, compounds, acronyms, -енко surnames); uk.wikipedia lead sentences for names; and the manual-decision ledger applied last.",
+  "canonical": "/research/ukrainian-frequency#stress",
+  "list": "v0.2.0",
+  "snapshot": "2026-10-01",
+  "library": {
+    "name": "ukrainian-word-stress",
+    "version": "2.1.0",
+    "license": "MIT",
+    "url": "https://github.com/lang-uk/ukrainian-word-stress"
+  },
+  "counts": {
+    "lemmas": 12000,
+    "properNouns": 1348,
+    "homographsCounted": 31,
+    "homographsFlipped": 4,
+    "polysyllabic": 9920,
+    "tiers": {
+      "one": 9674,
+      "labeled": 225,
+      "trivial": 732,
+      "missing": 21,
+      "scope": 1348
+    },
+    "onePct": 97.5,
+    "oneOrLabeledPct": 99.8,
+    "byStatus": {
+      "dictionary": 9389,
+      "dictionary_pos": 12,
+      "library_context": 16,
+      "wiktionary": 125,
+      "wiktionary_filled": 23,
+      "adjudicated": 37,
+      "compound": 21,
+      "compound_rule": 31,
+      "compound_main_stress": 10,
+      "abbreviation_rule": 3,
+      "spelling_variant": 6,
+      "surname_enko_rule": 0,
+      "wikipedia_lead": 1,
+      "free_variant": 88,
+      "homograph": 57,
+      "homograph_corpus": 31,
+      "doublet_dictionary_only": 49,
+      "name_variable": 0,
+      "wiktionary_filled_variant": 0,
+      "wikipedia_lead_variants": 0,
+      "monosyllabic": 732,
+      "missing": 21,
+      "proper_noun": 1348
+    },
+    "provenance": {
+      "library": 9487,
+      "wiktionary": 293,
+      "adjudicated": 37,
+      "rule": 782,
+      "wikipedia": 1,
+      "corpus": 31,
+      "missing": 21,
+      "scope": 1348
+    },
+    "goroh": 19,
+    "overrides": 27,
+    "doubletsOpen": 49,
+    "paradigmDisagreements": 13,
+    "paradigmCorrections": 11
+  },
+  "scope": "Proper nouns (PROPN) are out of scope by owner decision 2026-10-01: kept with the pipeline's stress and status in the note, counted in no share.",
+  "license": "CC-BY-SA-4.0",
+  "files": [
+    {
+      "file": "stress.csv",
+      "about": "one row per lemma: rank, lemma, pos, stress, stress_variants, stress_status, note, source"
+    },
+    {
+      "file": "stress.json",
+      "about": "the same rows with the counts and the status table in the header"
+    },
+    {
+      "file": "stress.anki.tsv",
+      "about": "an Anki-importable seed: stressed form, part of speech, rank, variants, status"
+    },
+    {
+      "file": "adjudication.csv",
+      "about": "every lemma the sources disagreed on, with each source's vote and the decision"
+    },
+    {
+      "file": "paradigm-disagreements.csv",
+      "about": "this column read against the thread-04 paradigm headwords, with a verdict per row"
+    },
+    {
+      "file": "doublets.csv",
+      "about": "the in-scope dictionary-only doublets still open, the worklist for the printed-source pass"
+    },
+    {
+      "file": "README.md",
+      "about": "columns, the status taxonomy, method, sources and attribution"
+    }
+  ],
+  "citation": "Lawrence, J. (2026). Ukrainian Frequency: a per-lemma word-stress column for the top-12,000 list (v1.0.1). jakelawrence.xyz/research/ukrainian-frequency. Over ukrainian-word-stress (lang-uk), en.wiktionary and uk.wiktionary.",
+  "sha256": {
+    "stress.csv": "2a30e5b77ff126f6ab7bf6bd674ebf2fd2ca92ec082ae0ac964d5e60fb26f3ea",
+    "stress.json": "92cf58a2fb667cc06c44abcc581496a22ae748b8b279e1a7cd140ae7d79baef2",
+    "stress.anki.tsv": "ad696ddf9d2421a05ff0fb3d9a94bb9db01f92aa36c5759986e9e0da5ba61ea4",
+    "adjudication.csv": "a75f8a2ce52ec9f9ebf1c0e8f8fdddede366695f792d35743f452e69135bc323",
+    "paradigm-disagreements.csv": "aee6857c865ee4cabd3867f0fb6a6b63c23943a08deac8d8c08e23bfc44dedce",
+    "doublets.csv": "d9cf23f4ad7f296694e935e728c5ecef0811a0c17ea58d12791d0d082e10362e",
+    "README.md": "080aa4058058eaf43dd8c32ec0904fa58381f4b3290b2d3bf1f2eb082f218646"
+  }
+}

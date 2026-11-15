@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# The old name, kept installable. ukvocab was renamed uavocab at 0.5.0 to match
+# uavocab.org. This is the final release under the old name: it carries no data
+# and no code of its own, depends on uavocab, and re-exports it, so
+# `pip install ukvocab` and `import ukvocab` keep working. Its version stays
+# pinned to the uavocab release it was cut with; it is not released again.
+
+[project]
+name = "ukvocab"
+version = "0.5.0"
+description = "Renamed: this package is now uavocab (pip install uavocab). Installing ukvocab installs uavocab and keeps `import ukvocab` working."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "CC-BY-NC-SA-4.0"
+license-files = ["LICENSE.md"]
+authors = [{ name = "Jake Lawrence" }]
+keywords = ["ukrainian", "uavocab", "vocabulary", "frequency list", "CEFR"]
+classifiers = [
+  "Development Status :: 7 - Inactive",
+  "Natural Language :: Ukrainian",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = ["uavocab>=0.5.0"]
+
+[project.urls]
+"New name: uavocab" = "https://pypi.org/project/uavocab/"
+Homepage = "https://uavocab.org/research"
+Data = "https://uavocab.org/data"
+Source = "https://github.com/jake0lawrence/UA-Vocab"
+Changelog = "https://github.com/jake0lawrence/UA-Vocab/blob/main/python/uavocab/CHANGELOG.md"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

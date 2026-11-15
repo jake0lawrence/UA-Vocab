@@ -1,0 +1,1013 @@
+{
+ "version": "v0.2.0",
+ "snapshot": "2026-09-23",
+ "decided": "2026-09-23",
+ "evidence": "src/data/ukrainian-frequency/list-audit.json (pymorphy3 / VESUM classes for every row to depth 14000)",
+ "order": "explicit rows first, then the apostrophe rule, then the name rule; a merge adds the row's count to its target, a drop removes the row from the list and leaves its tokens in the coverage universe",
+ "rules": [
+  {
+   "id": "apostrophe",
+   "does": "rewrite U+0027 and U+02BC to U+2019 in every lemma, the list's own convention (142 of its 158 apostrophe lemmas); rows that then coincide merge"
+  },
+  {
+   "id": "name-pos",
+   "does": "a capitalized lemma tagged anything but PROPN, NOUN or ADJ is a mislabeled name or a sentence-initial common noun (Янукович ADV 94,612 tokens beside PROPN 311,542; Прес-служба ADV); its tokens join the lowercase common noun when VESUM knows that noun as a plain common noun, else the same lemma's PROPN row, else its all-caps abbreviation's PROPN row (Тасс -> ТАСС), else a PROPN row of its own"
+  }
+ ],
+ "decisions": [
+  {
+   "id": 1,
+   "lemma": "что / время / радость / словарь / из / к / с",
+   "decision": "drop",
+   "applied": true,
+   "note": "Russian words from Russian-language passages, with no Ukrainian reading. Dropped as explicit ledger rows in every spelling and tag the source carries (к and с only as prepositions: the letters к and с are Ukrainian). с was added by the accuracy pass: the first review missed it because VESUM knows the letter."
+  },
+  {
+   "id": 2,
+   "lemma": "дом / набор / полка / ярмарк / сусідний / Владимирський",
+   "decision": "keep",
+   "applied": false,
+   "note": "Russianisms and surzhyk used in Ukrainian text. The derussification thread measures exactly these; dropping them would hide its evidence."
+  },
+  {
+   "id": 3,
+   "lemma": "немати",
+   "decision": "keep",
+   "applied": false,
+   "note": "The UD Ukrainian convention lemmatizes немає as немати; the profiler already aliases it to мати."
+  },
+  {
+   "id": 4,
+   "lemma": "Луганська / Яценюкий / прес-центровий / віце-прем’єрний / ла",
+   "decision": "Луганська kept (city genitive or oblast adjective, the corpus cannot say which); Яценюкий, прес-центровий and віце-прем’єрний merged into their nouns with their sibling case forms (one, віце-прем’єра, on the v0.1.0 list itself); ла dropped",
+   "applied": true,
+   "note": "The віце-прем’єр-міністр family, split the same way as прем’єр-міністр, is folded under the same decision."
+  },
+  {
+   "id": 5,
+   "lemma": "(proper nouns duplicated as NOUN)",
+   "decision": "defer to v0.3.0",
+   "applied": false,
+   "note": "Names appear as PROPN and as NOUN (Янукович 311,542 / 57,635; Нью-Йорк 67,861 / 15,921). Folding them is a separate, larger change."
+  },
+  {
+   "id": 6,
+   "lemma": "docs column",
+   "decision": "drop",
+   "applied": true,
+   "note": "The source's doc_count exceeds the row's own count in 2,553 of 12,000 rows and is defined nowhere upstream, so v0.2.0 does not carry it."
+  }
+ ],
+ "rows": [
+  {
+   "lemma": "прем'єр-міністр",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun"
+  },
+  {
+   "lemma": "прем'єр-міністр",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun"
+  },
+  {
+   "lemma": "Прем'єр-міністр",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun; capitalized sentence-initially"
+  },
+  {
+   "lemma": "Прем'єр-міністр",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun; capitalized sentence-initially"
+  },
+  {
+   "lemma": "Прем'єр-міністр",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun; capitalized sentence-initially"
+  },
+  {
+   "lemma": "прем'єр-міністро",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun"
+  },
+  {
+   "lemma": "прем'єр-міністро",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun"
+  },
+  {
+   "lemma": "прем'єр-міністер",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun"
+  },
+  {
+   "lemma": "прем'єр-міністрий",
+   "pos": "DET",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun"
+  },
+  {
+   "lemma": "прем'єр-міністровий",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun (no such adjective in VESUM)"
+  },
+  {
+   "lemma": "прем'єр-міністра",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun (genitive singular)"
+  },
+  {
+   "lemma": "Прем'єр-міністра",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split прем'єр-міністр (prime minister, a common noun) across proper-noun and adverb tags and truncated or extended its case forms into lemmas of their own; every variant is that one noun (genitive singular, capitalized)"
+  },
+  {
+   "lemma": "прес-служба",
+   "pos": "PART",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-служба",
+    "pos": "NOUN"
+   },
+   "reason": "прес-служба (press service) split by the lemmatizer across particle, adverb and proper-noun tags and into two of its own case forms"
+  },
+  {
+   "lemma": "прес-служба",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-служба",
+    "pos": "NOUN"
+   },
+   "reason": "прес-служба (press service) split by the lemmatizer across particle, adverb and proper-noun tags and into two of its own case forms"
+  },
+  {
+   "lemma": "прес-служба",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-служба",
+    "pos": "NOUN"
+   },
+   "reason": "прес-служба (press service) split by the lemmatizer across particle, adverb and proper-noun tags and into two of its own case forms"
+  },
+  {
+   "lemma": "прес-служб",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-служба",
+    "pos": "NOUN"
+   },
+   "reason": "прес-служба (press service) split by the lemmatizer across particle, adverb and proper-noun tags and into two of its own case forms (genitive plural)"
+  },
+  {
+   "lemma": "прес-службо",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-служба",
+    "pos": "NOUN"
+   },
+   "reason": "прес-служба (press service) split by the lemmatizer across particle, adverb and proper-noun tags and into two of its own case forms (a truncation VESUM does not know)"
+  },
+  {
+   "lemma": "прес-конференція",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-конференція",
+    "pos": "NOUN"
+   },
+   "reason": "a common noun the tagger labeled proper"
+  },
+  {
+   "lemma": "прес-конференцій",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-конференція",
+    "pos": "NOUN"
+   },
+   "reason": "genitive plural of прес-конференція standing as a lemma"
+  },
+  {
+   "lemma": "прес-секретар",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-секретар",
+    "pos": "NOUN"
+   },
+   "reason": "a common noun the tagger labeled proper"
+  },
+  {
+   "lemma": "прес-секретари",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-секретар",
+    "pos": "NOUN"
+   },
+   "reason": "nominative plural of прес-секретар standing as a lemma"
+  },
+  {
+   "lemma": "прес-секретарин",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-секретар",
+    "pos": "NOUN"
+   },
+   "reason": "a lemmatizer invention from forms of прес-секретар; VESUM does not know it"
+  },
+  {
+   "lemma": "прес-центр",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "a common noun the tagger labeled proper"
+  },
+  {
+   "lemma": "прес-центр",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "a noun the tagger labeled adverb"
+  },
+  {
+   "lemma": "Інтерфакс-Україний",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "Інтерфакс-Україна",
+    "pos": "PROPN"
+   },
+   "reason": "the news agency Інтерфакс-Україна; the lemmatizer built an adjective from its case forms"
+  },
+  {
+   "lemma": "Інтерфакс-Україн",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "Інтерфакс-Україна",
+    "pos": "PROPN"
+   },
+   "reason": "the news agency Інтерфакс-Україна, truncated"
+  },
+  {
+   "lemma": "Інтерфакс-Україна",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "Інтерфакс-Україна",
+    "pos": "PROPN"
+   },
+   "reason": "the news agency, a proper noun the tagger labeled common"
+  },
+  {
+   "lemma": "живти",
+   "pos": "VERB",
+   "action": "merge",
+   "into": {
+    "lemma": "жити",
+    "pos": "VERB"
+   },
+   "reason": "a lemmatizer invention from forms of жити (to live); VESUM does not know it"
+  },
+  {
+   "lemma": "стоїти",
+   "pos": "VERB",
+   "action": "merge",
+   "into": {
+    "lemma": "стояти",
+    "pos": "VERB"
+   },
+   "reason": "a lemmatizer invention from forms of стояти (to stand); VESUM does not know it"
+  },
+  {
+   "lemma": "коронавірус",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "коронавірус",
+    "pos": "NOUN"
+   },
+   "reason": "a common noun the tagger labeled proper"
+  },
+  {
+   "lemma": "коронавірус",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "коронавірус",
+    "pos": "NOUN"
+   },
+   "reason": "a noun the tagger labeled adverb"
+  },
+  {
+   "lemma": "коронавірусом",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "коронавірус",
+    "pos": "NOUN"
+   },
+   "reason": "instrumental singular of коронавірус standing as an adverb lemma"
+  },
+  {
+   "lemma": "коронавіруса",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "коронавірус",
+    "pos": "NOUN"
+   },
+   "reason": "genitive singular of коронавірус standing as a lemma"
+  },
+  {
+   "lemma": "коронавірусо",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "коронавірус",
+    "pos": "NOUN"
+   },
+   "reason": "a truncation of коронавірус; VESUM does not know it"
+  },
+  {
+   "lemma": "януковича",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "Янукович",
+    "pos": "PROPN"
+   },
+   "reason": "genitive of the surname Янукович, lowercased by the lemmatizer"
+  },
+  {
+   "lemma": "Януковича",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "Янукович",
+    "pos": "PROPN"
+   },
+   "reason": "genitive of the surname Янукович standing as a lemma"
+  },
+  {
+   "lemma": "януковичем",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "Янукович",
+    "pos": "PROPN"
+   },
+   "reason": "instrumental of the surname Янукович, lowercased by the lemmatizer"
+  },
+  {
+   "lemma": "Нью-Йорко",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "Нью-Йорк",
+    "pos": "PROPN"
+   },
+   "reason": "a truncation of Нью-Йорк; VESUM does not know it"
+  },
+  {
+   "lemma": "країн-член",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "країна-член",
+    "pos": "NOUN"
+   },
+   "reason": "case forms of країна-член (member state) standing as a lemma"
+  },
+  {
+   "lemma": "країн-членя",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "країна-член",
+    "pos": "NOUN"
+   },
+   "reason": "case forms of країна-член (member state) standing as a lemma"
+  },
+  {
+   "lemma": "купівлі-продаж",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "купівля-продаж",
+    "pos": "NOUN"
+   },
+   "reason": "genitive of купівля-продаж (sale and purchase) standing as a lemma"
+  },
+  {
+   "lemma": "кожній",
+   "pos": "DET",
+   "action": "merge",
+   "into": {
+    "lemma": "кожний",
+    "pos": "DET"
+   },
+   "reason": "dative/locative feminine of кожний standing as a lemma"
+  },
+  {
+   "lemma": "закордонних",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "закордонний",
+    "pos": "ADJ"
+   },
+   "reason": "genitive plural of закордонний standing as a lemma"
+  },
+  {
+   "lemma": "родини",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "родина",
+    "pos": "NOUN"
+   },
+   "reason": "a case form of родина (family) standing as a lemma"
+  },
+  {
+   "lemma": "золото",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "золото",
+    "pos": "NOUN"
+   },
+   "reason": "a noun the tagger labeled adverb"
+  },
+  {
+   "lemma": "ти",
+   "pos": "VERB",
+   "action": "merge",
+   "into": {
+    "lemma": "ти",
+    "pos": "PRON"
+   },
+   "reason": "the pronoun ти (you) tagged as a verb"
+  },
+  {
+   "lemma": "й",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "й",
+    "pos": "CCONJ"
+   },
+   "reason": "the conjunction й tagged as an adjective"
+  },
+  {
+   "lemma": "Івано-Франківський",
+   "pos": "DET",
+   "action": "merge",
+   "into": {
+    "lemma": "Івано-Франківський",
+    "pos": "ADJ"
+   },
+   "reason": "the adjective tagged as a determiner"
+  },
+  {
+   "lemma": "екс-прем’єра",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "екс-прем’єр",
+    "pos": "NOUN"
+   },
+   "reason": "genitive singular of екс-прем’єр standing as a lemma"
+  },
+  {
+   "lemma": "Нти",
+   "pos": "VERB",
+   "action": "drop",
+   "reason": "not a word: a fragment VESUM does not know, with no recoverable lemma"
+  },
+  {
+   "lemma": "Хй",
+   "pos": "ADJ",
+   "action": "drop",
+   "reason": "not a word: a fragment with no recoverable lemma"
+  },
+  {
+   "lemma": "Іий",
+   "pos": "ADJ",
+   "action": "drop",
+   "reason": "not a word: a Roman numeral plus an adjective ending (I-ий), no recoverable lemma"
+  },
+  {
+   "lemma": "Ііий",
+   "pos": "ADJ",
+   "action": "drop",
+   "reason": "not a word: a Roman numeral plus an adjective ending (II-ий), no recoverable lemma"
+  },
+  {
+   "lemma": "ий",
+   "pos": "ADJ",
+   "action": "drop",
+   "reason": "not a word: a bare adjective ending split off an ordinal"
+  },
+  {
+   "lemma": "Яний",
+   "pos": "ADJ",
+   "action": "drop",
+   "reason": "not a word: a fragment with no recoverable lemma"
+  },
+  {
+   "lemma": "ЗХ",
+   "pos": "ADJ",
+   "action": "drop",
+   "reason": "not a word: an abbreviation fragment tagged as an adjective"
+  },
+  {
+   "lemma": "Х",
+   "pos": "ADJ",
+   "action": "drop",
+   "reason": "not a word: a Roman numeral tagged as an adjective"
+  },
+  {
+   "lemma": "кий",
+   "pos": "DET",
+   "action": "drop",
+   "reason": "not a word here: a fragment of який split by the tokenizer (the cue-stick noun кий is a separate, rare lemma)"
+  },
+  {
+   "lemma": "что",
+   "pos": "ADV",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "что",
+   "pos": "PART",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "что",
+   "pos": "SCONJ",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "что",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "что",
+   "pos": "PRON",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "время",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "время",
+   "pos": "VERB",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "радость",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "словарь",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "из",
+   "pos": "ADP",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "из",
+   "pos": "ADV",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "из",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "к",
+   "pos": "ADP",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністром",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "Что",
+   "pos": "PART",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Что",
+   "pos": "PRON",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Что",
+   "pos": "ADV",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Что",
+   "pos": "SCONJ",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Что",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "ЧТО",
+   "pos": "PROPN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Время",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Время",
+   "pos": "VERB",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Словарь",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Из",
+   "pos": "ADP",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Из",
+   "pos": "ADV",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Из",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "Из",
+   "pos": "PROPN",
+   "action": "drop",
+   "reason": "a Russian word from Russian-language passages in the corpus, with no Ukrainian reading (owner decision 1); the capitalized spelling, which the name rule would otherwise file as a name"
+  },
+  {
+   "lemma": "с",
+   "pos": "ADP",
+   "action": "drop",
+   "reason": "the Russian preposition с (Ukrainian has з/із/зі, and VESUM knows с only as the letter): the same case as к, found by the accuracy pass (owner decision 1)"
+  },
+  {
+   "lemma": "ла",
+   "pos": "VERB",
+   "action": "drop",
+   "reason": "not a Ukrainian word here: VESUM knows ла only as a particle, and these rows are tagged verb and noun, which fit the fragments of foreign names (Ла Скала, la) and la-la they come from (owner decision 4)"
+  },
+  {
+   "lemma": "ла",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "not a Ukrainian word here: VESUM knows ла only as a particle, and these rows are tagged verb and noun, which fit the fragments of foreign names (Ла Скала, la) and la-la they come from (owner decision 4)"
+  },
+  {
+   "lemma": "Ла",
+   "pos": "NOUN",
+   "action": "drop",
+   "reason": "not a Ukrainian word here: VESUM knows ла only as a particle, and these rows are tagged verb and noun, which fit the fragments of foreign names (Ла Скала, la) and la-la they come from (owner decision 4)"
+  },
+  {
+   "lemma": "Ла",
+   "pos": "VERB",
+   "action": "drop",
+   "reason": "not a Ukrainian word here: VESUM knows ла only as a particle, and these rows are tagged verb and noun, which fit the fragments of foreign names (Ла Скала, la) and la-la they come from (owner decision 4)"
+  },
+  {
+   "lemma": "Яценюкий",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "Яценюк",
+    "pos": "PROPN"
+   },
+   "reason": "case forms of the surname Яценюк, lemmatized as an adjective VESUM does not know (owner decision 4)"
+  },
+  {
+   "lemma": "Яценюкий",
+   "pos": "DET",
+   "action": "merge",
+   "into": {
+    "lemma": "Яценюк",
+    "pos": "PROPN"
+   },
+   "reason": "case forms of the surname Яценюк, lemmatized as an adjective VESUM does not know (owner decision 4)"
+  },
+  {
+   "lemma": "Яценюкий",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "Яценюк",
+    "pos": "PROPN"
+   },
+   "reason": "case forms of the surname Яценюк, lemmatized as an adjective VESUM does not know (owner decision 4)"
+  },
+  {
+   "lemma": "Яценюка",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "Яценюк",
+    "pos": "PROPN"
+   },
+   "reason": "genitive of the surname Яценюк standing as a lemma (owner decision 4)"
+  },
+  {
+   "lemma": "Яценюку",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "Яценюк",
+    "pos": "PROPN"
+   },
+   "reason": "dative or locative of the surname Яценюк standing as an adverb lemma (owner decision 4)"
+  },
+  {
+   "lemma": "прес-центровий",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "a lemmatizer invention from forms of прес-центр (press center); VESUM does not know it (owner decision 4)"
+  },
+  {
+   "lemma": "прес-центрий",
+   "pos": "DET",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "a lemmatizer invention from forms of прес-центр (press center); VESUM does not know it (owner decision 4)"
+  },
+  {
+   "lemma": "прес-центра",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "the Russian-pattern genitive of прес-центр (press center) standing as a lemma; the Ukrainian genitive is прес-центру (owner decision 4)"
+  },
+  {
+   "lemma": "прес-центря",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "a lemmatizer invention from forms of прес-центр (press center); VESUM does not know it (owner decision 4)"
+  },
+  {
+   "lemma": "прес-центря",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "a lemmatizer invention from forms of прес-центр (press center); VESUM does not know it (owner decision 4)"
+  },
+  {
+   "lemma": "прес-центру",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "прес-центр",
+    "pos": "NOUN"
+   },
+   "reason": "genitive, dative or locative of прес-центр standing as a lemma (owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем’єрний",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр",
+    "pos": "NOUN"
+   },
+   "reason": "an adjective VESUM does not know, built by the lemmatizer from forms of віце-прем’єр (owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем’єра",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр",
+    "pos": "NOUN"
+   },
+   "reason": "genitive or accusative of віце-прем’єр (deputy premier) standing as a lemma (owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністр",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністр",
+   "pos": "ADV",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністра",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністро",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністро",
+   "pos": "NOUN",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністер",
+   "pos": "PROPN",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністровий",
+   "pos": "ADJ",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  },
+  {
+   "lemma": "віце-прем'єр-міністрий",
+   "pos": "DET",
+   "action": "merge",
+   "into": {
+    "lemma": "віце-прем’єр-міністр",
+    "pos": "NOUN"
+   },
+   "reason": "the lemmatizer split віце-прем’єр-міністр (deputy prime minister, a common noun) the same way as прем’єр-міністр: proper-noun and adverb tags, case forms and inventions (follows owner decision 4)"
+  }
+ ]
+}

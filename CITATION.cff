@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite the dataset you used by its Zenodo DOI, or this repository as below."
+title: "UA Vocab: the Ukrainian Frequency datasets"
+type: dataset
+authors:
+  - family-names: Lawrence
+    given-names: Jake
+abstract: "Open, lemma-based language-learning data for modern Ukrainian: the 12,000 most frequent lemmas ranked over UberText 2.0, the stress of every one, validated CEFR levels from the PULS profile, the Borodin A1 and A2 lexical minimums and their crosswalk to the profile, and B1 enrichment tables. Licenses differ by folder (CC BY 4.0, CC BY-SA, CC BY-NC-SA 4.0 for PULS-derived levels, LGPL-2.1 for the derussification table); see LICENSE.md."
+keywords:
+  - Ukrainian
+  - frequency list
+  - vocabulary
+  - CEFR
+  - word stress
+  - lexical minimum
+  - language learning
+url: "https://uavocab.org/research"
+repository-code: "https://github.com/jake0lawrence/UA-Vocab"
+repository-artifact: "https://pypi.org/project/uavocab/"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22823134
+    description: "Ukrainian Frequency: a lemma-based, coverage-graded open frequency list for modern Ukrainian (top 12,000, over UberText 2.0). Concept DOI: resolves to the latest version."
+  - type: doi
+    value: 10.5281/zenodo.23092388
+    description: "Ukrainian Frequency: word stress for every lemma of the top-12,000 list (over ukrainian-word-stress, en.wiktionary and uk.wiktionary). Concept DOI: resolves to the latest version."
+  - type: url
+    value: "https://uavocab.org/research"
+    description: "The study: methods, findings and tools"

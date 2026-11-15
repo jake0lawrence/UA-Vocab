@@ -1,0 +1,6 @@
+# The releases are checksummed byte for byte. Never let git rewrite them
+# (line endings on Windows would break every SHA256SUMS line).
+downloads/** -text
+python/uavocab/src/uavocab/data/** -text
+*.parquet binary
+*.gz binary

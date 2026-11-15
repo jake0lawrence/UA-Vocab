@@ -1,0 +1,172 @@
+{
+  "version": "v0.1.0",
+  "dataset": "ukrainian-frequency-lemmas",
+  "subject": "A lemma-based, coverage-graded open frequency list for modern Ukrainian",
+  "tier": "public",
+  "provenance": "Derived aggregate counts (facts) from the UberText 2.0 lemma frequency dictionary (lang-uk, Chaplynskyi 2023). The list re-publishes counts, not the source corpus text. Rows are filtered to Ukrainian-Cyrillic-alphabetic lemmas with a linguistic Universal Dependencies POS tag; coverage is recomputed here from raw counts. This is the top 12000 lemmas, a v1 curated slice.",
+  "source": {
+    "name": "UberText 2.0 lemma frequency dictionary",
+    "publisher": "lang-uk",
+    "url": "https://lang.org.ua/static/downloads/ubertext2.0/dicts/ubertext_freq.csv.xz",
+    "citation": "Chaplynskyi, D. (2023). Introducing UberText 2.0: A Corpus of Modern Ukrainian at Scale. Proc. 2nd Ukrainian NLP Workshop (UNLP), ACL.",
+    "accessed": "2026-07-14"
+  },
+  "canonical": "/research/ukrainian-frequency",
+  "wordTokenUniverse": 1495772089,
+  "lemmas": 12000,
+  "properNouns": 1335,
+  "posHistogram": {
+    "ADP": 80,
+    "CCONJ": 25,
+    "VERB": 2109,
+    "PART": 87,
+    "SCONJ": 32,
+    "DET": 48,
+    "NOUN": 5154,
+    "PRON": 30,
+    "PROPN": 1335,
+    "ADV": 641,
+    "ADJ": 2418,
+    "NUM": 31,
+    "INTJ": 10
+  },
+  "coverage": [
+    {
+      "lemmas": 100,
+      "coverage": 0.3311,
+      "coveragePct": 33.11
+    },
+    {
+      "lemmas": 250,
+      "coverage": 0.4243,
+      "coveragePct": 42.43
+    },
+    {
+      "lemmas": 500,
+      "coverage": 0.5118,
+      "coveragePct": 51.18
+    },
+    {
+      "lemmas": 1000,
+      "coverage": 0.6074,
+      "coveragePct": 60.74
+    },
+    {
+      "lemmas": 1500,
+      "coverage": 0.6646,
+      "coveragePct": 66.46
+    },
+    {
+      "lemmas": 2000,
+      "coverage": 0.705,
+      "coveragePct": 70.5
+    },
+    {
+      "lemmas": 3000,
+      "coverage": 0.7596,
+      "coveragePct": 75.96
+    },
+    {
+      "lemmas": 4000,
+      "coverage": 0.7951,
+      "coveragePct": 79.51
+    },
+    {
+      "lemmas": 5000,
+      "coverage": 0.82,
+      "coveragePct": 82
+    },
+    {
+      "lemmas": 6000,
+      "coverage": 0.8387,
+      "coveragePct": 83.87
+    },
+    {
+      "lemmas": 8000,
+      "coverage": 0.8653,
+      "coveragePct": 86.53
+    },
+    {
+      "lemmas": 10000,
+      "coverage": 0.8839,
+      "coveragePct": 88.39
+    },
+    {
+      "lemmas": 12000,
+      "coverage": 0.8974,
+      "coveragePct": 89.74
+    }
+  ],
+  "milestones": [
+    {
+      "rank": 1000,
+      "lemma": "тощо",
+      "pos": "PART",
+      "coveragePct": 60.74
+    },
+    {
+      "rank": 2000,
+      "lemma": "ліквідація",
+      "pos": "NOUN",
+      "coveragePct": 70.5
+    },
+    {
+      "rank": 5000,
+      "lemma": "перевозити",
+      "pos": "VERB",
+      "coveragePct": 82
+    },
+    {
+      "rank": 10000,
+      "lemma": "безсмертний",
+      "pos": "ADJ",
+      "coveragePct": 88.39
+    }
+  ],
+  "checkpoints": [
+    100,
+    250,
+    500,
+    1000,
+    1500,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000,
+    8000,
+    10000,
+    12000
+  ],
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "file": "lemmas.json",
+      "about": "The ranked lemma list: rank, lemma, UD part of speech, corpus count, document count, per-mille frequency, cumulative coverage, and the thousand-rank frequency band."
+    },
+    {
+      "file": "lemmas.csv",
+      "about": "The same ranked lemma list as CSV, for spreadsheets and scripts."
+    },
+    {
+      "file": "lemmas.anki.tsv",
+      "about": "An Anki-importable frequency deck seed: lemma, part of speech, rank, per-mille. One note per lemma, ordered most frequent first."
+    },
+    {
+      "file": "coverage.json",
+      "about": "The empirical running-text coverage curve: what share of word tokens the top N lemmas account for, at each checkpoint."
+    },
+    {
+      "file": "coverage.csv",
+      "about": "The coverage curve as CSV."
+    }
+  ],
+  "citation": "Lawrence, J. (2026). Ukrainian Frequency: a lemma-based, coverage-graded open frequency list (v0.1.0). jakelawrence.xyz/research/ukrainian-frequency. Derived from UberText 2.0 (Chaplynskyi, 2023).",
+  "sha256": {
+    "lemmas.json": "116c518dc1afaaa3f3b4a73b745c02c6b5c74465e9e1d2f0a9791f81870a63bc",
+    "lemmas.csv": "708db1ecb2a0f662d5760cfdb743a7cf263438c56d3bea6333befa56e00eb863",
+    "lemmas.anki.tsv": "f0af3c2388aec5d39bce14100005b8d25c760a1b8e1fc8ef9b3b9b1a4dd403b4",
+    "coverage.json": "f5ffbfba9bd0bfd60013f0b490a6f6f30bfa77ba1c152f762573084098a3ccb7",
+    "coverage.csv": "881bba691335d4fb955c32046f863e1d0721e4bf657b29e2114f13dd41132773"
+  }
+}

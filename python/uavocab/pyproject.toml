@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uavocab"
+version = "0.5.0"
+description = "The open Ukrainian vocabulary data behind uavocab.org, offline: the top-12,000 lemma frequency list, the validated PULS CEFR overlay, the Borodin A1 and A2 lexical minimums, their crosswalk, the B1 enrichment tables, and a per-lemma word-stress column."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "CC-BY-NC-SA-4.0"
+license-files = ["LICENSES.md"]
+authors = [{ name = "Jake Lawrence" }]
+keywords = ["ukrainian", "uavocab", "vocabulary", "frequency list", "CEFR", "lexical minimum", "language learning", "corpus"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "Natural Language :: Ukrainian",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Education",
+  "Topic :: Text Processing :: Linguistic",
+]
+dependencies = ["pyarrow>=14"]
+
+[project.urls]
+Homepage = "https://uavocab.org/research"
+Documentation = "https://uavocab.org/research#release"
+Data = "https://uavocab.org/data"
+Source = "https://github.com/jake0lawrence/UA-Vocab"
+Issues = "https://github.com/jake0lawrence/UA-Vocab/issues"
+Changelog = "https://github.com/jake0lawrence/UA-Vocab/blob/main/python/uavocab/CHANGELOG.md"
+"Release files" = "https://github.com/jake0lawrence/UA-Vocab/tree/main/downloads/ukrainian-frequency"
+"Zenodo: frequency list" = "https://doi.org/10.5281/zenodo.22823134"
+"Zenodo: word stress" = "https://doi.org/10.5281/zenodo.23092388"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+uavocab = ["data/*.parquet", "data/manifest.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

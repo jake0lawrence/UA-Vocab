@@ -1,0 +1,200 @@
+rank,lemma,pos,decision,chosen,votes,note
+40,його,DET,human,,йо́го: dict+pos ; його́: en.wikt,wiktionary: його́
+143,захід,NOUN,homograph_keep,,за́хід: en.wikt(both) ; захі́д: en.wikt(both),"за́хід = west (compass point) ; за́хід/захі́д = sunset ; за́хід = action, measure, means to achieve something"
+263,орган,NOUN,homograph_keep,,"о́рган: en.wikt(both),uk.wikt(both) ; орга́н: en.wikt(both),uk.wikt(both)",о́рган = organ ; орга́н = organ (large musical instrument with pipes)
+301,основний,ADJ,homograph_keep,,основни́й: en.wikt(both) ; осно́вний: en.wikt(both),"основни́й = basic, fundamental ; осно́вний = base, basic, alkaline"
+302,брати,VERB,auto_agree,бра́ти,"бра́ти: dict+pos,en.wikt,uk.wikt ; брати́: lib-context",wiktionary: бра́ти
+353,самий,DET,homograph_keep,,са́мий: en.wikt(both) ; сами́й: en.wikt(both),"са́мий = the very, the selfsame, the very same ; сами́й = alone, by oneself"
+442,сума,NOUN,homograph_keep,,"су́ма: en.wikt(both),uk.wikt(both) ; сума́: en.wikt(both),uk.wikt(both)",су́ма = sum (a quantity obtained by addition or aggregation) ; сума́ = bag
+452,видання,NOUN,homograph_keep,,видання́: en.wikt(both) ; вида́ння: en.wikt(both),вида́ння = edition ; видання́ = the age when a girl is marriageable
+555,використання,NOUN,homograph_keep,,ви́користання: en.wikt(both) ; використа́ння: en.wikt(both),"використа́ння = use, usage ; ви́користання = utilization, application, applying"
+568,сім’я,NOUN,human,,сім’я́: dict(lib) ; сі́м’я: en.wikt,wiktionary: сі́м’я
+571,проходити,VERB,homograph_keep,,проходи́ти: en.wikt(both) ; прохо́дити: en.wikt(both),"прохо́дити = to go, to pass, to walk ; проходи́ти = to walk (:a certain distance)"
+575,закликати,VERB,homograph_keep,,"заклика́ти: en.wikt(both),uk.wikt(both) ; закли́кати: en.wikt(both),uk.wikt(both)","заклика́ти = to call on, to appeal to, to exhort, to urge (someone to do  ; закли́кати = to call on, to appeal to, to exhort, to urge (someone to do"
+617,виходити,VERB,homograph_keep,,ви́ходити: en.wikt(both) ; вихо́дити: en.wikt(both),"вихо́дити = to go out, to come out, to get out, to walk out, to exit ; ви́ходити = to walk all over, to walk all around ; ви́ходити = to nurse, to tend to (restore to health)"
+634,викликати,VERB,homograph_keep,,виклика́ти: en.wikt(both) ; ви́кликати: en.wikt(both),"виклика́ти = to call out, to call for, to send for, to summon (ask or ord ; ви́кликати = to call out, to call for, to send for, to summon (ask or ord"
+640,заклад,NOUN,homograph_keep,,за́клад: en.wikt(both) ; закла́д: en.wikt(both),"за́клад = institution, establishment ; закла́д = wager, bet"
+800,підсумок,NOUN,homograph_keep,,пі́дсумок: en.wikt(both) ; підсу́мок: en.wikt(both),"пі́дсумок = sum, total ; підсу́мок = pouch"
+960,кредит,NOUN,homograph_keep,,кре́дит: en.wikt(both) ; креди́т: en.wikt(both),"кре́дит = credit account ; креди́т = loan, credit"
+1116,приклад,NOUN,homograph_keep,,прикла́д: en.wikt(both) ; при́клад: en.wikt(both),"прикла́д = butt ; при́клад = example, primer"
+1146,нібито,PART,human,,ні́бито: dict+pos ; ні́бито: en.wikt,wiktionary: ні́бито
+1186,усе,PRON,human,,усе́: dict+pos,wiktionary: у́се
+1204,тварина,NOUN,homograph_keep,,тварина́: en.wikt(both) ; твари́на: en.wikt(both),"твари́на = animal ; тварина́ = animals, livestock"
+1350,складний,ADJ,homograph_keep,,складни́й: en.wikt(both) ; скла́дний: en.wikt(both),"складни́й = complex, complicated ; скла́дний = well-built, well-made, well-proportioned (of a person or obj"
+1366,ядерний,ADJ,homograph_keep,,"я́дерний: en.wikt(both),uk.wikt(both) ; яде́рний: en.wikt(both),uk.wikt(both)","я́дерний = nuclear (pertaining to the nucleus of an atom) ; я́дерний/яде́рний = large, big, full (said of grains, seeds etc.)"
+1378,погодитися,VERB,homograph_keep,,погоди́тися: en.wikt(both) ; пого́дитися: en.wikt(both),"пого́дитися = to agree, to consent (give approval) ; погоди́тися = to be reconciled"
+1424,Роман,PROPN,homograph_keep,,Ро́ман: en.wikt(both) ; Рома́н: en.wikt(both),"Рома́н = a male given name, Roman, equivalent to English Roman ; Ро́ман = a gender-neutral surname, Roman"
+1557,привід,NOUN,homograph_keep,,при́від: en.wikt(both) ; приві́д: en.wikt(both),при́від = occasion ; приві́д = bringing
+1626,Богдан,PROPN,homograph_keep,,Бо́гдан: en.wikt(both) ; Богда́н: en.wikt(both),"Богда́н = a male given name, Bohdan ; Бо́гдан = a surname, Bohdan"
+1786,батьківщина,NOUN,homograph_keep,,ба́тьківщина: en.wikt(both) ; батьківщи́на: en.wikt(both),"ба́тьківщина/батьківщи́на = motherland, fatherland, homeland ; ба́тьківщина = heritage, legacy"
+1903,якось,ADV,homograph_keep,,"я́кось: en.wikt(both) ; яко́сь: en.wikt(both),uk.wikt",я́кось = somehow ; я́кось/яко́сь = once (at some point in the past)
+1917,замок,NOUN,homograph_keep,,за́мок: en.wikt(both) ; замо́к: en.wikt(both),за́мок = castle ; замо́к = lock
+1992,провідний,ADJ,homograph_keep,,провідни́й: en.wikt(both) ; про́відний: en.wikt(both),"провідни́й = guiding, leading (providing guidance or direction) ; про́відний = electrical wire (attributive)"
+2215,поверх,NOUN,auto_agree,по́верх,"по́верх: dict+pos,en.wikt ; пове́рх: lib-context",wiktionary: по́верх
+2238,господарський,ADJ,homograph_keep,,господа́рський: en.wikt(both) ; госпо́дарський: en.wikt(both),"госпо́дарський = landlord's, master's, owner's, proprietor's ; господа́рський = economic (pertaining to an economy)"
+2317,скликання,NOUN,dictionary_doublet,,,
+2434,Ярослав,PROPN,homograph_keep,,Яросла́в: en.wikt(both) ; Яро́слав: en.wikt(both),"Яросла́в = a male given name, Yaroslav ; Яро́слав = A transliteration of Jarosław (a city, villages in southeast"
+2608,пора,NOUN,homograph_keep,,по́ра: en.wikt(both) ; пора́: en.wikt(both),"пора́ = time, period ; по́ра = aperture, pore"
+2767,основне,NOUN,dictionary_doublet,,,
+2805,переходити,VERB,homograph_keep,,перехо́дити: en.wikt(both) ; переходи́ти: en.wikt(both),"перехо́дити = to cross, to cross over, to pass across ; переходи́ти ="
+2807,наданий,ADJ,dictionary_doublet,,,
+2833,окружний,ADJ,homograph_keep,,окружни́й: en.wikt(both) ; окру́жний: en.wikt(both),окру́жний = surrounding ; окружни́й = district (attributive)
+2885,походити,VERB,dictionary_doublet,,,
+2916,плакати,VERB,auto_agree,пла́кати,"пла́кати: dict+pos,en.wikt ; плака́ти: lib-context",wiktionary: пла́кати
+3089,зеленський,ADJ,dictionary_doublet,,,
+3097,Софія,PROPN,homograph_keep,,Со́фія: en.wikt(both) ; Софі́я: en.wikt(both),"Софі́я = a female given name, Sofiya, equivalent to English Sophia or ; Софі́я = Sofia (the capital and largest city of Bulgaria) ; Со́фія = Sofiya (a small river in Ukraine)"
+3255,підліток,NOUN,homograph_keep,,пі́дліток: en.wikt(both) ; підлі́ток: en.wikt(both),"пі́дліток = adolescent, juvenile, teenager ; пі́дліток/підлі́ток = fledgling (young bird that has just learned to fly)"
+3321,найважливіший,ADJ,dictionary_doublet,,,
+3433,вугільний,ADJ,dictionary_doublet,,,
+3436,виносити,VERB,homograph_keep,,ви́носити: en.wikt(both) ; вино́сити: en.wikt(both),"вино́сити = to bring out, to carry out, to take out ; ви́носити = to bear, to carry (:child in pregnancy, eggs)"
+3445,заходити,VERB,homograph_keep,,заходи́ти: en.wikt(both) ; захо́дити: en.wikt(both),"захо́дити = to come in, to go in, to enter ; заходи́ти = to start walking (back and forth, around)"
+3466,показ,NOUN,human,,по́каз: dict+pos ; пока́з: en.wikt,wiktionary: пока́з
+3504,Петрович,PROPN,human,,Пе́трович: dict(lib) ; Петро́вич: en.wikt,wiktionary: Петро́вич
+3527,усього,PART,human,,усього́: dict+pos ; усьо́го: lib-context,
+3570,поділ,NOUN,homograph_keep,,по́діл: en.wikt(both) ; поді́л: en.wikt(both),по́діл = division ; поді́л = lowlands
+3615,лікарський,ADJ,homograph_keep,,лі́карський: en.wikt(both) ; ліка́рський: en.wikt(both),"лі́карський = doctor (attributive), doctor's, physician's ; лі́карський/ліка́рський = medicinal"
+3755,обід,NOUN,homograph_keep,,о́бід: en.wikt(both) ; обі́д: en.wikt(both),"обі́д = dinner, lunch (midday meal) ; о́бід = rim, felly"
+3756,Галина,PROPN,human,,Га́лина: dict(lib) ; Гали́на: en.wikt,wiktionary: Гали́на
+3790,Івано-Франківський,ADJ,dictionary_doublet,,,
+4024,округ,ADP,auto_agree,окру́г,"окру́г: dict+pos,en.wikt ; о́круг: lib-context",wiktionary: окру́г
+4220,тікати,VERB,homograph_keep,,ті́кати: en.wikt(both) ; тіка́ти: en.wikt(both),"ті́кати = to tick (of a clock) ; тіка́ти = to run away, to flee"
+4440,погодити,VERB,homograph_keep,,погоди́ти: en.wikt(both) ; пого́дити: en.wikt(both),"пого́дити = to agree on ; погоди́ти = to please, to satisfy"
+4485,типовий,ADJ,homograph_keep,,типови́й: en.wikt(both) ; типо́вий: en.wikt(both),"типо́вий = typical ; типови́й = type (attributive), model (attributive), standard"
+4652,парний,ADJ,homograph_keep,,па́рний: en.wikt(both) ; парни́й: en.wikt(both),"па́рний = paired, in pairs ; парни́й = steamy, sultry, muggy, close (hot and humid)"
+4720,відкликати,VERB,homograph_keep,,відкли́кати: en.wikt(both) ; відклика́ти: en.wikt(both),відклика́ти = to call away ; відкли́кати = to call away
+4749,Григорович,PROPN,human,,Григоро́вич: dict(lib) ; Григо́рович: en.wikt,wiktionary: Григо́рович
+4861,нікуди,ADV,homograph_keep,,ні́куди: en.wikt(both) ; ніку́ди: en.wikt(both),"ніку́ди = to nowhere, not to anywhere ; ні́куди = nowhere to go, no destination"
+4886,усе,ADV,human,,усе́: dict+pos ; у́се: en.wikt,wiktionary: у́се
+4968,відкидати,VERB,homograph_keep,,відкида́ти: en.wikt(both) ; відки́дати: en.wikt(both),"відкида́ти = to throw off, to throw away, to cast off, to cast away ; відки́дати = to throw off (in several or many goes)"
+4980,ніде,ADV,homograph_keep,,ні́де: en.wikt(both) ; ніде́: en.wikt(both),"ніде́ = nowhere, not... anywhere ; ні́де = there is nowhere (to), there is no place (to) (+ infinitive)"
+4983,перевозити,VERB,homograph_keep,,перево́зити: en.wikt(both) ; перевози́ти: en.wikt(both),"перево́зити = to transport, to carry, to convey, to haul, to shift ; перевози́ти = to transport, to carry (:many or all people or things)"
+5050,підсумковий,ADJ,dictionary_doublet,,,
+5079,поміж,ADP,human,,"помі́ж: dict+pos,en.wikt(both) ; по́між: lib-context,en.wikt(both)",
+5270,невиконання,NOUN,dictionary_doublet,,,
+5322,російсько-український,ADJ,human,,російсько-украї́нський: dict(lib) ; росі́йсько-український: en.wikt,wiktionary: росі́йсько-український
+5422,виводити,VERB,homograph_keep,,ви́водити: en.wikt(both) ; виво́дити: en.wikt(both),"виво́дити = to lead out, to bring out (to cause or help to leave a place ; виво́дити = to ride out (:horse for a specific purpose) ; ви́водити = to ride out (:horse for a specific purpose)"
+5483,врізатися,VERB,dictionary_doublet,,,
+5547,Анастасія,PROPN,human,,Анаста́сія: dict+pos ; Анастасі́я: en.wikt,wiktionary: Анастасі́я
+5564,припасти,VERB,dictionary_doublet,,,
+5749,прислухатися,VERB,homograph_keep,,прислу́хатися: en.wikt(both) ; прислуха́тися: en.wikt(both),"прислуха́тися = to listen, to lend an ear, to harken ; прислу́хатися = to listen, to lend an ear, to harken"
+5802,терен,NOUN,homograph_keep,,"те́рен: en.wikt(both),uk.wikt(both) ; тере́н: en.wikt(both),uk.wikt(both)","те́рен = sloe, blackthorn (Prunus spinosa) ; тере́н = land, territory"
+5824,сходити,VERB,homograph_keep,,схо́дити: en.wikt(both) ; сходи́ти: en.wikt(both),"схо́дити = to ascend, to climb, to go up, to rise ; сходи́ти = to go and come back"
+5826,покликати,VERB,homograph_keep,,поклика́ти: en.wikt(both) ; покли́кати: en.wikt(both),покли́кати = to call (to reach out with one's voice to; to summon) ; поклика́ти = synonym of вигу́кувати impf (vyhúkuvaty)
+5914,Новини,PROPN,dictionary_doublet,,,
+5920,івано-франківський,ADJ,human,,івано-франкі́вський: dict(lib) ; іва́но-франкі́вський: en.wikt,wiktionary: іва́но-франкі́вський
+6042,скликати,VERB,homograph_keep,,склика́ти: en.wikt(both) ; скли́кати: en.wikt(both),"склика́ти = to call together, to summon together ; скли́кати = to call together, to summon together"
+6054,нульовий,ADJ,human,,нульови́й: dict+pos ; нульо́вий: en.wikt,wiktionary: нульо́вий
+6069,закидати,VERB,dictionary_doublet,,,
+6249,адміністративно-територіальний,ADJ,dictionary_doublet,,,
+6280,чобіт,NOUN,auto_agree,чо́біт,"чо́біт: dict+pos,en.wikt ; чобі́т: lib-context",wiktionary: чо́біт
+6300,Піски,PROPN,homograph_keep,,Пі́ски: en.wikt(both) ; Піски́: en.wikt(both),"Пі́ски = Pisky (a village, the administrative centre of Pisky starost ; Піски́ = Pisky (a village, the administrative centre of Pisky starost"
+6343,переїзд,NOUN,dictionary_doublet,,,
+6356,виправний,ADJ,homograph_keep,,виправни́й: en.wikt(both) ; випра́вний: en.wikt(both),"випра́вний = corrigible, correctable, rectifiable ; виправни́й = corrective"
+6358,відходити,VERB,homograph_keep,,відходи́ти: en.wikt(both) ; відхо́дити: en.wikt(both),відхо́дити = to go away ; відходи́ти = to walk away
+6409,коса,NOUN,homograph_keep,,ко́са: en.wikt(both) ; коса́: en.wikt(both),"коса́ = A standard, three-strand hair braid ; ко́са/коса́ = cockeyed female person"
+6488,значитися,VERB,dictionary_doublet,,,
+6530,переносити,VERB,homograph_keep,,перено́сити: en.wikt(both) ; переноси́ти: en.wikt(both),"перено́сити = to carry, to carry across, to transport ; переноси́ти = to carry (all or many things from one place to another)"
+6533,деревина,NOUN,homograph_keep,,дереви́на: en.wikt(both) ; деревина́: en.wikt(both),дереви́на = tree ; деревина́ = wood (the substance making up the central part of the trunk
+6628,тура,NOUN,auto_agree,тура́,"тура́: dict+pos,en.wikt ; ту́ра: lib-context",wiktionary: тура́
+6690,розвідник,NOUN,dictionary_doublet,,,
+6770,обмежуватися,VERB,dictionary_doublet,,,
+6777,оглядач,NOUN,dictionary_doublet,,,
+6792,геном,NOUN,auto_agree,гено́м,"гено́м: dict+pos,en.wikt ; ге́ном: lib-context",wiktionary: гено́м
+6852,білизна,NOUN,homograph_keep,,"білизна́: en.wikt(both),uk.wikt ; біли́зна: en.wikt(both)","біли́зна = linens, white goods (domestic textiles, such as tablecloths, ; біли́зна = Aspius, Leuciscus (genus of fish within the family Cyprinida ; білизна́ = whiteness"
+6875,північно-східний,ADJ,human,,північно-схі́дний: dict(lib) ; півні́чно-схі́дний: en.wikt,wiktionary: півні́чно-схі́дний
+7039,вигідно,ADV,dictionary_doublet,,,
+7109,точок,NOUN,human,,точо́к: dict+pos ; то́чок: lib-context,
+7138,пересічний,ADJ,homograph_keep,,пересі́чний: en.wikt(both) ; пересічни́й: en.wikt(both),"пересі́чний = ordinary, average ; пересічни́й = decussate, intersected"
+7304,покидати,VERB,homograph_keep,,покида́ти: en.wikt(both) ; поки́дати: en.wikt(both),поки́дати = to throw (all or much of something) ; покида́ти = to leave (not take away)
+7382,вивозити,VERB,homograph_keep,,ви́возити: en.wikt(both) ; виво́зити: en.wikt(both),"виво́зити = to bring out, to carry out, to drive out, to remove, to ship ; ви́возити = to take out (:people or things from a place by vehicle in mu"
+7449,Тамара,PROPN,dictionary_doublet,,,
+7522,циган,NOUN,auto_agree,ци́ган,"ци́ган: dict+pos,en.wikt ; цига́н: lib-context",wiktionary: ци́ган
+7526,Ватикан,PROPN,human,,Ватика́н: dict+pos ; Вати́кан: en.wikt,wiktionary: Вати́кан
+7715,прикладний,ADJ,dictionary_doublet,,,
+7729,побажання,NOUN,human,,побажа́ння: dict+pos ; поба́жання: en.wikt,wiktionary: поба́жання
+7788,тепло,ADV,auto_agree,те́пло,"те́пло: dict+pos,en.wikt ; тепло́: lib-context",wiktionary: те́пло
+7861,захват,NOUN,homograph_keep,,за́хват: en.wikt(both) ; захва́т: en.wikt(both),"за́хват = exaltation, rapture, enthusiasm ; захва́т = length of something spread or unfolded"
+7869,Аліна,PROPN,human,,А́ліна: dict+pos ; Алі́на: en.wikt,wiktionary: Алі́на
+7921,нападати,VERB,homograph_keep,,напада́ти: en.wikt(both) ; напа́дати: en.wikt(both),"напада́ти = to attack, to assault, to descend (on), to fall upon ; напа́дати = to fall (in some quantity)"
+8045,греко-римський,ADJ,dictionary_doublet,,,
+8080,коли-небудь,ADV,human,,коли́-небудь: dict(lib) ; коли́-не́будь: en.wikt,wiktionary: коли́-не́будь
+8110,розходитися,VERB,homograph_keep,,розходи́тися: en.wikt(both) ; розхо́дитися: en.wikt(both),"розхо́дитися = to go off (in different directions), to go their separate wa ; розходи́тися = to start walking around"
+8114,рибний,ADJ,homograph_keep,,ри́бний: en.wikt(both) ; рибни́й: en.wikt(both),ри́бний = fish (attributive) (relating to fish) ; рибни́й = abounding in fish
+8142,роздільний,ADJ,homograph_keep,,роздільни́й: en.wikt(both) ; розді́льний: en.wikt(both),"розді́льний = separate, distinct ; роздільни́й = separative (serving to separate)"
+8219,дозвільний,ADJ,dictionary_doublet,,,
+8232,випробувати,VERB,homograph_keep,,ви́пробувати: en.wikt(both) ; випро́бувати: en.wikt(both),"ви́пробувати = to test, to put to the test, to try, to try out (to evaluate ; випро́бувати = to test, to put to the test, to try, to try out (to evaluate"
+8248,переводити,VERB,homograph_keep,,перево́дити: en.wikt(both) ; переводи́ти: en.wikt(both),"перево́дити = to transfer, to move ; переводи́ти = to lead (accompany: many or all people or things)"
+8319,діяння,NOUN,homograph_keep,,ді́яння: en.wikt(both) ; дія́ння: en.wikt(both),"ді́яння = action, deed ; дія́ння = lection (particularly concerning the Acts of the Apostles)"
+8583,старше,ADV,dictionary_doublet,,,
+8585,помісний,ADJ,dictionary_doublet,,,
+8613,твердити,VERB,homograph_keep,,тверди́ти: en.wikt(both) ; тве́рдити: en.wikt(both),"тве́рдити = to affirm, to assert, to aver, to claim, to insist, to maint ; тверди́ти = to keep repeating, to harp on, to talk on and on about"
+8618,графа,NOUN,human,,графа́: dict+pos ; гра́фа: lib-context,
+8620,видатися,VERB,dictionary_doublet,,,
+8641,піднятий,ADJ,dictionary_doublet,,,
+8661,стоянка,NOUN,dictionary_doublet,,,
+8665,пологовий,ADJ,dictionary_doublet,,,
+8723,гладкий,ADJ,homograph_keep,,гладки́й: en.wikt(both) ; гла́дкий: en.wikt(both),"гла́дкий = smooth ; гладки́й = fat, obese"
+8749,купівля-продаж,NOUN,dictionary_doublet,,,
+8763,викидати,VERB,homograph_keep,,викида́ти: en.wikt(both) ; ви́кидати: en.wikt(both),викида́ти = to throw out (propel or project in an outward direction) ; ви́кидати = to throw out (all people or items in several goes)
+8778,минулорічний,ADJ,human,,минулорі́чний: dict+pos,wiktionary: минулорічни́й
+8828,рідні,NOUN,human,,рідні́: dict+pos ; рі́дні: lib-context,
+8922,відкликання,NOUN,homograph_keep,,відкли́кання: en.wikt(both) ; відклика́ння: en.wikt(both),"відклика́ння = verbal noun of відклика́ти impf (vidklykáty): ; відкли́кання = recall (of representatives, ambassadors, etc.)"
+8953,казковий,ADJ,human,,казко́вий: dict+pos ; ка́зковий: en.wikt,wiktionary: ка́зковий
+9040,Щербань,PROPN,dictionary_doublet,,,
+9082,науково-технічний,ADJ,dictionary_doublet,,,
+9091,дорожньо-транспортний,ADJ,dictionary_doublet,,,
+9151,Дуда,PROPN,human,,Дуда́: dict+pos ; Ду́да: en.wikt,wiktionary: Ду́да
+9191,серцево-судинний,ADJ,human,,серцево-суди́нний: dict(lib) ; серце́во-суди́нний: en.wikt,wiktionary: серце́во-суди́нний
+9224,обходити,VERB,dictionary_doublet,,,
+9256,заводський,ADJ,dictionary_doublet,,,
+9279,запальний,ADJ,homograph_keep,,запальни́й: en.wikt(both) ; запа́льний: en.wikt(both),"запальни́й = incendiary (capable of, or used for, or actually causing fir ; запа́льний = fuse, igniter, primer (all attributive)"
+9289,заходитися,VERB,dictionary_doublet,,,
+9397,Кам’янець-Подільський,ADJ,dictionary_doublet,,,
+9445,бали,NOUN,dictionary_doublet,,,
+9479,ага,PART,human,,ага́: dict+pos ; а́га: lib-context,
+9522,відрізати,VERB,homograph_keep,,відріза́ти: en.wikt(both) ; відрі́зати: en.wikt(both),"відрі́зати = to cut away, to cut off (to remove by cutting) ; відріза́ти = to cut away, to cut off (to remove by cutting)"
+9540,запал,NOUN,homograph_keep,,за́пал: en.wikt(both) ; запа́л: en.wikt(both),"за́пал = ardour (UK), ardor (US), fervour (UK), fervor (US), enthusia ; запа́л = fuse, fuze (the mechanism that ignites the charge in an expl ; запа́л = spoilage of grain still on the stalk due to drought"
+9594,нормативно-правовий,ADJ,dictionary_doublet,,,
+9609,сміливо,ADV,dictionary_doublet,,,
+9630,поверх,ADP,human,,пове́рх: dict+pos,wiktionary: по́верх
+9650,важливіший,ADJ,dictionary_doublet,,,
+9771,матеріально-технічний,ADJ,dictionary_doublet,,,
+9885,фірмовий,ADJ,dictionary_doublet,,,
+10061,Рубан,PROPN,dictionary_doublet,,,
+10085,напряму,ADV,human,,напряму́: dict+pos ; на́пряму: lib-context,
+10112,вояка,NOUN,human,,воя́ка: dict+pos ; вояка́: lib-context,
+10121,Макаренко,PROPN,human,,Мака́ренко: dict+pos ; Макаре́нко: en.wikt,wiktionary: Макаре́нко
+10244,канівський,ADJ,dictionary_doublet,,,
+10272,васильківський,ADJ,dictionary_doublet,,,
+10341,спасти,VERB,dictionary_doublet,,,
+10370,гетьманський,ADJ,dictionary_doublet,,,
+10430,згодитися,VERB,homograph_keep,,зго́дитися: en.wikt(both) ; згоди́тися: en.wikt(both),"згоди́тися = to come in handy, to be/prove useful ; зго́дитися = to agree to, to consent to"
+10478,Болтон,PROPN,dictionary_doublet,,,
+10511,протриматися,VERB,dictionary_doublet,,,
+10520,засипати,VERB,homograph_keep,,засипа́ти: en.wikt(both) ; заси́пати: en.wikt(both),"засипа́ти = to fill, to fill in ; заси́пати = to fill, to fill in ; засипа́ти = to fall asleep ; засипа́ти = to oversleep"
+10564,контролер,NOUN,dictionary_doublet,,,
+10577,надихати,VERB,homograph_keep,,надиха́ти: en.wikt(both) ; нади́хати: en.wikt(both),надиха́ти = to inspire (:somebody) ; нади́хати = to breathe on (make warm with one's breath)
+10612,генерал-лейтенант,PROPN,dictionary_doublet,,,
+10672,копати,VERB,homograph_keep,,ко́пати: en.wikt(both) ; копа́ти: en.wikt(both),копа́ти = to dig ; ко́пати = to kick
+10692,похідний,ADJ,homograph_keep,,"похідни́й: en.wikt(both),uk.wikt(both) ; похі́дний: en.wikt(both),uk.wikt(both)","похі́дний = march, marching (attributive) ; похідни́й = derivative, derived (obtained by derivation)"
+10744,рапорт,NOUN,dictionary_doublet,,,
+10760,стійка,NOUN,auto_agree,сті́йка,"сті́йка: dict+pos,en.wikt ; стійка́: lib-context",wiktionary: сті́йка
+10829,портовий,ADJ,dictionary_doublet,,,
+11169,родовий,ADJ,homograph_keep,,родови́й: en.wikt(both) ; родо́вий: en.wikt(both),"родо́вий/родови́й = ancestral, patrimonial ; родови́й = familial"
+11362,старіння,NOUN,dictionary_doublet,,,
+11447,наносити,VERB,homograph_keep,,наноси́ти: en.wikt(both) ; нано́сити: en.wikt(both),"нано́сити = to bring, to bring in (:a large quantity of something) ; наноси́ти = to bring (:a lot of something in several batches)"
+11472,квітковий,ADJ,homograph_keep,,квітко́вий: en.wikt(both) ; квіткови́й: en.wikt(both),квітко́вий/квіткови́й = flower (attributive) ; квітко́вий = flowering (of a plant: that produces flowers)
+11502,броня,NOUN,homograph_keep,,бро́ня: en.wikt(both) ; броня́: en.wikt(both),"броня́ = armor, armour, armoring ; бро́ня = reservation, booking"
+11579,переноситися,VERB,dictionary_doublet,,,
+11604,вирізати,VERB,homograph_keep,,виріза́ти: en.wikt(both) ; ви́різати: en.wikt(both),"ви́різати = to cut out, to excise ; виріза́ти = to cut out, to excise"
+11605,Південно-Західний,ADJ,dictionary_doublet,,,
+11629,нібито,SCONJ,human,,ні́бито: dict+pos ; ні́бито: en.wikt,wiktionary: ні́бито
+11632,пора,ADV,homograph_keep,,,"пора́ = time, period ; по́ра = aperture, pore [POS mismatch]"
+11676,тяга,NOUN,dictionary_doublet,,,
+11684,просвіт,NOUN,dictionary_doublet,,,
+11706,атлас,NOUN,dictionary_doublet,,,
+11784,шляхопровід,NOUN,dictionary_doublet,,,
+11857,дослухатися,VERB,dictionary_doublet,,,
+11933,помилувати,VERB,homograph_keep,,помилува́ти: en.wikt(both) ; поми́лувати: en.wikt(both),"поми́лувати = to have mercy (on), to show mercy (to), to spare ; помилува́ти = to caress, to dandle, to pet, to fondle"
+11970,спиртний,ADJ,dictionary_doublet,,,
+11989,невигідний,ADJ,homograph_keep,,невигі́дний: en.wikt(both) ; неви́гідний: en.wikt(both),неви́гідний = unprofitable ; невигі́дний = uncomfortable

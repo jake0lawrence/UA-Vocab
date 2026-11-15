@@ -1,0 +1,14 @@
+rank,lemma,pos,stress_column,paradigms_file,verdict,evidence
+1263,музика,NOUN,му́зика,музи́ка,stress_column,goroh: му́зика music ; музи́ка musician
+3466,показ,NOUN,по́каз,пока́з,stress_column,dict+goroh
+3907,виховання,NOUN,вихова́ння,ви́ховання,stress_column,dict+goroh(both)
+4180,вина,NOUN,вина́,ви́на,stress_column,dict+goroh (ви́на = plural of вино́)
+5235,з’єднання,NOUN,з’є́днання,з'єдна́ння,open,
+5865,зводити,VERB,зво́дити,зводи́ти,stress_column,goroh: зво́дити lead down/erect ; зводи́ти escort there and back
+6054,нульовий,ADJ,нульови́й,нульо́вий,stress_column,dict+goroh
+7065,одноразовий,ADJ,одноразо́вий,однора́зовий,open,
+7729,побажання,NOUN,побажа́ння,поба́жання,stress_column,dict+goroh
+8778,минулорічний,ADJ,минулорі́чний,минулорічни́й,stress_column,dict+goroh
+8953,казковий,ADJ,казко́вий,ка́зковий,stress_column,dict+goroh
+9520,мережевий,ADJ,мере́жевий,мере́же́вий,stress_column,goroh(both)
+9849,наречений,ADJ,нарече́ний,наре́чений,stress_column,dict+goroh
