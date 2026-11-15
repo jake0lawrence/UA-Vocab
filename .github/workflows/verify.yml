@@ -1,6 +1,7 @@
 # Runs on every push and pull request: the releases match their own checksums,
-# the Python package's data is exactly those releases, and both packages' tests
-# pass against the installed wheels.
+# the open part of the pipeline re-derives them byte for byte, the Python
+# package's data is exactly those releases, and both packages' tests pass
+# against the installed wheels.
 name: Verify
 
 on:
@@ -24,6 +25,13 @@ jobs:
 
       - name: Every release matches its SHA256SUMS and manifest
         run: python3 scripts/verify.py
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: The releases re-derive from the pipeline, byte for byte
+        run: node pipeline/rebuild.mjs --check
 
       # pyarrow pinned to the version that wrote the committed Parquet files (it
       # stamps itself into each), so a rebuild is byte-identical.

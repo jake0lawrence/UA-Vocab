@@ -1,0 +1,7045 @@
+{
+"source": "UberText 2.0 subcorpora (lang-uk): fiction and news, read separately",
+"sourceUrl": "https://lang.org.ua/en/ubertext/",
+"license": "The derived counts are ours; the corpus is lang-uk's UberText 2.0.",
+"snapshot": "2026-07-28",
+"question": "Is the vocabulary a frequency list misses rare in Ukrainian, or absent from journalism?",
+"method": "Both genres are UberText 2.0 subcorpora (same crawl, cleaning and Russian filtering), lemmatized by the same tool (pymorphy3), sampled the same shape, and capped to the same token count. Genre is the only variable. These ranks are NOT comparable to this site's shipped lang-uk ranks and are never mixed with them.",
+"lemmatizer": "pymorphy3 (uk). Not lang-uk's; mis-lemmatizes a few high-frequency pronouns, identically in both genres.",
+"tokensPerGenre": 85552190,
+"newsTokens": 85552196,
+"fictionSampling": "1/1",
+"newsSampling": "1/1",
+"topN": 12000,
+"entries": 936,
+"inBoth": 562,
+"fictionOnly": 86,
+"newsOnly": 96,
+"neither": 192,
+"inFiction": 648,
+"inNews": 658,
+"union": 744,
+"inFictionPct": 69.2,
+"inNewsPct": 70.3,
+"unionPct": 79.5,
+"unionGainPct": 9.200000000000003,
+"fictionRecoversOfNewsMisses": 30.9,
+"newsRecoversOfFictionMisses": 33.3,
+"themes": [
+{
+"theme": "Способи приготування їжі",
+"units": 7,
+"news": 1,
+"fiction": 6,
+"newsPct": 14.3,
+"fictionPct": 85.7,
+"deltaPct": 71.4
+},
+{
+"theme": "Сімʼя та родина",
+"units": 7,
+"news": 4,
+"fiction": 7,
+"newsPct": 57.1,
+"fictionPct": 100.0,
+"deltaPct": 42.9
+},
+{
+"theme": "Людина: зовнішність, характер, емоції та стани",
+"units": 26,
+"news": 15,
+"fiction": 23,
+"newsPct": 57.7,
+"fictionPct": 88.5,
+"deltaPct": 30.799999999999997
+},
+{
+"theme": "Частини тіла",
+"units": 8,
+"news": 6,
+"fiction": 8,
+"newsPct": 75.0,
+"fictionPct": 100.0,
+"deltaPct": 25.0
+},
+{
+"theme": "Посуд та інше",
+"units": 5,
+"news": 2,
+"fiction": 3,
+"newsPct": 40.0,
+"fictionPct": 60.0,
+"deltaPct": 20.0
+},
+{
+"theme": "Природа: рослини і тварини",
+"units": 11,
+"news": 9,
+"fiction": 11,
+"newsPct": 81.8,
+"fictionPct": 100.0,
+"deltaPct": 18.200000000000003
+},
+{
+"theme": "Людина: особиста інформація",
+"units": 6,
+"news": 3,
+"fiction": 4,
+"newsPct": 50.0,
+"fictionPct": 66.7,
+"deltaPct": 16.700000000000003
+},
+{
+"theme": "Комунікативні фрази",
+"units": 13,
+"news": 1,
+"fiction": 3,
+"newsPct": 7.7,
+"fictionPct": 23.1,
+"deltaPct": 15.400000000000002
+},
+{
+"theme": "Одяг, взуття, аксесуари",
+"units": 39,
+"news": 15,
+"fiction": 21,
+"newsPct": 38.5,
+"fictionPct": 53.8,
+"deltaPct": 15.299999999999997
+},
+{
+"theme": "Природа і погода",
+"units": 14,
+"news": 12,
+"fiction": 14,
+"newsPct": 85.7,
+"fictionPct": 100.0,
+"deltaPct": 14.299999999999997
+},
+{
+"theme": "У домі: побутові речі",
+"units": 48,
+"news": 21,
+"fiction": 27,
+"newsPct": 43.8,
+"fictionPct": 56.3,
+"deltaPct": 12.5
+},
+{
+"theme": "Їжа",
+"units": 41,
+"news": 10,
+"fiction": 15,
+"newsPct": 24.4,
+"fictionPct": 36.6,
+"deltaPct": 12.200000000000003
+},
+{
+"theme": "У домі: частини будинку",
+"units": 9,
+"news": 6,
+"fiction": 7,
+"newsPct": 66.7,
+"fictionPct": 77.8,
+"deltaPct": 11.099999999999994
+},
+{
+"theme": "Лінгвістичні терміни",
+"units": 39,
+"news": 17,
+"fiction": 21,
+"newsPct": 43.6,
+"fictionPct": 53.8,
+"deltaPct": 10.199999999999996
+},
+{
+"theme": "Побут: щоденні дії",
+"units": 86,
+"news": 67,
+"fiction": 75,
+"newsPct": 77.9,
+"fictionPct": 87.2,
+"deltaPct": 9.299999999999997
+},
+{
+"theme": "Українська культура",
+"units": 11,
+"news": 4,
+"fiction": 5,
+"newsPct": 36.4,
+"fictionPct": 45.5,
+"deltaPct": 9.100000000000001
+},
+{
+"theme": "Числівники",
+"units": 19,
+"news": 5,
+"fiction": 6,
+"newsPct": 26.3,
+"fictionPct": 31.6,
+"deltaPct": 5.300000000000001
+},
+{
+"theme": "Службові частини мови",
+"units": 19,
+"news": 18,
+"fiction": 19,
+"newsPct": 94.7,
+"fictionPct": 100.0,
+"deltaPct": 5.299999999999997
+},
+{
+"theme": "Продукти, фрукти, овочі",
+"units": 26,
+"news": 10,
+"fiction": 11,
+"newsPct": 38.5,
+"fictionPct": 42.3,
+"deltaPct": 3.799999999999997
+},
+{
+"theme": "Інші особи",
+"units": 12,
+"news": 11,
+"fiction": 11,
+"newsPct": 91.7,
+"fictionPct": 91.7,
+"deltaPct": 0.0
+},
+{
+"theme": "Ознаки",
+"units": 9,
+"news": 9,
+"fiction": 9,
+"newsPct": 100.0,
+"fictionPct": 100.0,
+"deltaPct": 0.0
+},
+{
+"theme": "Природні обʼєкти",
+"units": 6,
+"news": 5,
+"fiction": 5,
+"newsPct": 83.3,
+"fictionPct": 83.3,
+"deltaPct": 0.0
+},
+{
+"theme": "Прислівники",
+"units": 40,
+"news": 33,
+"fiction": 33,
+"newsPct": 82.5,
+"fictionPct": 82.5,
+"deltaPct": 0.0
+},
+{
+"theme": "Рух",
+"units": 6,
+"news": 6,
+"fiction": 6,
+"newsPct": 100.0,
+"fictionPct": 100.0,
+"deltaPct": 0.0
+},
+{
+"theme": "Час",
+"units": 23,
+"news": 21,
+"fiction": 21,
+"newsPct": 91.3,
+"fictionPct": 91.3,
+"deltaPct": 0.0
+},
+{
+"theme": "Транспорт",
+"units": 30,
+"news": 23,
+"fiction": 22,
+"newsPct": 76.7,
+"fictionPct": 73.3,
+"deltaPct": -3.4000000000000057
+},
+{
+"theme": "Туризм",
+"units": 30,
+"news": 29,
+"fiction": 28,
+"newsPct": 96.7,
+"fictionPct": 93.3,
+"deltaPct": -3.4000000000000057
+},
+{
+"theme": "Навчання",
+"units": 56,
+"news": 48,
+"fiction": 46,
+"newsPct": 85.7,
+"fictionPct": 82.1,
+"deltaPct": -3.6000000000000085
+},
+{
+"theme": "Технології",
+"units": 22,
+"news": 11,
+"fiction": 10,
+"newsPct": 50.0,
+"fictionPct": 45.5,
+"deltaPct": -4.5
+},
+{
+"theme": "Держава і суспільство",
+"units": 18,
+"news": 18,
+"fiction": 17,
+"newsPct": 100.0,
+"fictionPct": 94.4,
+"deltaPct": -5.599999999999994
+},
+{
+"theme": "Робочий день",
+"units": 16,
+"news": 15,
+"fiction": 14,
+"newsPct": 93.8,
+"fictionPct": 87.5,
+"deltaPct": -6.299999999999997
+},
+{
+"theme": "Традиції, звичаї, свята",
+"units": 15,
+"news": 13,
+"fiction": 12,
+"newsPct": 86.7,
+"fictionPct": 80.0,
+"deltaPct": -6.700000000000003
+},
+{
+"theme": "Вільний час і відпочинок",
+"units": 42,
+"news": 37,
+"fiction": 34,
+"newsPct": 88.1,
+"fictionPct": 81.0,
+"deltaPct": -7.099999999999994
+},
+{
+"theme": "Напої",
+"units": 11,
+"news": 6,
+"fiction": 5,
+"newsPct": 54.5,
+"fictionPct": 45.5,
+"deltaPct": -9.0
+},
+{
+"theme": "Послуги: пошта",
+"units": 10,
+"news": 8,
+"fiction": 7,
+"newsPct": 80.0,
+"fictionPct": 70.0,
+"deltaPct": -10.0
+},
+{
+"theme": "Людина: професії, посади і титули",
+"units": 39,
+"news": 33,
+"fiction": 29,
+"newsPct": 84.6,
+"fictionPct": 74.4,
+"deltaPct": -10.199999999999989
+},
+{
+"theme": "Область, місто й село",
+"units": 47,
+"news": 45,
+"fiction": 40,
+"newsPct": 95.7,
+"fictionPct": 85.1,
+"deltaPct": -10.600000000000009
+},
+{
+"theme": "Оренда та бронювання",
+"units": 9,
+"news": 6,
+"fiction": 5,
+"newsPct": 66.7,
+"fictionPct": 55.6,
+"deltaPct": -11.100000000000001
+},
+{
+"theme": "Послуги: медицина",
+"units": 37,
+"news": 32,
+"fiction": 26,
+"newsPct": 86.5,
+"fictionPct": 70.3,
+"deltaPct": -16.200000000000003
+},
+{
+"theme": "Покупки",
+"units": 18,
+"news": 16,
+"fiction": 13,
+"newsPct": 88.9,
+"fictionPct": 72.2,
+"deltaPct": -16.700000000000003
+},
+{
+"theme": "Канцелярські товари",
+"units": 5,
+"news": 3,
+"fiction": 2,
+"newsPct": 60.0,
+"fictionPct": 40.0,
+"deltaPct": -20.0
+},
+{
+"theme": "На кордоні",
+"units": 18,
+"news": 18,
+"fiction": 14,
+"newsPct": 100.0,
+"fictionPct": 77.8,
+"deltaPct": -22.200000000000003
+},
+{
+"theme": "Подорожі",
+"units": 23,
+"news": 21,
+"fiction": 15,
+"newsPct": 91.3,
+"fictionPct": 65.2,
+"deltaPct": -26.099999999999994
+},
+{
+"theme": "Спорт",
+"units": 24,
+"news": 17,
+"fiction": 10,
+"newsPct": 70.8,
+"fictionPct": 41.7,
+"deltaPct": -29.099999999999994
+},
+{
+"theme": "Преса, радіо, телебачення",
+"units": 6,
+"news": 6,
+"fiction": 4,
+"newsPct": 100.0,
+"fictionPct": 66.7,
+"deltaPct": -33.3
+},
+{
+"theme": "Послуги: банк",
+"units": 9,
+"news": 8,
+"fiction": 4,
+"newsPct": 88.9,
+"fictionPct": 44.4,
+"deltaPct": -44.50000000000001
+},
+{
+"theme": "Інтернет та соціальні мережі",
+"units": 5,
+"news": 5,
+"fiction": 2,
+"newsPct": 100.0,
+"fictionPct": 40.0,
+"deltaPct": -60.0
+},
+{
+"theme": "Географічні назви",
+"units": 28,
+"news": 27,
+"fiction": 10,
+"newsPct": 96.4,
+"fictionPct": 35.7,
+"deltaPct": -60.7
+}
+],
+"fictionOnlySample": [
+"банду́ра",
+"біг",
+"борода́",
+"брова́",
+"бу́ря",
+"варе́ний",
+"вари́ти – звари́ти",
+"вго́лос, уго́лос",
+"весе́лка",
+"ви́ріб",
+"ви́шня",
+"відро́"
+],
+"newsOnlySample": [
+"анке́та",
+"Антаркти́да",
+"А́рктика",
+"бале́т",
+"банкома́т",
+"безкошто́вний",
+"Бе́льгія",
+"бланк",
+"брита́нець / брита́нка",
+"буря́к",
+"виши́ва́нка",
+"відмі́нно"
+],
+"download": "/downloads/ukrainian-frequency/genre-split/entries.csv",
+"rows": [
+{
+"entry": "абе́тка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "абрико́с",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "А́встрія",
+"fictionRank": 7486,
+"newsRank": 2224,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "автомобі́ль",
+"fictionRank": 2412,
+"newsRank": 280,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "а́втор / а́вторка",
+"fictionRank": 989,
+"newsRank": 548,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "аж",
+"fictionRank": 104,
+"newsRank": 2267,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "аквапа́рк",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "акто́р / акто́рка, актри́са",
+"fictionRank": 4076,
+"newsRank": 1566,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "алкого́ль",
+"fictionRank": 9352,
+"newsRank": 2423,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Алло́!",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "альбо́м",
+"fictionRank": 8541,
+"newsRank": 3908,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "америка́нець / америка́нка",
+"fictionRank": 4750,
+"newsRank": 2022,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ана́ліз",
+"fictionRank": 754,
+"newsRank": 1591,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "анана́с",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "анке́та",
+"fictionRank": null,
+"newsRank": 7901,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "Антаркти́да",
+"fictionRank": null,
+"newsRank": 11799,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "апо́строф",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "А́рктика",
+"fictionRank": null,
+"newsRank": 10802,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "а́рмія",
+"fictionRank": 861,
+"newsRank": 825,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "архіте́ктор / архіте́кторка",
+"fictionRank": 11553,
+"newsRank": 4491,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "архітекту́ра",
+"fictionRank": 7871,
+"newsRank": 3708,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бабу́ся",
+"fictionRank": 1184,
+"newsRank": 4155,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бага́тий",
+"fictionRank": 2424,
+"newsRank": 4999,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "база́р",
+"fictionRank": 2622,
+"newsRank": 9801,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ба́йду́же",
+"fictionRank": 1275,
+"newsRank": 9604,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бакала́вр / *",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бал",
+"fictionRank": 4103,
+"newsRank": 2215,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бале́т",
+"fictionRank": null,
+"newsRank": 6991,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "банду́ра",
+"fictionRank": 11354,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "ба́нка",
+"fictionRank": 667,
+"newsRank": 306,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "банкома́т",
+"fictionRank": null,
+"newsRank": 7014,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "бар",
+"fictionRank": 4045,
+"newsRank": 4620,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ба́чити – поба́чити",
+"fictionRank": 66,
+"newsRank": 504,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "без",
+"fictionRank": 97,
+"newsRank": 127,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "безалкого́льний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "безглюте́новий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "безкошто́вний",
+"fictionRank": null,
+"newsRank": 2592,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "безлакто́зний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "Бе́льгія",
+"fictionRank": null,
+"newsRank": 2842,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "бе́рег",
+"fictionRank": 526,
+"newsRank": 4074,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "біг",
+"fictionRank": 9350,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "бі́гти – побі́гти",
+"fictionRank": 460,
+"newsRank": 4934,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бі́дний",
+"fictionRank": 1476,
+"newsRank": 5251,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бік",
+"fictionRank": 161,
+"newsRank": 288,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "біле́т",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "біль",
+"fictionRank": 503,
+"newsRank": 2975,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бі́ля",
+"fictionRank": 139,
+"newsRank": 353,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "більш",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "біогра́фія",
+"fictionRank": 8581,
+"newsRank": 6910,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "блаки́тний",
+"fictionRank": 1496,
+"newsRank": 4218,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бланк",
+"fictionRank": null,
+"newsRank": 7003,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "близьки́й",
+"fictionRank": 2615,
+"newsRank": 2258,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "блонди́н / блонди́нка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "блюту́з",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "Болга́рія",
+"fictionRank": 7682,
+"newsRank": 2867,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "борода́",
+"fictionRank": 1709,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "брита́нець / брита́нка",
+"fictionRank": null,
+"newsRank": 3794,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "брова́",
+"fictionRank": 1350,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "бронюва́ти – забронюва́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "брюне́т / брюне́тка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "Бува́й(те)!",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "бува́ти – побува́ти",
+"fictionRank": 349,
+"newsRank": 2568,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "буди́льник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "бу́лка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "бу́ря",
+"fictionRank": 3634,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "буря́к",
+"fictionRank": null,
+"newsRank": 8355,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "бюстга́лтер",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "вага́",
+"fictionRank": 1516,
+"newsRank": 1655,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ва́жити – зва́жити",
+"fictionRank": 3974,
+"newsRank": 8629,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "важли́во",
+"fictionRank": 3436,
+"newsRank": 1285,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ва́за",
+"fictionRank": 9215,
+"newsRank": 5395,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "вазо́н",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "вай-фай",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "валідува́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "валю́та",
+"fictionRank": 2180,
+"newsRank": 835,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ва́нна (кімна́та)",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "варе́ний",
+"fictionRank": 9903,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "варе́ння",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "вари́ти – звари́ти",
+"fictionRank": 3351,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "варіа́нт",
+"fictionRank": 2075,
+"newsRank": 1003,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ва́рто",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вго́лос, уго́лос",
+"fictionRank": 3547,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "вго́ру, уго́ру",
+"fictionRank": 924,
+"newsRank": 6537,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ве́жа",
+"fictionRank": 1906,
+"newsRank": 5832,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "везти́ – привезти́",
+"fictionRank": 2209,
+"newsRank": 3964,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вершки́",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "весе́лка",
+"fictionRank": 9266,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "ве́село",
+"fictionRank": 1099,
+"newsRank": 11862,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "весня́ни́й",
+"fictionRank": 2414,
+"newsRank": 5583,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ветерина́р / ветерина́рка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "вечі́рній",
+"fictionRank": 3012,
+"newsRank": 5669,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вжива́ти, ужива́ти – вжи́ти, ужи́ти",
+"fictionRank": 3677,
+"newsRank": 2705,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "взагалі́, узагалі́",
+"fictionRank": 457,
+"newsRank": 935,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вибача́ти – ви́бачити",
+"fictionRank": 2005,
+"newsRank": 7764,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вибира́ти – ви́брати",
+"fictionRank": 1695,
+"newsRank": 3130,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вивча́ти – ви́вчити",
+"fictionRank": 2464,
+"newsRank": 2763,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ви́гляд",
+"fictionRank": 438,
+"newsRank": 748,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вид",
+"fictionRank": 494,
+"newsRank": 997,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "виклика́ти – ви́кликати",
+"fictionRank": 548,
+"newsRank": 618,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "використо́вувати – ви́користати",
+"fictionRank": 1617,
+"newsRank": 599,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вимика́ти – ви́мкнути",
+"fictionRank": 5527,
+"newsRank": 10560,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вимика́ч",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ви́няток",
+"fictionRank": 2902,
+"newsRank": 2675,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ви́ріб",
+"fictionRank": 7563,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "вирі́шувати – ви́рішити",
+"fictionRank": 366,
+"newsRank": 348,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ви́сі́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "виста́ва",
+"fictionRank": 3543,
+"newsRank": 3501,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ви́ставка",
+"fictionRank": 6104,
+"newsRank": 1600,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вихо́дити – ви́йти",
+"fictionRank": 159,
+"newsRank": 350,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "виши́ва́нка",
+"fictionRank": null,
+"newsRank": 7381,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "вишива́ти – ви́шити",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ви́шня",
+"fictionRank": 4228,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "від",
+"fictionRank": 26,
+"newsRank": 15,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відбува́тися – відбу́тися",
+"fictionRank": 784,
+"newsRank": 154,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відві́дувати – відві́дати",
+"fictionRank": 4397,
+"newsRank": 1387,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відві́дувач / відві́дувачка",
+"fictionRank": 4324,
+"newsRank": 2672,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відкрива́ти – відкри́ти",
+"fictionRank": 1253,
+"newsRank": 707,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відмі́нно",
+"fictionRank": null,
+"newsRank": 9415,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "відмі́нок",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "відмовля́тися – відмо́витися",
+"fictionRank": 1448,
+"newsRank": 568,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відпочи́нок",
+"fictionRank": 3175,
+"newsRank": 1945,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відпочива́ти – відпочи́ти",
+"fictionRank": 3347,
+"newsRank": 4254,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відправля́тися",
+"fictionRank": null,
+"newsRank": 6854,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "відро́",
+"fictionRank": 2741,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "відсо́ток",
+"fictionRank": 2900,
+"newsRank": 1072,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "відчиня́ти – відчини́ти",
+"fictionRank": 1549,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "відчува́ти – відчу́ти",
+"fictionRank": 405,
+"newsRank": 1723,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "візи́т",
+"fictionRank": 4584,
+"newsRank": 923,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "візо́к",
+"fictionRank": 5083,
+"newsRank": 8365,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "війна́",
+"fictionRank": 747,
+"newsRank": 1173,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вік",
+"fictionRank": 6558,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "ві́рити – пові́рити",
+"fictionRank": 399,
+"newsRank": 1618,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вірш",
+"fictionRank": 1105,
+"newsRank": 5229,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вісімна́дцятий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "віта́льня",
+"fictionRank": 9867,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "віта́ння",
+"fictionRank": 7875,
+"newsRank": 9483,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "віша́к",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "вмива́ти(ся), умива́ти(ся) – вми́тися, уми́тися",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "вмика́ти – ввімкну́ти, увімкну́ти",
+"fictionRank": 6394,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "вниз, униз",
+"fictionRank": 1106,
+"newsRank": 6744,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вого́нь",
+"fictionRank": 450,
+"newsRank": 571,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "води́ти",
+"fictionRank": 354,
+"newsRank": 1061,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "волейбо́л",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "волонте́р / волонте́рка",
+"fictionRank": null,
+"newsRank": 2146,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "во́сьмеро",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "впе́рше, упе́рше",
+"fictionRank": 843,
+"newsRank": 844,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "встава́ти – вста́ти",
+"fictionRank": 1757,
+"newsRank": 8995,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "встига́ти – всти́гнути",
+"fictionRank": 3049,
+"newsRank": 5914,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "всю́ди, усю́ди",
+"fictionRank": 2403,
+"newsRank": 8481,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вто́млюватися, уто́млюватися – втоми́тися, утоми́тися",
+"fictionRank": 4527,
+"newsRank": 8038,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ву́са",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вхідни́й",
+"fictionRank": 5409,
+"newsRank": 7616,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вча́сно",
+"fictionRank": 3170,
+"newsRank": 3741,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вчи́ти, учи́ти – ви́вчити",
+"fictionRank": 2282,
+"newsRank": 3689,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "вчора́шній, учора́шній",
+"fictionRank": 4104,
+"newsRank": 4160,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "газо́ваний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "галере́я",
+"fictionRank": 5877,
+"newsRank": 4879,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "гара́ж",
+"fictionRank": 8712,
+"newsRank": 5589,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "гарбу́з",
+"fictionRank": 10970,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "гарні́р",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "га́рно",
+"fictionRank": 1391,
+"newsRank": 9815,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "гель",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "гід / гіде́са",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "гімна́стика",
+"fictionRank": null,
+"newsRank": 10760,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "гірки́й",
+"fictionRank": 5261,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "гірчи́ця",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "глибо́кий",
+"fictionRank": 700,
+"newsRank": 2983,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "глюте́н",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "говори́ти – поговори́ти",
+"fictionRank": 123,
+"newsRank": 282,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "годи́нник",
+"fictionRank": 1360,
+"newsRank": 3995,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "голи́ти(ся) – поголи́ти(ся)",
+"fictionRank": 10735,
+"newsRank": 2980,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "голосни́й",
+"fictionRank": 4969,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "голубці́",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "гольф",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "горі́лка",
+"fictionRank": 1574,
+"newsRank": 5485,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "горі́х",
+"fictionRank": 4110,
+"newsRank": 7494,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "го́рло",
+"fictionRank": 1436,
+"newsRank": 9069,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "горо́д",
+"fictionRank": 776,
+"newsRank": 7748,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "госпо́дар / господи́ня",
+"fictionRank": 815,
+"newsRank": 3147,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "готува́ти – приготува́ти",
+"fictionRank": 1918,
+"newsRank": 1433,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "грама́тика",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "Гре́ція",
+"fictionRank": 7354,
+"newsRank": 1441,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "гриб",
+"fictionRank": 4197,
+"newsRank": 4341,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "грип",
+"fictionRank": null,
+"newsRank": 2188,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "гроза́",
+"fictionRank": 4271,
+"newsRank": 3381,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "громадяни́н / громадя́нка",
+"fictionRank": 1129,
+"newsRank": 171,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "громадя́нство",
+"fictionRank": 7746,
+"newsRank": 1923,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "губи́ти – загуби́ти",
+"fictionRank": 3972,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "гу́мка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "гурто́житок",
+"fictionRank": 7263,
+"newsRank": 4699,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "дава́льний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "дале́кий",
+"fictionRank": 746,
+"newsRank": 4773,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "да́лі",
+"fictionRank": 147,
+"newsRank": 747,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Да́нія",
+"fictionRank": null,
+"newsRank": 3165,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "дах",
+"fictionRank": 1620,
+"newsRank": 2859,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "да́ча",
+"fictionRank": 6183,
+"newsRank": 5293,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "двадця́тий",
+"fictionRank": 6767,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "дво́є",
+"fictionRank": 858,
+"newsRank": 991,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "двою́рідний",
+"fictionRank": 9073,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "де́вʼятеро",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "дев’ятна́дцятий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "дезодора́нт",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "деклара́ція",
+"fictionRank": 10677,
+"newsRank": 1284,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "де́нний",
+"fictionRank": 5129,
+"newsRank": 1711,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "деревʼя́ний",
+"fictionRank": 4267,
+"newsRank": 11210,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "держа́вний",
+"fictionRank": 321,
+"newsRank": 66,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "десе́рт",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "де́сятеро",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "де́шево",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "дзвони́ти – подзвони́ти",
+"fictionRank": 2496,
+"newsRank": 6905,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "диви́тися – подиви́тися",
+"fictionRank": 107,
+"newsRank": 1223,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ди́вний",
+"fictionRank": 476,
+"newsRank": 3429,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ди́кий",
+"fictionRank": 1140,
+"newsRank": 5424,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ди́ня",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "дипло́м",
+"fictionRank": 11019,
+"newsRank": 5249,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "дитя́чий",
+"fictionRank": 1059,
+"newsRank": 924,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ди́хати",
+"fictionRank": 1434,
+"newsRank": 8196,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "діало́г",
+"fictionRank": 7872,
+"newsRank": 1558,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "діду́сь",
+"fictionRank": 2080,
+"newsRank": 8718,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "дієсло́во",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "діє́та",
+"fictionRank": null,
+"newsRank": 5893,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "для",
+"fictionRank": 38,
+"newsRank": 13,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "до",
+"fictionRank": 5,
+"newsRank": 5,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "доба́",
+"fictionRank": 1437,
+"newsRank": 531,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "до́відка",
+"fictionRank": 6852,
+"newsRank": 1414,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "до́гові́р",
+"fictionRank": 1373,
+"newsRank": 558,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "додатко́вий",
+"fictionRank": 2242,
+"newsRank": 685,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "до́пис",
+"fictionRank": null,
+"newsRank": 5783,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "допомо́га",
+"fictionRank": 407,
+"newsRank": 159,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "до́рого",
+"fictionRank": 7357,
+"newsRank": 7507,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "до́сить",
+"fictionRank": 330,
+"newsRank": 860,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "до́сі",
+"fictionRank": 375,
+"newsRank": 1019,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "доста́вка",
+"fictionRank": null,
+"newsRank": 3007,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "до́шка",
+"fictionRank": 1738,
+"newsRank": 5665,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "дружи́ти",
+"fictionRank": 8397,
+"newsRank": 10460,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "друкува́ти – надрукува́ти, роздрукува́ти",
+"fictionRank": 7231,
+"newsRank": 9852,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ду́мати – поду́мати",
+"fictionRank": 106,
+"newsRank": 541,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "духо́вка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "екза́мен",
+"fictionRank": 8963,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "економі́ст / економі́стка",
+"fictionRank": 9048,
+"newsRank": 4050,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "екра́н",
+"fictionRank": 1837,
+"newsRank": 2781,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "електри́чний",
+"fictionRank": 3698,
+"newsRank": 3358,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "електро́нний",
+"fictionRank": 3439,
+"newsRank": 893,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Есто́нія",
+"fictionRank": null,
+"newsRank": 2792,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "Євра́зія",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "європе́йський",
+"fictionRank": 2240,
+"newsRank": 134,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Європе́йський Сою́з, Євросою́з",
+"fictionRank": null,
+"newsRank": 841,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "жартува́ти – пожартува́ти",
+"fictionRank": 2129,
+"newsRank": 7863,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "жахли́вий",
+"fictionRank": 1529,
+"newsRank": 4506,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "жи́тель / жи́телька",
+"fictionRank": 3417,
+"newsRank": 435,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "життя́",
+"fictionRank": 79,
+"newsRank": 200,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "жо́дний",
+"fictionRank": 269,
+"newsRank": 381,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "журна́л",
+"fictionRank": 1818,
+"newsRank": 1426,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "забува́ти – забу́ти",
+"fictionRank": 328,
+"newsRank": 3016,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "забага́то",
+"fictionRank": 5325,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "заванта́жувати – заванта́жити",
+"fictionRank": null,
+"newsRank": 7777,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "завели́кий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "заво́д",
+"fictionRank": 3453,
+"newsRank": 901,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "за́втрашній",
+"fictionRank": 7243,
+"newsRank": 7314,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "займа́тися",
+"fictionRank": 1528,
+"newsRank": 637,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "займе́нник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "За́йнято!",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "закі́нчувати(ся) – закі́нчи́ти(ся)",
+"fictionRank": 1305,
+"newsRank": 2584,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "закі́нчення",
+"fictionRank": 2829,
+"newsRank": 2009,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зако́н",
+"fictionRank": 371,
+"newsRank": 102,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "закордо́нний",
+"fictionRank": 5747,
+"newsRank": 614,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "заку́ска",
+"fictionRank": 10374,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "зал",
+"fictionRank": 805,
+"newsRank": 1027,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "залізни́ця",
+"fictionRank": 5084,
+"newsRank": 1942,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "за́лік",
+"fictionRank": null,
+"newsRank": 7744,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "замали́й",
+"fictionRank": 11904,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "зама́ло",
+"fictionRank": 6417,
+"newsRank": 11028,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "замо́влення",
+"fictionRank": 3955,
+"newsRank": 1970,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "за́мок",
+"fictionRank": 735,
+"newsRank": 4025,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "заня́ття",
+"fictionRank": 3099,
+"newsRank": 3074,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "записни́к",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "запі́знюватися – запізни́тися",
+"fictionRank": 8362,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "запо́внювати – запо́внити",
+"fictionRank": 6892,
+"newsRank": 6400,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "запра́вка",
+"fictionRank": null,
+"newsRank": 7445,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "заправля́ти – запра́вити",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "запро́шення",
+"fictionRank": 5184,
+"newsRank": 3408,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "запро́шувати – запроси́ти",
+"fictionRank": 1706,
+"newsRank": 2281,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "заробля́ти – зароби́ти",
+"fictionRank": 3768,
+"newsRank": 2789,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "заряджа́ти – заряди́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "за́сіб",
+"fictionRank": 599,
+"newsRank": 528,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "засту́да",
+"fictionRank": null,
+"newsRank": 9975,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "за́ти́шний",
+"fictionRank": 6911,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "за́хідний",
+"fictionRank": 2117,
+"newsRank": 720,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "захо́плення",
+"fictionRank": 2281,
+"newsRank": 2028,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "захо́плюватися – захопи́тися",
+"fictionRank": 4622,
+"newsRank": 8440,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зачиня́ти – зачини́ти",
+"fictionRank": 3407,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "за́чіска",
+"fictionRank": 7399,
+"newsRank": 10313,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "збира́ти(ся) – зібра́ти(ся)",
+"fictionRank": 1551,
+"newsRank": 1596,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зверта́тися – зверну́тися",
+"fictionRank": 921,
+"newsRank": 578,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зви́чай",
+"fictionRank": 1487,
+"newsRank": 10720,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "звук (Р.в. одн. зву́ка)",
+"fictionRank": 779,
+"newsRank": 4388,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "здава́ти – зда́ти",
+"fictionRank": 5226,
+"newsRank": 3550,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зимо́ви́й",
+"fictionRank": 3521,
+"newsRank": 2514,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "злий",
+"fictionRank": 917,
+"newsRank": 5910,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "змага́ння",
+"fictionRank": 2942,
+"newsRank": 1697,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "змі́нювати – зміни́ти",
+"fictionRank": 1548,
+"newsRank": 888,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зміст",
+"fictionRank": 1060,
+"newsRank": 2772,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зму́чений",
+"fictionRank": 5257,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "знайо́мити(ся) – познайо́мити(ся)",
+"fictionRank": 7483,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "знахі́дний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "зни́жка",
+"fictionRank": null,
+"newsRank": 3261,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "зніма́ти – зня́ти",
+"fictionRank": 1034,
+"newsRank": 1277,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "золоти́й",
+"fictionRank": 885,
+"newsRank": 3030,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зразо́к",
+"fictionRank": 2306,
+"newsRank": 2272,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зрозумі́ло",
+"fictionRank": 1523,
+"newsRank": 1854,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зручни́й",
+"fictionRank": 4840,
+"newsRank": 4548,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зру́чно",
+"fictionRank": 5569,
+"newsRank": 8255,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зупиня́ти(ся) – зупини́ти(ся)",
+"fictionRank": 1660,
+"newsRank": 1436,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "зустріча́ти(ся) – зустрі́ти(ся)",
+"fictionRank": 1076,
+"newsRank": 3884,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "і́грашка",
+"fictionRank": 5120,
+"newsRank": 5142,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "іде́я",
+"fictionRank": 649,
+"newsRank": 874,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "іме́нник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "і́ндекс",
+"fictionRank": 6454,
+"newsRank": 1701,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "і́нколи",
+"fictionRank": 1866,
+"newsRank": 5382,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "інстру́кція",
+"fictionRank": 4692,
+"newsRank": 5262,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "інструме́нт",
+"fictionRank": 2367,
+"newsRank": 1764,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "інтервʼю́",
+"fictionRank": 9345,
+"newsRank": 598,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Ірла́ндія",
+"fictionRank": null,
+"newsRank": 3753,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "Іспа́нія",
+"fictionRank": 9489,
+"newsRank": 1231,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "істори́чний",
+"fictionRank": 1077,
+"newsRank": 1271,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "їда́льня",
+"fictionRank": 3813,
+"newsRank": 8679,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ї́сти – зʼї́сти",
+"fictionRank": 436,
+"newsRank": 3521,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ї́хати – пої́хати, приї́хати",
+"fictionRank": 343,
+"newsRank": 1194,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "йо́га",
+"fictionRank": 12,
+"newsRank": 22,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "каву́н",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "кавʼя́рня",
+"fictionRank": null,
+"newsRank": 11867,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "каза́ти – сказа́ти",
+"fictionRank": 34,
+"newsRank": 41,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ка́зка",
+"fictionRank": 1625,
+"newsRank": 5432,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кака́о",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "календа́р",
+"fictionRank": 8147,
+"newsRank": 4940,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кали́на",
+"fictionRank": 10320,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "калорі́йний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "калькуля́тор",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "камʼяни́й",
+"fictionRank": 3877,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "ка́мера",
+"fictionRank": 1632,
+"newsRank": 1616,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "капу́ста",
+"fictionRank": 5697,
+"newsRank": 8226,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ка́рий",
+"fictionRank": 7506,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "каси́р / каси́рка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "кастру́ля",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ката́тися – поката́тися",
+"fictionRank": 11155,
+"newsRank": 11245,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ка́ша",
+"fictionRank": 3608,
+"newsRank": 10809,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ка́шель",
+"fictionRank": 8818,
+"newsRank": 10568,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кварта́л",
+"fictionRank": 3971,
+"newsRank": 1100,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "квасо́ля",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ке́лих",
+"fictionRank": 3932,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "керівни́к / керівни́ця",
+"fictionRank": 1680,
+"newsRank": 283,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ке́тчуп",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ки́лим",
+"fictionRank": 2429,
+"newsRank": 11997,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кири́лиця",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ки́слий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "кише́ня",
+"fictionRank": 707,
+"newsRank": 4892,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кі́ві",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "кі́лька, де́кілька",
+"fictionRank": 137,
+"newsRank": 208,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кіне́ць",
+"fictionRank": 249,
+"newsRank": 377,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кіно́",
+"fictionRank": 3446,
+"newsRank": 2198,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кінь",
+"fictionRank": 241,
+"newsRank": 6586,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Кіпр",
+"fictionRank": null,
+"newsRank": 3256,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "клавіату́ра",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "кли́чний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "клі́мат",
+"fictionRank": 8177,
+"newsRank": 3102,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "книга́рня",
+"fictionRank": null,
+"newsRank": 9825,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "ковзани́",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "кокте́йль",
+"fictionRank": null,
+"newsRank": 8046,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "колго́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "коли́шній",
+"fictionRank": 741,
+"newsRank": 275,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "колі́но",
+"fictionRank": 609,
+"newsRank": 4946,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кольоро́вий",
+"fictionRank": 4844,
+"newsRank": 7055,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "коляда́, коля́дка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ко́ма",
+"fictionRank": 5546,
+"newsRank": 8219,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кома́нда",
+"fictionRank": 1300,
+"newsRank": 258,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кома́ха",
+"fictionRank": 6758,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "компʼю́терний",
+"fictionRank": 6071,
+"newsRank": 3314,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "компа́нія",
+"fictionRank": 1130,
+"newsRank": 60,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "компо́т",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "комфо́ртний",
+"fictionRank": null,
+"newsRank": 5482,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "комфо́ртно",
+"fictionRank": null,
+"newsRank": 9229,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "контине́нт",
+"fictionRank": 7498,
+"newsRank": 5115,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "конве́рт",
+"fictionRank": 4493,
+"newsRank": 8093,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ко́нкурс",
+"fictionRank": 9663,
+"newsRank": 674,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "консерво́ваний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ко́нсульство",
+"fictionRank": null,
+"newsRank": 4113,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "контро́ль",
+"fictionRank": 1335,
+"newsRank": 492,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "конфере́нція",
+"fictionRank": 5710,
+"newsRank": 595,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "конце́рт",
+"fictionRank": 5458,
+"newsRank": 1653,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "конья́к",
+"fictionRank": 5698,
+"newsRank": 10831,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ко́ри́сно",
+"fictionRank": null,
+"newsRank": 10141,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "кори́стува́тися – скориста́тися",
+"fictionRank": 1988,
+"newsRank": 1670,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "коро́ва",
+"fictionRank": 2694,
+"newsRank": 10149,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "коро́ль / короле́ва",
+"fictionRank": 475,
+"newsRank": 3835,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ко́рпус",
+"fictionRank": 2836,
+"newsRank": 2166,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "котле́та",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ко́фта",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "коха́ний",
+"fictionRank": 4138,
+"newsRank": 10341,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "коха́ння",
+"fictionRank": 949,
+"newsRank": 4984,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ко́шик",
+"fictionRank": 3395,
+"newsRank": 6048,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "крава́тка",
+"fictionRank": 6724,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "кран",
+"fictionRank": 7616,
+"newsRank": 7084,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кра́пка",
+"fictionRank": 6602,
+"newsRank": 5836,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кра́плі",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "крича́ти – закрича́ти",
+"fictionRank": 518,
+"newsRank": 4824,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "крім, окрі́м",
+"fictionRank": 413,
+"newsRank": 164,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "кросі́вки",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ксе́рокс",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "кукуру́дза",
+"fictionRank": null,
+"newsRank": 8284,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "культу́ра",
+"fictionRank": 869,
+"newsRank": 777,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "культу́рний",
+"fictionRank": 2231,
+"newsRank": 1635,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "купа́льник",
+"fictionRank": null,
+"newsRank": 8572,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "купа́ти(ся) – скупа́ти(ся), покупа́тися",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "курʼє́р / курʼє́рка",
+"fictionRank": null,
+"newsRank": 9933,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "ку́ртка",
+"fictionRank": 3938,
+"newsRank": 9285,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "куто́к",
+"fictionRank": 1089,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "кутя́",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ку́хар / куха́рка",
+"fictionRank": 6474,
+"newsRank": 6872,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ла́вка",
+"fictionRank": 3055,
+"newsRank": 8973,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "лакто́за",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "лама́тися – злама́тися",
+"fictionRank": 10521,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "ланцюжо́к",
+"fictionRank": 5995,
+"newsRank": 7332,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Ла́твія",
+"fictionRank": null,
+"newsRank": 2774,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "ле́кція",
+"fictionRank": 3413,
+"newsRank": 4874,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ли́жі",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "лимона́д",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "листі́вка",
+"fictionRank": 6988,
+"newsRank": 5010,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ли́стя",
+"fictionRank": 931,
+"newsRank": 2537,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Литва́",
+"fictionRank": 8707,
+"newsRank": 1959,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "лице́",
+"fictionRank": 468,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "лише́",
+"fictionRank": 94,
+"newsRank": 117,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "лід",
+"fictionRank": 6227,
+"newsRank": 6731,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "лікарня́ний",
+"fictionRank": null,
+"newsRank": 6130,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "лікува́ти(ся) – ви́лікувати(ся)",
+"fictionRank": 5299,
+"newsRank": 5063,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ліни́вий",
+"fictionRank": 9683,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "ліні́йка",
+"fictionRank": null,
+"newsRank": 7006,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "лі́тера",
+"fictionRank": 2266,
+"newsRank": 8860,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "лі́тній",
+"fictionRank": 2695,
+"newsRank": 2741,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ліхта́р",
+"fictionRank": 2447,
+"newsRank": 11091,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "лови́ти – злови́ти",
+"fictionRank": 1733,
+"newsRank": 8834,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Люксембу́рг",
+"fictionRank": null,
+"newsRank": 5617,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "лю́стра",
+"fictionRank": 9249,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "ляга́ти – лягти́",
+"fictionRank": 1735,
+"newsRank": 7819,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "магі́стр / *",
+"fictionRank": 6824,
+"newsRank": 11981,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мазь",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "майбу́тній",
+"fictionRank": 588,
+"newsRank": 447,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "майоне́з",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ма́йстер / майстри́ня",
+"fictionRank": 1690,
+"newsRank": 2938,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мак",
+"fictionRank": 2978,
+"newsRank": 8347,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "макія́ж",
+"fictionRank": null,
+"newsRank": 9974,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "мали́на",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "Ма́льта",
+"fictionRank": null,
+"newsRank": 7828,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "малюва́ти – намалюва́ти",
+"fictionRank": 2371,
+"newsRank": 7109,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "малю́нок",
+"fictionRank": 2909,
+"newsRank": 5510,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мандари́н",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ма́па",
+"fictionRank": 9592,
+"newsRank": 9090,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ма́ркер",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "маршру́т",
+"fictionRank": 6660,
+"newsRank": 1288,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "матеріа́л",
+"fictionRank": 1026,
+"newsRank": 378,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "медсестра́ / медбра́т",
+"fictionRank": 8340,
+"newsRank": 6894,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "менш",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мер / *",
+"fictionRank": 2673,
+"newsRank": 619,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "метале́вий",
+"fictionRank": 2578,
+"newsRank": 4291,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ми́йка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "мину́лий",
+"fictionRank": 2700,
+"newsRank": 995,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ми́ти(ся) – поми́ти(ся)",
+"fictionRank": 10213,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "ми́тний",
+"fictionRank": 3102,
+"newsRank": 1152,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "між",
+"fictionRank": 151,
+"newsRank": 173,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мі́ксер",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "мілки́й",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "міст",
+"fictionRank": 2879,
+"newsRank": 2410,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "місце́вий",
+"fictionRank": 895,
+"newsRank": 178,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "міськи́й",
+"fictionRank": 1662,
+"newsRank": 210,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мі́сячний",
+"fictionRank": 2063,
+"newsRank": 3817,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "млине́ць",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "множина́",
+"fictionRank": 10369,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "мо́вчки",
+"fictionRank": 557,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "мо́дний",
+"fictionRank": 7234,
+"newsRank": 5263,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мо́крий",
+"fictionRank": 2094,
+"newsRank": 3512,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "моли́тва",
+"fictionRank": 1431,
+"newsRank": 5777,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Молоде́ць!",
+"fictionRank": 4020,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "моло́чний",
+"fictionRank": 9827,
+"newsRank": 4107,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "морськи́й",
+"fictionRank": 1315,
+"newsRank": 1250,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мрі́яти",
+"fictionRank": 2384,
+"newsRank": 6676,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "музи́чний",
+"fictionRank": 5773,
+"newsRank": 2494,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "мультива́рка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "мультфі́льм",
+"fictionRank": null,
+"newsRank": 7650,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "мʼяки́й",
+"fictionRank": 2357,
+"newsRank": 6818,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Навза́єм!",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "навпро́ти",
+"fictionRank": 2525,
+"newsRank": 7017,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "наву́шники",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "на́голос",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "над",
+"fictionRank": 95,
+"newsRank": 359,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "надсила́ти – надісла́ти",
+"fictionRank": 4501,
+"newsRank": 3595,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "на́зва",
+"fictionRank": 688,
+"newsRank": 996,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "назива́ти – назва́ти",
+"fictionRank": 564,
+"newsRank": 425,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "називни́й",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "найбі́льш",
+"fictionRank": 1998,
+"newsRank": 808,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "найме́нш",
+"fictionRank": null,
+"newsRank": 10264,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "нами́сто",
+"fictionRank": 4877,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "напа́м’ять",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "напе́вно",
+"fictionRank": 1269,
+"newsRank": 2527,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "на́прямок",
+"fictionRank": 1470,
+"newsRank": 644,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "наро́дний",
+"fictionRank": 1235,
+"newsRank": 256,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "насе́лення",
+"fictionRank": 1047,
+"newsRank": 414,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "на́стрій",
+"fictionRank": 1133,
+"newsRank": 2309,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "науко́вий",
+"fictionRank": 1165,
+"newsRank": 1507,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "нача́льник / нача́льниця",
+"fictionRank": 1024,
+"newsRank": 584,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "націона́льний",
+"fictionRank": 579,
+"newsRank": 108,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "небезпе́чний",
+"fictionRank": 1587,
+"newsRank": 1543,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "не́жить",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "нена́видіти – знена́видіти",
+"fictionRank": 1945,
+"newsRank": 10323,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "нести́ – принести́",
+"fictionRank": 446,
+"newsRank": 1644,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Нідерла́нди",
+"fictionRank": null,
+"newsRank": 1845,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "ніж",
+"fictionRank": 172,
+"newsRank": 202,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ні́мець / німке́ня",
+"fictionRank": 905,
+"newsRank": 3687,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ніхто́",
+"fictionRank": 118,
+"newsRank": 572,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "нічни́й",
+"fictionRank": 1080,
+"newsRank": 2700,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "нови́на",
+"fictionRank": 1785,
+"newsRank": 334,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "но́жиці",
+"fictionRank": 11274,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "норма́льно",
+"fictionRank": 5429,
+"newsRank": 3985,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "носи́ти",
+"fictionRank": 926,
+"newsRank": 2778,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ноутбу́к",
+"fictionRank": null,
+"newsRank": 6135,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "ну́дно",
+"fictionRank": 6338,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "о, об",
+"fictionRank": 668,
+"newsRank": 4197,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "обласни́й",
+"fictionRank": 6026,
+"newsRank": 404,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "о́бласть",
+"fictionRank": 2633,
+"newsRank": 53,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "обмі́нювати – обміня́ти",
+"fictionRank": null,
+"newsRank": 7141,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "обов’язко́во",
+"fictionRank": 1902,
+"newsRank": 2203,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "овоче́вий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ого́",
+"fictionRank": 3983,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "оголо́шення",
+"fictionRank": 6097,
+"newsRank": 2039,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "однина́",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "одру́жуватися – одружи́тися",
+"fictionRank": 2823,
+"newsRank": 7621,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "оду́жувати – оду́жати",
+"fictionRank": 11654,
+"newsRank": 2779,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "одяга́ти(ся) – одягну́ти(ся)",
+"fictionRank": 7782,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "окре́мий",
+"fictionRank": 575,
+"newsRank": 589,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "окре́мо",
+"fictionRank": 3724,
+"newsRank": 3146,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "о́пера",
+"fictionRank": 6194,
+"newsRank": 4515,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "опера́ція",
+"fictionRank": 643,
+"newsRank": 403,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "опи́сувати – описа́ти",
+"fictionRank": 4217,
+"newsRank": 6131,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "опла́чувати – оплати́ти",
+"fictionRank": null,
+"newsRank": 5934,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "орендува́ти",
+"fictionRank": null,
+"newsRank": 5958,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "ору́дний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "осві́та",
+"fictionRank": 1856,
+"newsRank": 573,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "осі́нній",
+"fictionRank": 2360,
+"newsRank": 6635,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "осно́ва",
+"fictionRank": 721,
+"newsRank": 818,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "осо́ба",
+"fictionRank": 327,
+"newsRank": 77,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "особли́во",
+"fictionRank": 501,
+"newsRank": 716,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "оста́нній",
+"fictionRank": 250,
+"newsRank": 215,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "отри́мувати – отри́мати",
+"fictionRank": 1074,
+"newsRank": 94,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "офіціа́нт / офіціа́нтка",
+"fictionRank": 9409,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "офіці́йний",
+"fictionRank": 2895,
+"newsRank": 298,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "оці́нка",
+"fictionRank": 1186,
+"newsRank": 740,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пала́ц",
+"fictionRank": 1277,
+"newsRank": 2317,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "па́м’ятник",
+"fictionRank": 3906,
+"newsRank": 1551,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "паркува́ти(ся) – припаркува́ти(ся)",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "паро́ль",
+"fictionRank": 11193,
+"newsRank": 9112,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пасажи́р / пасажи́рка",
+"fictionRank": 3064,
+"newsRank": 839,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "па́ска",
+"fictionRank": 8052,
+"newsRank": 9765,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "па́спортний",
+"fictionRank": null,
+"newsRank": 8953,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "паціє́нт / паціє́нтка",
+"fictionRank": 6256,
+"newsRank": 1118,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "па́чка",
+"fictionRank": 5413,
+"newsRank": 7967,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пека́рня",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пенсіоне́р / пенсіоне́рка",
+"fictionRank": null,
+"newsRank": 2701,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "пе́нсія",
+"fictionRank": 5093,
+"newsRank": 1437,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "перевіря́ти – переві́рити",
+"fictionRank": 2118,
+"newsRank": 2071,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пе́ред, пе́реді",
+"fictionRank": 84,
+"newsRank": 295,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "переїжджа́ти – переї́хати",
+"fictionRank": 5366,
+"newsRank": 4588,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "переклада́ти – перекла́сти",
+"fictionRank": 5326,
+"newsRank": 7479,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "перемага́ти – перемогти́",
+"fictionRank": 2125,
+"newsRank": 1457,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Перепро́шую!",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "переса́дка",
+"fictionRank": null,
+"newsRank": 8826,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "пересіда́ти – пересі́сти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "перехі́д",
+"fictionRank": 2573,
+"newsRank": 1376,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "перехре́стя",
+"fictionRank": 10825,
+"newsRank": 7392,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "перо́н",
+"fictionRank": 8602,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "пе́рсик",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пес",
+"fictionRank": 1188,
+"newsRank": 8560,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "печа́тка",
+"fictionRank": 5760,
+"newsRank": 5627,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пече́ний",
+"fictionRank": 11451,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "пилосо́с",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пи́санка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "півде́нний",
+"fictionRank": 2788,
+"newsRank": 933,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "півні́чний",
+"fictionRank": 1925,
+"newsRank": 697,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "піво́стрів",
+"fictionRank": null,
+"newsRank": 3170,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "під",
+"fictionRank": 51,
+"newsRank": 30,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "під’ї́зд",
+"fictionRank": null,
+"newsRank": 9402,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "підзе́мний",
+"fictionRank": 3184,
+"newsRank": 2946,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пі́дліток / пі́длітка",
+"fictionRank": 4784,
+"newsRank": 2804,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "підло́га",
+"fictionRank": 732,
+"newsRank": 5184,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "підпи́сувати – підписа́ти",
+"fictionRank": 4524,
+"newsRank": 527,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "підру́чник",
+"fictionRank": 5221,
+"newsRank": 4139,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "піжа́ма",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пі́зній",
+"fictionRank": 3190,
+"newsRank": 7671,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пікні́к",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пін-ко́д",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пі́сля",
+"fictionRank": 117,
+"newsRank": 43,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "післяза́втра",
+"fictionRank": 10005,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "пі́шки",
+"fictionRank": 3747,
+"newsRank": 8792,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пішохі́дний",
+"fictionRank": null,
+"newsRank": 4148,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "пла́вання",
+"fictionRank": 7430,
+"newsRank": 6464,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пла́вки",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "планува́ти – запланува́ти",
+"fictionRank": 7462,
+"newsRank": 409,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пла́стир",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "плати́ти – заплати́ти",
+"fictionRank": 1985,
+"newsRank": 1460,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пла́ття",
+"fictionRank": 8002,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "платфо́рма",
+"fictionRank": 7893,
+"newsRank": 1877,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "плащ",
+"fictionRank": 2324,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "племі́нник / племі́нниця",
+"fictionRank": 10329,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "плита́",
+"fictionRank": 3783,
+"newsRank": 6993,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пляж",
+"fictionRank": 6509,
+"newsRank": 3423,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "по-дру́ге",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "по-пе́рше",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "по-тре́тє",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поба́чення",
+"fictionRank": 2732,
+"newsRank": 6678,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "побуто́вий",
+"fictionRank": 7821,
+"newsRank": 2827,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пова́га",
+"fictionRank": 3002,
+"newsRank": 3322,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поверта́ти(ся) – поверну́ти(ся)",
+"fictionRank": 645,
+"newsRank": 1084,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "повідомля́ти – повідо́мити",
+"fictionRank": 1378,
+"newsRank": 38,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пові́льний",
+"fictionRank": 5105,
+"newsRank": 8434,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "по́вний",
+"fictionRank": 531,
+"newsRank": 638,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "повто́рювати – повтори́ти",
+"fictionRank": 1325,
+"newsRank": 4872,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пого́джуватися – погоди́тися",
+"fictionRank": 789,
+"newsRank": 1324,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пода́ток",
+"fictionRank": 1703,
+"newsRank": 610,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "подо́батися – сподо́батися",
+"fictionRank": 887,
+"newsRank": 2873,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "по́дорож",
+"fictionRank": 1864,
+"newsRank": 3221,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "позавчо́ра",
+"fictionRank": 8116,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "пока́зувати – показа́ти",
+"fictionRank": 385,
+"newsRank": 577,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поли́ця",
+"fictionRank": 3648,
+"newsRank": 9374,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поліце́йський / поліце́йська",
+"fictionRank": 3665,
+"newsRank": 705,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "полови́на",
+"fictionRank": 819,
+"newsRank": 986,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "полуни́ця",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "поля́к / по́лька",
+"fictionRank": 1597,
+"newsRank": 3228,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "помара́нчевий",
+"fictionRank": 11069,
+"newsRank": 3202,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "помиля́тися – помили́тися",
+"fictionRank": 2584,
+"newsRank": 7798,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "популя́рний",
+"fictionRank": 7149,
+"newsRank": 2024,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "порт",
+"fictionRank": 3542,
+"newsRank": 1474,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Португа́лія",
+"fictionRank": null,
+"newsRank": 3457,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "по́ряд",
+"fictionRank": 1183,
+"newsRank": 3405,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поси́лка",
+"fictionRank": null,
+"newsRank": 7848,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "по́слуга",
+"fictionRank": 836,
+"newsRank": 427,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "посо́льство",
+"fictionRank": 7194,
+"newsRank": 1310,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "по́тяг",
+"fictionRank": 2871,
+"newsRank": 3243,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "початко́вий",
+"fictionRank": 4937,
+"newsRank": 3591,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поча́ток",
+"fictionRank": 520,
+"newsRank": 195,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "почина́ти(ся) – поча́ти(ся)",
+"fictionRank": 103,
+"newsRank": 228,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поши́рювати – поши́рити",
+"fictionRank": null,
+"newsRank": 4978,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "поштома́т",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "по́яс",
+"fictionRank": 1656,
+"newsRank": 4846,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "поя́снювати – поясни́ти",
+"fictionRank": 633,
+"newsRank": 559,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "праба́ба",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пра́вило",
+"fictionRank": 2381,
+"newsRank": 1063,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пра́во",
+"fictionRank": 222,
+"newsRank": 126,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пра́дід",
+"fictionRank": 6807,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "пра́пор",
+"fictionRank": 2537,
+"newsRank": 1581,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пра́ска",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "прасува́ти – попрасува́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пра́ти – ви́прати",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "працьови́тий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "предме́т",
+"fictionRank": 1264,
+"newsRank": 1305,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "презента́ція",
+"fictionRank": null,
+"newsRank": 2671,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "президе́нт / президе́нтка",
+"fictionRank": 1848,
+"newsRank": 25,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пре́фікс",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "прибира́ти – прибра́ти",
+"fictionRank": 3602,
+"newsRank": 3673,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "прибува́ти – прибу́ти",
+"fictionRank": 1169,
+"newsRank": 1186,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "при́голосний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "прийма́ти – прийня́ти",
+"fictionRank": 699,
+"newsRank": 324,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "прийме́нник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "прийо́м",
+"fictionRank": 3019,
+"newsRank": 2097,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "прикме́тник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "прикра́са",
+"fictionRank": 5695,
+"newsRank": 5937,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "приміря́ти – примі́ряти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "при́нтер",
+"fictionRank": null,
+"newsRank": 11191,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "припра́ва",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "прислі́вник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "при́ятель / при́ятелька",
+"fictionRank": 1583,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "прогно́з",
+"fictionRank": 6542,
+"newsRank": 1055,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "програва́ти – програ́ти",
+"fictionRank": 6941,
+"newsRank": 2620,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "програмі́ст / програмі́стка",
+"fictionRank": null,
+"newsRank": 10535,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "прогу́лянка",
+"fictionRank": 3774,
+"newsRank": 5710,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "продава́ти – прода́ти",
+"fictionRank": 1796,
+"newsRank": 1422,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "прокида́тися – проки́нутися",
+"fictionRank": 1108,
+"newsRank": 9482,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пропонува́ти – запропонува́ти",
+"fictionRank": 1212,
+"newsRank": 627,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "проси́ти – попроси́ти",
+"fictionRank": 289,
+"newsRank": 783,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "профе́сор / профе́сорка",
+"fictionRank": 624,
+"newsRank": 2750,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "про́філь",
+"fictionRank": 7580,
+"newsRank": 6188,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Про́шу!",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "прями́й",
+"fictionRank": 1693,
+"newsRank": 902,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "психо́лог / психологи́ня",
+"fictionRank": 8754,
+"newsRank": 4087,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "пусте́ля",
+"fictionRank": 2188,
+"newsRank": 9489,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "путівни́к",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "пʼя́теро",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "п’ятна́дцятий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ра́да",
+"fictionRank": 3245,
+"newsRank": 2155,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ра́діо",
+"fictionRank": 3953,
+"newsRank": 1321,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "раз",
+"fictionRank": 71,
+"newsRank": 121,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Рамада́н",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ранко́вий",
+"fictionRank": 3882,
+"newsRank": 5360,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ра́нній",
+"fictionRank": 4985,
+"newsRank": 5159,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ра́птом",
+"fictionRank": 199,
+"newsRank": 4296,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ра́туша",
+"fictionRank": 11624,
+"newsRank": 10087,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "рахува́ти – порахува́ти",
+"fictionRank": 4785,
+"newsRank": 7498,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "реєструва́ти(ся) – зареєструва́тися",
+"fictionRank": null,
+"newsRank": 6004,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "резервува́ти – зарезервува́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "рекла́ма",
+"fictionRank": 3058,
+"newsRank": 2006,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "рекомендува́ти – порекомендува́ти",
+"fictionRank": 9099,
+"newsRank": 1986,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "релігі́йний",
+"fictionRank": 2689,
+"newsRank": 2896,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "реце́пт",
+"fictionRank": 9151,
+"newsRank": 4232,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ре́чення",
+"fictionRank": 5494,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "рі́вень",
+"fictionRank": 1064,
+"newsRank": 516,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "рід",
+"fictionRank": 2043,
+"newsRank": 10796,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "рі́зати – порі́зати",
+"fictionRank": 3752,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "ро́дич / ро́дичка",
+"fictionRank": 1410,
+"newsRank": 1864,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "родови́й",
+"fictionRank": 8041,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "розе́тка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "розка́зувати – розказа́ти",
+"fictionRank": 1174,
+"newsRank": 4567,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "розлу́чений",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "розмо́ва",
+"fictionRank": 325,
+"newsRank": 907,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "розмо́вник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "розповіда́ти – розпові́сти́",
+"fictionRank": 536,
+"newsRank": 236,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "розпро́даж",
+"fictionRank": null,
+"newsRank": 9134,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "розташо́ваний",
+"fictionRank": 3930,
+"newsRank": 1121,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ро́лики",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "рости́ – ви́рости",
+"fictionRank": 1259,
+"newsRank": 3195,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ро́утер",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "руди́й",
+"fictionRank": 2422,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "ряд",
+"fictionRank": 925,
+"newsRank": 1162,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "са́ло",
+"fictionRank": 3188,
+"newsRank": 7434,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "самока́т",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "санда́лі",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "свари́ти(ся) – посвари́ти(ся)",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "светр",
+"fictionRank": 9846,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "свиня́",
+"fictionRank": 3449,
+"newsRank": 6280,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "свідо́цтво",
+"fictionRank": 8696,
+"newsRank": 5555,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "свій",
+"fictionRank": 15,
+"newsRank": 19,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "світ",
+"fictionRank": 235,
+"newsRank": 1189,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сві́тло",
+"fictionRank": 506,
+"newsRank": 3544,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "світлофо́р",
+"fictionRank": null,
+"newsRank": 7340,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "Святве́чір",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "святко́вий",
+"fictionRank": 4668,
+"newsRank": 3271,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "себе́",
+"fictionRank": 52,
+"newsRank": 196,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сезо́н",
+"fictionRank": 9505,
+"newsRank": 813,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "секрета́р / секрета́рка",
+"fictionRank": 2316,
+"newsRank": 686,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "се́меро",
+"fictionRank": null,
+"newsRank": 5764,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "сере́жка",
+"fictionRank": 9213,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "серіа́л",
+"fictionRank": null,
+"newsRank": 2493,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "серйо́зний",
+"fictionRank": 1768,
+"newsRank": 934,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "си́вий",
+"fictionRank": 1362,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "сигаре́та",
+"fictionRank": 3656,
+"newsRank": 4211,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "си́мвол",
+"fictionRank": 2936,
+"newsRank": 3247,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "симпати́чний",
+"fictionRank": 5533,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "сіда́ти – сі́сти",
+"fictionRank": 308,
+"newsRank": 3786,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сільськи́й",
+"fictionRank": 1376,
+"newsRank": 1459,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сіме́йний",
+"fictionRank": 4885,
+"newsRank": 2305,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сімна́дцятий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ска́нер",
+"fictionRank": null,
+"newsRank": 11695,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "ска́рга",
+"fictionRank": 3911,
+"newsRank": 1420,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "скатерти́на",
+"fictionRank": 10804,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "скейтбо́рд",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "склад",
+"fictionRank": 803,
+"newsRank": 274,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "складни́й",
+"fictionRank": 1869,
+"newsRank": 1307,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "скляни́й",
+"fictionRank": 3415,
+"newsRank": 8151,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сковорі́дка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "скри́пка",
+"fictionRank": 4700,
+"newsRank": 8485,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "скупи́й",
+"fictionRank": 7512,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "слабки́й",
+"fictionRank": 2814,
+"newsRank": 3206,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сли́ва",
+"fictionRank": 11211,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "Слова́ччина",
+"fictionRank": null,
+"newsRank": 2461,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "Слове́нія",
+"fictionRank": null,
+"newsRank": 5106,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "слу́жба",
+"fictionRank": 679,
+"newsRank": 68,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "слу́хати – послу́хати",
+"fictionRank": 268,
+"newsRank": 3782,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сма́жений",
+"fictionRank": 6939,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "сма́жити – посма́жити",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "смета́на",
+"fictionRank": 9820,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "сміли́вий",
+"fictionRank": 5023,
+"newsRank": 9991,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "смішни́й",
+"fictionRank": 5262,
+"newsRank": 11267,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "собо́р",
+"fictionRank": 2718,
+"newsRank": 2759,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "соло́дкий",
+"fictionRank": 4383,
+"newsRank": 10474,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "соло́ний",
+"fictionRank": 10892,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "сонцезахисни́й",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "со́нячний",
+"fictionRank": 1915,
+"newsRank": 3213,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сортува́ти – посортува́ти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "соси́ска",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "со́ус",
+"fictionRank": null,
+"newsRank": 9831,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "спе́ка",
+"fictionRank": 2969,
+"newsRank": 5225,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "спеціалі́ст / спеціалі́стка",
+"fictionRank": 4064,
+"newsRank": 3026,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "спеціа́льний",
+"fictionRank": 1457,
+"newsRank": 594,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "співа́к / співа́чка",
+"fictionRank": 6994,
+"newsRank": 1811,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "співбе́сіда",
+"fictionRank": null,
+"newsRank": 8123,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "спортза́л",
+"fictionRank": null,
+"newsRank": 9964,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "спорти́вний",
+"fictionRank": 5153,
+"newsRank": 1427,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "спра́вжній",
+"fictionRank": 346,
+"newsRank": 1157,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "срі́бний",
+"fictionRank": 2509,
+"newsRank": 7540,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "става́ти – ста́ти",
+"fictionRank": 256,
+"newsRank": 290,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ста́вити – поста́вити",
+"fictionRank": 513,
+"newsRank": 1062,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "стаття́",
+"fictionRank": 1337,
+"newsRank": 511,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ста́туя",
+"fictionRank": 4425,
+"newsRank": 9182,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сте́ля",
+"fictionRank": 2669,
+"newsRank": 11185,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "степ",
+"fictionRank": 713,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "стипе́ндія",
+"fictionRank": null,
+"newsRank": 5968,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "столі́ття",
+"fictionRank": 1185,
+"newsRank": 1555,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "стомато́лог / стоматологи́ня",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "стоя́нка",
+"fictionRank": 10495,
+"newsRank": 8628,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "страхува́ння",
+"fictionRank": 4136,
+"newsRank": 3718,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "стрі́чка",
+"fictionRank": 2820,
+"newsRank": 2220,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сувені́р",
+"fictionRank": null,
+"newsRank": 10849,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "суд",
+"fictionRank": 505,
+"newsRank": 65,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сумни́й",
+"fictionRank": 1426,
+"newsRank": 6062,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "су́мно",
+"fictionRank": 1627,
+"newsRank": 9420,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сусі́дній",
+"fictionRank": 1610,
+"newsRank": 2522,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "су́фікс",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "сухи́й",
+"fictionRank": 2595,
+"newsRank": 7864,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "схі́дний",
+"fictionRank": 2177,
+"newsRank": 884,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "схо́жий",
+"fictionRank": 541,
+"newsRank": 1838,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "сце́на",
+"fictionRank": 1469,
+"newsRank": 2004,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "табле́тка",
+"fictionRank": 10451,
+"newsRank": 8886,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "табли́ця",
+"fictionRank": 2341,
+"newsRank": 3656,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "тверди́й",
+"fictionRank": 2524,
+"newsRank": 5666,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "твір",
+"fictionRank": 990,
+"newsRank": 2547,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "те́мно",
+"fictionRank": 1630,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "те́ніс",
+"fictionRank": null,
+"newsRank": 6388,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "тепе́рішній",
+"fictionRank": 2982,
+"newsRank": 4893,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "терито́рія",
+"fictionRank": 1290,
+"newsRank": 122,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "те́рмін",
+"fictionRank": 1415,
+"newsRank": 452,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "терміно́во",
+"fictionRank": 11450,
+"newsRank": 3960,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "терміно́вий",
+"fictionRank": null,
+"newsRank": 4812,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "тест",
+"fictionRank": 9518,
+"newsRank": 1706,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "те́хніка",
+"fictionRank": 8199,
+"newsRank": 5146,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "типо́вий",
+"fictionRank": 5470,
+"newsRank": 7461,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ти́снути – нати́снути",
+"fictionRank": 3128,
+"newsRank": 4813,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "тиск",
+"fictionRank": 3962,
+"newsRank": 974,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ті́стечко",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "товсти́й",
+"fictionRank": 3182,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "той",
+"fictionRank": 21,
+"newsRank": 33,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "тонки́й",
+"fictionRank": 1508,
+"newsRank": 8483,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "то́стер",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "то́що",
+"fictionRank": 871,
+"newsRank": 1391,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "традиці́йний",
+"fictionRank": 3915,
+"newsRank": 2118,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "тре́нер / тре́нерка",
+"fictionRank": null,
+"newsRank": 1122,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "тренува́ння",
+"fictionRank": 11997,
+"newsRank": 3189,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "тренува́тися – потренува́тися",
+"fictionRank": null,
+"newsRank": 6377,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "трива́ти – протрива́ти",
+"fictionRank": 2297,
+"newsRank": 517,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "тридця́тий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "тризу́б",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "трима́ти(ся)",
+"fictionRank": 465,
+"newsRank": 1769,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "трина́дцятий",
+"fictionRank": 10446,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "тро́є",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "тротуа́р",
+"fictionRank": 5158,
+"newsRank": 5278,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "труси́",
+"fictionRank": 10552,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "туале́тний",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ту́мбочка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "тур",
+"fictionRank": 5047,
+"newsRank": 1016,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "туристи́чний",
+"fictionRank": null,
+"newsRank": 2556,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "ту́флі",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "ува́жно",
+"fictionRank": 1326,
+"newsRank": 4818,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "умива́льник",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "умо́ва",
+"fictionRank": 393,
+"newsRank": 211,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "уніта́з",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "усміха́тися – усміхну́тися",
+"fictionRank": 1006,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "успі́шний",
+"fictionRank": 6314,
+"newsRank": 1817,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "уча́сник / уча́сниця",
+"fictionRank": 1971,
+"newsRank": 253,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "файл",
+"fictionRank": 7381,
+"newsRank": 7695,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "фах",
+"fictionRank": 8825,
+"newsRank": 11513,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "фахіве́ць / фахівчи́ня",
+"fictionRank": 3327,
+"newsRank": 772,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "фен",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "фестива́ль",
+"fictionRank": null,
+"newsRank": 1149,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "фізкульту́ра",
+"fictionRank": null,
+"newsRank": 11159,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "Фінля́ндія",
+"fictionRank": null,
+"newsRank": 3328,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "фі́рма",
+"fictionRank": 1263,
+"newsRank": 879,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "фонта́н",
+"fictionRank": 8424,
+"newsRank": 8635,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "фо́рма",
+"fictionRank": 345,
+"newsRank": 782,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "форте́ця",
+"fictionRank": 2276,
+"newsRank": 7330,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "фотоапара́т",
+"fictionRank": 11619,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "фра́за",
+"fictionRank": 2250,
+"newsRank": 4395,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "фрукто́вий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "футболі́ст / футболі́стка",
+"fictionRank": null,
+"newsRank": 1315,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "хай, неха́й",
+"fictionRank": 262,
+"newsRank": 2861,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "хво́рий",
+"fictionRank": 884,
+"newsRank": 1034,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "хворі́ти – захворі́ти",
+"fictionRank": 5009,
+"newsRank": 3289,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "хма́рний",
+"fictionRank": null,
+"newsRank": 8296,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "хоке́й",
+"fictionRank": null,
+"newsRank": 7043,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "Хорва́тія",
+"fictionRank": null,
+"newsRank": 3653,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "хоро́ший",
+"fictionRank": 2035,
+"newsRank": 1792,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "хо́стел, го́стел",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "храм",
+"fictionRank": 1471,
+"newsRank": 2623,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "худи́й",
+"fictionRank": 4631,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "худо́жник / худо́жниця",
+"fictionRank": 2270,
+"newsRank": 2658,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "цент",
+"fictionRank": null,
+"newsRank": 10283,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "центра́льний",
+"fictionRank": 2378,
+"newsRank": 781,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "цирк",
+"fictionRank": 7329,
+"newsRank": 7558,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ціка́витися – поціка́витися, заціка́витися",
+"fictionRank": 2340,
+"newsRank": 4571,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "цілодобо́во",
+"fictionRank": null,
+"newsRank": 7500,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "цілува́ти(ся) – поцілува́ти(ся)",
+"fictionRank": 1684,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "чайові́",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "часни́к",
+"fictionRank": null,
+"newsRank": 10969,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "части́на",
+"fictionRank": 316,
+"newsRank": 143,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "чат",
+"fictionRank": null,
+"newsRank": 9960,
+"only": "news",
+"shippedMatched": false
+},
+{
+"entry": "чек",
+"fictionRank": 5671,
+"newsRank": 8203,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "череви́ки",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "че́тверо",
+"fictionRank": 4158,
+"newsRank": 2831,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "Че́хія",
+"fictionRank": null,
+"newsRank": 1931,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "чино́вник / чино́вниця",
+"fictionRank": 5144,
+"newsRank": 676,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "число́",
+"fictionRank": 1015,
+"newsRank": 347,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "чи́стити – почи́стити",
+"fictionRank": 6438,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": true
+},
+{
+"entry": "чо́боти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "чорни́ця",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "чотирна́дцятий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "чу́ти – почу́ти",
+"fictionRank": 165,
+"newsRank": 2187,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "чужи́й",
+"fictionRank": 400,
+"newsRank": 3027,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "шаг",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "Шве́ція",
+"fictionRank": 9937,
+"newsRank": 2244,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ше́стеро",
+"fictionRank": 10129,
+"newsRank": 4975,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ши́я",
+"fictionRank": 686,
+"newsRank": 5973,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "шістна́дцятий",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "шкідли́вий",
+"fictionRank": 5887,
+"newsRank": 3712,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "шкі́ра",
+"fictionRank": 1117,
+"newsRank": 3401,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "школя́р / школя́рка",
+"fictionRank": 6169,
+"newsRank": 4504,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "шлу́нок",
+"fictionRank": 4854,
+"newsRank": 8758,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "шлях",
+"fictionRank": 270,
+"newsRank": 401,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "шмато́к",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "шо́рти",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "щасли́во",
+"fictionRank": 4016,
+"newsRank": null,
+"only": "fiction",
+"shippedMatched": false
+},
+{
+"entry": "ще, іще́",
+"fictionRank": 29,
+"newsRank": 51,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ще́дрий",
+"fictionRank": 4567,
+"newsRank": 11078,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ще́плення",
+"fictionRank": null,
+"newsRank": 3251,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "щи́рий",
+"fictionRank": 1862,
+"newsRank": 8158,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "щоб, що́би",
+"fictionRank": 43,
+"newsRank": 61,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ювелі́рний",
+"fictionRank": null,
+"newsRank": 7471,
+"only": "news",
+"shippedMatched": true
+},
+{
+"entry": "юриди́чний",
+"fictionRank": 2183,
+"newsRank": 1095,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "я́года",
+"fictionRank": 4931,
+"newsRank": 8309,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "яє́чня",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+},
+{
+"entry": "якщо́",
+"fictionRank": 85,
+"newsRank": 76,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "яли́нка",
+"fictionRank": 7107,
+"newsRank": 4009,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "яскра́вий",
+"fictionRank": 1747,
+"newsRank": 2966,
+"only": null,
+"shippedMatched": true
+},
+{
+"entry": "ID-ка́ртка",
+"fictionRank": null,
+"newsRank": null,
+"only": null,
+"shippedMatched": false
+}
+]
+}

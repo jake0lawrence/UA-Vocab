@@ -1,0 +1,12342 @@
+{
+"source": "1000 i 1 slovo: Lexical Minimum in Ukrainian as a Foreign Language, Level A1 (Borodin, Turkevych)",
+"sourceUrl": "https://doi.org/10.18452/28236",
+"license": "CC-BY-4.0",
+"provided": "Machine-readable list shared by co-author K. Borodin (School of Ukrainian Language and Culture, Ukrainian Catholic University), 2026-07-27, for attributed open republication. Attribution required.",
+"snapshot": "2026-07-27",
+"validated": false,
+"basis": "corpus-based A1 lexical minimum for Ukrainian as a foreign language, published as a CC-BY-4.0 guide; an expert selection, not a corpus-validated CEFR profile",
+"method": "entries kept verbatim; candidate headwords extracted from the authors' separators and parentheses; lemma-string join onto the top-12000 frequency list at the best rank (no POS in the source, so the join is coarser than the POS-aware overlays)",
+"listSize": 12000,
+"rawLines": 944,
+"duplicateLines": 15,
+"entries": 929,
+"wordEntries": 908,
+"phraseEntries": 21,
+"matchedEntries": 838,
+"matchedLemmas": 833,
+"offListWordEntries": 72,
+"offListSample": [
+"автовокзал",
+"алергія",
+"алфавіт",
+"апельсин",
+"банан",
+"блокнот",
+"блузка",
+"бутерброд",
+"вареники",
+"вегетаріанський",
+"вечеряти",
+"виделка"
+],
+"medianRank": 1549,
+"maxRank": 11811,
+"coveragePct": 34.7,
+"perBand": {
+"1": 307,
+"2": 173,
+"3": 98,
+"4": 65,
+"5": 46,
+"6": 41,
+"7": 28,
+"8": 21,
+"9": 18,
+"10": 16,
+"11": 9,
+"12": 11
+},
+"matchedInTopN": {
+"1000": 307,
+"2000": 480,
+"5000": 689,
+"12000": 833
+},
+"consensus": {
+"source": "Borodin A1 membership vs the validated PULS level, on the lemmas both cover",
+"nBoth": 806,
+"atA1": 610,
+"atA1Pct": 75.7,
+"withinA2": 780,
+"withinA2Pct": 96.8,
+"perLevel": {
+"A1": 610,
+"A2": 170,
+"B1": 24,
+"B2": 1,
+"C1": 1
+}
+},
+"openCheck": {
+"source": "Borodin A1 membership vs the open course overlay (heuristic), on the lemmas both cover",
+"nBoth": 552,
+"atA1": 412,
+"atA1Pct": 74.6,
+"withinA2": 484,
+"withinA2Pct": 87.7
+},
+"download": "/downloads/ukrainian-frequency/borodin-a1/lemmas.csv",
+"rows": [
+{
+"entry": "а",
+"kind": "word",
+"headwords": [
+"а"
+],
+"matched": true,
+"matchedForm": "а",
+"rank": 18,
+"lemma": "а",
+"pos": "CCONJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "або",
+"kind": "word",
+"headwords": [
+"або"
+],
+"matched": true,
+"matchedForm": "або",
+"rank": 62,
+"lemma": "або",
+"pos": "CCONJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Австралія",
+"kind": "word",
+"headwords": [
+"австралія"
+],
+"matched": true,
+"matchedForm": "австралія",
+"rank": 2254,
+"lemma": "Австралія",
+"pos": "PROPN",
+"pulsLevel": "A1"
+},
+{
+"entry": "автобус",
+"kind": "word",
+"headwords": [
+"автобус"
+],
+"matched": true,
+"matchedForm": "автобус",
+"rank": 1308,
+"lemma": "автобус",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "автовокзал",
+"kind": "word",
+"headwords": [
+"автовокзал"
+],
+"matched": false
+},
+{
+"entry": "автомат",
+"kind": "word",
+"headwords": [
+"автомат"
+],
+"matched": true,
+"matchedForm": "автомат",
+"rank": 3636,
+"lemma": "автомат",
+"pos": "NOUN",
+"pulsLevel": "C1"
+},
+{
+"entry": "адреса",
+"kind": "word",
+"headwords": [
+"адреса"
+],
+"matched": true,
+"matchedForm": "адреса",
+"rank": 1342,
+"lemma": "адреса",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "аеропорт",
+"kind": "word",
+"headwords": [
+"аеропорт"
+],
+"matched": true,
+"matchedForm": "аеропорт",
+"rank": 804,
+"lemma": "аеропорт",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "Азія",
+"kind": "word",
+"headwords": [
+"азія"
+],
+"matched": true,
+"matchedForm": "азія",
+"rank": 2415,
+"lemma": "Азія",
+"pos": "PROPN",
+"pulsLevel": "A1"
+},
+{
+"entry": "Азовське море",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "активний",
+"kind": "word",
+"headwords": [
+"активний"
+],
+"matched": true,
+"matchedForm": "активний",
+"rank": 1085,
+"lemma": "активний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "але",
+"kind": "word",
+"headwords": [
+"але"
+],
+"matched": true,
+"matchedForm": "але",
+"rank": 31,
+"lemma": "але",
+"pos": "CCONJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "алергія",
+"kind": "word",
+"headwords": [
+"алергія"
+],
+"matched": false
+},
+{
+"entry": "алфавіт",
+"kind": "word",
+"headwords": [
+"алфавіт"
+],
+"matched": false
+},
+{
+"entry": "Америка",
+"kind": "word",
+"headwords": [
+"америка"
+],
+"matched": true,
+"matchedForm": "америка",
+"rank": 1242,
+"lemma": "Америка",
+"pos": "PROPN",
+"pulsLevel": "A1"
+},
+{
+"entry": "англійський",
+"kind": "word",
+"headwords": [
+"англійський"
+],
+"matched": true,
+"matchedForm": "англійський",
+"rank": 1413,
+"lemma": "англійський",
+"pos": "ADJ"
+},
+{
+"entry": "апельсин",
+"kind": "word",
+"headwords": [
+"апельсин"
+],
+"matched": false
+},
+{
+"entry": "аптека",
+"kind": "word",
+"headwords": [
+"аптека"
+],
+"matched": true,
+"matchedForm": "аптека",
+"rank": 5247,
+"lemma": "аптека",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Африка",
+"kind": "word",
+"headwords": [
+"африка"
+],
+"matched": true,
+"matchedForm": "африка",
+"rank": 2565,
+"lemma": "Африка",
+"pos": "PROPN",
+"pulsLevel": "A1"
+},
+{
+"entry": "б (би)",
+"kind": "word",
+"headwords": [
+"б",
+"би"
+],
+"matched": true,
+"matchedForm": "б",
+"rank": 153,
+"lemma": "б",
+"pos": "PART",
+"pulsLevel": "B1",
+"openLevel": "B1"
+},
+{
+"entry": "баба",
+"kind": "word",
+"headwords": [
+"баба"
+],
+"matched": true,
+"matchedForm": "баба",
+"rank": 4477,
+"lemma": "баба",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "багаж",
+"kind": "word",
+"headwords": [
+"багаж"
+],
+"matched": true,
+"matchedForm": "багаж",
+"rank": 9517,
+"lemma": "багаж",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "багато",
+"kind": "word",
+"headwords": [
+"багато"
+],
+"matched": true,
+"matchedForm": "багато",
+"rank": 280,
+"lemma": "багато",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "бажати",
+"kind": "word",
+"headwords": [
+"бажати"
+],
+"matched": true,
+"matchedForm": "бажати",
+"rank": 2363,
+"lemma": "бажати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "балкон",
+"kind": "word",
+"headwords": [
+"балкон"
+],
+"matched": true,
+"matchedForm": "балкон",
+"rank": 6555,
+"lemma": "балкон",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "банан",
+"kind": "word",
+"headwords": [
+"банан"
+],
+"matched": false
+},
+{
+"entry": "банк",
+"kind": "word",
+"headwords": [
+"банк"
+],
+"matched": true,
+"matchedForm": "банк",
+"rank": 275,
+"lemma": "банк",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "басейн",
+"kind": "word",
+"headwords": [
+"басейн"
+],
+"matched": true,
+"matchedForm": "басейн",
+"rank": 3158,
+"lemma": "басейн",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "баскетбол",
+"kind": "word",
+"headwords": [
+"баскетбол"
+],
+"matched": true,
+"matchedForm": "баскетбол",
+"rank": 7552,
+"lemma": "баскетбол",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "батьки",
+"kind": "word",
+"headwords": [
+"батьки"
+],
+"matched": true,
+"matchedForm": "батьки",
+"rank": 1362,
+"lemma": "батьки",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "бачити",
+"kind": "word",
+"headwords": [
+"бачити"
+],
+"matched": true,
+"matchedForm": "бачити",
+"rank": 324,
+"lemma": "бачити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "березень",
+"kind": "word",
+"headwords": [
+"березень"
+],
+"matched": true,
+"matchedForm": "березень",
+"rank": 173,
+"lemma": "березень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "бібліотека",
+"kind": "word",
+"headwords": [
+"бібліотека"
+],
+"matched": true,
+"matchedForm": "бібліотека",
+"rank": 1784,
+"lemma": "бібліотека",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "бігати",
+"kind": "word",
+"headwords": [
+"бігати"
+],
+"matched": true,
+"matchedForm": "бігати",
+"rank": 5523,
+"lemma": "бігати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "бізнес",
+"kind": "word",
+"headwords": [
+"бізнес"
+],
+"matched": true,
+"matchedForm": "бізнес",
+"rank": 625,
+"lemma": "бізнес",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "бізнесмен / бізнесменка",
+"kind": "word",
+"headwords": [
+"бізнесмен",
+"бізнесменка"
+],
+"matched": true,
+"matchedForm": "бізнесмен",
+"rank": 1823,
+"lemma": "бізнесмен",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "білий",
+"kind": "word",
+"headwords": [
+"білий"
+],
+"matched": true,
+"matchedForm": "білий",
+"rank": 605,
+"lemma": "білий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Білорусь",
+"kind": "word",
+"headwords": [
+"білорусь"
+],
+"matched": true,
+"matchedForm": "білорусь",
+"rank": 673,
+"lemma": "Білорусь",
+"pos": "PROPN"
+},
+{
+"entry": "більше",
+"kind": "word",
+"headwords": [
+"більше"
+],
+"matched": true,
+"matchedForm": "більше",
+"rank": 117,
+"lemma": "більше",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "біологія",
+"kind": "word",
+"headwords": [
+"біологія"
+],
+"matched": true,
+"matchedForm": "біологія",
+"rank": 7442,
+"lemma": "біологія",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "близько",
+"kind": "word",
+"headwords": [
+"близько"
+],
+"matched": true,
+"matchedForm": "близько",
+"rank": 166,
+"lemma": "близько",
+"pos": "ADP",
+"pulsLevel": "A1"
+},
+{
+"entry": "блокнот",
+"kind": "word",
+"headwords": [
+"блокнот"
+],
+"matched": false
+},
+{
+"entry": "блузка",
+"kind": "word",
+"headwords": [
+"блузка"
+],
+"matched": false
+},
+{
+"entry": "бо = тому що",
+"kind": "word",
+"headwords": [
+"бо"
+],
+"matched": true,
+"matchedForm": "бо",
+"rank": 274,
+"lemma": "бо",
+"pos": "SCONJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Бог",
+"kind": "word",
+"headwords": [
+"бог"
+],
+"matched": true,
+"matchedForm": "бог",
+"rank": 918,
+"lemma": "бог",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "бокс",
+"kind": "word",
+"headwords": [
+"бокс"
+],
+"matched": true,
+"matchedForm": "бокс",
+"rank": 4851,
+"lemma": "бокс",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "боліти",
+"kind": "word",
+"headwords": [
+"боліти"
+],
+"matched": true,
+"matchedForm": "боліти",
+"rank": 6442,
+"lemma": "боліти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "борошно",
+"kind": "word",
+"headwords": [
+"борошно"
+],
+"matched": true,
+"matchedForm": "борошно",
+"rank": 5765,
+"lemma": "борошно",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "борщ",
+"kind": "word",
+"headwords": [
+"борщ"
+],
+"matched": true,
+"matchedForm": "борщ",
+"rank": 9418,
+"lemma": "борщ",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "боятися",
+"kind": "word",
+"headwords": [
+"боятися"
+],
+"matched": true,
+"matchedForm": "боятися",
+"rank": 1297,
+"lemma": "боятися",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "брат",
+"kind": "word",
+"headwords": [
+"брат"
+],
+"matched": true,
+"matchedForm": "брат",
+"rank": 972,
+"lemma": "брат",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "бра́ти – взяти",
+"kind": "word",
+"headwords": [
+"брати",
+"взяти"
+],
+"matched": true,
+"matchedForm": "брати",
+"rank": 302,
+"lemma": "брати",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "брудний",
+"kind": "word",
+"headwords": [
+"брудний"
+],
+"matched": true,
+"matchedForm": "брудний",
+"rank": 4976,
+"lemma": "брудний",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "будинок",
+"kind": "word",
+"headwords": [
+"будинок"
+],
+"matched": true,
+"matchedForm": "будинок",
+"rank": 246,
+"lemma": "будинок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Будь ласка",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "буква (велика, мала)",
+"kind": "word",
+"headwords": [
+"буква",
+"велика",
+"мала"
+],
+"matched": true,
+"matchedForm": "буква",
+"rank": 7193,
+"lemma": "буква",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "бутерброд",
+"kind": "word",
+"headwords": [
+"бутерброд"
+],
+"matched": false
+},
+{
+"entry": "бути",
+"kind": "word",
+"headwords": [
+"бути"
+],
+"matched": true,
+"matchedForm": "бути",
+"rank": 6,
+"lemma": "бути",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "бути (є, був, була, були, буду, будеш …) (будь, будьте)",
+"kind": "word",
+"headwords": [
+"бути",
+"є",
+"був",
+"була",
+"були",
+"буду",
+"будеш",
+"будь",
+"будьте"
+],
+"matched": true,
+"matchedForm": "бути",
+"rank": 6,
+"lemma": "бути",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "в, у",
+"kind": "word",
+"headwords": [
+"в",
+"у"
+],
+"matched": true,
+"matchedForm": "в",
+"rank": 1,
+"lemma": "в",
+"pos": "ADP",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вагон",
+"kind": "word",
+"headwords": [
+"вагон"
+],
+"matched": true,
+"matchedForm": "вагон",
+"rank": 2466,
+"lemma": "вагон",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "важкий",
+"kind": "word",
+"headwords": [
+"важкий"
+],
+"matched": true,
+"matchedForm": "важкий",
+"rank": 888,
+"lemma": "важкий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "важко",
+"kind": "word",
+"headwords": [
+"важко"
+],
+"matched": true,
+"matchedForm": "важко",
+"rank": 1261,
+"lemma": "важко",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "важливий",
+"kind": "word",
+"headwords": [
+"важливий"
+],
+"matched": true,
+"matchedForm": "важливий",
+"rank": 601,
+"lemma": "важливий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "валіза",
+"kind": "word",
+"headwords": [
+"валіза"
+],
+"matched": true,
+"matchedForm": "валіза",
+"rank": 9627,
+"lemma": "валіза",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "ванна",
+"kind": "word",
+"headwords": [
+"ванна"
+],
+"matched": true,
+"matchedForm": "ванна",
+"rank": 8761,
+"lemma": "ванна",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "вантажний",
+"kind": "word",
+"headwords": [
+"вантажний"
+],
+"matched": true,
+"matchedForm": "вантажний",
+"rank": 3143,
+"lemma": "вантажний",
+"pos": "ADJ",
+"pulsLevel": "B2"
+},
+{
+"entry": "вареники",
+"kind": "word",
+"headwords": [
+"вареники"
+],
+"matched": false
+},
+{
+"entry": "ваш (ваша, ваше, ваші)",
+"kind": "word",
+"headwords": [
+"ваш",
+"ваша",
+"ваше",
+"ваші"
+],
+"matched": true,
+"matchedForm": "ваш",
+"rank": 608,
+"lemma": "ваш",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "ввечері, увечері",
+"kind": "word",
+"headwords": [
+"ввечері",
+"увечері"
+],
+"matched": true,
+"matchedForm": "ввечері",
+"rank": 1945,
+"lemma": "ввечері",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вдень, удень",
+"kind": "word",
+"headwords": [
+"вдень",
+"удень"
+],
+"matched": true,
+"matchedForm": "вдень",
+"rank": 1231,
+"lemma": "вдень",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вдома, удома",
+"kind": "word",
+"headwords": [
+"вдома",
+"удома"
+],
+"matched": true,
+"matchedForm": "вдома",
+"rank": 2123,
+"lemma": "вдома",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вегетаріанський",
+"kind": "word",
+"headwords": [
+"вегетаріанський"
+],
+"matched": false
+},
+{
+"entry": "Велика Британія",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "Великдень",
+"kind": "word",
+"headwords": [
+"великдень"
+],
+"matched": true,
+"matchedForm": "великдень",
+"rank": 6426,
+"lemma": "Великдень",
+"pos": "PROPN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "великий",
+"kind": "word",
+"headwords": [
+"великий"
+],
+"matched": true,
+"matchedForm": "великий",
+"rank": 89,
+"lemma": "великий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "велосипед",
+"kind": "word",
+"headwords": [
+"велосипед"
+],
+"matched": true,
+"matchedForm": "велосипед",
+"rank": 4953,
+"lemma": "велосипед",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "вересень",
+"kind": "word",
+"headwords": [
+"вересень"
+],
+"matched": true,
+"matchedForm": "вересень",
+"rank": 214,
+"lemma": "вересень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "веселий",
+"kind": "word",
+"headwords": [
+"веселий"
+],
+"matched": true,
+"matchedForm": "веселий",
+"rank": 3613,
+"lemma": "веселий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "весілля",
+"kind": "word",
+"headwords": [
+"весілля"
+],
+"matched": true,
+"matchedForm": "весілля",
+"rank": 3509,
+"lemma": "весілля",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "весна",
+"kind": "word",
+"headwords": [
+"весна"
+],
+"matched": true,
+"matchedForm": "весна",
+"rank": 2966,
+"lemma": "весна",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "весь (вся, все, всі); увесь (уся, усе, усі)",
+"kind": "word",
+"headwords": [
+"весь",
+"увесь",
+"вся",
+"все",
+"всі",
+"уся",
+"усе",
+"усі"
+],
+"matched": true,
+"matchedForm": "весь",
+"rank": 41,
+"lemma": "весь",
+"pos": "DET",
+"pulsLevel": "A2"
+},
+{
+"entry": "вечеря",
+"kind": "word",
+"headwords": [
+"вечеря"
+],
+"matched": true,
+"matchedForm": "вечеря",
+"rank": 5383,
+"lemma": "вечеря",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вечеряти",
+"kind": "word",
+"headwords": [
+"вечеряти"
+],
+"matched": false
+},
+{
+"entry": "вечір",
+"kind": "word",
+"headwords": [
+"вечір"
+],
+"matched": true,
+"matchedForm": "вечір",
+"rank": 1647,
+"lemma": "вечір",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вечірка",
+"kind": "word",
+"headwords": [
+"вечірка"
+],
+"matched": true,
+"matchedForm": "вечірка",
+"rank": 6038,
+"lemma": "вечірка",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "вже, уже",
+"kind": "word",
+"headwords": [
+"вже",
+"уже"
+],
+"matched": true,
+"matchedForm": "вже",
+"rank": 55,
+"lemma": "вже",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "взимку, узимку",
+"kind": "word",
+"headwords": [
+"взимку",
+"узимку"
+],
+"matched": true,
+"matchedForm": "взимку",
+"rank": 4901,
+"lemma": "взимку",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "взуття",
+"kind": "word",
+"headwords": [
+"взуття"
+],
+"matched": true,
+"matchedForm": "взуття",
+"rank": 5425,
+"lemma": "взуття",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "ви / Ви",
+"kind": "word",
+"headwords": [
+"ви"
+],
+"matched": true,
+"matchedForm": "ви",
+"rank": 84,
+"lemma": "ви",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Вибач, вибачте (вибачити)",
+"kind": "word",
+"headwords": [
+"вибач",
+"вибачте",
+"вибачити"
+],
+"matched": true,
+"matchedForm": "вибачити",
+"rank": 6495,
+"lemma": "вибачити",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "вивчати",
+"kind": "word",
+"headwords": [
+"вивчати"
+],
+"matched": true,
+"matchedForm": "вивчати",
+"rank": 2309,
+"lemma": "вивчати",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "виделка",
+"kind": "word",
+"headwords": [
+"виделка"
+],
+"matched": false
+},
+{
+"entry": "викладач / викладачка",
+"kind": "word",
+"headwords": [
+"викладач",
+"викладачка"
+],
+"matched": true,
+"matchedForm": "викладач",
+"rank": 2861,
+"lemma": "викладач",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "використовувати",
+"kind": "word",
+"headwords": [
+"використовувати"
+],
+"matched": true,
+"matchedForm": "використовувати",
+"rank": 500,
+"lemma": "використовувати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "вино",
+"kind": "word",
+"headwords": [
+"вино"
+],
+"matched": true,
+"matchedForm": "вино",
+"rank": 3036,
+"lemma": "вино",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "виноград",
+"kind": "word",
+"headwords": [
+"виноград"
+],
+"matched": true,
+"matchedForm": "виноград",
+"rank": 8916,
+"lemma": "виноград",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "високий",
+"kind": "word",
+"headwords": [
+"високий"
+],
+"matched": true,
+"matchedForm": "високий",
+"rank": 507,
+"lemma": "високий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "вихід",
+"kind": "word",
+"headwords": [
+"вихід"
+],
+"matched": true,
+"matchedForm": "вихід",
+"rank": 751,
+"lemma": "вихід",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "вихідний",
+"kind": "word",
+"headwords": [
+"вихідний"
+],
+"matched": true,
+"matchedForm": "вихідний",
+"rank": 2630,
+"lemma": "вихідний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "вівторок",
+"kind": "word",
+"headwords": [
+"вівторок"
+],
+"matched": true,
+"matchedForm": "вівторок",
+"rank": 1058,
+"lemma": "вівторок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "відео",
+"kind": "word",
+"headwords": [
+"відео"
+],
+"matched": true,
+"matchedForm": "відео",
+"rank": 1025,
+"lemma": "відео",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "відкривати",
+"kind": "word",
+"headwords": [
+"відкривати"
+],
+"matched": true,
+"matchedForm": "відкривати",
+"rank": 2050,
+"lemma": "відкривати",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "відомий",
+"kind": "word",
+"headwords": [
+"відомий"
+],
+"matched": true,
+"matchedForm": "відомий",
+"rank": 354,
+"lemma": "відомий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "відповідати",
+"kind": "word",
+"headwords": [
+"відповідати"
+],
+"matched": true,
+"matchedForm": "відповідати",
+"rank": 530,
+"lemma": "відповідати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "відповідь",
+"kind": "word",
+"headwords": [
+"відповідь"
+],
+"matched": true,
+"matchedForm": "відповідь",
+"rank": 576,
+"lemma": "відповідь",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "відпочивати",
+"kind": "word",
+"headwords": [
+"відпочивати"
+],
+"matched": true,
+"matchedForm": "відпочивати",
+"rank": 4556,
+"lemma": "відпочивати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "відпустка",
+"kind": "word",
+"headwords": [
+"відпустка"
+],
+"matched": true,
+"matchedForm": "відпустка",
+"rank": 3394,
+"lemma": "відпустка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "відчинено! ≠ зачинено!",
+"kind": "word",
+"headwords": [
+"відчинено",
+"зачинено"
+],
+"matched": false
+},
+{
+"entry": "віза",
+"kind": "word",
+"headwords": [
+"віза"
+],
+"matched": true,
+"matchedForm": "віза",
+"rank": 3028,
+"lemma": "віза",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "вікно",
+"kind": "word",
+"headwords": [
+"вікно"
+],
+"matched": true,
+"matchedForm": "вікно",
+"rank": 1235,
+"lemma": "вікно",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вільний",
+"kind": "word",
+"headwords": [
+"вільний"
+],
+"matched": true,
+"matchedForm": "вільний",
+"rank": 754,
+"lemma": "вільний",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "він",
+"kind": "word",
+"headwords": [
+"він"
+],
+"matched": true,
+"matchedForm": "він",
+"rank": 15,
+"lemma": "він",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вісім",
+"kind": "word",
+"headwords": [
+"вісім"
+],
+"matched": true,
+"matchedForm": "вісім",
+"rank": 1504,
+"lemma": "вісім",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вісімдесят",
+"kind": "word",
+"headwords": [
+"вісімдесят"
+],
+"matched": false
+},
+{
+"entry": "вісімнадцять",
+"kind": "word",
+"headwords": [
+"вісімнадцять"
+],
+"matched": false
+},
+{
+"entry": "вісімсот",
+"kind": "word",
+"headwords": [
+"вісімсот"
+],
+"matched": false
+},
+{
+"entry": "вітати",
+"kind": "word",
+"headwords": [
+"вітати"
+],
+"matched": true,
+"matchedForm": "вітати",
+"rank": 3286,
+"lemma": "вітати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вітер",
+"kind": "word",
+"headwords": [
+"вітер"
+],
+"matched": true,
+"matchedForm": "вітер",
+"rank": 1064,
+"lemma": "вітер",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "влітку, улітку",
+"kind": "word",
+"headwords": [
+"влітку",
+"улітку"
+],
+"matched": true,
+"matchedForm": "влітку",
+"rank": 2246,
+"lemma": "влітку",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вночі, уночі",
+"kind": "word",
+"headwords": [
+"вночі",
+"уночі"
+],
+"matched": true,
+"matchedForm": "вночі",
+"rank": 788,
+"lemma": "вночі",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "внук / внучка",
+"kind": "word",
+"headwords": [
+"внук",
+"внучка"
+],
+"matched": false
+},
+{
+"entry": "вода",
+"kind": "word",
+"headwords": [
+"вода"
+],
+"matched": true,
+"matchedForm": "вода",
+"rank": 325,
+"lemma": "вода",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "водій / водійка",
+"kind": "word",
+"headwords": [
+"водій",
+"водійка"
+],
+"matched": true,
+"matchedForm": "водій",
+"rank": 807,
+"lemma": "водій",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B2"
+},
+{
+"entry": "вокзал",
+"kind": "word",
+"headwords": [
+"вокзал"
+],
+"matched": true,
+"matchedForm": "вокзал",
+"rank": 3229,
+"lemma": "вокзал",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "волосся",
+"kind": "word",
+"headwords": [
+"волосся"
+],
+"matched": true,
+"matchedForm": "волосся",
+"rank": 2881,
+"lemma": "волосся",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "вона",
+"kind": "word",
+"headwords": [
+"вона"
+],
+"matched": true,
+"matchedForm": "вона",
+"rank": 29,
+"lemma": "вона",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вони",
+"kind": "word",
+"headwords": [
+"вони"
+],
+"matched": true,
+"matchedForm": "вони",
+"rank": 24,
+"lemma": "вони",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "воно",
+"kind": "word",
+"headwords": [
+"воно"
+],
+"matched": true,
+"matchedForm": "воно",
+"rank": 533,
+"lemma": "воно",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "восени",
+"kind": "word",
+"headwords": [
+"восени"
+],
+"matched": true,
+"matchedForm": "восени",
+"rank": 2866,
+"lemma": "восени",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "восьмий",
+"kind": "word",
+"headwords": [
+"восьмий"
+],
+"matched": true,
+"matchedForm": "восьмий",
+"rank": 4744,
+"lemma": "восьмий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "вперед (уперед)",
+"kind": "word",
+"headwords": [
+"вперед",
+"уперед"
+],
+"matched": true,
+"matchedForm": "вперед",
+"rank": 2730,
+"lemma": "вперед",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "вправа",
+"kind": "word",
+"headwords": [
+"вправа"
+],
+"matched": true,
+"matchedForm": "вправа",
+"rank": 5087,
+"lemma": "вправа",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "вранці, уранці",
+"kind": "word",
+"headwords": [
+"вранці",
+"уранці"
+],
+"matched": true,
+"matchedForm": "вранці",
+"rank": 1529,
+"lemma": "вранці",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "всередині, усередині",
+"kind": "word",
+"headwords": [
+"всередині",
+"усередині"
+],
+"matched": true,
+"matchedForm": "всередині",
+"rank": 3448,
+"lemma": "всередині",
+"pos": "ADP",
+"pulsLevel": "A2"
+},
+{
+"entry": "вставати",
+"kind": "word",
+"headwords": [
+"вставати"
+],
+"matched": true,
+"matchedForm": "вставати",
+"rank": 6295,
+"lemma": "вставати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вузький",
+"kind": "word",
+"headwords": [
+"вузький"
+],
+"matched": true,
+"matchedForm": "вузький",
+"rank": 3974,
+"lemma": "вузький",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "вулиця",
+"kind": "word",
+"headwords": [
+"вулиця"
+],
+"matched": true,
+"matchedForm": "вулиця",
+"rank": 289,
+"lemma": "вулиця",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вухо",
+"kind": "word",
+"headwords": [
+"вухо"
+],
+"matched": true,
+"matchedForm": "вухо",
+"rank": 3178,
+"lemma": "вухо",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вхід",
+"kind": "word",
+"headwords": [
+"вхід"
+],
+"matched": true,
+"matchedForm": "вхід",
+"rank": 2256,
+"lemma": "вхід",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "вчитель (учитель) / вчителька (учителька)",
+"kind": "word",
+"headwords": [
+"вчитель",
+"вчителька",
+"учитель",
+"учителька"
+],
+"matched": true,
+"matchedForm": "вчитель",
+"rank": 2008,
+"lemma": "вчитель",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вчитися, учитися",
+"kind": "word",
+"headwords": [
+"вчитися",
+"учитися"
+],
+"matched": true,
+"matchedForm": "вчитися",
+"rank": 3253,
+"lemma": "вчитися",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "вчора, учора",
+"kind": "word",
+"headwords": [
+"вчора",
+"учора"
+],
+"matched": true,
+"matchedForm": "вчора",
+"rank": 1491,
+"lemma": "вчора",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "газета",
+"kind": "word",
+"headwords": [
+"газета"
+],
+"matched": true,
+"matchedForm": "газета",
+"rank": 678,
+"lemma": "газета",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "гаманець",
+"kind": "word",
+"headwords": [
+"гаманець"
+],
+"matched": true,
+"matchedForm": "гаманець",
+"rank": 8527,
+"lemma": "гаманець",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "Гаразд",
+"kind": "word",
+"headwords": [
+"гаразд"
+],
+"matched": true,
+"matchedForm": "гаразд",
+"rank": 4847,
+"lemma": "гаразд",
+"pos": "PART",
+"pulsLevel": "A2"
+},
+{
+"entry": "гарний",
+"kind": "word",
+"headwords": [
+"гарний"
+],
+"matched": true,
+"matchedForm": "гарний",
+"rank": 1882,
+"lemma": "гарний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "гарячий",
+"kind": "word",
+"headwords": [
+"гарячий"
+],
+"matched": true,
+"matchedForm": "гарячий",
+"rank": 2039,
+"lemma": "гарячий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "географія",
+"kind": "word",
+"headwords": [
+"географія"
+],
+"matched": true,
+"matchedForm": "географія",
+"rank": 1963,
+"lemma": "географія",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "гість / гостя",
+"kind": "word",
+"headwords": [
+"гість",
+"гостя"
+],
+"matched": true,
+"matchedForm": "гість",
+"rank": 1325,
+"lemma": "гість",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "гітара",
+"kind": "word",
+"headwords": [
+"гітара"
+],
+"matched": true,
+"matchedForm": "гітара",
+"rank": 5959,
+"lemma": "гітара",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "говорити",
+"kind": "word",
+"headwords": [
+"говорити"
+],
+"matched": true,
+"matchedForm": "говорити",
+"rank": 268,
+"lemma": "говорити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "година",
+"kind": "word",
+"headwords": [
+"година"
+],
+"matched": true,
+"matchedForm": "година",
+"rank": 440,
+"lemma": "година",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "голова",
+"kind": "word",
+"headwords": [
+"голова"
+],
+"matched": true,
+"matchedForm": "голова",
+"rank": 64,
+"lemma": "голова",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "головний",
+"kind": "word",
+"headwords": [
+"головний"
+],
+"matched": true,
+"matchedForm": "головний",
+"rank": 129,
+"lemma": "головний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "голодний",
+"kind": "word",
+"headwords": [
+"голодний"
+],
+"matched": true,
+"matchedForm": "голодний",
+"rank": 6233,
+"lemma": "голодний",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "голосно",
+"kind": "word",
+"headwords": [
+"голосно"
+],
+"matched": true,
+"matchedForm": "голосно",
+"rank": 6105,
+"lemma": "голосно",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "голубий",
+"kind": "word",
+"headwords": [
+"голубий"
+],
+"matched": true,
+"matchedForm": "голубий",
+"rank": 9950,
+"lemma": "голубий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "гора",
+"kind": "word",
+"headwords": [
+"гора"
+],
+"matched": true,
+"matchedForm": "гора",
+"rank": 1118,
+"lemma": "гора",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "готель",
+"kind": "word",
+"headwords": [
+"готель"
+],
+"matched": true,
+"matchedForm": "готель",
+"rank": 1538,
+"lemma": "готель",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "готівка",
+"kind": "word",
+"headwords": [
+"готівка"
+],
+"matched": true,
+"matchedForm": "готівка",
+"rank": 4646,
+"lemma": "готівка",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "готовий",
+"kind": "word",
+"headwords": [
+"готовий"
+],
+"matched": true,
+"matchedForm": "готовий",
+"rank": 467,
+"lemma": "готовий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "готувати",
+"kind": "word",
+"headwords": [
+"готувати"
+],
+"matched": true,
+"matchedForm": "готувати",
+"rank": 1549,
+"lemma": "готувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "гра",
+"kind": "word",
+"headwords": [
+"гра"
+],
+"matched": true,
+"matchedForm": "гра",
+"rank": 357,
+"lemma": "гра",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "градус",
+"kind": "word",
+"headwords": [
+"градус"
+],
+"matched": true,
+"matchedForm": "градус",
+"rank": 1019,
+"lemma": "градус",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "грам",
+"kind": "word",
+"headwords": [
+"грам"
+],
+"matched": true,
+"matchedForm": "грам",
+"rank": 6160,
+"lemma": "грам",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "грати",
+"kind": "word",
+"headwords": [
+"грати"
+],
+"matched": true,
+"matchedForm": "грати",
+"rank": 702,
+"lemma": "грати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "гривня",
+"kind": "word",
+"headwords": [
+"гривня"
+],
+"matched": true,
+"matchedForm": "гривня",
+"rank": 186,
+"lemma": "гривня",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "гроші",
+"kind": "word",
+"headwords": [
+"гроші"
+],
+"matched": true,
+"matchedForm": "гроші",
+"rank": 334,
+"lemma": "гроші",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "грудень",
+"kind": "word",
+"headwords": [
+"грудень"
+],
+"matched": true,
+"matchedForm": "грудень",
+"rank": 205,
+"lemma": "грудень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "груди",
+"kind": "word",
+"headwords": [
+"груди"
+],
+"matched": true,
+"matchedForm": "груди",
+"rank": 2411,
+"lemma": "груди",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "група",
+"kind": "word",
+"headwords": [
+"група"
+],
+"matched": true,
+"matchedForm": "група",
+"rank": 126,
+"lemma": "група",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "груша",
+"kind": "word",
+"headwords": [
+"груша"
+],
+"matched": true,
+"matchedForm": "груша",
+"rank": 11064,
+"lemma": "груша",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "губа",
+"kind": "word",
+"headwords": [
+"губа"
+],
+"matched": true,
+"matchedForm": "губа",
+"rank": 3782,
+"lemma": "губа",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "гуляти",
+"kind": "word",
+"headwords": [
+"гуляти"
+],
+"matched": true,
+"matchedForm": "гуляти",
+"rank": 5399,
+"lemma": "гуляти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "давати – дати (дайте)",
+"kind": "word",
+"headwords": [
+"давати",
+"дати",
+"дайте"
+],
+"matched": true,
+"matchedForm": "дати",
+"rank": 287,
+"lemma": "дати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "давній",
+"kind": "word",
+"headwords": [
+"давній"
+],
+"matched": true,
+"matchedForm": "давній",
+"rank": 2453,
+"lemma": "давній",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "давно",
+"kind": "word",
+"headwords": [
+"давно"
+],
+"matched": true,
+"matchedForm": "давно",
+"rank": 1268,
+"lemma": "давно",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "далеко",
+"kind": "word",
+"headwords": [
+"далеко"
+],
+"matched": true,
+"matchedForm": "далеко",
+"rank": 2043,
+"lemma": "далеко",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дарувати – подарувати",
+"kind": "word",
+"headwords": [
+"дарувати",
+"подарувати"
+],
+"matched": true,
+"matchedForm": "подарувати",
+"rank": 3441,
+"lemma": "подарувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "дата",
+"kind": "word",
+"headwords": [
+"дата"
+],
+"matched": true,
+"matchedForm": "дата",
+"rank": 1207,
+"lemma": "дата",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "два (дві)",
+"kind": "word",
+"headwords": [
+"два",
+"дві"
+],
+"matched": true,
+"matchedForm": "два",
+"rank": 66,
+"lemma": "два",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "двадцять",
+"kind": "word",
+"headwords": [
+"двадцять"
+],
+"matched": true,
+"matchedForm": "двадцять",
+"rank": 2902,
+"lemma": "двадцять",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дванадцятий",
+"kind": "word",
+"headwords": [
+"дванадцятий"
+],
+"matched": false
+},
+{
+"entry": "дванадцять",
+"kind": "word",
+"headwords": [
+"дванадцять"
+],
+"matched": true,
+"matchedForm": "дванадцять",
+"rank": 6128,
+"lemma": "дванадцять",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "двері",
+"kind": "word",
+"headwords": [
+"двері"
+],
+"matched": true,
+"matchedForm": "двері",
+"rank": 993,
+"lemma": "двері",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "двісті",
+"kind": "word",
+"headwords": [
+"двісті"
+],
+"matched": true,
+"matchedForm": "двісті",
+"rank": 8154,
+"lemma": "двісті",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "де",
+"kind": "word",
+"headwords": [
+"де"
+],
+"matched": true,
+"matchedForm": "де",
+"rank": 92,
+"lemma": "де",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дев’яносто",
+"kind": "word",
+"headwords": [
+"дев’яносто"
+],
+"matched": false
+},
+{
+"entry": "дев’ятий",
+"kind": "word",
+"headwords": [
+"дев’ятий"
+],
+"matched": true,
+"matchedForm": "дев’ятий",
+"rank": 5590,
+"lemma": "дев’ятий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "дев’ятнадцять",
+"kind": "word",
+"headwords": [
+"дев’ятнадцять"
+],
+"matched": false
+},
+{
+"entry": "дев’ятсот",
+"kind": "word",
+"headwords": [
+"дев’ятсот"
+],
+"matched": false
+},
+{
+"entry": "дев’ять",
+"kind": "word",
+"headwords": [
+"дев’ять"
+],
+"matched": true,
+"matchedForm": "дев’ять",
+"rank": 2275,
+"lemma": "дев’ять",
+"pos": "NUM",
+"pulsLevel": "A1"
+},
+{
+"entry": "день",
+"kind": "word",
+"headwords": [
+"день"
+],
+"matched": true,
+"matchedForm": "день",
+"rank": 71,
+"lemma": "день",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "день народження",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "дерево",
+"kind": "word",
+"headwords": [
+"дерево"
+],
+"matched": true,
+"matchedForm": "дерево",
+"rank": 1157,
+"lemma": "дерево",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "десятий",
+"kind": "word",
+"headwords": [
+"десятий"
+],
+"matched": true,
+"matchedForm": "десятий",
+"rank": 5254,
+"lemma": "десятий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "десять",
+"kind": "word",
+"headwords": [
+"десять"
+],
+"matched": true,
+"matchedForm": "десять",
+"rank": 1229,
+"lemma": "десять",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дешевий",
+"kind": "word",
+"headwords": [
+"дешевий"
+],
+"matched": true,
+"matchedForm": "дешевий",
+"rank": 4695,
+"lemma": "дешевий",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "джинси",
+"kind": "word",
+"headwords": [
+"джинси"
+],
+"matched": false
+},
+{
+"entry": "дзвонити",
+"kind": "word",
+"headwords": [
+"дзвонити"
+],
+"matched": true,
+"matchedForm": "дзвонити",
+"rank": 6087,
+"lemma": "дзвонити",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "дзеркало",
+"kind": "word",
+"headwords": [
+"дзеркало"
+],
+"matched": true,
+"matchedForm": "дзеркало",
+"rank": 2539,
+"lemma": "дзеркало",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "диван",
+"kind": "word",
+"headwords": [
+"диван"
+],
+"matched": true,
+"matchedForm": "диван",
+"rank": 9699,
+"lemma": "диван",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дивитися",
+"kind": "word",
+"headwords": [
+"дивитися"
+],
+"matched": true,
+"matchedForm": "дивитися",
+"rank": 628,
+"lemma": "дивитися",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "директор / директорка",
+"kind": "word",
+"headwords": [
+"директор",
+"директорка"
+],
+"matched": true,
+"matchedForm": "директор",
+"rank": 346,
+"lemma": "директор",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "дитина",
+"kind": "word",
+"headwords": [
+"дитина"
+],
+"matched": true,
+"matchedForm": "дитина",
+"rank": 128,
+"lemma": "дитина",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дитячий садок",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "дівчина (дівчата), дівчинка",
+"kind": "word",
+"headwords": [
+"дівчина",
+"дівчинка",
+"дівчата"
+],
+"matched": true,
+"matchedForm": "дівчина",
+"rank": 685,
+"lemma": "дівчина",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "дід",
+"kind": "word",
+"headwords": [
+"дід"
+],
+"matched": true,
+"matchedForm": "дід",
+"rank": 2656,
+"lemma": "дід",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "дім",
+"kind": "word",
+"headwords": [
+"дім"
+],
+"matched": true,
+"matchedForm": "дім",
+"rank": 1384,
+"lemma": "дім",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Дніпро",
+"kind": "word",
+"headwords": [
+"дніпро"
+],
+"matched": true,
+"matchedForm": "дніпро",
+"rank": 750,
+"lemma": "Дніпро",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "До побачення",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "Добре",
+"kind": "word",
+"headwords": [
+"добре"
+],
+"matched": true,
+"matchedForm": "добре",
+"rank": 620,
+"lemma": "добре",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "добре",
+"kind": "word",
+"headwords": [
+"добре"
+],
+"matched": true,
+"matchedForm": "добре",
+"rank": 620,
+"lemma": "добре",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "добрий",
+"kind": "word",
+"headwords": [
+"добрий"
+],
+"matched": true,
+"matchedForm": "добрий",
+"rank": 1169,
+"lemma": "добрий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "довгий",
+"kind": "word",
+"headwords": [
+"довгий"
+],
+"matched": true,
+"matchedForm": "довгий",
+"rank": 1192,
+"lemma": "довгий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "довго",
+"kind": "word",
+"headwords": [
+"довго"
+],
+"matched": true,
+"matchedForm": "довго",
+"rank": 1528,
+"lemma": "довго",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "додому",
+"kind": "word",
+"headwords": [
+"додому"
+],
+"matched": true,
+"matchedForm": "додому",
+"rank": 1612,
+"lemma": "додому",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "документ",
+"kind": "word",
+"headwords": [
+"документ"
+],
+"matched": true,
+"matchedForm": "документ",
+"rank": 245,
+"lemma": "документ",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "долар",
+"kind": "word",
+"headwords": [
+"долар"
+],
+"matched": true,
+"matchedForm": "долар",
+"rank": 195,
+"lemma": "долар",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "домашній",
+"kind": "word",
+"headwords": [
+"домашній"
+],
+"matched": true,
+"matchedForm": "домашній",
+"rank": 1256,
+"lemma": "домашній",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "допомагати – допомогти (допоможіть!)",
+"kind": "word",
+"headwords": [
+"допомагати",
+"допомогти",
+"допоможіть"
+],
+"matched": true,
+"matchedForm": "допомогти",
+"rank": 695,
+"lemma": "допомогти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дорога",
+"kind": "word",
+"headwords": [
+"дорога"
+],
+"matched": true,
+"matchedForm": "дорога",
+"rank": 450,
+"lemma": "дорога",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "дорогий",
+"kind": "word",
+"headwords": [
+"дорогий"
+],
+"matched": true,
+"matchedForm": "дорогий",
+"rank": 2057,
+"lemma": "дорогий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дорослий",
+"kind": "word",
+"headwords": [
+"дорослий"
+],
+"matched": true,
+"matchedForm": "дорослий",
+"rank": 3272,
+"lemma": "дорослий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "дочка",
+"kind": "word",
+"headwords": [
+"дочка"
+],
+"matched": true,
+"matchedForm": "дочка",
+"rank": 1546,
+"lemma": "дочка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дощ",
+"kind": "word",
+"headwords": [
+"дощ"
+],
+"matched": true,
+"matchedForm": "дощ",
+"rank": 1301,
+"lemma": "дощ",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "друг / подруга",
+"kind": "word",
+"headwords": [
+"друг",
+"подруга"
+],
+"matched": true,
+"matchedForm": "друг",
+"rank": 843,
+"lemma": "друг",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "другий",
+"kind": "word",
+"headwords": [
+"другий"
+],
+"matched": true,
+"matchedForm": "другий",
+"rank": 182,
+"lemma": "другий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "дружина",
+"kind": "word",
+"headwords": [
+"дружина"
+],
+"matched": true,
+"matchedForm": "дружина",
+"rank": 644,
+"lemma": "дружина",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дуже",
+"kind": "word",
+"headwords": [
+"дуже"
+],
+"matched": true,
+"matchedForm": "дуже",
+"rank": 125,
+"lemma": "дуже",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "думати",
+"kind": "word",
+"headwords": [
+"думати"
+],
+"matched": true,
+"matchedForm": "думати",
+"rank": 427,
+"lemma": "думати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "душ",
+"kind": "word",
+"headwords": [
+"душ"
+],
+"matched": true,
+"matchedForm": "душ",
+"rank": 8095,
+"lemma": "душ",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "дядько",
+"kind": "word",
+"headwords": [
+"дядько"
+],
+"matched": true,
+"matchedForm": "дядько",
+"rank": 3768,
+"lemma": "дядько",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "дякувати",
+"kind": "word",
+"headwords": [
+"дякувати"
+],
+"matched": true,
+"matchedForm": "дякувати",
+"rank": 3325,
+"lemma": "дякувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "економіка",
+"kind": "word",
+"headwords": [
+"економіка"
+],
+"matched": true,
+"matchedForm": "економіка",
+"rank": 404,
+"lemma": "економіка",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "екскурсія",
+"kind": "word",
+"headwords": [
+"екскурсія"
+],
+"matched": true,
+"matchedForm": "екскурсія",
+"rank": 5705,
+"lemma": "екскурсія",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "євро",
+"kind": "word",
+"headwords": [
+"євро"
+],
+"matched": true,
+"matchedForm": "євро",
+"rank": 570,
+"lemma": "євро",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "Європа",
+"kind": "word",
+"headwords": [
+"європа"
+],
+"matched": true,
+"matchedForm": "європа",
+"rank": 234,
+"lemma": "Європа",
+"pos": "PROPN",
+"pulsLevel": "A1"
+},
+{
+"entry": "живіт",
+"kind": "word",
+"headwords": [
+"живіт"
+],
+"matched": true,
+"matchedForm": "живіт",
+"rank": 5127,
+"lemma": "живіт",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "жити",
+"kind": "word",
+"headwords": [
+"жити"
+],
+"matched": true,
+"matchedForm": "жити",
+"rank": 400,
+"lemma": "жити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "жінка",
+"kind": "word",
+"headwords": [
+"жінка"
+],
+"matched": true,
+"matchedForm": "жінка",
+"rank": 211,
+"lemma": "жінка",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "жіночий",
+"kind": "word",
+"headwords": [
+"жіночий"
+],
+"matched": true,
+"matchedForm": "жіночий",
+"rank": 1182,
+"lemma": "жіночий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "жовтень",
+"kind": "word",
+"headwords": [
+"жовтень"
+],
+"matched": true,
+"matchedForm": "жовтень",
+"rank": 202,
+"lemma": "жовтень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "жовтий",
+"kind": "word",
+"headwords": [
+"жовтий"
+],
+"matched": true,
+"matchedForm": "жовтий",
+"rank": 2436,
+"lemma": "жовтий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "журналіст / журналістка",
+"kind": "word",
+"headwords": [
+"журналіст",
+"журналістка"
+],
+"matched": true,
+"matchedForm": "журналіст",
+"rank": 315,
+"lemma": "журналіст",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "з собою",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "з, із, зі",
+"kind": "word",
+"headwords": [
+"з",
+"із",
+"зі"
+],
+"matched": true,
+"matchedForm": "з",
+"rank": 5,
+"lemma": "з",
+"pos": "ADP",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "за",
+"kind": "word",
+"headwords": [
+"за"
+],
+"matched": true,
+"matchedForm": "за",
+"rank": 10,
+"lemma": "за",
+"pos": "ADP",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "за кордоном",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "забути (док.)",
+"kind": "word",
+"headwords": [
+"забути",
+"док"
+],
+"matched": true,
+"matchedForm": "забути",
+"rank": 1864,
+"lemma": "забути",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "завдання",
+"kind": "word",
+"headwords": [
+"завдання"
+],
+"matched": true,
+"matchedForm": "завдання",
+"rank": 630,
+"lemma": "завдання",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "завжди",
+"kind": "word",
+"headwords": [
+"завжди"
+],
+"matched": true,
+"matchedForm": "завжди",
+"rank": 579,
+"lemma": "завжди",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "завтра",
+"kind": "word",
+"headwords": [
+"завтра"
+],
+"matched": true,
+"matchedForm": "завтра",
+"rank": 1690,
+"lemma": "завтра",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "задоволений",
+"kind": "word",
+"headwords": [
+"задоволений"
+],
+"matched": true,
+"matchedForm": "задоволений",
+"rank": 3469,
+"lemma": "задоволений",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "зазвичай",
+"kind": "word",
+"headwords": [
+"зазвичай"
+],
+"matched": true,
+"matchedForm": "зазвичай",
+"rank": 1620,
+"lemma": "зазвичай",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "займатися спортом",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "зайнятий",
+"kind": "word",
+"headwords": [
+"зайнятий"
+],
+"matched": true,
+"matchedForm": "зайнятий",
+"rank": 4653,
+"lemma": "зайнятий",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "замовляти – замовити",
+"kind": "word",
+"headwords": [
+"замовляти",
+"замовити"
+],
+"matched": true,
+"matchedForm": "замовити",
+"rank": 3813,
+"lemma": "замовити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "запитання",
+"kind": "word",
+"headwords": [
+"запитання"
+],
+"matched": true,
+"matchedForm": "запитання",
+"rank": 1093,
+"lemma": "запитання",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "запрошувати",
+"kind": "word",
+"headwords": [
+"запрошувати"
+],
+"matched": true,
+"matchedForm": "запрошувати",
+"rank": 3304,
+"lemma": "запрошувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "зараз / тепер",
+"kind": "word",
+"headwords": [
+"зараз",
+"тепер"
+],
+"matched": true,
+"matchedForm": "зараз",
+"rank": 164,
+"lemma": "зараз",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "зарплата",
+"kind": "word",
+"headwords": [
+"зарплата"
+],
+"matched": true,
+"matchedForm": "зарплата",
+"rank": 1183,
+"lemma": "зарплата",
+"pos": "NOUN",
+"pulsLevel": "B1",
+"openLevel": "A2"
+},
+{
+"entry": "затори",
+"kind": "word",
+"headwords": [
+"затори"
+],
+"matched": false
+},
+{
+"entry": "захід",
+"kind": "word",
+"headwords": [
+"захід"
+],
+"matched": true,
+"matchedForm": "захід",
+"rank": 143,
+"lemma": "захід",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "звати",
+"kind": "word",
+"headwords": [
+"звати"
+],
+"matched": true,
+"matchedForm": "звати",
+"rank": 4780,
+"lemma": "звати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "звичайний",
+"kind": "word",
+"headwords": [
+"звичайний"
+],
+"matched": true,
+"matchedForm": "звичайний",
+"rank": 1232,
+"lemma": "звичайний",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "Звичайно",
+"kind": "word",
+"headwords": [
+"звичайно"
+],
+"matched": true,
+"matchedForm": "звичайно",
+"rank": 1080,
+"lemma": "звичайно",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "звідки",
+"kind": "word",
+"headwords": [
+"звідки"
+],
+"matched": true,
+"matchedForm": "звідки",
+"rank": 2454,
+"lemma": "звідки",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "здоров’я",
+"kind": "word",
+"headwords": [
+"здоров’я"
+],
+"matched": true,
+"matchedForm": "здоров’я",
+"rank": 396,
+"lemma": "здоров’я",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "здоровий",
+"kind": "word",
+"headwords": [
+"здоровий"
+],
+"matched": true,
+"matchedForm": "здоровий",
+"rank": 2104,
+"lemma": "здоровий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "зелений",
+"kind": "word",
+"headwords": [
+"зелений"
+],
+"matched": true,
+"matchedForm": "зелений",
+"rank": 1243,
+"lemma": "зелений",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "земля",
+"kind": "word",
+"headwords": [
+"земля"
+],
+"matched": true,
+"matchedForm": "земля",
+"rank": 241,
+"lemma": "земля",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "зима",
+"kind": "word",
+"headwords": [
+"зима"
+],
+"matched": true,
+"matchedForm": "зима",
+"rank": 2948,
+"lemma": "зима",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "зірка",
+"kind": "word",
+"headwords": [
+"зірка"
+],
+"matched": true,
+"matchedForm": "зірка",
+"rank": 1399,
+"lemma": "зірка",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "зліва",
+"kind": "word",
+"headwords": [
+"зліва"
+],
+"matched": true,
+"matchedForm": "зліва",
+"rank": 9830,
+"lemma": "зліва",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "знайомий",
+"kind": "word",
+"headwords": [
+"знайомий"
+],
+"matched": true,
+"matchedForm": "знайомий",
+"rank": 3604,
+"lemma": "знайомий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "знайти (док.)",
+"kind": "word",
+"headwords": [
+"знайти",
+"док"
+],
+"matched": true,
+"matchedForm": "знайти",
+"rank": 375,
+"lemma": "знайти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "знати",
+"kind": "word",
+"headwords": [
+"знати"
+],
+"matched": true,
+"matchedForm": "знати",
+"rank": 158,
+"lemma": "знати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "знову",
+"kind": "word",
+"headwords": [
+"знову"
+],
+"matched": true,
+"matchedForm": "знову",
+"rank": 367,
+"lemma": "знову",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "зоопарк",
+"kind": "word",
+"headwords": [
+"зоопарк"
+],
+"matched": true,
+"matchedForm": "зоопарк",
+"rank": 5286,
+"lemma": "зоопарк",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "зошит",
+"kind": "word",
+"headwords": [
+"зошит"
+],
+"matched": true,
+"matchedForm": "зошит",
+"rank": 10774,
+"lemma": "зошит",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "зуб",
+"kind": "word",
+"headwords": [
+"зуб"
+],
+"matched": true,
+"matchedForm": "зуб",
+"rank": 2958,
+"lemma": "зуб",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "зубна паста",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "зубна щітка",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "зупинити (зупиніть!) (док.)",
+"kind": "word",
+"headwords": [
+"зупинити",
+"зупиніть",
+"док"
+],
+"matched": true,
+"matchedForm": "зупинити",
+"rank": 1588,
+"lemma": "зупинити",
+"pos": "VERB",
+"pulsLevel": "B1"
+},
+{
+"entry": "зупинка",
+"kind": "word",
+"headwords": [
+"зупинка"
+],
+"matched": true,
+"matchedForm": "зупинка",
+"rank": 2605,
+"lemma": "зупинка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "зустріч",
+"kind": "word",
+"headwords": [
+"зустріч"
+],
+"matched": true,
+"matchedForm": "зустріч",
+"rank": 337,
+"lemma": "зустріч",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "і, й, та",
+"kind": "word",
+"headwords": [
+"і",
+"й",
+"та"
+],
+"matched": true,
+"matchedForm": "і",
+"rank": 4,
+"lemma": "і",
+"pos": "CCONJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ім’я",
+"kind": "word",
+"headwords": [
+"ім’я"
+],
+"matched": true,
+"matchedForm": "ім’я",
+"rank": 311,
+"lemma": "ім’я",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "імейл",
+"kind": "word",
+"headwords": [
+"імейл"
+],
+"matched": false
+},
+{
+"entry": "іноді",
+"kind": "word",
+"headwords": [
+"іноді"
+],
+"matched": true,
+"matchedForm": "іноді",
+"rank": 1812,
+"lemma": "іноді",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "іноземець, іноземка",
+"kind": "word",
+"headwords": [
+"іноземець",
+"іноземка"
+],
+"matched": true,
+"matchedForm": "іноземець",
+"rank": 2716,
+"lemma": "іноземець",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "іноземний",
+"kind": "word",
+"headwords": [
+"іноземний"
+],
+"matched": true,
+"matchedForm": "іноземний",
+"rank": 833,
+"lemma": "іноземний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "інститут",
+"kind": "word",
+"headwords": [
+"інститут"
+],
+"matched": true,
+"matchedForm": "інститут",
+"rank": 444,
+"lemma": "інститут",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "інтернет",
+"kind": "word",
+"headwords": [
+"інтернет"
+],
+"matched": true,
+"matchedForm": "інтернет",
+"rank": 1437,
+"lemma": "інтернет",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "інформація",
+"kind": "word",
+"headwords": [
+"інформація"
+],
+"matched": true,
+"matchedForm": "інформація",
+"rank": 142,
+"lemma": "інформація",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "інший (інша, інше, інші)",
+"kind": "word",
+"headwords": [
+"інший",
+"інша",
+"інше",
+"інші"
+],
+"matched": true,
+"matchedForm": "інший",
+"rank": 46,
+"lemma": "інший",
+"pos": "DET",
+"pulsLevel": "A2"
+},
+{
+"entry": "історія",
+"kind": "word",
+"headwords": [
+"історія"
+],
+"matched": true,
+"matchedForm": "історія",
+"rank": 189,
+"lemma": "історія",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Італія",
+"kind": "word",
+"headwords": [
+"італія"
+],
+"matched": true,
+"matchedForm": "італія",
+"rank": 862,
+"lemma": "Італія",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "іти",
+"kind": "word",
+"headwords": [
+"іти"
+],
+"matched": true,
+"matchedForm": "іти",
+"rank": 1450,
+"lemma": "іти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "іти (йти; іди! ідіть!) – піти",
+"kind": "word",
+"headwords": [
+"іти",
+"піти",
+"йти"
+],
+"matched": true,
+"matchedForm": "піти",
+"rank": 329,
+"lemma": "піти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "їздити",
+"kind": "word",
+"headwords": [
+"їздити"
+],
+"matched": true,
+"matchedForm": "їздити",
+"rank": 2641,
+"lemma": "їздити",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "її",
+"kind": "word",
+"headwords": [
+"її"
+],
+"matched": true,
+"matchedForm": "її",
+"rank": 107,
+"lemma": "її",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "їсти",
+"kind": "word",
+"headwords": [
+"їсти"
+],
+"matched": true,
+"matchedForm": "їсти",
+"rank": 2431,
+"lemma": "їсти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "їхати",
+"kind": "word",
+"headwords": [
+"їхати"
+],
+"matched": true,
+"matchedForm": "їхати",
+"rank": 1274,
+"lemma": "їхати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "їхній (їхня, їхнє, їхні)",
+"kind": "word",
+"headwords": [
+"їхній",
+"їхня",
+"їхнє",
+"їхні"
+],
+"matched": true,
+"matchedForm": "їхній",
+"rank": 233,
+"lemma": "їхній",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "його",
+"kind": "word",
+"headwords": [
+"його"
+],
+"matched": true,
+"matchedForm": "його",
+"rank": 40,
+"lemma": "його",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "йогурт",
+"kind": "word",
+"headwords": [
+"йогурт"
+],
+"matched": false
+},
+{
+"entry": "кабінет",
+"kind": "word",
+"headwords": [
+"кабінет"
+],
+"matched": true,
+"matchedForm": "кабінет",
+"rank": 633,
+"lemma": "кабінет",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "кава",
+"kind": "word",
+"headwords": [
+"кава"
+],
+"matched": true,
+"matchedForm": "кава",
+"rank": 3752,
+"lemma": "кава",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "казати – сказати (скажіть)",
+"kind": "word",
+"headwords": [
+"казати",
+"сказати",
+"скажіть"
+],
+"matched": true,
+"matchedForm": "сказати",
+"rank": 52,
+"lemma": "сказати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Канада",
+"kind": "word",
+"headwords": [
+"канада"
+],
+"matched": true,
+"matchedForm": "канада",
+"rank": 1451,
+"lemma": "Канада",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "канікули",
+"kind": "word",
+"headwords": [
+"канікули"
+],
+"matched": true,
+"matchedForm": "канікули",
+"rank": 5648,
+"lemma": "канікули",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Карпати",
+"kind": "word",
+"headwords": [
+"карпати"
+],
+"matched": true,
+"matchedForm": "карпати",
+"rank": 2408,
+"lemma": "Карпати",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "карта",
+"kind": "word",
+"headwords": [
+"карта"
+],
+"matched": true,
+"matchedForm": "карта",
+"rank": 1644,
+"lemma": "карта",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "картина",
+"kind": "word",
+"headwords": [
+"картина"
+],
+"matched": true,
+"matchedForm": "картина",
+"rank": 1208,
+"lemma": "картина",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "картопля",
+"kind": "word",
+"headwords": [
+"картопля"
+],
+"matched": true,
+"matchedForm": "картопля",
+"rank": 4943,
+"lemma": "картопля",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "каса",
+"kind": "word",
+"headwords": [
+"каса"
+],
+"matched": true,
+"matchedForm": "каса",
+"rank": 5275,
+"lemma": "каса",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "кафе",
+"kind": "word",
+"headwords": [
+"кафе"
+],
+"matched": true,
+"matchedForm": "кафе",
+"rank": 4142,
+"lemma": "кафе",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "квартира",
+"kind": "word",
+"headwords": [
+"квартира"
+],
+"matched": true,
+"matchedForm": "квартира",
+"rank": 969,
+"lemma": "квартира",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "квиток",
+"kind": "word",
+"headwords": [
+"квиток"
+],
+"matched": true,
+"matchedForm": "квиток",
+"rank": 1885,
+"lemma": "квиток",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "квітень",
+"kind": "word",
+"headwords": [
+"квітень"
+],
+"matched": true,
+"matchedForm": "квітень",
+"rank": 210,
+"lemma": "квітень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "квітка (квіти)",
+"kind": "word",
+"headwords": [
+"квітка",
+"квіти"
+],
+"matched": true,
+"matchedForm": "квіти",
+"rank": 2798,
+"lemma": "квіти",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "Київ",
+"kind": "word",
+"headwords": [
+"київ"
+],
+"matched": true,
+"matchedForm": "київ",
+"rank": 76,
+"lemma": "Київ",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "кілограм",
+"kind": "word",
+"headwords": [
+"кілограм"
+],
+"matched": true,
+"matchedForm": "кілограм",
+"rank": 4327,
+"lemma": "кілограм",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "кілометр",
+"kind": "word",
+"headwords": [
+"кілометр"
+],
+"matched": true,
+"matchedForm": "кілометр",
+"rank": 1671,
+"lemma": "кілометр",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "кімната",
+"kind": "word",
+"headwords": [
+"кімната"
+],
+"matched": true,
+"matchedForm": "кімната",
+"rank": 1440,
+"lemma": "кімната",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "кіно",
+"kind": "word",
+"headwords": [
+"кіно"
+],
+"matched": true,
+"matchedForm": "кіно",
+"rank": 1857,
+"lemma": "кіно",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "кіоск",
+"kind": "word",
+"headwords": [
+"кіоск"
+],
+"matched": true,
+"matchedForm": "кіоск",
+"rank": 7712,
+"lemma": "кіоск",
+"pos": "NOUN",
+"pulsLevel": "B1",
+"openLevel": "B1"
+},
+{
+"entry": "кіт",
+"kind": "word",
+"headwords": [
+"кіт"
+],
+"matched": true,
+"matchedForm": "кіт",
+"rank": 4459,
+"lemma": "кіт",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "клас",
+"kind": "word",
+"headwords": [
+"клас"
+],
+"matched": true,
+"matchedForm": "клас",
+"rank": 851,
+"lemma": "клас",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "клієнт / клієнтка",
+"kind": "word",
+"headwords": [
+"клієнт",
+"клієнтка"
+],
+"matched": true,
+"matchedForm": "клієнт",
+"rank": 1624,
+"lemma": "клієнт",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "клуб",
+"kind": "word",
+"headwords": [
+"клуб"
+],
+"matched": true,
+"matchedForm": "клуб",
+"rank": 363,
+"lemma": "клуб",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "ключ",
+"kind": "word",
+"headwords": [
+"ключ"
+],
+"matched": true,
+"matchedForm": "ключ",
+"rank": 3289,
+"lemma": "ключ",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "книжка",
+"kind": "word",
+"headwords": [
+"книжка"
+],
+"matched": true,
+"matchedForm": "книжка",
+"rank": 1441,
+"lemma": "книжка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ковбаса",
+"kind": "word",
+"headwords": [
+"ковбаса"
+],
+"matched": true,
+"matchedForm": "ковбаса",
+"rank": 9408,
+"lemma": "ковбаса",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "ковдра",
+"kind": "word",
+"headwords": [
+"ковдра"
+],
+"matched": true,
+"matchedForm": "ковдра",
+"rank": 9249,
+"lemma": "ковдра",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "колега",
+"kind": "word",
+"headwords": [
+"колега"
+],
+"matched": true,
+"matchedForm": "колега",
+"rank": 1255,
+"lemma": "колега",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "коли",
+"kind": "word",
+"headwords": [
+"коли"
+],
+"matched": true,
+"matchedForm": "коли",
+"rank": 79,
+"lemma": "коли",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "колір",
+"kind": "word",
+"headwords": [
+"колір"
+],
+"matched": true,
+"matchedForm": "колір",
+"rank": 1253,
+"lemma": "колір",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "комп’ютер",
+"kind": "word",
+"headwords": [
+"комп’ютер"
+],
+"matched": true,
+"matchedForm": "комп’ютер",
+"rank": 2686,
+"lemma": "комп’ютер",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "копійка",
+"kind": "word",
+"headwords": [
+"копійка"
+],
+"matched": true,
+"matchedForm": "копійка",
+"rank": 3079,
+"lemma": "копійка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "корабель",
+"kind": "word",
+"headwords": [
+"корабель"
+],
+"matched": true,
+"matchedForm": "корабель",
+"rank": 898,
+"lemma": "корабель",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "кордон",
+"kind": "word",
+"headwords": [
+"кордон"
+],
+"matched": true,
+"matchedForm": "кордон",
+"rank": 360,
+"lemma": "кордон",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "коридор",
+"kind": "word",
+"headwords": [
+"коридор"
+],
+"matched": true,
+"matchedForm": "коридор",
+"rank": 3191,
+"lemma": "коридор",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "коричневий",
+"kind": "word",
+"headwords": [
+"коричневий"
+],
+"matched": true,
+"matchedForm": "коричневий",
+"rank": 8101,
+"lemma": "коричневий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "коробка",
+"kind": "word",
+"headwords": [
+"коробка"
+],
+"matched": true,
+"matchedForm": "коробка",
+"rank": 5225,
+"lemma": "коробка",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "короткий",
+"kind": "word",
+"headwords": [
+"короткий"
+],
+"matched": true,
+"matchedForm": "короткий",
+"rank": 1508,
+"lemma": "короткий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "косметика",
+"kind": "word",
+"headwords": [
+"косметика"
+],
+"matched": false
+},
+{
+"entry": "костюм",
+"kind": "word",
+"headwords": [
+"костюм"
+],
+"matched": true,
+"matchedForm": "костюм",
+"rank": 3402,
+"lemma": "костюм",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "котрий (котра, котре, котрі)",
+"kind": "word",
+"headwords": [
+"котрий",
+"котра",
+"котре",
+"котрі"
+],
+"matched": true,
+"matchedForm": "котрий",
+"rank": 701,
+"lemma": "котрий",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "кохати",
+"kind": "word",
+"headwords": [
+"кохати"
+],
+"matched": true,
+"matchedForm": "кохати",
+"rank": 7148,
+"lemma": "кохати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "коштувати",
+"kind": "word",
+"headwords": [
+"коштувати"
+],
+"matched": true,
+"matchedForm": "коштувати",
+"rank": 1876,
+"lemma": "коштувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "країна",
+"kind": "word",
+"headwords": [
+"країна"
+],
+"matched": true,
+"matchedForm": "країна",
+"rank": 51,
+"lemma": "країна",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "краще",
+"kind": "word",
+"headwords": [
+"краще"
+],
+"matched": true,
+"matchedForm": "краще",
+"rank": 1103,
+"lemma": "краще",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "кращий",
+"kind": "word",
+"headwords": [
+"кращий"
+],
+"matched": true,
+"matchedForm": "кращий",
+"rank": 1040,
+"lemma": "кращий",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "кредитна картка",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "крем",
+"kind": "word",
+"headwords": [
+"крем"
+],
+"matched": true,
+"matchedForm": "крем",
+"rank": 11781,
+"lemma": "крем",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "Крим",
+"kind": "word",
+"headwords": [
+"крим"
+],
+"matched": true,
+"matchedForm": "крим",
+"rank": 277,
+"lemma": "Крим",
+"pos": "PROPN"
+},
+{
+"entry": "крісло",
+"kind": "word",
+"headwords": [
+"крісло"
+],
+"matched": true,
+"matchedForm": "крісло",
+"rank": 3293,
+"lemma": "крісло",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "кров",
+"kind": "word",
+"headwords": [
+"кров"
+],
+"matched": true,
+"matchedForm": "кров",
+"rank": 1258,
+"lemma": "кров",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "куди",
+"kind": "word",
+"headwords": [
+"куди"
+],
+"matched": true,
+"matchedForm": "куди",
+"rank": 1175,
+"lemma": "куди",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "купувати – купити",
+"kind": "word",
+"headwords": [
+"купувати",
+"купити"
+],
+"matched": true,
+"matchedForm": "купити",
+"rank": 1570,
+"lemma": "купити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "курити (не курити!)",
+"kind": "word",
+"headwords": [
+"курити"
+],
+"matched": true,
+"matchedForm": "курити",
+"rank": 7447,
+"lemma": "курити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "курка",
+"kind": "word",
+"headwords": [
+"курка"
+],
+"matched": true,
+"matchedForm": "курка",
+"rank": 11703,
+"lemma": "курка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "курс",
+"kind": "word",
+"headwords": [
+"курс"
+],
+"matched": true,
+"matchedForm": "курс",
+"rank": 545,
+"lemma": "курс",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "кухня",
+"kind": "word",
+"headwords": [
+"кухня"
+],
+"matched": true,
+"matchedForm": "кухня",
+"rank": 3354,
+"lemma": "кухня",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "кущ",
+"kind": "word",
+"headwords": [
+"кущ"
+],
+"matched": true,
+"matchedForm": "кущ",
+"rank": 4631,
+"lemma": "кущ",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "лампа",
+"kind": "word",
+"headwords": [
+"лампа"
+],
+"matched": true,
+"matchedForm": "лампа",
+"rank": 7229,
+"lemma": "лампа",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Ласкаво просимо!",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "легкий",
+"kind": "word",
+"headwords": [
+"легкий"
+],
+"matched": true,
+"matchedForm": "легкий",
+"rank": 1740,
+"lemma": "легкий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "легко",
+"kind": "word",
+"headwords": [
+"легко"
+],
+"matched": true,
+"matchedForm": "легко",
+"rank": 2143,
+"lemma": "легко",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "лежати",
+"kind": "word",
+"headwords": [
+"лежати"
+],
+"matched": true,
+"matchedForm": "лежати",
+"rank": 1311,
+"lemma": "лежати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "летіти",
+"kind": "word",
+"headwords": [
+"летіти"
+],
+"matched": true,
+"matchedForm": "летіти",
+"rank": 3332,
+"lemma": "летіти",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "лимон",
+"kind": "word",
+"headwords": [
+"лимон"
+],
+"matched": false
+},
+{
+"entry": "липень",
+"kind": "word",
+"headwords": [
+"липень"
+],
+"matched": true,
+"matchedForm": "липень",
+"rank": 221,
+"lemma": "липень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "лист",
+"kind": "word",
+"headwords": [
+"лист"
+],
+"matched": true,
+"matchedForm": "лист",
+"rank": 720,
+"lemma": "лист",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "листопад",
+"kind": "word",
+"headwords": [
+"листопад"
+],
+"matched": true,
+"matchedForm": "листопад",
+"rank": 247,
+"lemma": "листопад",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "лівий",
+"kind": "word",
+"headwords": [
+"лівий"
+],
+"matched": true,
+"matchedForm": "лівий",
+"rank": 1709,
+"lemma": "лівий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "ліворуч",
+"kind": "word",
+"headwords": [
+"ліворуч"
+],
+"matched": true,
+"matchedForm": "ліворуч",
+"rank": 6394,
+"lemma": "ліворуч",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "ліжко",
+"kind": "word",
+"headwords": [
+"ліжко"
+],
+"matched": true,
+"matchedForm": "ліжко",
+"rank": 2680,
+"lemma": "ліжко",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "лікар / лікарка",
+"kind": "word",
+"headwords": [
+"лікар",
+"лікарка"
+],
+"matched": true,
+"matchedForm": "лікар",
+"rank": 613,
+"lemma": "лікар",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "лікарня",
+"kind": "word",
+"headwords": [
+"лікарня"
+],
+"matched": true,
+"matchedForm": "лікарня",
+"rank": 509,
+"lemma": "лікарня",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ліки",
+"kind": "word",
+"headwords": [
+"ліки"
+],
+"matched": true,
+"matchedForm": "ліки",
+"rank": 2361,
+"lemma": "ліки",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "ліс",
+"kind": "word",
+"headwords": [
+"ліс"
+],
+"matched": true,
+"matchedForm": "ліс",
+"rank": 1049,
+"lemma": "ліс",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "літак",
+"kind": "word",
+"headwords": [
+"літак"
+],
+"matched": true,
+"matchedForm": "літак",
+"rank": 502,
+"lemma": "літак",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "література",
+"kind": "word",
+"headwords": [
+"література"
+],
+"matched": true,
+"matchedForm": "література",
+"rank": 764,
+"lemma": "література",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B2"
+},
+{
+"entry": "літо",
+"kind": "word",
+"headwords": [
+"літо"
+],
+"matched": true,
+"matchedForm": "літо",
+"rank": 2230,
+"lemma": "літо",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "літр",
+"kind": "word",
+"headwords": [
+"літр"
+],
+"matched": true,
+"matchedForm": "літр",
+"rank": 2829,
+"lemma": "літр",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ліфт",
+"kind": "word",
+"headwords": [
+"ліфт"
+],
+"matched": true,
+"matchedForm": "ліфт",
+"rank": 6135,
+"lemma": "ліфт",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "ложка",
+"kind": "word",
+"headwords": [
+"ложка"
+],
+"matched": true,
+"matchedForm": "ложка",
+"rank": 6576,
+"lemma": "ложка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "любити",
+"kind": "word",
+"headwords": [
+"любити"
+],
+"matched": true,
+"matchedForm": "любити",
+"rank": 1070,
+"lemma": "любити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "любов",
+"kind": "word",
+"headwords": [
+"любов"
+],
+"matched": true,
+"matchedForm": "любов",
+"rank": 1522,
+"lemma": "любов",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "людина (люди)",
+"kind": "word",
+"headwords": [
+"людина",
+"люди"
+],
+"matched": true,
+"matchedForm": "людина",
+"rank": 42,
+"lemma": "людина",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "лютий",
+"kind": "word",
+"headwords": [
+"лютий"
+],
+"matched": true,
+"matchedForm": "лютий",
+"rank": 271,
+"lemma": "лютий",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "м’ясо",
+"kind": "word",
+"headwords": [
+"м’ясо"
+],
+"matched": true,
+"matchedForm": "м’ясо",
+"rank": 2850,
+"lemma": "м’ясо",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "м’яч",
+"kind": "word",
+"headwords": [
+"м’яч"
+],
+"matched": true,
+"matchedForm": "м’яч",
+"rank": 2017,
+"lemma": "м’яч",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "Мабуть",
+"kind": "word",
+"headwords": [
+"мабуть"
+],
+"matched": true,
+"matchedForm": "мабуть",
+"rank": 1333,
+"lemma": "мабуть",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "магазин",
+"kind": "word",
+"headwords": [
+"магазин"
+],
+"matched": true,
+"matchedForm": "магазин",
+"rank": 1455,
+"lemma": "магазин",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "майдан",
+"kind": "word",
+"headwords": [
+"майдан"
+],
+"matched": true,
+"matchedForm": "майдан",
+"rank": 1738,
+"lemma": "Майдан",
+"pos": "PROPN",
+"pulsLevel": "B1"
+},
+{
+"entry": "майже",
+"kind": "word",
+"headwords": [
+"майже"
+],
+"matched": true,
+"matchedForm": "майже",
+"rank": 290,
+"lemma": "майже",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "макарони",
+"kind": "word",
+"headwords": [
+"макарони"
+],
+"matched": false
+},
+{
+"entry": "малий, маленький",
+"kind": "word",
+"headwords": [
+"малий",
+"маленький"
+],
+"matched": true,
+"matchedForm": "малий",
+"rank": 966,
+"lemma": "малий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "мало",
+"kind": "word",
+"headwords": [
+"мало"
+],
+"matched": true,
+"matchedForm": "мало",
+"rank": 1122,
+"lemma": "мало",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "малювати",
+"kind": "word",
+"headwords": [
+"малювати"
+],
+"matched": true,
+"matchedForm": "малювати",
+"rank": 5342,
+"lemma": "малювати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "мама, мати",
+"kind": "word",
+"headwords": [
+"мама",
+"мати"
+],
+"matched": true,
+"matchedForm": "мати",
+"rank": 33,
+"lemma": "мати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "маска",
+"kind": "word",
+"headwords": [
+"маска"
+],
+"matched": true,
+"matchedForm": "маска",
+"rank": 2305,
+"lemma": "маска",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "масло",
+"kind": "word",
+"headwords": [
+"масло"
+],
+"matched": true,
+"matchedForm": "масло",
+"rank": 5051,
+"lemma": "масло",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "математика",
+"kind": "word",
+"headwords": [
+"математика"
+],
+"matched": true,
+"matchedForm": "математика",
+"rank": 4973,
+"lemma": "математика",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "мати",
+"kind": "word",
+"headwords": [
+"мати"
+],
+"matched": true,
+"matchedForm": "мати",
+"rank": 33,
+"lemma": "мати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "машина",
+"kind": "word",
+"headwords": [
+"машина"
+],
+"matched": true,
+"matchedForm": "машина",
+"rank": 655,
+"lemma": "машина",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "меблі",
+"kind": "word",
+"headwords": [
+"меблі"
+],
+"matched": true,
+"matchedForm": "меблі",
+"rank": 5444,
+"lemma": "меблі",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "мед",
+"kind": "word",
+"headwords": [
+"мед"
+],
+"matched": true,
+"matchedForm": "мед",
+"rank": 5064,
+"lemma": "мед",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "медичний",
+"kind": "word",
+"headwords": [
+"медичний"
+],
+"matched": true,
+"matchedForm": "медичний",
+"rank": 577,
+"lemma": "медичний",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "менше",
+"kind": "word",
+"headwords": [
+"менше"
+],
+"matched": true,
+"matchedForm": "менше",
+"rank": 710,
+"lemma": "менше",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "меню",
+"kind": "word",
+"headwords": [
+"меню"
+],
+"matched": true,
+"matchedForm": "меню",
+"rank": 8810,
+"lemma": "меню",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "метр",
+"kind": "word",
+"headwords": [
+"метр"
+],
+"matched": true,
+"matchedForm": "метр",
+"rank": 825,
+"lemma": "метр",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "метро",
+"kind": "word",
+"headwords": [
+"метро"
+],
+"matched": true,
+"matchedForm": "метро",
+"rank": 2122,
+"lemma": "метро",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ми",
+"kind": "word",
+"headwords": [
+"ми"
+],
+"matched": true,
+"matchedForm": "ми",
+"rank": 26,
+"lemma": "ми",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "мило",
+"kind": "word",
+"headwords": [
+"мило"
+],
+"matched": false
+},
+{
+"entry": "мистецтво",
+"kind": "word",
+"headwords": [
+"мистецтво"
+],
+"matched": true,
+"matchedForm": "мистецтво",
+"rank": 819,
+"lemma": "мистецтво",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "мити",
+"kind": "word",
+"headwords": [
+"мити"
+],
+"matched": true,
+"matchedForm": "мити",
+"rank": 8191,
+"lemma": "мити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "міжнародний",
+"kind": "word",
+"headwords": [
+"міжнародний"
+],
+"matched": true,
+"matchedForm": "міжнародний",
+"rank": 151,
+"lemma": "міжнародний",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "мій (моя, моє, мої)",
+"kind": "word",
+"headwords": [
+"мій",
+"моя",
+"моє",
+"мої"
+],
+"matched": true,
+"matchedForm": "мій",
+"rank": 185,
+"lemma": "мій",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "мільйон",
+"kind": "word",
+"headwords": [
+"мільйон"
+],
+"matched": true,
+"matchedForm": "мільйон",
+"rank": 349,
+"lemma": "мільйон",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "мінус",
+"kind": "word",
+"headwords": [
+"мінус"
+],
+"matched": true,
+"matchedForm": "мінус",
+"rank": 7622,
+"lemma": "мінус",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "міняти",
+"kind": "word",
+"headwords": [
+"міняти"
+],
+"matched": true,
+"matchedForm": "міняти",
+"rank": 5704,
+"lemma": "міняти",
+"pos": "VERB",
+"pulsLevel": "B1"
+},
+{
+"entry": "місто",
+"kind": "word",
+"headwords": [
+"місто"
+],
+"matched": true,
+"matchedForm": "місто",
+"rank": 67,
+"lemma": "місто",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "місяць",
+"kind": "word",
+"headwords": [
+"місяць"
+],
+"matched": true,
+"matchedForm": "місяць",
+"rank": 232,
+"lemma": "місяць",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "мобільний",
+"kind": "word",
+"headwords": [
+"мобільний"
+],
+"matched": true,
+"matchedForm": "мобільний",
+"rank": 1684,
+"lemma": "мобільний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "мова",
+"kind": "word",
+"headwords": [
+"мова"
+],
+"matched": true,
+"matchedForm": "мова",
+"rank": 216,
+"lemma": "мова",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "мовчати",
+"kind": "word",
+"headwords": [
+"мовчати"
+],
+"matched": true,
+"matchedForm": "мовчати",
+"rank": 2944,
+"lemma": "мовчати",
+"pos": "VERB",
+"pulsLevel": "B1"
+},
+{
+"entry": "могти – змогти",
+"kind": "word",
+"headwords": [
+"могти",
+"змогти"
+],
+"matched": true,
+"matchedForm": "могти",
+"rank": 34,
+"lemma": "могти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "може",
+"kind": "word",
+"headwords": [
+"може"
+],
+"matched": true,
+"matchedForm": "може",
+"rank": 1388,
+"lemma": "може",
+"pos": "ADV"
+},
+{
+"entry": "Можливо",
+"kind": "word",
+"headwords": [
+"можливо"
+],
+"matched": true,
+"matchedForm": "можливо",
+"rank": 726,
+"lemma": "можливо",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "можна",
+"kind": "word",
+"headwords": [
+"можна"
+],
+"matched": true,
+"matchedForm": "можна",
+"rank": 120,
+"lemma": "можна",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Молдова",
+"kind": "word",
+"headwords": [
+"молдова"
+],
+"matched": true,
+"matchedForm": "молдова",
+"rank": 1919,
+"lemma": "Молдова",
+"pos": "PROPN"
+},
+{
+"entry": "молодий",
+"kind": "word",
+"headwords": [
+"молодий"
+],
+"matched": true,
+"matchedForm": "молодий",
+"rank": 626,
+"lemma": "молодий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "молодший",
+"kind": "word",
+"headwords": [
+"молодший"
+],
+"matched": true,
+"matchedForm": "молодший",
+"rank": 1701,
+"lemma": "молодший",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "молоко",
+"kind": "word",
+"headwords": [
+"молоко"
+],
+"matched": true,
+"matchedForm": "молоко",
+"rank": 3125,
+"lemma": "молоко",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "море",
+"kind": "word",
+"headwords": [
+"море"
+],
+"matched": true,
+"matchedForm": "море",
+"rank": 675,
+"lemma": "море",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "морква",
+"kind": "word",
+"headwords": [
+"морква"
+],
+"matched": true,
+"matchedForm": "морква",
+"rank": 11050,
+"lemma": "морква",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "морозиво",
+"kind": "word",
+"headwords": [
+"морозиво"
+],
+"matched": true,
+"matchedForm": "морозиво",
+"rank": 11408,
+"lemma": "морозиво",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "музика",
+"kind": "word",
+"headwords": [
+"музика"
+],
+"matched": true,
+"matchedForm": "музика",
+"rank": 1263,
+"lemma": "музика",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "мусити",
+"kind": "word",
+"headwords": [
+"мусити"
+],
+"matched": true,
+"matchedForm": "мусити",
+"rank": 1743,
+"lemma": "мусити",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "на",
+"kind": "word",
+"headwords": [
+"на"
+],
+"matched": true,
+"matchedForm": "на",
+"rank": 2,
+"lemma": "на",
+"pos": "ADP",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "На добраніч",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "навесні",
+"kind": "word",
+"headwords": [
+"навесні"
+],
+"matched": true,
+"matchedForm": "навесні",
+"rank": 3471,
+"lemma": "навесні",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "навіть",
+"kind": "word",
+"headwords": [
+"навіть"
+],
+"matched": true,
+"matchedForm": "навіть",
+"rank": 148,
+"lemma": "навіть",
+"pos": "PART",
+"pulsLevel": "A2"
+},
+{
+"entry": "назад",
+"kind": "word",
+"headwords": [
+"назад"
+],
+"matched": true,
+"matchedForm": "назад",
+"rank": 1849,
+"lemma": "назад",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "називатися",
+"kind": "word",
+"headwords": [
+"називатися"
+],
+"matched": true,
+"matchedForm": "називатися",
+"rank": 1860,
+"lemma": "називатися",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "найбільше",
+"kind": "word",
+"headwords": [
+"найбільше"
+],
+"matched": true,
+"matchedForm": "найбільше",
+"rank": 1507,
+"lemma": "найбільше",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "найменше",
+"kind": "word",
+"headwords": [
+"найменше"
+],
+"matched": true,
+"matchedForm": "найменше",
+"rank": 10197,
+"lemma": "найменше",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "напій",
+"kind": "word",
+"headwords": [
+"напій"
+],
+"matched": true,
+"matchedForm": "напій",
+"rank": 2997,
+"lemma": "напій",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "наприклад",
+"kind": "word",
+"headwords": [
+"наприклад"
+],
+"matched": true,
+"matchedForm": "наприклад",
+"rank": 519,
+"lemma": "наприклад",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "нарешті",
+"kind": "word",
+"headwords": [
+"нарешті"
+],
+"matched": true,
+"matchedForm": "нарешті",
+"rank": 1361,
+"lemma": "нарешті",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "народитися (док.)",
+"kind": "word",
+"headwords": [
+"народитися",
+"док"
+],
+"matched": true,
+"matchedForm": "народитися",
+"rank": 892,
+"lemma": "народитися",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "наступний",
+"kind": "word",
+"headwords": [
+"наступний"
+],
+"matched": true,
+"matchedForm": "наступний",
+"rank": 310,
+"lemma": "наступний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "національність",
+"kind": "word",
+"headwords": [
+"національність"
+],
+"matched": true,
+"matchedForm": "національність",
+"rank": 4523,
+"lemma": "національність",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "наш (наша, наше, наші)",
+"kind": "word",
+"headwords": [
+"наш",
+"наша",
+"наше",
+"наші"
+],
+"matched": true,
+"matchedForm": "наш",
+"rank": 65,
+"lemma": "наш",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "не",
+"kind": "word",
+"headwords": [
+"не"
+],
+"matched": true,
+"matchedForm": "не",
+"rank": 7,
+"lemma": "не",
+"pos": "PART",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Небезпечно!",
+"kind": "word",
+"headwords": [
+"небезпечно"
+],
+"matched": true,
+"matchedForm": "небезпечно",
+"rank": 7151,
+"lemma": "небезпечно",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "небо",
+"kind": "word",
+"headwords": [
+"небо"
+],
+"matched": true,
+"matchedForm": "небо",
+"rank": 1509,
+"lemma": "небо",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "негарний",
+"kind": "word",
+"headwords": [
+"негарний"
+],
+"matched": false
+},
+{
+"entry": "негативний",
+"kind": "word",
+"headwords": [
+"негативний"
+],
+"matched": true,
+"matchedForm": "негативний",
+"rank": 1702,
+"lemma": "негативний",
+"pos": "ADJ",
+"pulsLevel": "B1"
+},
+{
+"entry": "недавно",
+"kind": "word",
+"headwords": [
+"недавно"
+],
+"matched": true,
+"matchedForm": "недавно",
+"rank": 3745,
+"lemma": "недавно",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "неділя",
+"kind": "word",
+"headwords": [
+"неділя"
+],
+"matched": true,
+"matchedForm": "неділя",
+"rank": 1230,
+"lemma": "неділя",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "нема (немає)",
+"kind": "word",
+"headwords": [
+"нема",
+"немає"
+],
+"matched": false
+},
+{
+"entry": "неодружений",
+"kind": "word",
+"headwords": [
+"неодружений"
+],
+"matched": false
+},
+{
+"entry": "неправда",
+"kind": "word",
+"headwords": [
+"неправда"
+],
+"matched": true,
+"matchedForm": "неправда",
+"rank": 7419,
+"lemma": "неправда",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "неправильно",
+"kind": "word",
+"headwords": [
+"неправильно"
+],
+"matched": true,
+"matchedForm": "неправильно",
+"rank": 6152,
+"lemma": "неправильно",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "нести",
+"kind": "word",
+"headwords": [
+"нести"
+],
+"matched": true,
+"matchedForm": "нести",
+"rank": 1652,
+"lemma": "нести",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "низький",
+"kind": "word",
+"headwords": [
+"низький"
+],
+"matched": true,
+"matchedForm": "низький",
+"rank": 1672,
+"lemma": "низький",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "ні",
+"kind": "word",
+"headwords": [
+"ні"
+],
+"matched": true,
+"matchedForm": "ні",
+"rank": 659,
+"lemma": "ні",
+"pos": "CCONJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "ніж",
+"kind": "word",
+"headwords": [
+"ніж"
+],
+"matched": true,
+"matchedForm": "ніж",
+"rank": 222,
+"lemma": "ніж",
+"pos": "SCONJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "ніколи",
+"kind": "word",
+"headwords": [
+"ніколи"
+],
+"matched": true,
+"matchedForm": "ніколи",
+"rank": 704,
+"lemma": "ніколи",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "німецький",
+"kind": "word",
+"headwords": [
+"німецький"
+],
+"matched": true,
+"matchedForm": "німецький",
+"rank": 604,
+"lemma": "німецький",
+"pos": "ADJ"
+},
+{
+"entry": "Німеччина",
+"kind": "word",
+"headwords": [
+"німеччина"
+],
+"matched": true,
+"matchedForm": "німеччина",
+"rank": 401,
+"lemma": "Німеччина",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "ніс",
+"kind": "word",
+"headwords": [
+"ніс"
+],
+"matched": true,
+"matchedForm": "ніс",
+"rank": 2917,
+"lemma": "ніс",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ніч",
+"kind": "word",
+"headwords": [
+"ніч"
+],
+"matched": true,
+"matchedForm": "ніч",
+"rank": 677,
+"lemma": "ніч",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Нічого",
+"kind": "word",
+"headwords": [
+"нічого"
+],
+"matched": false
+},
+{
+"entry": "новий",
+"kind": "word",
+"headwords": [
+"новий"
+],
+"matched": true,
+"matchedForm": "новий",
+"rank": 49,
+"lemma": "новий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Новий рік",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "нога",
+"kind": "word",
+"headwords": [
+"нога"
+],
+"matched": true,
+"matchedForm": "нога",
+"rank": 869,
+"lemma": "нога",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "номер",
+"kind": "word",
+"headwords": [
+"номер"
+],
+"matched": true,
+"matchedForm": "номер",
+"rank": 1005,
+"lemma": "номер",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "нормальний",
+"kind": "word",
+"headwords": [
+"нормальний"
+],
+"matched": true,
+"matchedForm": "нормальний",
+"rank": 2242,
+"lemma": "нормальний",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "нуль",
+"kind": "word",
+"headwords": [
+"нуль"
+],
+"matched": true,
+"matchedForm": "нуль",
+"rank": 4372,
+"lemma": "нуль",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "Обережно",
+"kind": "word",
+"headwords": [
+"обережно"
+],
+"matched": true,
+"matchedForm": "обережно",
+"rank": 4987,
+"lemma": "обережно",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "обід",
+"kind": "word",
+"headwords": [
+"обід"
+],
+"matched": true,
+"matchedForm": "обід",
+"rank": 3755,
+"lemma": "обід",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "обідати",
+"kind": "word",
+"headwords": [
+"обідати"
+],
+"matched": false
+},
+{
+"entry": "обличчя",
+"kind": "word",
+"headwords": [
+"обличчя"
+],
+"matched": true,
+"matchedForm": "обличчя",
+"rank": 943,
+"lemma": "обличчя",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "овочі",
+"kind": "word",
+"headwords": [
+"овочі"
+],
+"matched": false
+},
+{
+"entry": "огірок",
+"kind": "word",
+"headwords": [
+"огірок"
+],
+"matched": true,
+"matchedForm": "огірок",
+"rank": 10996,
+"lemma": "огірок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "один (одна, одне)",
+"kind": "word",
+"headwords": [
+"один",
+"одна",
+"одне"
+],
+"matched": true,
+"matchedForm": "один",
+"rank": 43,
+"lemma": "один",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "одинадцятий",
+"kind": "word",
+"headwords": [
+"одинадцятий"
+],
+"matched": false
+},
+{
+"entry": "одинадцять",
+"kind": "word",
+"headwords": [
+"одинадцять"
+],
+"matched": true,
+"matchedForm": "одинадцять",
+"rank": 9657,
+"lemma": "одинадцять",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "одружений",
+"kind": "word",
+"headwords": [
+"одружений"
+],
+"matched": true,
+"matchedForm": "одружений",
+"rank": 5619,
+"lemma": "одружений",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "одяг",
+"kind": "word",
+"headwords": [
+"одяг"
+],
+"matched": true,
+"matchedForm": "одяг",
+"rank": 1941,
+"lemma": "одяг",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "одягати",
+"kind": "word",
+"headwords": [
+"одягати"
+],
+"matched": true,
+"matchedForm": "одягати",
+"rank": 11111,
+"lemma": "одягати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "одягатися",
+"kind": "word",
+"headwords": [
+"одягатися"
+],
+"matched": false
+},
+{
+"entry": "озеро",
+"kind": "word",
+"headwords": [
+"озеро"
+],
+"matched": true,
+"matchedForm": "озеро",
+"rank": 2064,
+"lemma": "озеро",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "означати",
+"kind": "word",
+"headwords": [
+"означати"
+],
+"matched": true,
+"matchedForm": "означати",
+"rank": 1008,
+"lemma": "означати",
+"pos": "VERB",
+"pulsLevel": "A1"
+},
+{
+"entry": "океан",
+"kind": "word",
+"headwords": [
+"океан"
+],
+"matched": true,
+"matchedForm": "океан",
+"rank": 2548,
+"lemma": "океан",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "око (очі)",
+"kind": "word",
+"headwords": [
+"око",
+"очі"
+],
+"matched": true,
+"matchedForm": "око",
+"rank": 392,
+"lemma": "око",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "окуляри",
+"kind": "word",
+"headwords": [
+"окуляри"
+],
+"matched": true,
+"matchedForm": "окуляри",
+"rank": 6192,
+"lemma": "окуляри",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "олівець",
+"kind": "word",
+"headwords": [
+"олівець"
+],
+"matched": true,
+"matchedForm": "олівець",
+"rank": 10392,
+"lemma": "олівець",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "олія",
+"kind": "word",
+"headwords": [
+"олія"
+],
+"matched": true,
+"matchedForm": "олія",
+"rank": 3968,
+"lemma": "олія",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "онлайн",
+"kind": "word",
+"headwords": [
+"онлайн"
+],
+"matched": true,
+"matchedForm": "онлайн",
+"rank": 4935,
+"lemma": "онлайн",
+"pos": "NOUN"
+},
+{
+"entry": "оранжевий",
+"kind": "word",
+"headwords": [
+"оранжевий"
+],
+"matched": false
+},
+{
+"entry": "організація",
+"kind": "word",
+"headwords": [
+"організація"
+],
+"matched": true,
+"matchedForm": "організація",
+"rank": 171,
+"lemma": "організація",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "оренда",
+"kind": "word",
+"headwords": [
+"оренда"
+],
+"matched": true,
+"matchedForm": "оренда",
+"rank": 1771,
+"lemma": "оренда",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "осінь",
+"kind": "word",
+"headwords": [
+"осінь"
+],
+"matched": true,
+"matchedForm": "осінь",
+"rank": 3545,
+"lemma": "осінь",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "основний",
+"kind": "word",
+"headwords": [
+"основний"
+],
+"matched": true,
+"matchedForm": "основний",
+"rank": 301,
+"lemma": "основний",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "особливий",
+"kind": "word",
+"headwords": [
+"особливий"
+],
+"matched": true,
+"matchedForm": "особливий",
+"rank": 928,
+"lemma": "особливий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "острів",
+"kind": "word",
+"headwords": [
+"острів"
+],
+"matched": true,
+"matchedForm": "острів",
+"rank": 812,
+"lemma": "острів",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "ось",
+"kind": "word",
+"headwords": [
+"ось"
+],
+"matched": true,
+"matchedForm": "ось",
+"rank": 656,
+"lemma": "ось",
+"pos": "PART",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "отримувати",
+"kind": "word",
+"headwords": [
+"отримувати"
+],
+"matched": true,
+"matchedForm": "отримувати",
+"rank": 719,
+"lemma": "отримувати",
+"pos": "VERB",
+"pulsLevel": "A1"
+},
+{
+"entry": "офіс",
+"kind": "word",
+"headwords": [
+"офіс"
+],
+"matched": true,
+"matchedForm": "офіс",
+"rank": 1101,
+"lemma": "офіс",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "офлайн",
+"kind": "word",
+"headwords": [
+"офлайн"
+],
+"matched": false
+},
+{
+"entry": "п’ятдесят",
+"kind": "word",
+"headwords": [
+"п’ятдесят"
+],
+"matched": true,
+"matchedForm": "п’ятдесят",
+"rank": 6268,
+"lemma": "п’ятдесят",
+"pos": "NUM",
+"pulsLevel": "A1"
+},
+{
+"entry": "п’ятий",
+"kind": "word",
+"headwords": [
+"п’ятий"
+],
+"matched": true,
+"matchedForm": "п’ятий",
+"rank": 1853,
+"lemma": "п’ятий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "п’ятнадцять",
+"kind": "word",
+"headwords": [
+"п’ятнадцять"
+],
+"matched": true,
+"matchedForm": "п’ятнадцять",
+"rank": 7074,
+"lemma": "п’ятнадцять",
+"pos": "NUM",
+"pulsLevel": "A1"
+},
+{
+"entry": "п’ятниця",
+"kind": "word",
+"headwords": [
+"п’ятниця"
+],
+"matched": true,
+"matchedForm": "п’ятниця",
+"rank": 974,
+"lemma": "п’ятниця",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "п’ятсот",
+"kind": "word",
+"headwords": [
+"п’ятсот"
+],
+"matched": false
+},
+{
+"entry": "п’ять",
+"kind": "word",
+"headwords": [
+"п’ять"
+],
+"matched": true,
+"matchedForm": "п’ять",
+"rank": 483,
+"lemma": "п’ять",
+"pos": "NUM",
+"pulsLevel": "A1"
+},
+{
+"entry": "падати",
+"kind": "word",
+"headwords": [
+"падати"
+],
+"matched": true,
+"matchedForm": "падати",
+"rank": 2920,
+"lemma": "падати",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "пакет",
+"kind": "word",
+"headwords": [
+"пакет"
+],
+"matched": true,
+"matchedForm": "пакет",
+"rank": 1581,
+"lemma": "пакет",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "палець",
+"kind": "word",
+"headwords": [
+"палець"
+],
+"matched": true,
+"matchedForm": "палець",
+"rank": 2201,
+"lemma": "палець",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "пальто",
+"kind": "word",
+"headwords": [
+"пальто"
+],
+"matched": true,
+"matchedForm": "пальто",
+"rank": 10611,
+"lemma": "пальто",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "пам’ятати – запам’ятати",
+"kind": "word",
+"headwords": [
+"пам’ятати",
+"запам’ятати"
+],
+"matched": true,
+"matchedForm": "пам’ятати",
+"rank": 1733,
+"lemma": "пам’ятати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "пан / пані",
+"kind": "word",
+"headwords": [
+"пан",
+"пані"
+],
+"matched": true,
+"matchedForm": "пан",
+"rank": 698,
+"lemma": "пан",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Па-па",
+"kind": "word",
+"headwords": [
+"па-па"
+],
+"matched": false
+},
+{
+"entry": "папір",
+"kind": "word",
+"headwords": [
+"папір"
+],
+"matched": true,
+"matchedForm": "папір",
+"rank": 1566,
+"lemma": "папір",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "пара",
+"kind": "word",
+"headwords": [
+"пара"
+],
+"matched": true,
+"matchedForm": "пара",
+"rank": 1425,
+"lemma": "пара",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "парасоля",
+"kind": "word",
+"headwords": [
+"парасоля"
+],
+"matched": false
+},
+{
+"entry": "парк",
+"kind": "word",
+"headwords": [
+"парк"
+],
+"matched": true,
+"matchedForm": "парк",
+"rank": 1089,
+"lemma": "парк",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "партнер / партнерка",
+"kind": "word",
+"headwords": [
+"партнер",
+"партнерка"
+],
+"matched": true,
+"matchedForm": "партнер",
+"rank": 981,
+"lemma": "партнер",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "паспорт",
+"kind": "word",
+"headwords": [
+"паспорт"
+],
+"matched": true,
+"matchedForm": "паспорт",
+"rank": 1744,
+"lemma": "паспорт",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "перевірити (док.)",
+"kind": "word",
+"headwords": [
+"перевірити",
+"док"
+],
+"matched": true,
+"matchedForm": "перевірити",
+"rank": 2270,
+"lemma": "перевірити",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "перекладач / перекладачка",
+"kind": "word",
+"headwords": [
+"перекладач",
+"перекладачка"
+],
+"matched": true,
+"matchedForm": "перекладач",
+"rank": 5219,
+"lemma": "перекладач",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "перекласти",
+"kind": "word",
+"headwords": [
+"перекласти"
+],
+"matched": true,
+"matchedForm": "перекласти",
+"rank": 5747,
+"lemma": "перекласти",
+"pos": "VERB",
+"pulsLevel": "A1"
+},
+{
+"entry": "перерва",
+"kind": "word",
+"headwords": [
+"перерва"
+],
+"matched": true,
+"matchedForm": "перерва",
+"rank": 2896,
+"lemma": "перерва",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "перець",
+"kind": "word",
+"headwords": [
+"перець"
+],
+"matched": true,
+"matchedForm": "перець",
+"rank": 8440,
+"lemma": "перець",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "перукарня",
+"kind": "word",
+"headwords": [
+"перукарня"
+],
+"matched": false
+},
+{
+"entry": "перший",
+"kind": "word",
+"headwords": [
+"перший"
+],
+"matched": true,
+"matchedForm": "перший",
+"rank": 50,
+"lemma": "перший",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "печиво",
+"kind": "word",
+"headwords": [
+"печиво"
+],
+"matched": false
+},
+{
+"entry": "пиво",
+"kind": "word",
+"headwords": [
+"пиво"
+],
+"matched": true,
+"matchedForm": "пиво",
+"rank": 3861,
+"lemma": "пиво",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "пиріг",
+"kind": "word",
+"headwords": [
+"пиріг"
+],
+"matched": true,
+"matchedForm": "пиріг",
+"rank": 10601,
+"lemma": "пиріг",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "писати – написати",
+"kind": "word",
+"headwords": [
+"писати",
+"написати"
+],
+"matched": true,
+"matchedForm": "писати",
+"rank": 296,
+"lemma": "писати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "письменник / письменниця",
+"kind": "word",
+"headwords": [
+"письменник",
+"письменниця"
+],
+"matched": true,
+"matchedForm": "письменник",
+"rank": 1339,
+"lemma": "письменник",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "питати – спитати",
+"kind": "word",
+"headwords": [
+"питати",
+"спитати"
+],
+"matched": true,
+"matchedForm": "спитати",
+"rank": 2174,
+"lemma": "спитати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "пити",
+"kind": "word",
+"headwords": [
+"пити"
+],
+"matched": true,
+"matchedForm": "пити",
+"rank": 2733,
+"lemma": "пити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "піаніно",
+"kind": "word",
+"headwords": [
+"піаніно"
+],
+"matched": false
+},
+{
+"entry": "пів",
+"kind": "word",
+"headwords": [
+"пів"
+],
+"matched": true,
+"matchedForm": "пів",
+"rank": 7620,
+"lemma": "пів",
+"pos": "NOUN",
+"openLevel": "A1"
+},
+{
+"entry": "південь",
+"kind": "word",
+"headwords": [
+"південь"
+],
+"matched": true,
+"matchedForm": "південь",
+"rank": 1211,
+"lemma": "південь",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "північ",
+"kind": "word",
+"headwords": [
+"північ"
+],
+"matched": true,
+"matchedForm": "північ",
+"rank": 1260,
+"lemma": "північ",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "піджак",
+"kind": "word",
+"headwords": [
+"піджак"
+],
+"matched": true,
+"matchedForm": "піджак",
+"rank": 11473,
+"lemma": "піджак",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "підпис",
+"kind": "word",
+"headwords": [
+"підпис"
+],
+"matched": true,
+"matchedForm": "підпис",
+"rank": 2247,
+"lemma": "підпис",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "пізно",
+"kind": "word",
+"headwords": [
+"пізно"
+],
+"matched": true,
+"matchedForm": "пізно",
+"rank": 3490,
+"lemma": "пізно",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "пісня",
+"kind": "word",
+"headwords": [
+"пісня"
+],
+"matched": true,
+"matchedForm": "пісня",
+"rank": 780,
+"lemma": "пісня",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "піца",
+"kind": "word",
+"headwords": [
+"піца"
+],
+"matched": false
+},
+{
+"entry": "плавати",
+"kind": "word",
+"headwords": [
+"плавати"
+],
+"matched": true,
+"matchedForm": "плавати",
+"rank": 7823,
+"lemma": "плавати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "плакати",
+"kind": "word",
+"headwords": [
+"плакати"
+],
+"matched": true,
+"matchedForm": "плакати",
+"rank": 2916,
+"lemma": "плакати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "план",
+"kind": "word",
+"headwords": [
+"план"
+],
+"matched": true,
+"matchedForm": "план",
+"rank": 406,
+"lemma": "план",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "планшет",
+"kind": "word",
+"headwords": [
+"планшет"
+],
+"matched": true,
+"matchedForm": "планшет",
+"rank": 8315,
+"lemma": "планшет",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "платити",
+"kind": "word",
+"headwords": [
+"платити"
+],
+"matched": true,
+"matchedForm": "платити",
+"rank": 1594,
+"lemma": "платити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "плече",
+"kind": "word",
+"headwords": [
+"плече"
+],
+"matched": true,
+"matchedForm": "плече",
+"rank": 1799,
+"lemma": "плече",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "площа",
+"kind": "word",
+"headwords": [
+"площа"
+],
+"matched": true,
+"matchedForm": "площа",
+"rank": 424,
+"lemma": "площа",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "плюс",
+"kind": "word",
+"headwords": [
+"плюс"
+],
+"matched": true,
+"matchedForm": "плюс",
+"rank": 3964,
+"lemma": "плюс",
+"pos": "CCONJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "пляшка",
+"kind": "word",
+"headwords": [
+"пляшка"
+],
+"matched": true,
+"matchedForm": "пляшка",
+"rank": 3410,
+"lemma": "пляшка",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "по",
+"kind": "word",
+"headwords": [
+"по"
+],
+"matched": true,
+"matchedForm": "по",
+"rank": 45,
+"lemma": "по",
+"pos": "ADP",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "повернути (поверніть!) (док.)",
+"kind": "word",
+"headwords": [
+"повернути",
+"поверніть",
+"док"
+],
+"matched": true,
+"matchedForm": "повернути",
+"rank": 1055,
+"lemma": "повернути",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "поверх",
+"kind": "word",
+"headwords": [
+"поверх"
+],
+"matched": true,
+"matchedForm": "поверх",
+"rank": 2215,
+"lemma": "поверх",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "повільно",
+"kind": "word",
+"headwords": [
+"повільно"
+],
+"matched": true,
+"matchedForm": "повільно",
+"rank": 4324,
+"lemma": "повільно",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "повітря",
+"kind": "word",
+"headwords": [
+"повітря"
+],
+"matched": true,
+"matchedForm": "повітря",
+"rank": 978,
+"lemma": "повітря",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "повторити (повторіть) (док.)",
+"kind": "word",
+"headwords": [
+"повторити",
+"повторіть",
+"док"
+],
+"matched": true,
+"matchedForm": "повторити",
+"rank": 4013,
+"lemma": "повторити",
+"pos": "VERB",
+"pulsLevel": "A1"
+},
+{
+"entry": "поганий",
+"kind": "word",
+"headwords": [
+"поганий"
+],
+"matched": true,
+"matchedForm": "поганий",
+"rank": 2074,
+"lemma": "поганий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "погано",
+"kind": "word",
+"headwords": [
+"погано"
+],
+"matched": true,
+"matchedForm": "погано",
+"rank": 2940,
+"lemma": "погано",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "погода",
+"kind": "word",
+"headwords": [
+"погода"
+],
+"matched": true,
+"matchedForm": "погода",
+"rank": 1930,
+"lemma": "погода",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "подарунок",
+"kind": "word",
+"headwords": [
+"подарунок"
+],
+"matched": true,
+"matchedForm": "подарунок",
+"rank": 2650,
+"lemma": "подарунок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "подвір’я",
+"kind": "word",
+"headwords": [
+"подвір’я"
+],
+"matched": true,
+"matchedForm": "подвір’я",
+"rank": 4841,
+"lemma": "подвір’я",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "подібний",
+"kind": "word",
+"headwords": [
+"подібний"
+],
+"matched": true,
+"matchedForm": "подібний",
+"rank": 902,
+"lemma": "подібний",
+"pos": "ADJ",
+"pulsLevel": "B1"
+},
+{
+"entry": "подія",
+"kind": "word",
+"headwords": [
+"подія"
+],
+"matched": true,
+"matchedForm": "подія",
+"rank": 306,
+"lemma": "подія",
+"pos": "NOUN",
+"pulsLevel": "B1",
+"openLevel": "A1"
+},
+{
+"entry": "подобатися",
+"kind": "word",
+"headwords": [
+"подобатися"
+],
+"matched": true,
+"matchedForm": "подобатися",
+"rank": 2621,
+"lemma": "подобатися",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "подорожувати",
+"kind": "word",
+"headwords": [
+"подорожувати"
+],
+"matched": true,
+"matchedForm": "подорожувати",
+"rank": 5576,
+"lemma": "подорожувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "подушка",
+"kind": "word",
+"headwords": [
+"подушка"
+],
+"matched": true,
+"matchedForm": "подушка",
+"rank": 6689,
+"lemma": "подушка",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "позитивний",
+"kind": "word",
+"headwords": [
+"позитивний"
+],
+"matched": true,
+"matchedForm": "позитивний",
+"rank": 1354,
+"lemma": "позитивний",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "поїзд",
+"kind": "word",
+"headwords": [
+"поїзд"
+],
+"matched": true,
+"matchedForm": "поїзд",
+"rank": 1677,
+"lemma": "поїзд",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "показати (покажіть) (док.)",
+"kind": "word",
+"headwords": [
+"показати",
+"покажіть",
+"док"
+],
+"matched": true,
+"matchedForm": "показати",
+"rank": 598,
+"lemma": "показати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "покласти (покладіть) (док.)",
+"kind": "word",
+"headwords": [
+"покласти",
+"покладіть",
+"док"
+],
+"matched": true,
+"matchedForm": "покласти",
+"rank": 1815,
+"lemma": "покласти",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "поле",
+"kind": "word",
+"headwords": [
+"поле"
+],
+"matched": true,
+"matchedForm": "поле",
+"rank": 784,
+"lemma": "поле",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "поліклініка",
+"kind": "word",
+"headwords": [
+"поліклініка"
+],
+"matched": true,
+"matchedForm": "поліклініка",
+"rank": 7443,
+"lemma": "поліклініка",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "поліція",
+"kind": "word",
+"headwords": [
+"поліція"
+],
+"matched": true,
+"matchedForm": "поліція",
+"rank": 250,
+"lemma": "поліція",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "польський",
+"kind": "word",
+"headwords": [
+"польський"
+],
+"matched": true,
+"matchedForm": "польський",
+"rank": 708,
+"lemma": "польський",
+"pos": "ADJ"
+},
+{
+"entry": "Польща",
+"kind": "word",
+"headwords": [
+"польща"
+],
+"matched": true,
+"matchedForm": "польща",
+"rank": 390,
+"lemma": "Польща",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "померти",
+"kind": "word",
+"headwords": [
+"померти"
+],
+"matched": true,
+"matchedForm": "померти",
+"rank": 564,
+"lemma": "померти",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "помилка",
+"kind": "word",
+"headwords": [
+"помилка"
+],
+"matched": true,
+"matchedForm": "помилка",
+"rank": 1574,
+"lemma": "помилка",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "помідор",
+"kind": "word",
+"headwords": [
+"помідор"
+],
+"matched": true,
+"matchedForm": "помідор",
+"rank": 9925,
+"lemma": "помідор",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "понеділок",
+"kind": "word",
+"headwords": [
+"понеділок"
+],
+"matched": true,
+"matchedForm": "понеділок",
+"rank": 959,
+"lemma": "понеділок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "пора року",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "поруч",
+"kind": "word",
+"headwords": [
+"поруч"
+],
+"matched": true,
+"matchedForm": "поруч",
+"rank": 1749,
+"lemma": "поруч",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "посуд",
+"kind": "word",
+"headwords": [
+"посуд"
+],
+"matched": true,
+"matchedForm": "посуд",
+"rank": 6971,
+"lemma": "посуд",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "потрібно",
+"kind": "word",
+"headwords": [
+"потрібно"
+],
+"matched": true,
+"matchedForm": "потрібно",
+"rank": 457,
+"lemma": "потрібно",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "по-українськи",
+"kind": "word",
+"headwords": [
+"по-українськи"
+],
+"matched": false
+},
+{
+"entry": "пошта",
+"kind": "word",
+"headwords": [
+"пошта"
+],
+"matched": true,
+"matchedForm": "пошта",
+"rank": 3677,
+"lemma": "пошта",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "правда",
+"kind": "word",
+"headwords": [
+"правда"
+],
+"matched": true,
+"matchedForm": "правда",
+"rank": 484,
+"lemma": "правда",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "правий",
+"kind": "word",
+"headwords": [
+"правий"
+],
+"matched": true,
+"matchedForm": "правий",
+"rank": 1343,
+"lemma": "правий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "правильно",
+"kind": "word",
+"headwords": [
+"правильно"
+],
+"matched": true,
+"matchedForm": "правильно",
+"rank": 3024,
+"lemma": "правильно",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "праворуч",
+"kind": "word",
+"headwords": [
+"праворуч"
+],
+"matched": true,
+"matchedForm": "праворуч",
+"rank": 5988,
+"lemma": "праворуч",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "працівник / працівниця",
+"kind": "word",
+"headwords": [
+"працівник",
+"працівниця"
+],
+"matched": true,
+"matchedForm": "працівник",
+"rank": 422,
+"lemma": "працівник",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "працювати",
+"kind": "word",
+"headwords": [
+"працювати"
+],
+"matched": true,
+"matchedForm": "працювати",
+"rank": 115,
+"lemma": "працювати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "прибирати",
+"kind": "word",
+"headwords": [
+"прибирати"
+],
+"matched": true,
+"matchedForm": "прибирати",
+"rank": 7840,
+"lemma": "прибирати",
+"pos": "VERB",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "приватний",
+"kind": "word",
+"headwords": [
+"приватний"
+],
+"matched": true,
+"matchedForm": "приватний",
+"rank": 763,
+"lemma": "приватний",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "Привіт",
+"kind": "word",
+"headwords": [
+"привіт"
+],
+"matched": true,
+"matchedForm": "привіт",
+"rank": 9653,
+"lemma": "привіт",
+"pos": "NOUN"
+},
+{
+"entry": "приємний",
+"kind": "word",
+"headwords": [
+"приємний"
+],
+"matched": true,
+"matchedForm": "приємний",
+"rank": 4672,
+"lemma": "приємний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "приємно",
+"kind": "word",
+"headwords": [
+"приємно"
+],
+"matched": true,
+"matchedForm": "приємно",
+"rank": 4789,
+"lemma": "приємно",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "приклад",
+"kind": "word",
+"headwords": [
+"приклад"
+],
+"matched": true,
+"matchedForm": "приклад",
+"rank": 1116,
+"lemma": "приклад",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "природа",
+"kind": "word",
+"headwords": [
+"природа"
+],
+"matched": true,
+"matchedForm": "природа",
+"rank": 1704,
+"lemma": "природа",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "прізвище",
+"kind": "word",
+"headwords": [
+"прізвище"
+],
+"matched": true,
+"matchedForm": "прізвище",
+"rank": 1596,
+"lemma": "прізвище",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "про",
+"kind": "word",
+"headwords": [
+"про"
+],
+"matched": true,
+"matchedForm": "про",
+"rank": 14,
+"lemma": "про",
+"pos": "ADP",
+"pulsLevel": "A1"
+},
+{
+"entry": "проблема",
+"kind": "word",
+"headwords": [
+"проблема"
+],
+"matched": true,
+"matchedForm": "проблема",
+"rank": 231,
+"lemma": "проблема",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "програма",
+"kind": "word",
+"headwords": [
+"програма"
+],
+"matched": true,
+"matchedForm": "програма",
+"rank": 248,
+"lemma": "програма",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "продавати",
+"kind": "word",
+"headwords": [
+"продавати"
+],
+"matched": true,
+"matchedForm": "продавати",
+"rank": 1934,
+"lemma": "продавати",
+"pos": "VERB",
+"pulsLevel": "A1"
+},
+{
+"entry": "продавець / продавчиня",
+"kind": "word",
+"headwords": [
+"продавець",
+"продавчиня"
+],
+"matched": true,
+"matchedForm": "продавець",
+"rank": 4574,
+"lemma": "продавець",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "проєкт",
+"kind": "word",
+"headwords": [
+"проєкт"
+],
+"matched": true,
+"matchedForm": "проєкт",
+"rank": 1725,
+"lemma": "проєкт",
+"pos": "NOUN",
+"pulsLevel": "B1",
+"openLevel": "A2"
+},
+{
+"entry": "пропонувати",
+"kind": "word",
+"headwords": [
+"пропонувати"
+],
+"matched": true,
+"matchedForm": "пропонувати",
+"rank": 755,
+"lemma": "пропонувати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "просити",
+"kind": "word",
+"headwords": [
+"просити"
+],
+"matched": true,
+"matchedForm": "просити",
+"rank": 742,
+"lemma": "просити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "проспект",
+"kind": "word",
+"headwords": [
+"проспект"
+],
+"matched": true,
+"matchedForm": "проспект",
+"rank": 2811,
+"lemma": "проспект",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "простий",
+"kind": "word",
+"headwords": [
+"простий"
+],
+"matched": true,
+"matchedForm": "простий",
+"rank": 1430,
+"lemma": "простий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "проти",
+"kind": "word",
+"headwords": [
+"проти"
+],
+"matched": true,
+"matchedForm": "проти",
+"rank": 127,
+"lemma": "проти",
+"pos": "ADP",
+"pulsLevel": "A2"
+},
+{
+"entry": "процент",
+"kind": "word",
+"headwords": [
+"процент"
+],
+"matched": true,
+"matchedForm": "процент",
+"rank": 11164,
+"lemma": "процент",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "прямо",
+"kind": "word",
+"headwords": [
+"прямо"
+],
+"matched": true,
+"matchedForm": "прямо",
+"rank": 3728,
+"lemma": "прямо",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "птах",
+"kind": "word",
+"headwords": [
+"птах"
+],
+"matched": true,
+"matchedForm": "птах",
+"rank": 2473,
+"lemma": "птах",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "радий",
+"kind": "word",
+"headwords": [
+"радий"
+],
+"matched": true,
+"matchedForm": "радий",
+"rank": 1537,
+"lemma": "радий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "радість",
+"kind": "word",
+"headwords": [
+"радість"
+],
+"matched": true,
+"matchedForm": "радість",
+"rank": 3643,
+"lemma": "радість",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "разом",
+"kind": "word",
+"headwords": [
+"разом"
+],
+"matched": true,
+"matchedForm": "разом",
+"rank": 269,
+"lemma": "разом",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "район",
+"kind": "word",
+"headwords": [
+"район"
+],
+"matched": true,
+"matchedForm": "район",
+"rank": 99,
+"lemma": "район",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "рано",
+"kind": "word",
+"headwords": [
+"рано"
+],
+"matched": true,
+"matchedForm": "рано",
+"rank": 3689,
+"lemma": "рано",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ранок",
+"kind": "word",
+"headwords": [
+"ранок"
+],
+"matched": true,
+"matchedForm": "ранок",
+"rank": 1495,
+"lemma": "ранок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "рахунок",
+"kind": "word",
+"headwords": [
+"рахунок"
+],
+"matched": true,
+"matchedForm": "рахунок",
+"rank": 395,
+"lemma": "рахунок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "результат",
+"kind": "word",
+"headwords": [
+"результат"
+],
+"matched": true,
+"matchedForm": "результат",
+"rank": 116,
+"lemma": "результат",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "ремонтувати",
+"kind": "word",
+"headwords": [
+"ремонтувати"
+],
+"matched": true,
+"matchedForm": "ремонтувати",
+"rank": 8298,
+"lemma": "ремонтувати",
+"pos": "VERB",
+"pulsLevel": "B1"
+},
+{
+"entry": "ресторан",
+"kind": "word",
+"headwords": [
+"ресторан"
+],
+"matched": true,
+"matchedForm": "ресторан",
+"rank": 2283,
+"lemma": "ресторан",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "рецепт",
+"kind": "word",
+"headwords": [
+"рецепт"
+],
+"matched": true,
+"matchedForm": "рецепт",
+"rank": 4830,
+"lemma": "рецепт",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "решта",
+"kind": "word",
+"headwords": [
+"решта"
+],
+"matched": true,
+"matchedForm": "решта",
+"rank": 1462,
+"lemma": "решта",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "риба",
+"kind": "word",
+"headwords": [
+"риба"
+],
+"matched": true,
+"matchedForm": "риба",
+"rank": 2164,
+"lemma": "риба",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "ринок",
+"kind": "word",
+"headwords": [
+"ринок"
+],
+"matched": true,
+"matchedForm": "ринок",
+"rank": 283,
+"lemma": "ринок",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "рис",
+"kind": "word",
+"headwords": [
+"рис"
+],
+"matched": true,
+"matchedForm": "рис",
+"rank": 8442,
+"lemma": "рис",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "рідко",
+"kind": "word",
+"headwords": [
+"рідко"
+],
+"matched": true,
+"matchedForm": "рідко",
+"rank": 4328,
+"lemma": "рідко",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "рідний",
+"kind": "word",
+"headwords": [
+"рідний"
+],
+"matched": true,
+"matchedForm": "рідний",
+"rank": 1056,
+"lemma": "рідний",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "Різдво",
+"kind": "word",
+"headwords": [
+"різдво"
+],
+"matched": true,
+"matchedForm": "різдво",
+"rank": 3874,
+"lemma": "різдво",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "різний",
+"kind": "word",
+"headwords": [
+"різний"
+],
+"matched": true,
+"matchedForm": "різний",
+"rank": 258,
+"lemma": "різний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "рік",
+"kind": "word",
+"headwords": [
+"рік"
+],
+"matched": true,
+"matchedForm": "рік",
+"rank": 13,
+"lemma": "рік",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "річ (речі)",
+"kind": "word",
+"headwords": [
+"річ",
+"речі"
+],
+"matched": true,
+"matchedForm": "річ",
+"rank": 471,
+"lemma": "річ",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "річка",
+"kind": "word",
+"headwords": [
+"річка"
+],
+"matched": true,
+"matchedForm": "річка",
+"rank": 705,
+"lemma": "річка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "робити – зробити",
+"kind": "word",
+"headwords": [
+"робити",
+"зробити"
+],
+"matched": true,
+"matchedForm": "зробити",
+"rank": 174,
+"lemma": "зробити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "робота",
+"kind": "word",
+"headwords": [
+"робота"
+],
+"matched": true,
+"matchedForm": "робота",
+"rank": 82,
+"lemma": "робота",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "робочий",
+"kind": "word",
+"headwords": [
+"робочий"
+],
+"matched": true,
+"matchedForm": "робочий",
+"rank": 728,
+"lemma": "робочий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "родина",
+"kind": "word",
+"headwords": [
+"родина"
+],
+"matched": true,
+"matchedForm": "родина",
+"rank": 567,
+"lemma": "родина",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "рожевий",
+"kind": "word",
+"headwords": [
+"рожевий"
+],
+"matched": true,
+"matchedForm": "рожевий",
+"rank": 5456,
+"lemma": "рожевий",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "роздрукувати (док.)",
+"kind": "word",
+"headwords": [
+"роздрукувати",
+"док"
+],
+"matched": false
+},
+{
+"entry": "розказувати",
+"kind": "word",
+"headwords": [
+"розказувати"
+],
+"matched": true,
+"matchedForm": "розказувати",
+"rank": 7628,
+"lemma": "розказувати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "розклад",
+"kind": "word",
+"headwords": [
+"розклад"
+],
+"matched": true,
+"matchedForm": "розклад",
+"rank": 4934,
+"lemma": "розклад",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "розмір",
+"kind": "word",
+"headwords": [
+"розмір"
+],
+"matched": true,
+"matchedForm": "розмір",
+"rank": 534,
+"lemma": "розмір",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "розмовляти",
+"kind": "word",
+"headwords": [
+"розмовляти"
+],
+"matched": true,
+"matchedForm": "розмовляти",
+"rank": 2574,
+"lemma": "розмовляти",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "розуміти – зрозуміти",
+"kind": "word",
+"headwords": [
+"розуміти",
+"зрозуміти"
+],
+"matched": true,
+"matchedForm": "розуміти",
+"rank": 614,
+"lemma": "розуміти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "розумний",
+"kind": "word",
+"headwords": [
+"розумний"
+],
+"matched": true,
+"matchedForm": "розумний",
+"rank": 3173,
+"lemma": "розумний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "російський",
+"kind": "word",
+"headwords": [
+"російський"
+],
+"matched": true,
+"matchedForm": "російський",
+"rank": 68,
+"lemma": "російський",
+"pos": "ADJ"
+},
+{
+"entry": "рослина",
+"kind": "word",
+"headwords": [
+"рослина"
+],
+"matched": true,
+"matchedForm": "рослина",
+"rank": 1976,
+"lemma": "рослина",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "рот",
+"kind": "word",
+"headwords": [
+"рот"
+],
+"matched": true,
+"matchedForm": "рот",
+"rank": 3290,
+"lemma": "рот",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "рука",
+"kind": "word",
+"headwords": [
+"рука"
+],
+"matched": true,
+"matchedForm": "рука",
+"rank": 255,
+"lemma": "рука",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "рукавиця",
+"kind": "word",
+"headwords": [
+"рукавиця"
+],
+"matched": false
+},
+{
+"entry": "Румунія",
+"kind": "word",
+"headwords": [
+"румунія"
+],
+"matched": true,
+"matchedForm": "румунія",
+"rank": 1817,
+"lemma": "Румунія",
+"pos": "PROPN"
+},
+{
+"entry": "ручка",
+"kind": "word",
+"headwords": [
+"ручка"
+],
+"matched": true,
+"matchedForm": "ручка",
+"rank": 6298,
+"lemma": "ручка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "рушник",
+"kind": "word",
+"headwords": [
+"рушник"
+],
+"matched": true,
+"matchedForm": "рушник",
+"rank": 8448,
+"lemma": "рушник",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "рюкзак",
+"kind": "word",
+"headwords": [
+"рюкзак"
+],
+"matched": true,
+"matchedForm": "рюкзак",
+"rank": 9562,
+"lemma": "рюкзак",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "сад",
+"kind": "word",
+"headwords": [
+"сад"
+],
+"matched": true,
+"matchedForm": "сад",
+"rank": 2575,
+"lemma": "сад",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "сайт",
+"kind": "word",
+"headwords": [
+"сайт"
+],
+"matched": true,
+"matchedForm": "сайт",
+"rank": 235,
+"lemma": "сайт",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "салат",
+"kind": "word",
+"headwords": [
+"салат"
+],
+"matched": true,
+"matchedForm": "салат",
+"rank": 8855,
+"lemma": "салат",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сам (сама, саме, самі)",
+"kind": "word",
+"headwords": [
+"сам",
+"сама",
+"саме",
+"самі"
+],
+"matched": true,
+"matchedForm": "сам",
+"rank": 149,
+"lemma": "сам",
+"pos": "DET",
+"pulsLevel": "A2"
+},
+{
+"entry": "сантиметр",
+"kind": "word",
+"headwords": [
+"сантиметр"
+],
+"matched": true,
+"matchedForm": "сантиметр",
+"rank": 7117,
+"lemma": "сантиметр",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "свіжий",
+"kind": "word",
+"headwords": [
+"свіжий"
+],
+"matched": true,
+"matchedForm": "свіжий",
+"rank": 2792,
+"lemma": "свіжий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "світлий",
+"kind": "word",
+"headwords": [
+"світлий"
+],
+"matched": true,
+"matchedForm": "світлий",
+"rank": 3177,
+"lemma": "світлий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "святий",
+"kind": "word",
+"headwords": [
+"святий"
+],
+"matched": true,
+"matchedForm": "святий",
+"rank": 973,
+"lemma": "святий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "святкувати",
+"kind": "word",
+"headwords": [
+"святкувати"
+],
+"matched": true,
+"matchedForm": "святкувати",
+"rank": 4351,
+"lemma": "святкувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "свято",
+"kind": "word",
+"headwords": [
+"свято"
+],
+"matched": true,
+"matchedForm": "свято",
+"rank": 1288,
+"lemma": "свято",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "секунда",
+"kind": "word",
+"headwords": [
+"секунда"
+],
+"matched": true,
+"matchedForm": "секунда",
+"rank": 2754,
+"lemma": "секунда",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "село",
+"kind": "word",
+"headwords": [
+"село"
+],
+"matched": true,
+"matchedForm": "село",
+"rank": 132,
+"lemma": "село",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "семестр",
+"kind": "word",
+"headwords": [
+"семестр"
+],
+"matched": false
+},
+{
+"entry": "серветка",
+"kind": "word",
+"headwords": [
+"серветка"
+],
+"matched": false
+},
+{
+"entry": "середа",
+"kind": "word",
+"headwords": [
+"середа"
+],
+"matched": true,
+"matchedForm": "середа",
+"rank": 1041,
+"lemma": "середа",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "середній",
+"kind": "word",
+"headwords": [
+"середній"
+],
+"matched": true,
+"matchedForm": "середній",
+"rank": 351,
+"lemma": "середній",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "серпень",
+"kind": "word",
+"headwords": [
+"серпень"
+],
+"matched": true,
+"matchedForm": "серпень",
+"rank": 257,
+"lemma": "серпень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "серце",
+"kind": "word",
+"headwords": [
+"серце"
+],
+"matched": true,
+"matchedForm": "серце",
+"rank": 957,
+"lemma": "серце",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "сестра",
+"kind": "word",
+"headwords": [
+"сестра"
+],
+"matched": true,
+"matchedForm": "сестра",
+"rank": 1802,
+"lemma": "сестра",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сидіти",
+"kind": "word",
+"headwords": [
+"сидіти"
+],
+"matched": true,
+"matchedForm": "сидіти",
+"rank": 987,
+"lemma": "сидіти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "сильний",
+"kind": "word",
+"headwords": [
+"сильний"
+],
+"matched": true,
+"matchedForm": "сильний",
+"rank": 970,
+"lemma": "сильний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "син",
+"kind": "word",
+"headwords": [
+"син"
+],
+"matched": true,
+"matchedForm": "син",
+"rank": 497,
+"lemma": "син",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "синій",
+"kind": "word",
+"headwords": [
+"синій"
+],
+"matched": true,
+"matchedForm": "синій",
+"rank": 3059,
+"lemma": "синій",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сир",
+"kind": "word",
+"headwords": [
+"сир"
+],
+"matched": true,
+"matchedForm": "сир",
+"rank": 4408,
+"lemma": "сир",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сік",
+"kind": "word",
+"headwords": [
+"сік"
+],
+"matched": true,
+"matchedForm": "сік",
+"rank": 5565,
+"lemma": "сік",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сіль",
+"kind": "word",
+"headwords": [
+"сіль"
+],
+"matched": true,
+"matchedForm": "сіль",
+"rank": 4093,
+"lemma": "сіль",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сім",
+"kind": "word",
+"headwords": [
+"сім"
+],
+"matched": true,
+"matchedForm": "сім",
+"rank": 1367,
+"lemma": "сім",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сімдесят",
+"kind": "word",
+"headwords": [
+"сімдесят"
+],
+"matched": false
+},
+{
+"entry": "сімнадцять",
+"kind": "word",
+"headwords": [
+"сімнадцять"
+],
+"matched": false
+},
+{
+"entry": "сімсот",
+"kind": "word",
+"headwords": [
+"сімсот"
+],
+"matched": false
+},
+{
+"entry": "сім'я",
+"kind": "word",
+"headwords": [
+"сім'я"
+],
+"matched": false
+},
+{
+"entry": "сірий",
+"kind": "word",
+"headwords": [
+"сірий"
+],
+"matched": true,
+"matchedForm": "сірий",
+"rank": 2925,
+"lemma": "сірий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "січень",
+"kind": "word",
+"headwords": [
+"січень"
+],
+"matched": true,
+"matchedForm": "січень",
+"rank": 198,
+"lemma": "січень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "скільки",
+"kind": "word",
+"headwords": [
+"скільки"
+],
+"matched": true,
+"matchedForm": "скільки",
+"rank": 1286,
+"lemma": "скільки",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "склянка",
+"kind": "word",
+"headwords": [
+"склянка"
+],
+"matched": true,
+"matchedForm": "склянка",
+"rank": 6984,
+"lemma": "склянка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "скоро",
+"kind": "word",
+"headwords": [
+"скоро"
+],
+"matched": true,
+"matchedForm": "скоро",
+"rank": 2973,
+"lemma": "скоро",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "словник",
+"kind": "word",
+"headwords": [
+"словник"
+],
+"matched": true,
+"matchedForm": "словник",
+"rank": 4745,
+"lemma": "словник",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "слово",
+"kind": "word",
+"headwords": [
+"слово"
+],
+"matched": true,
+"matchedForm": "слово",
+"rank": 70,
+"lemma": "слово",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "слухати (слухай! слухайте!)",
+"kind": "word",
+"headwords": [
+"слухати"
+],
+"matched": true,
+"matchedForm": "слухати",
+"rank": 1902,
+"lemma": "слухати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "смачний",
+"kind": "word",
+"headwords": [
+"смачний"
+],
+"matched": true,
+"matchedForm": "смачний",
+"rank": 7495,
+"lemma": "смачний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "смачно",
+"kind": "word",
+"headwords": [
+"смачно"
+],
+"matched": false
+},
+{
+"entry": "смачного",
+"kind": "word",
+"headwords": [
+"смачного"
+],
+"matched": false
+},
+{
+"entry": "смітник",
+"kind": "word",
+"headwords": [
+"смітник"
+],
+"matched": true,
+"matchedForm": "смітник",
+"rank": 11395,
+"lemma": "смітник",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "сміття",
+"kind": "word",
+"headwords": [
+"сміття"
+],
+"matched": true,
+"matchedForm": "сміття",
+"rank": 3231,
+"lemma": "сміття",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "B1"
+},
+{
+"entry": "сміятися",
+"kind": "word",
+"headwords": [
+"сміятися"
+],
+"matched": true,
+"matchedForm": "сміятися",
+"rank": 3457,
+"lemma": "сміятися",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "сніг",
+"kind": "word",
+"headwords": [
+"сніг"
+],
+"matched": true,
+"matchedForm": "сніг",
+"rank": 1657,
+"lemma": "сніг",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сніданок",
+"kind": "word",
+"headwords": [
+"сніданок"
+],
+"matched": true,
+"matchedForm": "сніданок",
+"rank": 6560,
+"lemma": "сніданок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "снідати",
+"kind": "word",
+"headwords": [
+"снідати"
+],
+"matched": false
+},
+{
+"entry": "собака",
+"kind": "word",
+"headwords": [
+"собака"
+],
+"matched": true,
+"matchedForm": "собака",
+"rank": 2106,
+"lemma": "собака",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сонце",
+"kind": "word",
+"headwords": [
+"сонце"
+],
+"matched": true,
+"matchedForm": "сонце",
+"rank": 1403,
+"lemma": "сонце",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сорок",
+"kind": "word",
+"headwords": [
+"сорок"
+],
+"matched": true,
+"matchedForm": "сорок",
+"rank": 5092,
+"lemma": "сорок",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сорочка",
+"kind": "word",
+"headwords": [
+"сорочка"
+],
+"matched": true,
+"matchedForm": "сорочка",
+"rank": 4540,
+"lemma": "сорочка",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "спальня",
+"kind": "word",
+"headwords": [
+"спальня"
+],
+"matched": true,
+"matchedForm": "спальня",
+"rank": 9941,
+"lemma": "спальня",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "спати",
+"kind": "word",
+"headwords": [
+"спати"
+],
+"matched": true,
+"matchedForm": "спати",
+"rank": 2093,
+"lemma": "спати",
+"pos": "VERB",
+"pulsLevel": "A1"
+},
+{
+"entry": "спина",
+"kind": "word",
+"headwords": [
+"спина"
+],
+"matched": true,
+"matchedForm": "спина",
+"rank": 2571,
+"lemma": "спина",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "список",
+"kind": "word",
+"headwords": [
+"список"
+],
+"matched": true,
+"matchedForm": "список",
+"rank": 385,
+"lemma": "список",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A2"
+},
+{
+"entry": "співати",
+"kind": "word",
+"headwords": [
+"співати"
+],
+"matched": true,
+"matchedForm": "співати",
+"rank": 2598,
+"lemma": "співати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "спідниця",
+"kind": "word",
+"headwords": [
+"спідниця"
+],
+"matched": true,
+"matchedForm": "спідниця",
+"rank": 9672,
+"lemma": "спідниця",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "спокійний",
+"kind": "word",
+"headwords": [
+"спокійний"
+],
+"matched": true,
+"matchedForm": "спокійний",
+"rank": 4099,
+"lemma": "спокійний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "спорт",
+"kind": "word",
+"headwords": [
+"спорт"
+],
+"matched": true,
+"matchedForm": "спорт",
+"rank": 1111,
+"lemma": "спорт",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "спортсмен / спортсменка",
+"kind": "word",
+"headwords": [
+"спортсмен",
+"спортсменка"
+],
+"matched": true,
+"matchedForm": "спортсмен",
+"rank": 2173,
+"lemma": "спортсмен",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "спочатку ≠ потім",
+"kind": "word",
+"headwords": [
+"спочатку",
+"потім"
+],
+"matched": true,
+"matchedForm": "потім",
+"rank": 278,
+"lemma": "потім",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "справа",
+"kind": "word",
+"headwords": [
+"справа"
+],
+"matched": true,
+"matchedForm": "справа",
+"rank": 74,
+"lemma": "справа",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "стадіон",
+"kind": "word",
+"headwords": [
+"стадіон"
+],
+"matched": true,
+"matchedForm": "стадіон",
+"rank": 1685,
+"lemma": "стадіон",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "станція",
+"kind": "word",
+"headwords": [
+"станція"
+],
+"matched": true,
+"matchedForm": "станція",
+"rank": 650,
+"lemma": "станція",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "старий",
+"kind": "word",
+"headwords": [
+"старий"
+],
+"matched": true,
+"matchedForm": "старий",
+"rank": 624,
+"lemma": "старий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "старший",
+"kind": "word",
+"headwords": [
+"старший"
+],
+"matched": true,
+"matchedForm": "старший",
+"rank": 618,
+"lemma": "старший",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "стать",
+"kind": "word",
+"headwords": [
+"стать"
+],
+"matched": true,
+"matchedForm": "стать",
+"rank": 1545,
+"lemma": "стать",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "стіл",
+"kind": "word",
+"headwords": [
+"стіл"
+],
+"matched": true,
+"matchedForm": "стіл",
+"rank": 1147,
+"lemma": "стіл",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "стілець",
+"kind": "word",
+"headwords": [
+"стілець"
+],
+"matched": true,
+"matchedForm": "стілець",
+"rank": 5207,
+"lemma": "стілець",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "стіна",
+"kind": "word",
+"headwords": [
+"стіна"
+],
+"matched": true,
+"matchedForm": "стіна",
+"rank": 1065,
+"lemma": "стіна",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сто",
+"kind": "word",
+"headwords": [
+"сто"
+],
+"matched": true,
+"matchedForm": "сто",
+"rank": 2690,
+"lemma": "сто",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "столиця",
+"kind": "word",
+"headwords": [
+"столиця"
+],
+"matched": true,
+"matchedForm": "столиця",
+"rank": 638,
+"lemma": "столиця",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Стоп",
+"kind": "word",
+"headwords": [
+"стоп"
+],
+"matched": false
+},
+{
+"entry": "сторінка",
+"kind": "word",
+"headwords": [
+"сторінка"
+],
+"matched": true,
+"matchedForm": "сторінка",
+"rank": 709,
+"lemma": "сторінка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "стояти (стій!)",
+"kind": "word",
+"headwords": [
+"стояти",
+"стій"
+],
+"matched": true,
+"matchedForm": "стояти",
+"rank": 474,
+"lemma": "стояти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "страва",
+"kind": "word",
+"headwords": [
+"страва"
+],
+"matched": true,
+"matchedForm": "страва",
+"rank": 3579,
+"lemma": "страва",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "страховий поліс",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "студент / студентка",
+"kind": "word",
+"headwords": [
+"студент",
+"студентка"
+],
+"matched": true,
+"matchedForm": "студент",
+"rank": 1125,
+"lemma": "студент",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "субота",
+"kind": "word",
+"headwords": [
+"субота"
+],
+"matched": true,
+"matchedForm": "субота",
+"rank": 1387,
+"lemma": "субота",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сукня",
+"kind": "word",
+"headwords": [
+"сукня"
+],
+"matched": true,
+"matchedForm": "сукня",
+"rank": 4591,
+"lemma": "сукня",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "сумка",
+"kind": "word",
+"headwords": [
+"сумка"
+],
+"matched": true,
+"matchedForm": "сумка",
+"rank": 5709,
+"lemma": "сумка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "суп",
+"kind": "word",
+"headwords": [
+"суп"
+],
+"matched": true,
+"matchedForm": "суп",
+"rank": 10270,
+"lemma": "суп",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "супермаркет",
+"kind": "word",
+"headwords": [
+"супермаркет"
+],
+"matched": true,
+"matchedForm": "супермаркет",
+"rank": 5188,
+"lemma": "супермаркет",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сусід / сусідка",
+"kind": "word",
+"headwords": [
+"сусід",
+"сусідка"
+],
+"matched": true,
+"matchedForm": "сусід",
+"rank": 2303,
+"lemma": "сусід",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сучасний",
+"kind": "word",
+"headwords": [
+"сучасний"
+],
+"matched": true,
+"matchedForm": "сучасний",
+"rank": 580,
+"lemma": "сучасний",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "схід",
+"kind": "word",
+"headwords": [
+"схід"
+],
+"matched": true,
+"matchedForm": "схід",
+"rank": 494,
+"lemma": "схід",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "сходи",
+"kind": "word",
+"headwords": [
+"сходи"
+],
+"matched": true,
+"matchedForm": "сходи",
+"rank": 4779,
+"lemma": "сходи",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "США",
+"kind": "word",
+"headwords": [
+"сша"
+],
+"matched": true,
+"matchedForm": "сша",
+"rank": 86,
+"lemma": "США",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "сьогодні",
+"kind": "word",
+"headwords": [
+"сьогодні"
+],
+"matched": true,
+"matchedForm": "сьогодні",
+"rank": 146,
+"lemma": "сьогодні",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "сьомий",
+"kind": "word",
+"headwords": [
+"сьомий"
+],
+"matched": true,
+"matchedForm": "сьомий",
+"rank": 3972,
+"lemma": "сьомий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "сюди",
+"kind": "word",
+"headwords": [
+"сюди"
+],
+"matched": true,
+"matchedForm": "сюди",
+"rank": 2063,
+"lemma": "сюди",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "Так",
+"kind": "word",
+"headwords": [
+"так"
+],
+"matched": true,
+"matchedForm": "так",
+"rank": 53,
+"lemma": "так",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "таксі",
+"kind": "word",
+"headwords": [
+"таксі"
+],
+"matched": true,
+"matchedForm": "таксі",
+"rank": 5273,
+"lemma": "таксі",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "там",
+"kind": "word",
+"headwords": [
+"там"
+],
+"matched": true,
+"matchedForm": "там",
+"rank": 188,
+"lemma": "там",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "танцювати",
+"kind": "word",
+"headwords": [
+"танцювати"
+],
+"matched": true,
+"matchedForm": "танцювати",
+"rank": 5348,
+"lemma": "танцювати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тарілка",
+"kind": "word",
+"headwords": [
+"тарілка"
+],
+"matched": true,
+"matchedForm": "тарілка",
+"rank": 8343,
+"lemma": "тарілка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тато, батько",
+"kind": "word",
+"headwords": [
+"тато",
+"батько"
+],
+"matched": true,
+"matchedForm": "батько",
+"rank": 524,
+"lemma": "батько",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тварина",
+"kind": "word",
+"headwords": [
+"тварина"
+],
+"matched": true,
+"matchedForm": "тварина",
+"rank": 1204,
+"lemma": "тварина",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "твій (твоя, твоє, твої)",
+"kind": "word",
+"headwords": [
+"твій",
+"твоя",
+"твоє",
+"твої"
+],
+"matched": true,
+"matchedForm": "твій",
+"rank": 1201,
+"lemma": "твій",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "театр",
+"kind": "word",
+"headwords": [
+"театр"
+],
+"matched": true,
+"matchedForm": "театр",
+"rank": 896,
+"lemma": "театр",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "теж (також)",
+"kind": "word",
+"headwords": [
+"теж",
+"також"
+],
+"matched": true,
+"matchedForm": "також",
+"rank": 28,
+"lemma": "також",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "текст",
+"kind": "word",
+"headwords": [
+"текст"
+],
+"matched": true,
+"matchedForm": "текст",
+"rank": 1034,
+"lemma": "текст",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "телевізор",
+"kind": "word",
+"headwords": [
+"телевізор"
+],
+"matched": true,
+"matchedForm": "телевізор",
+"rank": 4611,
+"lemma": "телевізор",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "телефон",
+"kind": "word",
+"headwords": [
+"телефон"
+],
+"matched": true,
+"matchedForm": "телефон",
+"rank": 1334,
+"lemma": "телефон",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "телефонувати",
+"kind": "word",
+"headwords": [
+"телефонувати"
+],
+"matched": true,
+"matchedForm": "телефонувати",
+"rank": 6698,
+"lemma": "телефонувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "тема",
+"kind": "word",
+"headwords": [
+"тема"
+],
+"matched": true,
+"matchedForm": "тема",
+"rank": 786,
+"lemma": "тема",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "темний",
+"kind": "word",
+"headwords": [
+"темний"
+],
+"matched": true,
+"matchedForm": "темний",
+"rank": 2446,
+"lemma": "темний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "температура",
+"kind": "word",
+"headwords": [
+"температура"
+],
+"matched": true,
+"matchedForm": "температура",
+"rank": 725,
+"lemma": "температура",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "теплий",
+"kind": "word",
+"headwords": [
+"теплий"
+],
+"matched": true,
+"matchedForm": "теплий",
+"rank": 2682,
+"lemma": "теплий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тепло",
+"kind": "word",
+"headwords": [
+"тепло"
+],
+"matched": true,
+"matchedForm": "тепло",
+"rank": 1920,
+"lemma": "тепло",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "ти",
+"kind": "word",
+"headwords": [
+"ти"
+],
+"matched": true,
+"matchedForm": "ти",
+"rank": 114,
+"lemma": "ти",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тиждень",
+"kind": "word",
+"headwords": [
+"тиждень"
+],
+"matched": true,
+"matchedForm": "тиждень",
+"rank": 276,
+"lemma": "тиждень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тисяча",
+"kind": "word",
+"headwords": [
+"тисяча"
+],
+"matched": true,
+"matchedForm": "тисяча",
+"rank": 156,
+"lemma": "тисяча",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тихий",
+"kind": "word",
+"headwords": [
+"тихий"
+],
+"matched": true,
+"matchedForm": "тихий",
+"rank": 3281,
+"lemma": "тихий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "тихо",
+"kind": "word",
+"headwords": [
+"тихо"
+],
+"matched": true,
+"matchedForm": "тихо",
+"rank": 3218,
+"lemma": "тихо",
+"pos": "ADV",
+"pulsLevel": "A2"
+},
+{
+"entry": "тіло",
+"kind": "word",
+"headwords": [
+"тіло"
+],
+"matched": true,
+"matchedForm": "тіло",
+"rank": 666,
+"lemma": "тіло",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "тільки",
+"kind": "word",
+"headwords": [
+"тільки"
+],
+"matched": true,
+"matchedForm": "тільки",
+"rank": 94,
+"lemma": "тільки",
+"pos": "PART",
+"pulsLevel": "A1"
+},
+{
+"entry": "тітка",
+"kind": "word",
+"headwords": [
+"тітка"
+],
+"matched": true,
+"matchedForm": "тітка",
+"rank": 5500,
+"lemma": "тітка",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тоді",
+"kind": "word",
+"headwords": [
+"тоді"
+],
+"matched": true,
+"matchedForm": "тоді",
+"rank": 206,
+"lemma": "тоді",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "торт",
+"kind": "word",
+"headwords": [
+"торт"
+],
+"matched": true,
+"matchedForm": "торт",
+"rank": 10278,
+"lemma": "торт",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "трава",
+"kind": "word",
+"headwords": [
+"трава"
+],
+"matched": true,
+"matchedForm": "трава",
+"rank": 2882,
+"lemma": "трава",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "травень",
+"kind": "word",
+"headwords": [
+"травень"
+],
+"matched": true,
+"matchedForm": "травень",
+"rank": 193,
+"lemma": "травень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "травма",
+"kind": "word",
+"headwords": [
+"травма"
+],
+"matched": true,
+"matchedForm": "травма",
+"rank": 1573,
+"lemma": "травма",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "трамвай",
+"kind": "word",
+"headwords": [
+"трамвай"
+],
+"matched": true,
+"matchedForm": "трамвай",
+"rank": 3791,
+"lemma": "трамвай",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "транспорт",
+"kind": "word",
+"headwords": [
+"транспорт"
+],
+"matched": true,
+"matchedForm": "транспорт",
+"rank": 830,
+"lemma": "транспорт",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "треба",
+"kind": "word",
+"headwords": [
+"треба"
+],
+"matched": true,
+"matchedForm": "треба",
+"rank": 316,
+"lemma": "треба",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "третій",
+"kind": "word",
+"headwords": [
+"третій"
+],
+"matched": true,
+"matchedForm": "третій",
+"rank": 557,
+"lemma": "третій",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "три",
+"kind": "word",
+"headwords": [
+"три"
+],
+"matched": true,
+"matchedForm": "три",
+"rank": 170,
+"lemma": "три",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тридцять",
+"kind": "word",
+"headwords": [
+"тридцять"
+],
+"matched": true,
+"matchedForm": "тридцять",
+"rank": 4688,
+"lemma": "тридцять",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тринадцять",
+"kind": "word",
+"headwords": [
+"тринадцять"
+],
+"matched": false
+},
+{
+"entry": "триста",
+"kind": "word",
+"headwords": [
+"триста"
+],
+"matched": true,
+"matchedForm": "триста",
+"rank": 10332,
+"lemma": "триста",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "тролейбус",
+"kind": "word",
+"headwords": [
+"тролейбус"
+],
+"matched": true,
+"matchedForm": "тролейбус",
+"rank": 3990,
+"lemma": "тролейбус",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "трохи",
+"kind": "word",
+"headwords": [
+"трохи"
+],
+"matched": true,
+"matchedForm": "трохи",
+"rank": 795,
+"lemma": "трохи",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "туалет",
+"kind": "word",
+"headwords": [
+"туалет"
+],
+"matched": true,
+"matchedForm": "туалет",
+"rank": 6459,
+"lemma": "туалет",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "туди",
+"kind": "word",
+"headwords": [
+"туди"
+],
+"matched": true,
+"matchedForm": "туди",
+"rank": 1592,
+"lemma": "туди",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Туреччина",
+"kind": "word",
+"headwords": [
+"туреччина"
+],
+"matched": true,
+"matchedForm": "туреччина",
+"rank": 860,
+"lemma": "Туреччина",
+"pos": "PROPN"
+},
+{
+"entry": "турист / туристка",
+"kind": "word",
+"headwords": [
+"турист",
+"туристка"
+],
+"matched": true,
+"matchedForm": "турист",
+"rank": 2131,
+"lemma": "турист",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "тут",
+"kind": "word",
+"headwords": [
+"тут"
+],
+"matched": true,
+"matchedForm": "тут",
+"rank": 163,
+"lemma": "тут",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Увага!",
+"kind": "word",
+"headwords": [
+"увага"
+],
+"matched": true,
+"matchedForm": "увага",
+"rank": 461,
+"lemma": "увага",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "Угорщина",
+"kind": "word",
+"headwords": [
+"угорщина"
+],
+"matched": true,
+"matchedForm": "угорщина",
+"rank": 1656,
+"lemma": "Угорщина",
+"pos": "PROPN"
+},
+{
+"entry": "Україна",
+"kind": "word",
+"headwords": [
+"україна"
+],
+"matched": true,
+"matchedForm": "україна",
+"rank": 16,
+"lemma": "Україна",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "українець, українка",
+"kind": "word",
+"headwords": [
+"українець",
+"українка"
+],
+"matched": true,
+"matchedForm": "українець",
+"rank": 295,
+"lemma": "українець",
+"pos": "NOUN",
+"openLevel": "A1"
+},
+{
+"entry": "український",
+"kind": "word",
+"headwords": [
+"український"
+],
+"matched": true,
+"matchedForm": "український",
+"rank": 36,
+"lemma": "український",
+"pos": "ADJ"
+},
+{
+"entry": "улюблений",
+"kind": "word",
+"headwords": [
+"улюблений"
+],
+"matched": true,
+"matchedForm": "улюблений",
+"rank": 3413,
+"lemma": "улюблений",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "університет",
+"kind": "word",
+"headwords": [
+"університет"
+],
+"matched": true,
+"matchedForm": "університет",
+"rank": 443,
+"lemma": "університет",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "урок",
+"kind": "word",
+"headwords": [
+"урок"
+],
+"matched": true,
+"matchedForm": "урок",
+"rank": 3263,
+"lemma": "урок",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "учень / учениця",
+"kind": "word",
+"headwords": [
+"учень",
+"учениця"
+],
+"matched": true,
+"matchedForm": "учень",
+"rank": 1575,
+"lemma": "учень",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "ферма",
+"kind": "word",
+"headwords": [
+"ферма"
+],
+"matched": true,
+"matchedForm": "ферма",
+"rank": 5624,
+"lemma": "ферма",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "фізика",
+"kind": "word",
+"headwords": [
+"фізика"
+],
+"matched": true,
+"matchedForm": "фізика",
+"rank": 4501,
+"lemma": "фізика",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "філософія",
+"kind": "word",
+"headwords": [
+"філософія"
+],
+"matched": true,
+"matchedForm": "філософія",
+"rank": 3692,
+"lemma": "філософія",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "фільм",
+"kind": "word",
+"headwords": [
+"фільм"
+],
+"matched": true,
+"matchedForm": "фільм",
+"rank": 342,
+"lemma": "фільм",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "фіолетовий",
+"kind": "word",
+"headwords": [
+"фіолетовий"
+],
+"matched": false
+},
+{
+"entry": "флешка",
+"kind": "word",
+"headwords": [
+"флешка"
+],
+"matched": false
+},
+{
+"entry": "фото",
+"kind": "word",
+"headwords": [
+"фото"
+],
+"matched": true,
+"matchedForm": "фото",
+"rank": 491,
+"lemma": "фото",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "фотографія",
+"kind": "word",
+"headwords": [
+"фотографія"
+],
+"matched": true,
+"matchedForm": "фотографія",
+"rank": 2042,
+"lemma": "фотографія",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "фотографувати",
+"kind": "word",
+"headwords": [
+"фотографувати"
+],
+"matched": true,
+"matchedForm": "фотографувати",
+"rank": 11811,
+"lemma": "фотографувати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Франція",
+"kind": "word",
+"headwords": [
+"франція"
+],
+"matched": true,
+"matchedForm": "франція",
+"rank": 562,
+"lemma": "Франція",
+"pos": "PROPN",
+"openLevel": "A1"
+},
+{
+"entry": "фрукт",
+"kind": "word",
+"headwords": [
+"фрукт"
+],
+"matched": true,
+"matchedForm": "фрукт",
+"rank": 5101,
+"lemma": "фрукт",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "футбол",
+"kind": "word",
+"headwords": [
+"футбол"
+],
+"matched": true,
+"matchedForm": "футбол",
+"rank": 1021,
+"lemma": "футбол",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "футболка",
+"kind": "word",
+"headwords": [
+"футболка"
+],
+"matched": true,
+"matchedForm": "футболка",
+"rank": 5715,
+"lemma": "футболка",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "характер",
+"kind": "word",
+"headwords": [
+"характер"
+],
+"matched": true,
+"matchedForm": "характер",
+"rank": 1396,
+"lemma": "характер",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "хвилина",
+"kind": "word",
+"headwords": [
+"хвилина"
+],
+"matched": true,
+"matchedForm": "хвилина",
+"rank": 590,
+"lemma": "хвилина",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "хвилюватися",
+"kind": "word",
+"headwords": [
+"хвилюватися"
+],
+"matched": true,
+"matchedForm": "хвилюватися",
+"rank": 6349,
+"lemma": "хвилюватися",
+"pos": "VERB",
+"pulsLevel": "B1",
+"openLevel": "A2"
+},
+{
+"entry": "хворий",
+"kind": "word",
+"headwords": [
+"хворий"
+],
+"matched": true,
+"matchedForm": "хворий",
+"rank": 1464,
+"lemma": "хворий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "хімія",
+"kind": "word",
+"headwords": [
+"хімія"
+],
+"matched": true,
+"matchedForm": "хімія",
+"rank": 5068,
+"lemma": "хімія",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "хліб",
+"kind": "word",
+"headwords": [
+"хліб"
+],
+"matched": true,
+"matchedForm": "хліб",
+"rank": 2458,
+"lemma": "хліб",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "хлопець",
+"kind": "word",
+"headwords": [
+"хлопець"
+],
+"matched": true,
+"matchedForm": "хлопець",
+"rank": 820,
+"lemma": "хлопець",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "хмара",
+"kind": "word",
+"headwords": [
+"хмара"
+],
+"matched": true,
+"matchedForm": "хмара",
+"rank": 3526,
+"lemma": "хмара",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "хмарно",
+"kind": "word",
+"headwords": [
+"хмарно"
+],
+"matched": true,
+"matchedForm": "хмарно",
+"rank": 6859,
+"lemma": "хмарно",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "хобі",
+"kind": "word",
+"headwords": [
+"хобі"
+],
+"matched": false
+},
+{
+"entry": "ходити",
+"kind": "word",
+"headwords": [
+"ходити"
+],
+"matched": true,
+"matchedForm": "ходити",
+"rank": 1155,
+"lemma": "ходити",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "холодильник",
+"kind": "word",
+"headwords": [
+"холодильник"
+],
+"matched": true,
+"matchedForm": "холодильник",
+"rank": 8295,
+"lemma": "холодильник",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A2"
+},
+{
+"entry": "холодний",
+"kind": "word",
+"headwords": [
+"холодний"
+],
+"matched": true,
+"matchedForm": "холодний",
+"rank": 2006,
+"lemma": "холодний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "холодно",
+"kind": "word",
+"headwords": [
+"холодно"
+],
+"matched": true,
+"matchedForm": "холодно",
+"rank": 8771,
+"lemma": "холодно",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "хотіти",
+"kind": "word",
+"headwords": [
+"хотіти"
+],
+"matched": true,
+"matchedForm": "хотіти",
+"rank": 140,
+"lemma": "хотіти",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "хто",
+"kind": "word",
+"headwords": [
+"хто"
+],
+"matched": true,
+"matchedForm": "хто",
+"rank": 112,
+"lemma": "хто",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "це",
+"kind": "word",
+"headwords": [
+"це"
+],
+"matched": true,
+"matchedForm": "це",
+"rank": 17,
+"lemma": "це",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "цей (ця, це, ці)",
+"kind": "word",
+"headwords": [
+"цей",
+"ця",
+"це",
+"ці"
+],
+"matched": true,
+"matchedForm": "це",
+"rank": 17,
+"lemma": "це",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "центр",
+"kind": "word",
+"headwords": [
+"центр"
+],
+"matched": true,
+"matchedForm": "центр",
+"rank": 165,
+"lemma": "центр",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "церква",
+"kind": "word",
+"headwords": [
+"церква"
+],
+"matched": true,
+"matchedForm": "церква",
+"rank": 410,
+"lemma": "церква",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "цибуля",
+"kind": "word",
+"headwords": [
+"цибуля"
+],
+"matched": true,
+"matchedForm": "цибуля",
+"rank": 7931,
+"lemma": "цибуля",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "цифра",
+"kind": "word",
+"headwords": [
+"цифра"
+],
+"matched": true,
+"matchedForm": "цифра",
+"rank": 2267,
+"lemma": "цифра",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "цікавий",
+"kind": "word",
+"headwords": [
+"цікавий"
+],
+"matched": true,
+"matchedForm": "цікавий",
+"rank": 1467,
+"lemma": "цікавий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "цілий",
+"kind": "word",
+"headwords": [
+"цілий"
+],
+"matched": true,
+"matchedForm": "цілий",
+"rank": 903,
+"lemma": "цілий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "цілувати",
+"kind": "word",
+"headwords": [
+"цілувати"
+],
+"matched": true,
+"matchedForm": "цілувати",
+"rank": 8188,
+"lemma": "цілувати",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "ціна",
+"kind": "word",
+"headwords": [
+"ціна"
+],
+"matched": true,
+"matchedForm": "ціна",
+"rank": 218,
+"lemma": "ціна",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "цукерка",
+"kind": "word",
+"headwords": [
+"цукерка"
+],
+"matched": true,
+"matchedForm": "цукерка",
+"rank": 11598,
+"lemma": "цукерка",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "цукор",
+"kind": "word",
+"headwords": [
+"цукор"
+],
+"matched": true,
+"matchedForm": "цукор",
+"rank": 3367,
+"lemma": "цукор",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чай",
+"kind": "word",
+"headwords": [
+"чай"
+],
+"matched": true,
+"matchedForm": "чай",
+"rank": 4087,
+"lemma": "чай",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чайник",
+"kind": "word",
+"headwords": [
+"чайник"
+],
+"matched": false
+},
+{
+"entry": "час",
+"kind": "word",
+"headwords": [
+"час"
+],
+"matched": true,
+"matchedForm": "час",
+"rank": 30,
+"lemma": "час",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "часто",
+"kind": "word",
+"headwords": [
+"часто"
+],
+"matched": true,
+"matchedForm": "часто",
+"rank": 747,
+"lemma": "часто",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чашка",
+"kind": "word",
+"headwords": [
+"чашка"
+],
+"matched": true,
+"matchedForm": "чашка",
+"rank": 9583,
+"lemma": "чашка",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "чекати (чекай! чекайте!)",
+"kind": "word",
+"headwords": [
+"чекати"
+],
+"matched": true,
+"matchedForm": "чекати",
+"rank": 657,
+"lemma": "чекати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "червень",
+"kind": "word",
+"headwords": [
+"червень"
+],
+"matched": true,
+"matchedForm": "червень",
+"rank": 229,
+"lemma": "червень",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "червоний",
+"kind": "word",
+"headwords": [
+"червоний"
+],
+"matched": true,
+"matchedForm": "червоний",
+"rank": 668,
+"lemma": "червоний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "черга",
+"kind": "word",
+"headwords": [
+"черга"
+],
+"matched": true,
+"matchedForm": "черга",
+"rank": 551,
+"lemma": "черга",
+"pos": "NOUN",
+"pulsLevel": "B1"
+},
+{
+"entry": "через",
+"kind": "word",
+"headwords": [
+"через"
+],
+"matched": true,
+"matchedForm": "через",
+"rank": 58,
+"lemma": "через",
+"pos": "ADP",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "четвер",
+"kind": "word",
+"headwords": [
+"четвер"
+],
+"matched": true,
+"matchedForm": "четвер",
+"rank": 1032,
+"lemma": "четвер",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "четвертий",
+"kind": "word",
+"headwords": [
+"четвертий"
+],
+"matched": true,
+"matchedForm": "четвертий",
+"rank": 1517,
+"lemma": "четвертий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "чи",
+"kind": "word",
+"headwords": [
+"чи"
+],
+"matched": true,
+"matchedForm": "чи",
+"rank": 98,
+"lemma": "чи",
+"pos": "CCONJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чий (чия, чиє, чиї)",
+"kind": "word",
+"headwords": [
+"чий",
+"чия",
+"чиє",
+"чиї"
+],
+"matched": true,
+"matchedForm": "чий",
+"rank": 2358,
+"lemma": "чий",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "чистий",
+"kind": "word",
+"headwords": [
+"чистий"
+],
+"matched": true,
+"matchedForm": "чистий",
+"rank": 1599,
+"lemma": "чистий",
+"pos": "ADJ",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "читати",
+"kind": "word",
+"headwords": [
+"читати"
+],
+"matched": true,
+"matchedForm": "читати",
+"rank": 437,
+"lemma": "читати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чоловік",
+"kind": "word",
+"headwords": [
+"чоловік"
+],
+"matched": true,
+"matchedForm": "чоловік",
+"rank": 139,
+"lemma": "чоловік",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чоловічий",
+"kind": "word",
+"headwords": [
+"чоловічий"
+],
+"matched": true,
+"matchedForm": "чоловічий",
+"rank": 2496,
+"lemma": "чоловічий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "чому",
+"kind": "word",
+"headwords": [
+"чому"
+],
+"matched": true,
+"matchedForm": "чому",
+"rank": 569,
+"lemma": "чому",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Чорне море",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "чорний",
+"kind": "word",
+"headwords": [
+"чорний"
+],
+"matched": true,
+"matchedForm": "чорний",
+"rank": 586,
+"lemma": "чорний",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чотири",
+"kind": "word",
+"headwords": [
+"чотири"
+],
+"matched": true,
+"matchedForm": "чотири",
+"rank": 560,
+"lemma": "чотири",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "чотириста",
+"kind": "word",
+"headwords": [
+"чотириста"
+],
+"matched": false
+},
+{
+"entry": "чотирнадцять",
+"kind": "word",
+"headwords": [
+"чотирнадцять"
+],
+"matched": false
+},
+{
+"entry": "чудовий",
+"kind": "word",
+"headwords": [
+"чудовий"
+],
+"matched": true,
+"matchedForm": "чудовий",
+"rank": 2469,
+"lemma": "чудовий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "Чудово",
+"kind": "word",
+"headwords": [
+"чудово"
+],
+"matched": true,
+"matchedForm": "чудово",
+"rank": 4086,
+"lemma": "чудово",
+"pos": "ADV",
+"pulsLevel": "A1"
+},
+{
+"entry": "чути",
+"kind": "word",
+"headwords": [
+"чути"
+],
+"matched": true,
+"matchedForm": "чути",
+"rank": 1009,
+"lemma": "чути",
+"pos": "VERB",
+"pulsLevel": "A1"
+},
+{
+"entry": "шампунь",
+"kind": "word",
+"headwords": [
+"шампунь"
+],
+"matched": false
+},
+{
+"entry": "шановний",
+"kind": "word",
+"headwords": [
+"шановний"
+],
+"matched": true,
+"matchedForm": "шановний",
+"rank": 6501,
+"lemma": "шановний",
+"pos": "ADJ",
+"pulsLevel": "B1",
+"openLevel": "B1"
+},
+{
+"entry": "шапка",
+"kind": "word",
+"headwords": [
+"шапка"
+],
+"matched": true,
+"matchedForm": "шапка",
+"rank": 5819,
+"lemma": "шапка",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "шарф",
+"kind": "word",
+"headwords": [
+"шарф"
+],
+"matched": false
+},
+{
+"entry": "шафа",
+"kind": "word",
+"headwords": [
+"шафа"
+],
+"matched": true,
+"matchedForm": "шафа",
+"rank": 7515,
+"lemma": "шафа",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "шахи",
+"kind": "word",
+"headwords": [
+"шахи"
+],
+"matched": true,
+"matchedForm": "шахи",
+"rank": 9048,
+"lemma": "шахи",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "швидка допомога",
+"kind": "phrase",
+"headwords": [],
+"matched": false
+},
+{
+"entry": "швидкий",
+"kind": "word",
+"headwords": [
+"швидкий"
+],
+"matched": true,
+"matchedForm": "швидкий",
+"rank": 1306,
+"lemma": "швидкий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "швидко",
+"kind": "word",
+"headwords": [
+"швидко"
+],
+"matched": true,
+"matchedForm": "швидко",
+"rank": 1075,
+"lemma": "швидко",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "широкий",
+"kind": "word",
+"headwords": [
+"широкий"
+],
+"matched": true,
+"matchedForm": "широкий",
+"rank": 1275,
+"lemma": "широкий",
+"pos": "ADJ",
+"pulsLevel": "A2"
+},
+{
+"entry": "шістдесят",
+"kind": "word",
+"headwords": [
+"шістдесят"
+],
+"matched": false
+},
+{
+"entry": "шістнадцять",
+"kind": "word",
+"headwords": [
+"шістнадцять"
+],
+"matched": false
+},
+{
+"entry": "шістсот",
+"kind": "word",
+"headwords": [
+"шістсот"
+],
+"matched": false
+},
+{
+"entry": "шість",
+"kind": "word",
+"headwords": [
+"шість"
+],
+"matched": true,
+"matchedForm": "шість",
+"rank": 879,
+"lemma": "шість",
+"pos": "NUM",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "шкарпетка",
+"kind": "word",
+"headwords": [
+"шкарпетка"
+],
+"matched": false
+},
+{
+"entry": "Шкода",
+"kind": "word",
+"headwords": [
+"шкода"
+],
+"matched": true,
+"matchedForm": "шкода",
+"rank": 2508,
+"lemma": "шкода",
+"pos": "NOUN",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "школа",
+"kind": "word",
+"headwords": [
+"школа"
+],
+"matched": true,
+"matchedForm": "школа",
+"rank": 303,
+"lemma": "школа",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "шоколад",
+"kind": "word",
+"headwords": [
+"шоколад"
+],
+"matched": true,
+"matchedForm": "шоколад",
+"rank": 7939,
+"lemma": "шоколад",
+"pos": "NOUN",
+"pulsLevel": "A1"
+},
+{
+"entry": "шостий",
+"kind": "word",
+"headwords": [
+"шостий"
+],
+"matched": true,
+"matchedForm": "шостий",
+"rank": 4002,
+"lemma": "шостий",
+"pos": "ADJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "штани",
+"kind": "word",
+"headwords": [
+"штани"
+],
+"matched": true,
+"matchedForm": "штани",
+"rank": 6215,
+"lemma": "штани",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "штраф",
+"kind": "word",
+"headwords": [
+"штраф"
+],
+"matched": true,
+"matchedForm": "штраф",
+"rank": 1763,
+"lemma": "штраф",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "шукати",
+"kind": "word",
+"headwords": [
+"шукати"
+],
+"matched": true,
+"matchedForm": "шукати",
+"rank": 982,
+"lemma": "шукати",
+"pos": "VERB",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "щасливий",
+"kind": "word",
+"headwords": [
+"щасливий"
+],
+"matched": true,
+"matchedForm": "щасливий",
+"rank": 2707,
+"lemma": "щасливий",
+"pos": "ADJ",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "щастя",
+"kind": "word",
+"headwords": [
+"щастя"
+],
+"matched": true,
+"matchedForm": "щастя",
+"rank": 1834,
+"lemma": "щастя",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "B1"
+},
+{
+"entry": "ще",
+"kind": "word",
+"headwords": [
+"ще"
+],
+"matched": true,
+"matchedForm": "ще",
+"rank": 54,
+"lemma": "ще",
+"pos": "ADV",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "що",
+"kind": "word",
+"headwords": [
+"що"
+],
+"matched": true,
+"matchedForm": "що",
+"rank": 8,
+"lemma": "що",
+"pos": "SCONJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "Що сталося? (Статися)",
+"kind": "phrase",
+"headwords": [
+"статися"
+],
+"matched": true,
+"matchedForm": "статися",
+"rank": 364,
+"lemma": "статися",
+"pos": "VERB",
+"pulsLevel": "A2"
+},
+{
+"entry": "щодня",
+"kind": "word",
+"headwords": [
+"щодня"
+],
+"matched": true,
+"matchedForm": "щодня",
+"rank": 2463,
+"lemma": "щодня",
+"pos": "ADV",
+"pulsLevel": "A2",
+"openLevel": "A1"
+},
+{
+"entry": "я",
+"kind": "word",
+"headwords": [
+"я"
+],
+"matched": true,
+"matchedForm": "я",
+"rank": 23,
+"lemma": "я",
+"pos": "PRON",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "яблуко",
+"kind": "word",
+"headwords": [
+"яблуко"
+],
+"matched": true,
+"matchedForm": "яблуко",
+"rank": 5310,
+"lemma": "яблуко",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "язик",
+"kind": "word",
+"headwords": [
+"язик"
+],
+"matched": true,
+"matchedForm": "язик",
+"rank": 4917,
+"lemma": "язик",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "яйце",
+"kind": "word",
+"headwords": [
+"яйце"
+],
+"matched": true,
+"matchedForm": "яйце",
+"rank": 3066,
+"lemma": "яйце",
+"pos": "NOUN",
+"pulsLevel": "A1",
+"openLevel": "A1"
+},
+{
+"entry": "як",
+"kind": "word",
+"headwords": [
+"як"
+],
+"matched": true,
+"matchedForm": "як",
+"rank": 20,
+"lemma": "як",
+"pos": "SCONJ",
+"pulsLevel": "A1"
+},
+{
+"entry": "Як справи? (Справа)",
+"kind": "phrase",
+"headwords": [
+"справа"
+],
+"matched": true,
+"matchedForm": "справа",
+"rank": 74,
+"lemma": "справа",
+"pos": "NOUN",
+"pulsLevel": "A2"
+},
+{
+"entry": "який (яка, яке, які)",
+"kind": "word",
+"headwords": [
+"який",
+"яка",
+"яке",
+"які"
+],
+"matched": true,
+"matchedForm": "який",
+"rank": 12,
+"lemma": "який",
+"pos": "DET",
+"pulsLevel": "A1"
+},
+{
+"entry": "Японія",
+"kind": "word",
+"headwords": [
+"японія"
+],
+"matched": true,
+"matchedForm": "японія",
+"rank": 1473,
+"lemma": "Японія",
+"pos": "PROPN",
+"openLevel": "A1"
+}
+]
+}

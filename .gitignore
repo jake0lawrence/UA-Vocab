@@ -4,3 +4,7 @@ dist/
 __pycache__/
 .pytest_cache/
 .venv/
+# pipeline/rebuild.mjs links this to downloads/ at run time
+pipeline/public/
+# a rebuild writes the HTML browse pages, which are served by uavocab.org, not kept here
+downloads/**/index.html

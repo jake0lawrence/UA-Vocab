@@ -1,0 +1,2307 @@
+{
+ "note": "The show-your-work layer of the stress column: every flagged lemma with each source's vote (log), the 18 cases where the library's context model and the POS-filtered dictionary lookup disagreed on a bare lemma (stanzaVsPosDictionary), the 35 single-stress rows where the library and en.wiktionary disagreed (libraryVsEnWiktionary), and the 13 published paradigm headwords the adjudicated stress corrects (paradigmCorrections).",
+ "log": [
+  {
+   "rank": 40,
+   "lemma": "його",
+   "pos": "DET",
+   "decision": "human",
+   "chosen": "",
+   "votes": "йо́го: dict+pos ; його́: en.wikt",
+   "note": "wiktionary: його́"
+  },
+  {
+   "rank": 143,
+   "lemma": "захід",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "за́хід: en.wikt(both) ; захі́д: en.wikt(both)",
+   "note": "за́хід = west (compass point) ; за́хід/захі́д = sunset ; за́хід = action, measure, means to achieve something"
+  },
+  {
+   "rank": 263,
+   "lemma": "орган",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "о́рган: en.wikt(both),uk.wikt(both) ; орга́н: en.wikt(both),uk.wikt(both)",
+   "note": "о́рган = organ ; орга́н = organ (large musical instrument with pipes)"
+  },
+  {
+   "rank": 301,
+   "lemma": "основний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "основни́й: en.wikt(both) ; осно́вний: en.wikt(both)",
+   "note": "основни́й = basic, fundamental ; осно́вний = base, basic, alkaline"
+  },
+  {
+   "rank": 302,
+   "lemma": "брати",
+   "pos": "VERB",
+   "decision": "auto_agree",
+   "chosen": "бра́ти",
+   "votes": "бра́ти: dict+pos,en.wikt,uk.wikt ; брати́: lib-context",
+   "note": "wiktionary: бра́ти"
+  },
+  {
+   "rank": 353,
+   "lemma": "самий",
+   "pos": "DET",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "са́мий: en.wikt(both) ; сами́й: en.wikt(both)",
+   "note": "са́мий = the very, the selfsame, the very same ; сами́й = alone, by oneself"
+  },
+  {
+   "rank": 442,
+   "lemma": "сума",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "су́ма: en.wikt(both),uk.wikt(both) ; сума́: en.wikt(both),uk.wikt(both)",
+   "note": "су́ма = sum (a quantity obtained by addition or aggregation) ; сума́ = bag"
+  },
+  {
+   "rank": 452,
+   "lemma": "видання",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "видання́: en.wikt(both) ; вида́ння: en.wikt(both)",
+   "note": "вида́ння = edition ; видання́ = the age when a girl is marriageable"
+  },
+  {
+   "rank": 555,
+   "lemma": "використання",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ви́користання: en.wikt(both) ; використа́ння: en.wikt(both)",
+   "note": "використа́ння = use, usage ; ви́користання = utilization, application, applying"
+  },
+  {
+   "rank": 568,
+   "lemma": "сім’я",
+   "pos": "NOUN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "сім’я́: dict(lib) ; сі́м’я: en.wikt",
+   "note": "wiktionary: сі́м’я"
+  },
+  {
+   "rank": 571,
+   "lemma": "проходити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "проходи́ти: en.wikt(both) ; прохо́дити: en.wikt(both)",
+   "note": "прохо́дити = to go, to pass, to walk ; проходи́ти = to walk (:a certain distance)"
+  },
+  {
+   "rank": 575,
+   "lemma": "закликати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "заклика́ти: en.wikt(both),uk.wikt(both) ; закли́кати: en.wikt(both),uk.wikt(both)",
+   "note": "заклика́ти = to call on, to appeal to, to exhort, to urge (someone to do  ; закли́кати = to call on, to appeal to, to exhort, to urge (someone to do"
+  },
+  {
+   "rank": 617,
+   "lemma": "виходити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ви́ходити: en.wikt(both) ; вихо́дити: en.wikt(both)",
+   "note": "вихо́дити = to go out, to come out, to get out, to walk out, to exit ; ви́ходити = to walk all over, to walk all around ; ви́ходити = to nurse, to tend to (restore to health)"
+  },
+  {
+   "rank": 634,
+   "lemma": "викликати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "виклика́ти: en.wikt(both) ; ви́кликати: en.wikt(both)",
+   "note": "виклика́ти = to call out, to call for, to send for, to summon (ask or ord ; ви́кликати = to call out, to call for, to send for, to summon (ask or ord"
+  },
+  {
+   "rank": 640,
+   "lemma": "заклад",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "за́клад: en.wikt(both) ; закла́д: en.wikt(both)",
+   "note": "за́клад = institution, establishment ; закла́д = wager, bet"
+  },
+  {
+   "rank": 800,
+   "lemma": "підсумок",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "пі́дсумок: en.wikt(both) ; підсу́мок: en.wikt(both)",
+   "note": "пі́дсумок = sum, total ; підсу́мок = pouch"
+  },
+  {
+   "rank": 960,
+   "lemma": "кредит",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "кре́дит: en.wikt(both) ; креди́т: en.wikt(both)",
+   "note": "кре́дит = credit account ; креди́т = loan, credit"
+  },
+  {
+   "rank": 1116,
+   "lemma": "приклад",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "прикла́д: en.wikt(both) ; при́клад: en.wikt(both)",
+   "note": "прикла́д = butt ; при́клад = example, primer"
+  },
+  {
+   "rank": 1146,
+   "lemma": "нібито",
+   "pos": "PART",
+   "decision": "human",
+   "chosen": "",
+   "votes": "ні́бито: dict+pos ; ні́бито: en.wikt",
+   "note": "wiktionary: ні́бито"
+  },
+  {
+   "rank": 1186,
+   "lemma": "усе",
+   "pos": "PRON",
+   "decision": "human",
+   "chosen": "",
+   "votes": "усе́: dict+pos",
+   "note": "wiktionary: у́се"
+  },
+  {
+   "rank": 1204,
+   "lemma": "тварина",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "тварина́: en.wikt(both) ; твари́на: en.wikt(both)",
+   "note": "твари́на = animal ; тварина́ = animals, livestock"
+  },
+  {
+   "rank": 1350,
+   "lemma": "складний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "складни́й: en.wikt(both) ; скла́дний: en.wikt(both)",
+   "note": "складни́й = complex, complicated ; скла́дний = well-built, well-made, well-proportioned (of a person or obj"
+  },
+  {
+   "rank": 1366,
+   "lemma": "ядерний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "я́дерний: en.wikt(both),uk.wikt(both) ; яде́рний: en.wikt(both),uk.wikt(both)",
+   "note": "я́дерний = nuclear (pertaining to the nucleus of an atom) ; я́дерний/яде́рний = large, big, full (said of grains, seeds etc.)"
+  },
+  {
+   "rank": 1378,
+   "lemma": "погодитися",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "погоди́тися: en.wikt(both) ; пого́дитися: en.wikt(both)",
+   "note": "пого́дитися = to agree, to consent (give approval) ; погоди́тися = to be reconciled"
+  },
+  {
+   "rank": 1424,
+   "lemma": "Роман",
+   "pos": "PROPN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "Ро́ман: en.wikt(both) ; Рома́н: en.wikt(both)",
+   "note": "Рома́н = a male given name, Roman, equivalent to English Roman ; Ро́ман = a gender-neutral surname, Roman"
+  },
+  {
+   "rank": 1557,
+   "lemma": "привід",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "при́від: en.wikt(both) ; приві́д: en.wikt(both)",
+   "note": "при́від = occasion ; приві́д = bringing"
+  },
+  {
+   "rank": 1626,
+   "lemma": "Богдан",
+   "pos": "PROPN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "Бо́гдан: en.wikt(both) ; Богда́н: en.wikt(both)",
+   "note": "Богда́н = a male given name, Bohdan ; Бо́гдан = a surname, Bohdan"
+  },
+  {
+   "rank": 1786,
+   "lemma": "батьківщина",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ба́тьківщина: en.wikt(both) ; батьківщи́на: en.wikt(both)",
+   "note": "ба́тьківщина/батьківщи́на = motherland, fatherland, homeland ; ба́тьківщина = heritage, legacy"
+  },
+  {
+   "rank": 1903,
+   "lemma": "якось",
+   "pos": "ADV",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "я́кось: en.wikt(both) ; яко́сь: en.wikt(both),uk.wikt",
+   "note": "я́кось = somehow ; я́кось/яко́сь = once (at some point in the past)"
+  },
+  {
+   "rank": 1917,
+   "lemma": "замок",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "за́мок: en.wikt(both) ; замо́к: en.wikt(both)",
+   "note": "за́мок = castle ; замо́к = lock"
+  },
+  {
+   "rank": 1992,
+   "lemma": "провідний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "провідни́й: en.wikt(both) ; про́відний: en.wikt(both)",
+   "note": "провідни́й = guiding, leading (providing guidance or direction) ; про́відний = electrical wire (attributive)"
+  },
+  {
+   "rank": 2215,
+   "lemma": "поверх",
+   "pos": "NOUN",
+   "decision": "auto_agree",
+   "chosen": "по́верх",
+   "votes": "по́верх: dict+pos,en.wikt ; пове́рх: lib-context",
+   "note": "wiktionary: по́верх"
+  },
+  {
+   "rank": 2238,
+   "lemma": "господарський",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "господа́рський: en.wikt(both) ; госпо́дарський: en.wikt(both)",
+   "note": "госпо́дарський = landlord's, master's, owner's, proprietor's ; господа́рський = economic (pertaining to an economy)"
+  },
+  {
+   "rank": 2317,
+   "lemma": "скликання",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 2434,
+   "lemma": "Ярослав",
+   "pos": "PROPN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "Яросла́в: en.wikt(both) ; Яро́слав: en.wikt(both)",
+   "note": "Яросла́в = a male given name, Yaroslav ; Яро́слав = A transliteration of Jarosław (a city, villages in southeast"
+  },
+  {
+   "rank": 2608,
+   "lemma": "пора",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "по́ра: en.wikt(both) ; пора́: en.wikt(both)",
+   "note": "пора́ = time, period ; по́ра = aperture, pore"
+  },
+  {
+   "rank": 2767,
+   "lemma": "основне",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 2805,
+   "lemma": "переходити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "перехо́дити: en.wikt(both) ; переходи́ти: en.wikt(both)",
+   "note": "перехо́дити = to cross, to cross over, to pass across ; переходи́ти ="
+  },
+  {
+   "rank": 2807,
+   "lemma": "наданий",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 2833,
+   "lemma": "окружний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "окружни́й: en.wikt(both) ; окру́жний: en.wikt(both)",
+   "note": "окру́жний = surrounding ; окружни́й = district (attributive)"
+  },
+  {
+   "rank": 2885,
+   "lemma": "походити",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 2916,
+   "lemma": "плакати",
+   "pos": "VERB",
+   "decision": "auto_agree",
+   "chosen": "пла́кати",
+   "votes": "пла́кати: dict+pos,en.wikt ; плака́ти: lib-context",
+   "note": "wiktionary: пла́кати"
+  },
+  {
+   "rank": 3089,
+   "lemma": "зеленський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 3097,
+   "lemma": "Софія",
+   "pos": "PROPN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "Со́фія: en.wikt(both) ; Софі́я: en.wikt(both)",
+   "note": "Софі́я = a female given name, Sofiya, equivalent to English Sophia or ; Софі́я = Sofia (the capital and largest city of Bulgaria) ; Со́фія = Sofiya (a small river in Ukraine)"
+  },
+  {
+   "rank": 3255,
+   "lemma": "підліток",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "пі́дліток: en.wikt(both) ; підлі́ток: en.wikt(both)",
+   "note": "пі́дліток = adolescent, juvenile, teenager ; пі́дліток/підлі́ток = fledgling (young bird that has just learned to fly)"
+  },
+  {
+   "rank": 3321,
+   "lemma": "найважливіший",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 3433,
+   "lemma": "вугільний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 3436,
+   "lemma": "виносити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ви́носити: en.wikt(both) ; вино́сити: en.wikt(both)",
+   "note": "вино́сити = to bring out, to carry out, to take out ; ви́носити = to bear, to carry (:child in pregnancy, eggs)"
+  },
+  {
+   "rank": 3445,
+   "lemma": "заходити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "заходи́ти: en.wikt(both) ; захо́дити: en.wikt(both)",
+   "note": "захо́дити = to come in, to go in, to enter ; заходи́ти = to start walking (back and forth, around)"
+  },
+  {
+   "rank": 3466,
+   "lemma": "показ",
+   "pos": "NOUN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "по́каз: dict+pos ; пока́з: en.wikt",
+   "note": "wiktionary: пока́з"
+  },
+  {
+   "rank": 3504,
+   "lemma": "Петрович",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "Пе́трович: dict(lib) ; Петро́вич: en.wikt",
+   "note": "wiktionary: Петро́вич"
+  },
+  {
+   "rank": 3527,
+   "lemma": "усього",
+   "pos": "PART",
+   "decision": "human",
+   "chosen": "",
+   "votes": "усього́: dict+pos ; усьо́го: lib-context",
+   "note": ""
+  },
+  {
+   "rank": 3570,
+   "lemma": "поділ",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "по́діл: en.wikt(both) ; поді́л: en.wikt(both)",
+   "note": "по́діл = division ; поді́л = lowlands"
+  },
+  {
+   "rank": 3615,
+   "lemma": "лікарський",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "лі́карський: en.wikt(both) ; ліка́рський: en.wikt(both)",
+   "note": "лі́карський = doctor (attributive), doctor's, physician's ; лі́карський/ліка́рський = medicinal"
+  },
+  {
+   "rank": 3755,
+   "lemma": "обід",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "о́бід: en.wikt(both) ; обі́д: en.wikt(both)",
+   "note": "обі́д = dinner, lunch (midday meal) ; о́бід = rim, felly"
+  },
+  {
+   "rank": 3756,
+   "lemma": "Галина",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "Га́лина: dict(lib) ; Гали́на: en.wikt",
+   "note": "wiktionary: Гали́на"
+  },
+  {
+   "rank": 3790,
+   "lemma": "Івано-Франківський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 4024,
+   "lemma": "округ",
+   "pos": "ADP",
+   "decision": "auto_agree",
+   "chosen": "окру́г",
+   "votes": "окру́г: dict+pos,en.wikt ; о́круг: lib-context",
+   "note": "wiktionary: окру́г"
+  },
+  {
+   "rank": 4220,
+   "lemma": "тікати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ті́кати: en.wikt(both) ; тіка́ти: en.wikt(both)",
+   "note": "ті́кати = to tick (of a clock) ; тіка́ти = to run away, to flee"
+  },
+  {
+   "rank": 4440,
+   "lemma": "погодити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "погоди́ти: en.wikt(both) ; пого́дити: en.wikt(both)",
+   "note": "пого́дити = to agree on ; погоди́ти = to please, to satisfy"
+  },
+  {
+   "rank": 4485,
+   "lemma": "типовий",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "типови́й: en.wikt(both) ; типо́вий: en.wikt(both)",
+   "note": "типо́вий = typical ; типови́й = type (attributive), model (attributive), standard"
+  },
+  {
+   "rank": 4652,
+   "lemma": "парний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "па́рний: en.wikt(both) ; парни́й: en.wikt(both)",
+   "note": "па́рний = paired, in pairs ; парни́й = steamy, sultry, muggy, close (hot and humid)"
+  },
+  {
+   "rank": 4720,
+   "lemma": "відкликати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "відкли́кати: en.wikt(both) ; відклика́ти: en.wikt(both)",
+   "note": "відклика́ти = to call away ; відкли́кати = to call away"
+  },
+  {
+   "rank": 4749,
+   "lemma": "Григорович",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "Григоро́вич: dict(lib) ; Григо́рович: en.wikt",
+   "note": "wiktionary: Григо́рович"
+  },
+  {
+   "rank": 4861,
+   "lemma": "нікуди",
+   "pos": "ADV",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ні́куди: en.wikt(both) ; ніку́ди: en.wikt(both)",
+   "note": "ніку́ди = to nowhere, not to anywhere ; ні́куди = nowhere to go, no destination"
+  },
+  {
+   "rank": 4886,
+   "lemma": "усе",
+   "pos": "ADV",
+   "decision": "human",
+   "chosen": "",
+   "votes": "усе́: dict+pos ; у́се: en.wikt",
+   "note": "wiktionary: у́се"
+  },
+  {
+   "rank": 4968,
+   "lemma": "відкидати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "відкида́ти: en.wikt(both) ; відки́дати: en.wikt(both)",
+   "note": "відкида́ти = to throw off, to throw away, to cast off, to cast away ; відки́дати = to throw off (in several or many goes)"
+  },
+  {
+   "rank": 4980,
+   "lemma": "ніде",
+   "pos": "ADV",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ні́де: en.wikt(both) ; ніде́: en.wikt(both)",
+   "note": "ніде́ = nowhere, not... anywhere ; ні́де = there is nowhere (to), there is no place (to) (+ infinitive)"
+  },
+  {
+   "rank": 4983,
+   "lemma": "перевозити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "перево́зити: en.wikt(both) ; перевози́ти: en.wikt(both)",
+   "note": "перево́зити = to transport, to carry, to convey, to haul, to shift ; перевози́ти = to transport, to carry (:many or all people or things)"
+  },
+  {
+   "rank": 5050,
+   "lemma": "підсумковий",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 5079,
+   "lemma": "поміж",
+   "pos": "ADP",
+   "decision": "human",
+   "chosen": "",
+   "votes": "помі́ж: dict+pos,en.wikt(both) ; по́між: lib-context,en.wikt(both)",
+   "note": ""
+  },
+  {
+   "rank": 5270,
+   "lemma": "невиконання",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 5322,
+   "lemma": "російсько-український",
+   "pos": "ADJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "російсько-украї́нський: dict(lib) ; росі́йсько-український: en.wikt",
+   "note": "wiktionary: росі́йсько-український"
+  },
+  {
+   "rank": 5422,
+   "lemma": "виводити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ви́водити: en.wikt(both) ; виво́дити: en.wikt(both)",
+   "note": "виво́дити = to lead out, to bring out (to cause or help to leave a place ; виво́дити = to ride out (:horse for a specific purpose) ; ви́водити = to ride out (:horse for a specific purpose)"
+  },
+  {
+   "rank": 5483,
+   "lemma": "врізатися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 5547,
+   "lemma": "Анастасія",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "Анаста́сія: dict+pos ; Анастасі́я: en.wikt",
+   "note": "wiktionary: Анастасі́я"
+  },
+  {
+   "rank": 5564,
+   "lemma": "припасти",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 5749,
+   "lemma": "прислухатися",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "прислу́хатися: en.wikt(both) ; прислуха́тися: en.wikt(both)",
+   "note": "прислуха́тися = to listen, to lend an ear, to harken ; прислу́хатися = to listen, to lend an ear, to harken"
+  },
+  {
+   "rank": 5802,
+   "lemma": "терен",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "те́рен: en.wikt(both),uk.wikt(both) ; тере́н: en.wikt(both),uk.wikt(both)",
+   "note": "те́рен = sloe, blackthorn (Prunus spinosa) ; тере́н = land, territory"
+  },
+  {
+   "rank": 5824,
+   "lemma": "сходити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "схо́дити: en.wikt(both) ; сходи́ти: en.wikt(both)",
+   "note": "схо́дити = to ascend, to climb, to go up, to rise ; сходи́ти = to go and come back"
+  },
+  {
+   "rank": 5826,
+   "lemma": "покликати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "поклика́ти: en.wikt(both) ; покли́кати: en.wikt(both)",
+   "note": "покли́кати = to call (to reach out with one's voice to; to summon) ; поклика́ти = synonym of вигу́кувати impf (vyhúkuvaty)"
+  },
+  {
+   "rank": 5914,
+   "lemma": "Новини",
+   "pos": "PROPN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 5920,
+   "lemma": "івано-франківський",
+   "pos": "ADJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "івано-франкі́вський: dict(lib) ; іва́но-франкі́вський: en.wikt",
+   "note": "wiktionary: іва́но-франкі́вський"
+  },
+  {
+   "rank": 6042,
+   "lemma": "скликати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "склика́ти: en.wikt(both) ; скли́кати: en.wikt(both)",
+   "note": "склика́ти = to call together, to summon together ; скли́кати = to call together, to summon together"
+  },
+  {
+   "rank": 6054,
+   "lemma": "нульовий",
+   "pos": "ADJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "нульови́й: dict+pos ; нульо́вий: en.wikt",
+   "note": "wiktionary: нульо́вий"
+  },
+  {
+   "rank": 6069,
+   "lemma": "закидати",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 6249,
+   "lemma": "адміністративно-територіальний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 6280,
+   "lemma": "чобіт",
+   "pos": "NOUN",
+   "decision": "auto_agree",
+   "chosen": "чо́біт",
+   "votes": "чо́біт: dict+pos,en.wikt ; чобі́т: lib-context",
+   "note": "wiktionary: чо́біт"
+  },
+  {
+   "rank": 6300,
+   "lemma": "Піски",
+   "pos": "PROPN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "Пі́ски: en.wikt(both) ; Піски́: en.wikt(both)",
+   "note": "Пі́ски = Pisky (a village, the administrative centre of Pisky starost ; Піски́ = Pisky (a village, the administrative centre of Pisky starost"
+  },
+  {
+   "rank": 6343,
+   "lemma": "переїзд",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 6356,
+   "lemma": "виправний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "виправни́й: en.wikt(both) ; випра́вний: en.wikt(both)",
+   "note": "випра́вний = corrigible, correctable, rectifiable ; виправни́й = corrective"
+  },
+  {
+   "rank": 6358,
+   "lemma": "відходити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "відходи́ти: en.wikt(both) ; відхо́дити: en.wikt(both)",
+   "note": "відхо́дити = to go away ; відходи́ти = to walk away"
+  },
+  {
+   "rank": 6409,
+   "lemma": "коса",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ко́са: en.wikt(both) ; коса́: en.wikt(both)",
+   "note": "коса́ = A standard, three-strand hair braid ; ко́са/коса́ = cockeyed female person"
+  },
+  {
+   "rank": 6488,
+   "lemma": "значитися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 6530,
+   "lemma": "переносити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "перено́сити: en.wikt(both) ; переноси́ти: en.wikt(both)",
+   "note": "перено́сити = to carry, to carry across, to transport ; переноси́ти = to carry (all or many things from one place to another)"
+  },
+  {
+   "rank": 6533,
+   "lemma": "деревина",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "дереви́на: en.wikt(both) ; деревина́: en.wikt(both)",
+   "note": "дереви́на = tree ; деревина́ = wood (the substance making up the central part of the trunk"
+  },
+  {
+   "rank": 6628,
+   "lemma": "тура",
+   "pos": "NOUN",
+   "decision": "auto_agree",
+   "chosen": "тура́",
+   "votes": "тура́: dict+pos,en.wikt ; ту́ра: lib-context",
+   "note": "wiktionary: тура́"
+  },
+  {
+   "rank": 6690,
+   "lemma": "розвідник",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 6770,
+   "lemma": "обмежуватися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 6777,
+   "lemma": "оглядач",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 6792,
+   "lemma": "геном",
+   "pos": "NOUN",
+   "decision": "auto_agree",
+   "chosen": "гено́м",
+   "votes": "гено́м: dict+pos,en.wikt ; ге́ном: lib-context",
+   "note": "wiktionary: гено́м"
+  },
+  {
+   "rank": 6852,
+   "lemma": "білизна",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "білизна́: en.wikt(both),uk.wikt ; біли́зна: en.wikt(both)",
+   "note": "біли́зна = linens, white goods (domestic textiles, such as tablecloths, ; біли́зна = Aspius, Leuciscus (genus of fish within the family Cyprinida ; білизна́ = whiteness"
+  },
+  {
+   "rank": 6875,
+   "lemma": "північно-східний",
+   "pos": "ADJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "північно-схі́дний: dict(lib) ; півні́чно-схі́дний: en.wikt",
+   "note": "wiktionary: півні́чно-схі́дний"
+  },
+  {
+   "rank": 7039,
+   "lemma": "вигідно",
+   "pos": "ADV",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 7109,
+   "lemma": "точок",
+   "pos": "NOUN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "точо́к: dict+pos ; то́чок: lib-context",
+   "note": ""
+  },
+  {
+   "rank": 7138,
+   "lemma": "пересічний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "пересі́чний: en.wikt(both) ; пересічни́й: en.wikt(both)",
+   "note": "пересі́чний = ordinary, average ; пересічни́й = decussate, intersected"
+  },
+  {
+   "rank": 7304,
+   "lemma": "покидати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "покида́ти: en.wikt(both) ; поки́дати: en.wikt(both)",
+   "note": "поки́дати = to throw (all or much of something) ; покида́ти = to leave (not take away)"
+  },
+  {
+   "rank": 7382,
+   "lemma": "вивозити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ви́возити: en.wikt(both) ; виво́зити: en.wikt(both)",
+   "note": "виво́зити = to bring out, to carry out, to drive out, to remove, to ship ; ви́возити = to take out (:people or things from a place by vehicle in mu"
+  },
+  {
+   "rank": 7449,
+   "lemma": "Тамара",
+   "pos": "PROPN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 7522,
+   "lemma": "циган",
+   "pos": "NOUN",
+   "decision": "auto_agree",
+   "chosen": "ци́ган",
+   "votes": "ци́ган: dict+pos,en.wikt ; цига́н: lib-context",
+   "note": "wiktionary: ци́ган"
+  },
+  {
+   "rank": 7526,
+   "lemma": "Ватикан",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "Ватика́н: dict+pos ; Вати́кан: en.wikt",
+   "note": "wiktionary: Вати́кан"
+  },
+  {
+   "rank": 7715,
+   "lemma": "прикладний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 7729,
+   "lemma": "побажання",
+   "pos": "NOUN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "побажа́ння: dict+pos ; поба́жання: en.wikt",
+   "note": "wiktionary: поба́жання"
+  },
+  {
+   "rank": 7788,
+   "lemma": "тепло",
+   "pos": "ADV",
+   "decision": "auto_agree",
+   "chosen": "те́пло",
+   "votes": "те́пло: dict+pos,en.wikt ; тепло́: lib-context",
+   "note": "wiktionary: те́пло"
+  },
+  {
+   "rank": 7861,
+   "lemma": "захват",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "за́хват: en.wikt(both) ; захва́т: en.wikt(both)",
+   "note": "за́хват = exaltation, rapture, enthusiasm ; захва́т = length of something spread or unfolded"
+  },
+  {
+   "rank": 7869,
+   "lemma": "Аліна",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "А́ліна: dict+pos ; Алі́на: en.wikt",
+   "note": "wiktionary: Алі́на"
+  },
+  {
+   "rank": 7921,
+   "lemma": "нападати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "напада́ти: en.wikt(both) ; напа́дати: en.wikt(both)",
+   "note": "напада́ти = to attack, to assault, to descend (on), to fall upon ; напа́дати = to fall (in some quantity)"
+  },
+  {
+   "rank": 8045,
+   "lemma": "греко-римський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8080,
+   "lemma": "коли-небудь",
+   "pos": "ADV",
+   "decision": "human",
+   "chosen": "",
+   "votes": "коли́-небудь: dict(lib) ; коли́-не́будь: en.wikt",
+   "note": "wiktionary: коли́-не́будь"
+  },
+  {
+   "rank": 8110,
+   "lemma": "розходитися",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "розходи́тися: en.wikt(both) ; розхо́дитися: en.wikt(both)",
+   "note": "розхо́дитися = to go off (in different directions), to go their separate wa ; розходи́тися = to start walking around"
+  },
+  {
+   "rank": 8114,
+   "lemma": "рибний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ри́бний: en.wikt(both) ; рибни́й: en.wikt(both)",
+   "note": "ри́бний = fish (attributive) (relating to fish) ; рибни́й = abounding in fish"
+  },
+  {
+   "rank": 8142,
+   "lemma": "роздільний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "роздільни́й: en.wikt(both) ; розді́льний: en.wikt(both)",
+   "note": "розді́льний = separate, distinct ; роздільни́й = separative (serving to separate)"
+  },
+  {
+   "rank": 8219,
+   "lemma": "дозвільний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8232,
+   "lemma": "випробувати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ви́пробувати: en.wikt(both) ; випро́бувати: en.wikt(both)",
+   "note": "ви́пробувати = to test, to put to the test, to try, to try out (to evaluate ; випро́бувати = to test, to put to the test, to try, to try out (to evaluate"
+  },
+  {
+   "rank": 8248,
+   "lemma": "переводити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "перево́дити: en.wikt(both) ; переводи́ти: en.wikt(both)",
+   "note": "перево́дити = to transfer, to move ; переводи́ти = to lead (accompany: many or all people or things)"
+  },
+  {
+   "rank": 8319,
+   "lemma": "діяння",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ді́яння: en.wikt(both) ; дія́ння: en.wikt(both)",
+   "note": "ді́яння = action, deed ; дія́ння = lection (particularly concerning the Acts of the Apostles)"
+  },
+  {
+   "rank": 8583,
+   "lemma": "старше",
+   "pos": "ADV",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8585,
+   "lemma": "помісний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8613,
+   "lemma": "твердити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "тверди́ти: en.wikt(both) ; тве́рдити: en.wikt(both)",
+   "note": "тве́рдити = to affirm, to assert, to aver, to claim, to insist, to maint ; тверди́ти = to keep repeating, to harp on, to talk on and on about"
+  },
+  {
+   "rank": 8618,
+   "lemma": "графа",
+   "pos": "NOUN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "графа́: dict+pos ; гра́фа: lib-context",
+   "note": ""
+  },
+  {
+   "rank": 8620,
+   "lemma": "видатися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8641,
+   "lemma": "піднятий",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8661,
+   "lemma": "стоянка",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8665,
+   "lemma": "пологовий",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8723,
+   "lemma": "гладкий",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "гладки́й: en.wikt(both) ; гла́дкий: en.wikt(both)",
+   "note": "гла́дкий = smooth ; гладки́й = fat, obese"
+  },
+  {
+   "rank": 8749,
+   "lemma": "купівля-продаж",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 8763,
+   "lemma": "викидати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "викида́ти: en.wikt(both) ; ви́кидати: en.wikt(both)",
+   "note": "викида́ти = to throw out (propel or project in an outward direction) ; ви́кидати = to throw out (all people or items in several goes)"
+  },
+  {
+   "rank": 8778,
+   "lemma": "минулорічний",
+   "pos": "ADJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "минулорі́чний: dict+pos",
+   "note": "wiktionary: минулорічни́й"
+  },
+  {
+   "rank": 8828,
+   "lemma": "рідні",
+   "pos": "NOUN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "рідні́: dict+pos ; рі́дні: lib-context",
+   "note": ""
+  },
+  {
+   "rank": 8922,
+   "lemma": "відкликання",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "відкли́кання: en.wikt(both) ; відклика́ння: en.wikt(both)",
+   "note": "відклика́ння = verbal noun of відклика́ти impf (vidklykáty): ; відкли́кання = recall (of representatives, ambassadors, etc.)"
+  },
+  {
+   "rank": 8953,
+   "lemma": "казковий",
+   "pos": "ADJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "казко́вий: dict+pos ; ка́зковий: en.wikt",
+   "note": "wiktionary: ка́зковий"
+  },
+  {
+   "rank": 9040,
+   "lemma": "Щербань",
+   "pos": "PROPN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9082,
+   "lemma": "науково-технічний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9091,
+   "lemma": "дорожньо-транспортний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9151,
+   "lemma": "Дуда",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "Дуда́: dict+pos ; Ду́да: en.wikt",
+   "note": "wiktionary: Ду́да"
+  },
+  {
+   "rank": 9191,
+   "lemma": "серцево-судинний",
+   "pos": "ADJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "серцево-суди́нний: dict(lib) ; серце́во-суди́нний: en.wikt",
+   "note": "wiktionary: серце́во-суди́нний"
+  },
+  {
+   "rank": 9224,
+   "lemma": "обходити",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9256,
+   "lemma": "заводський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9279,
+   "lemma": "запальний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "запальни́й: en.wikt(both) ; запа́льний: en.wikt(both)",
+   "note": "запальни́й = incendiary (capable of, or used for, or actually causing fir ; запа́льний = fuse, igniter, primer (all attributive)"
+  },
+  {
+   "rank": 9289,
+   "lemma": "заходитися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9397,
+   "lemma": "Кам’янець-Подільський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9445,
+   "lemma": "бали",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9479,
+   "lemma": "ага",
+   "pos": "PART",
+   "decision": "human",
+   "chosen": "",
+   "votes": "ага́: dict+pos ; а́га: lib-context",
+   "note": ""
+  },
+  {
+   "rank": 9522,
+   "lemma": "відрізати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "відріза́ти: en.wikt(both) ; відрі́зати: en.wikt(both)",
+   "note": "відрі́зати = to cut away, to cut off (to remove by cutting) ; відріза́ти = to cut away, to cut off (to remove by cutting)"
+  },
+  {
+   "rank": 9540,
+   "lemma": "запал",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "за́пал: en.wikt(both) ; запа́л: en.wikt(both)",
+   "note": "за́пал = ardour (UK), ardor (US), fervour (UK), fervor (US), enthusia ; запа́л = fuse, fuze (the mechanism that ignites the charge in an expl ; запа́л = spoilage of grain still on the stalk due to drought"
+  },
+  {
+   "rank": 9594,
+   "lemma": "нормативно-правовий",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9609,
+   "lemma": "сміливо",
+   "pos": "ADV",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9630,
+   "lemma": "поверх",
+   "pos": "ADP",
+   "decision": "human",
+   "chosen": "",
+   "votes": "пове́рх: dict+pos",
+   "note": "wiktionary: по́верх"
+  },
+  {
+   "rank": 9650,
+   "lemma": "важливіший",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9771,
+   "lemma": "матеріально-технічний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 9885,
+   "lemma": "фірмовий",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10061,
+   "lemma": "Рубан",
+   "pos": "PROPN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10085,
+   "lemma": "напряму",
+   "pos": "ADV",
+   "decision": "human",
+   "chosen": "",
+   "votes": "напряму́: dict+pos ; на́пряму: lib-context",
+   "note": ""
+  },
+  {
+   "rank": 10112,
+   "lemma": "вояка",
+   "pos": "NOUN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "воя́ка: dict+pos ; вояка́: lib-context",
+   "note": ""
+  },
+  {
+   "rank": 10121,
+   "lemma": "Макаренко",
+   "pos": "PROPN",
+   "decision": "human",
+   "chosen": "",
+   "votes": "Мака́ренко: dict+pos ; Макаре́нко: en.wikt",
+   "note": "wiktionary: Макаре́нко"
+  },
+  {
+   "rank": 10244,
+   "lemma": "канівський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10272,
+   "lemma": "васильківський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10341,
+   "lemma": "спасти",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10370,
+   "lemma": "гетьманський",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10430,
+   "lemma": "згодитися",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "зго́дитися: en.wikt(both) ; згоди́тися: en.wikt(both)",
+   "note": "згоди́тися = to come in handy, to be/prove useful ; зго́дитися = to agree to, to consent to"
+  },
+  {
+   "rank": 10478,
+   "lemma": "Болтон",
+   "pos": "PROPN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10511,
+   "lemma": "протриматися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10520,
+   "lemma": "засипати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "засипа́ти: en.wikt(both) ; заси́пати: en.wikt(both)",
+   "note": "засипа́ти = to fill, to fill in ; заси́пати = to fill, to fill in ; засипа́ти = to fall asleep ; засипа́ти = to oversleep"
+  },
+  {
+   "rank": 10564,
+   "lemma": "контролер",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10577,
+   "lemma": "надихати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "надиха́ти: en.wikt(both) ; нади́хати: en.wikt(both)",
+   "note": "надиха́ти = to inspire (:somebody) ; нади́хати = to breathe on (make warm with one's breath)"
+  },
+  {
+   "rank": 10612,
+   "lemma": "генерал-лейтенант",
+   "pos": "PROPN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10672,
+   "lemma": "копати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "ко́пати: en.wikt(both) ; копа́ти: en.wikt(both)",
+   "note": "копа́ти = to dig ; ко́пати = to kick"
+  },
+  {
+   "rank": 10692,
+   "lemma": "похідний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "похідни́й: en.wikt(both),uk.wikt(both) ; похі́дний: en.wikt(both),uk.wikt(both)",
+   "note": "похі́дний = march, marching (attributive) ; похідни́й = derivative, derived (obtained by derivation)"
+  },
+  {
+   "rank": 10744,
+   "lemma": "рапорт",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 10760,
+   "lemma": "стійка",
+   "pos": "NOUN",
+   "decision": "auto_agree",
+   "chosen": "сті́йка",
+   "votes": "сті́йка: dict+pos,en.wikt ; стійка́: lib-context",
+   "note": "wiktionary: сті́йка"
+  },
+  {
+   "rank": 10829,
+   "lemma": "портовий",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11169,
+   "lemma": "родовий",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "родови́й: en.wikt(both) ; родо́вий: en.wikt(both)",
+   "note": "родо́вий/родови́й = ancestral, patrimonial ; родови́й = familial"
+  },
+  {
+   "rank": 11362,
+   "lemma": "старіння",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11447,
+   "lemma": "наносити",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "наноси́ти: en.wikt(both) ; нано́сити: en.wikt(both)",
+   "note": "нано́сити = to bring, to bring in (:a large quantity of something) ; наноси́ти = to bring (:a lot of something in several batches)"
+  },
+  {
+   "rank": 11472,
+   "lemma": "квітковий",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "квітко́вий: en.wikt(both) ; квіткови́й: en.wikt(both)",
+   "note": "квітко́вий/квіткови́й = flower (attributive) ; квітко́вий = flowering (of a plant: that produces flowers)"
+  },
+  {
+   "rank": 11502,
+   "lemma": "броня",
+   "pos": "NOUN",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "бро́ня: en.wikt(both) ; броня́: en.wikt(both)",
+   "note": "броня́ = armor, armour, armoring ; бро́ня = reservation, booking"
+  },
+  {
+   "rank": 11579,
+   "lemma": "переноситися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11604,
+   "lemma": "вирізати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "виріза́ти: en.wikt(both) ; ви́різати: en.wikt(both)",
+   "note": "ви́різати = to cut out, to excise ; виріза́ти = to cut out, to excise"
+  },
+  {
+   "rank": 11605,
+   "lemma": "Південно-Західний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11629,
+   "lemma": "нібито",
+   "pos": "SCONJ",
+   "decision": "human",
+   "chosen": "",
+   "votes": "ні́бито: dict+pos ; ні́бито: en.wikt",
+   "note": "wiktionary: ні́бито"
+  },
+  {
+   "rank": 11632,
+   "lemma": "пора",
+   "pos": "ADV",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "",
+   "note": "пора́ = time, period ; по́ра = aperture, pore [POS mismatch]"
+  },
+  {
+   "rank": 11676,
+   "lemma": "тяга",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11684,
+   "lemma": "просвіт",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11706,
+   "lemma": "атлас",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11784,
+   "lemma": "шляхопровід",
+   "pos": "NOUN",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11857,
+   "lemma": "дослухатися",
+   "pos": "VERB",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11933,
+   "lemma": "помилувати",
+   "pos": "VERB",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "помилува́ти: en.wikt(both) ; поми́лувати: en.wikt(both)",
+   "note": "поми́лувати = to have mercy (on), to show mercy (to), to spare ; помилува́ти = to caress, to dandle, to pet, to fondle"
+  },
+  {
+   "rank": 11970,
+   "lemma": "спиртний",
+   "pos": "ADJ",
+   "decision": "dictionary_doublet",
+   "chosen": "",
+   "votes": "",
+   "note": ""
+  },
+  {
+   "rank": 11989,
+   "lemma": "невигідний",
+   "pos": "ADJ",
+   "decision": "homograph_keep",
+   "chosen": "",
+   "votes": "невигі́дний: en.wikt(both) ; неви́гідний: en.wikt(both)",
+   "note": "неви́гідний = unprofitable ; невигі́дний = uncomfortable"
+  }
+ ],
+ "stanzaVsPosDictionary": [
+  {
+   "rank": 302,
+   "lemma": "брати",
+   "pos": "VERB",
+   "stanza": "брати́",
+   "posDictionary": "бра́ти",
+   "note": "wiktionary: бра́ти"
+  },
+  {
+   "rank": 2215,
+   "lemma": "поверх",
+   "pos": "NOUN",
+   "stanza": "пове́рх",
+   "posDictionary": "по́верх",
+   "note": "wiktionary: по́верх"
+  },
+  {
+   "rank": 2916,
+   "lemma": "плакати",
+   "pos": "VERB",
+   "stanza": "плака́ти",
+   "posDictionary": "пла́кати",
+   "note": "wiktionary: пла́кати"
+  },
+  {
+   "rank": 3527,
+   "lemma": "усього",
+   "pos": "PART",
+   "stanza": "усьо́го",
+   "posDictionary": "усього́",
+   "note": ""
+  },
+  {
+   "rank": 4024,
+   "lemma": "округ",
+   "pos": "ADP",
+   "stanza": "о́круг",
+   "posDictionary": "окру́г",
+   "note": "wiktionary: окру́г"
+  },
+  {
+   "rank": 5079,
+   "lemma": "поміж",
+   "pos": "ADP",
+   "stanza": "по́між",
+   "posDictionary": "помі́ж",
+   "note": ""
+  },
+  {
+   "rank": 6280,
+   "lemma": "чобіт",
+   "pos": "NOUN",
+   "stanza": "чобі́т",
+   "posDictionary": "чо́біт",
+   "note": "wiktionary: чо́біт"
+  },
+  {
+   "rank": 6628,
+   "lemma": "тура",
+   "pos": "NOUN",
+   "stanza": "ту́ра",
+   "posDictionary": "тура́",
+   "note": "wiktionary: тура́"
+  },
+  {
+   "rank": 6792,
+   "lemma": "геном",
+   "pos": "NOUN",
+   "stanza": "ге́ном",
+   "posDictionary": "гено́м",
+   "note": "wiktionary: гено́м"
+  },
+  {
+   "rank": 7109,
+   "lemma": "точок",
+   "pos": "NOUN",
+   "stanza": "то́чок",
+   "posDictionary": "точо́к",
+   "note": ""
+  },
+  {
+   "rank": 7522,
+   "lemma": "циган",
+   "pos": "NOUN",
+   "stanza": "цига́н",
+   "posDictionary": "ци́ган",
+   "note": "wiktionary: ци́ган"
+  },
+  {
+   "rank": 7788,
+   "lemma": "тепло",
+   "pos": "ADV",
+   "stanza": "тепло́",
+   "posDictionary": "те́пло",
+   "note": "wiktionary: те́пло"
+  },
+  {
+   "rank": 8618,
+   "lemma": "графа",
+   "pos": "NOUN",
+   "stanza": "гра́фа",
+   "posDictionary": "графа́",
+   "note": ""
+  },
+  {
+   "rank": 8828,
+   "lemma": "рідні",
+   "pos": "NOUN",
+   "stanza": "рі́дні",
+   "posDictionary": "рідні́",
+   "note": ""
+  },
+  {
+   "rank": 9479,
+   "lemma": "ага",
+   "pos": "PART",
+   "stanza": "а́га",
+   "posDictionary": "ага́",
+   "note": ""
+  },
+  {
+   "rank": 10085,
+   "lemma": "напряму",
+   "pos": "ADV",
+   "stanza": "на́пряму",
+   "posDictionary": "напряму́",
+   "note": ""
+  },
+  {
+   "rank": 10112,
+   "lemma": "вояка",
+   "pos": "NOUN",
+   "stanza": "вояка́",
+   "posDictionary": "воя́ка",
+   "note": ""
+  },
+  {
+   "rank": 10760,
+   "lemma": "стійка",
+   "pos": "NOUN",
+   "stanza": "стійка́",
+   "posDictionary": "сті́йка",
+   "note": "wiktionary: сті́йка"
+  }
+ ],
+ "libraryVsEnWiktionary": [
+  {
+   "rank": 40,
+   "lemma": "його",
+   "pos": "DET",
+   "library": "йо́го",
+   "wiktionary": "його́"
+  },
+  {
+   "rank": 302,
+   "lemma": "брати",
+   "pos": "VERB",
+   "library": "брати́",
+   "wiktionary": "бра́ти"
+  },
+  {
+   "rank": 568,
+   "lemma": "сім’я",
+   "pos": "NOUN",
+   "library": "сім’я́",
+   "wiktionary": "сі́м’я"
+  },
+  {
+   "rank": 1146,
+   "lemma": "нібито",
+   "pos": "PART",
+   "library": "ні́бито",
+   "wiktionary": "ні́бито"
+  },
+  {
+   "rank": 1186,
+   "lemma": "усе",
+   "pos": "PRON",
+   "library": "усе́",
+   "wiktionary": "у́се"
+  },
+  {
+   "rank": 2215,
+   "lemma": "поверх",
+   "pos": "NOUN",
+   "library": "пове́рх",
+   "wiktionary": "по́верх"
+  },
+  {
+   "rank": 2916,
+   "lemma": "плакати",
+   "pos": "VERB",
+   "library": "плака́ти",
+   "wiktionary": "пла́кати"
+  },
+  {
+   "rank": 3466,
+   "lemma": "показ",
+   "pos": "NOUN",
+   "library": "по́каз",
+   "wiktionary": "пока́з"
+  },
+  {
+   "rank": 3504,
+   "lemma": "Петрович",
+   "pos": "PROPN",
+   "library": "Пе́трович",
+   "wiktionary": "Петро́вич"
+  },
+  {
+   "rank": 3756,
+   "lemma": "Галина",
+   "pos": "PROPN",
+   "library": "Га́лина",
+   "wiktionary": "Гали́на"
+  },
+  {
+   "rank": 4024,
+   "lemma": "округ",
+   "pos": "ADP",
+   "library": "о́круг",
+   "wiktionary": "окру́г"
+  },
+  {
+   "rank": 4749,
+   "lemma": "Григорович",
+   "pos": "PROPN",
+   "library": "Григоро́вич",
+   "wiktionary": "Григо́рович"
+  },
+  {
+   "rank": 4886,
+   "lemma": "усе",
+   "pos": "ADV",
+   "library": "усе́",
+   "wiktionary": "у́се"
+  },
+  {
+   "rank": 5322,
+   "lemma": "російсько-український",
+   "pos": "ADJ",
+   "library": "російсько-украї́нський",
+   "wiktionary": "росі́йсько-український"
+  },
+  {
+   "rank": 5547,
+   "lemma": "Анастасія",
+   "pos": "PROPN",
+   "library": "Анаста́сія",
+   "wiktionary": "Анастасі́я"
+  },
+  {
+   "rank": 5920,
+   "lemma": "івано-франківський",
+   "pos": "ADJ",
+   "library": "івано-франкі́вський",
+   "wiktionary": "іва́но-франкі́вський"
+  },
+  {
+   "rank": 6054,
+   "lemma": "нульовий",
+   "pos": "ADJ",
+   "library": "нульови́й",
+   "wiktionary": "нульо́вий"
+  },
+  {
+   "rank": 6280,
+   "lemma": "чобіт",
+   "pos": "NOUN",
+   "library": "чобі́т",
+   "wiktionary": "чо́біт"
+  },
+  {
+   "rank": 6628,
+   "lemma": "тура",
+   "pos": "NOUN",
+   "library": "ту́ра",
+   "wiktionary": "тура́"
+  },
+  {
+   "rank": 6792,
+   "lemma": "геном",
+   "pos": "NOUN",
+   "library": "ге́ном",
+   "wiktionary": "гено́м"
+  },
+  {
+   "rank": 6875,
+   "lemma": "північно-східний",
+   "pos": "ADJ",
+   "library": "північно-схі́дний",
+   "wiktionary": "півні́чно-схі́дний"
+  },
+  {
+   "rank": 7522,
+   "lemma": "циган",
+   "pos": "NOUN",
+   "library": "цига́н",
+   "wiktionary": "ци́ган"
+  },
+  {
+   "rank": 7526,
+   "lemma": "Ватикан",
+   "pos": "PROPN",
+   "library": "Ватика́н",
+   "wiktionary": "Вати́кан"
+  },
+  {
+   "rank": 7729,
+   "lemma": "побажання",
+   "pos": "NOUN",
+   "library": "побажа́ння",
+   "wiktionary": "поба́жання"
+  },
+  {
+   "rank": 7788,
+   "lemma": "тепло",
+   "pos": "ADV",
+   "library": "тепло́",
+   "wiktionary": "те́пло"
+  },
+  {
+   "rank": 7869,
+   "lemma": "Аліна",
+   "pos": "PROPN",
+   "library": "А́ліна",
+   "wiktionary": "Алі́на"
+  },
+  {
+   "rank": 8080,
+   "lemma": "коли-небудь",
+   "pos": "ADV",
+   "library": "коли́-небудь",
+   "wiktionary": "коли́-не́будь"
+  },
+  {
+   "rank": 8778,
+   "lemma": "минулорічний",
+   "pos": "ADJ",
+   "library": "минулорі́чний",
+   "wiktionary": "минулорічни́й"
+  },
+  {
+   "rank": 8953,
+   "lemma": "казковий",
+   "pos": "ADJ",
+   "library": "казко́вий",
+   "wiktionary": "ка́зковий"
+  },
+  {
+   "rank": 9151,
+   "lemma": "Дуда",
+   "pos": "PROPN",
+   "library": "Дуда́",
+   "wiktionary": "Ду́да"
+  },
+  {
+   "rank": 9191,
+   "lemma": "серцево-судинний",
+   "pos": "ADJ",
+   "library": "серцево-суди́нний",
+   "wiktionary": "серце́во-суди́нний"
+  },
+  {
+   "rank": 9630,
+   "lemma": "поверх",
+   "pos": "ADP",
+   "library": "пове́рх",
+   "wiktionary": "по́верх"
+  },
+  {
+   "rank": 10121,
+   "lemma": "Макаренко",
+   "pos": "PROPN",
+   "library": "Мака́ренко",
+   "wiktionary": "Макаре́нко"
+  },
+  {
+   "rank": 10760,
+   "lemma": "стійка",
+   "pos": "NOUN",
+   "library": "стійка́",
+   "wiktionary": "сті́йка"
+  },
+  {
+   "rank": 11629,
+   "lemma": "нібито",
+   "pos": "SCONJ",
+   "library": "ні́бито",
+   "wiktionary": "ні́бито"
+  }
+ ],
+ "paradigmCorrections": [
+  {
+   "rank": 1263,
+   "lemma": "музика",
+   "paradigmsFileHas": "музи́ка",
+   "shouldBe": "му́зика",
+   "variants": [
+    "му́зика",
+    "музи́ка"
+   ],
+   "evidence": "goroh: му́зика music ; музи́ка musician"
+  },
+  {
+   "rank": 3466,
+   "lemma": "показ",
+   "paradigmsFileHas": "пока́з",
+   "shouldBe": "по́каз",
+   "variants": [],
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 3907,
+   "lemma": "виховання",
+   "paradigmsFileHas": "ви́ховання",
+   "shouldBe": "вихова́ння",
+   "variants": [
+    "вихова́ння",
+    "ви́ховання"
+   ],
+   "evidence": "dict+goroh(both)"
+  },
+  {
+   "rank": 4180,
+   "lemma": "вина",
+   "paradigmsFileHas": "ви́на",
+   "shouldBe": "вина́",
+   "variants": [],
+   "evidence": "dict+goroh (ви́на = plural of вино́)"
+  },
+  {
+   "rank": 5547,
+   "lemma": "Анастасія",
+   "paradigmsFileHas": "Анастасі́я",
+   "shouldBe": "Анаста́сія",
+   "variants": [],
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 5865,
+   "lemma": "зводити",
+   "paradigmsFileHas": "зводи́ти",
+   "shouldBe": "зво́дити",
+   "variants": [
+    "зво́дити",
+    "зводи́ти"
+   ],
+   "evidence": "goroh: зво́дити lead down/erect ; зводи́ти escort there and back"
+  },
+  {
+   "rank": 6054,
+   "lemma": "нульовий",
+   "paradigmsFileHas": "нульо́вий",
+   "shouldBe": "нульови́й",
+   "variants": [],
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 7729,
+   "lemma": "побажання",
+   "paradigmsFileHas": "поба́жання",
+   "shouldBe": "побажа́ння",
+   "variants": [],
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 7869,
+   "lemma": "Аліна",
+   "paradigmsFileHas": "Алі́на",
+   "shouldBe": "А́ліна",
+   "variants": [],
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 8778,
+   "lemma": "минулорічний",
+   "paradigmsFileHas": "минулорічни́й",
+   "shouldBe": "минулорі́чний",
+   "variants": [],
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 8953,
+   "lemma": "казковий",
+   "paradigmsFileHas": "ка́зковий",
+   "shouldBe": "казко́вий",
+   "variants": [],
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 9520,
+   "lemma": "мережевий",
+   "paradigmsFileHas": "мере́же́вий",
+   "shouldBe": "мере́жевий",
+   "variants": [
+    "мере́жевий",
+    "мережеви́й"
+   ],
+   "evidence": "goroh(both)"
+  },
+  {
+   "rank": 9849,
+   "lemma": "наречений",
+   "paradigmsFileHas": "наре́чений",
+   "shouldBe": "нарече́ний",
+   "variants": [],
+   "evidence": "dict+goroh"
+  }
+ ]
+}

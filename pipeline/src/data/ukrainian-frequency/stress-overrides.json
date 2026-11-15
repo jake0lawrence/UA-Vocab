@@ -1,0 +1,290 @@
+{
+ "note": "Every manual stress decision, applied last by the pure builder (src/lib/ukrainian-frequency/stress.mjs). A rebuilt pipeline reproduces them from this file. Every row whose source cites goroh.pp.ua must be here; the test fails otherwise, so a goroh-backed stress cannot change without an entry.",
+ "rows": [
+  {
+   "rank": 40,
+   "lemma": "його",
+   "pos": "DET",
+   "stress": "його́",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "en.wikt+goroh (dictionary had йо́го)"
+  },
+  {
+   "rank": 568,
+   "lemma": "сім’я",
+   "pos": "NOUN",
+   "stress": "сім’я́",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh (сі́м’я = seed)"
+  },
+  {
+   "rank": 1146,
+   "lemma": "нібито",
+   "pos": "PART",
+   "stress": "ні́бито",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+en.wikt (accent artifact)"
+  },
+  {
+   "rank": 1263,
+   "lemma": "музика",
+   "pos": "NOUN",
+   "stress": "му́зика",
+   "variants": [
+    "му́зика",
+    "музи́ка"
+   ],
+   "status": "homograph",
+   "evidence": "goroh: му́зика music ; музи́ка musician"
+  },
+  {
+   "rank": 3466,
+   "lemma": "показ",
+   "pos": "NOUN",
+   "stress": "по́каз",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 3504,
+   "lemma": "Петрович",
+   "pos": "PROPN",
+   "stress": "Петро́вич",
+   "variants": [
+    "Петро́вич",
+    "Пе́трович"
+   ],
+   "status": "free_variant",
+   "evidence": "goroh lists both"
+  },
+  {
+   "rank": 3756,
+   "lemma": "Галина",
+   "pos": "PROPN",
+   "stress": "Гали́на",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "en.wikt+goroh"
+  },
+  {
+   "rank": 3907,
+   "lemma": "виховання",
+   "pos": "NOUN",
+   "stress": "вихова́ння",
+   "variants": [
+    "вихова́ння",
+    "ви́ховання"
+   ],
+   "status": "free_variant",
+   "evidence": "dict+goroh(both)"
+  },
+  {
+   "rank": 4180,
+   "lemma": "вина",
+   "pos": "NOUN",
+   "stress": "вина́",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh (ви́на = plural of вино́)"
+  },
+  {
+   "rank": 4749,
+   "lemma": "Григорович",
+   "pos": "PROPN",
+   "stress": "Григоро́вич",
+   "variants": [
+    "Григоро́вич",
+    "Григо́рович"
+   ],
+   "status": "name_variable",
+   "evidence": "dict; en.wikt differs; stress varies by bearer"
+  },
+  {
+   "rank": 4886,
+   "lemma": "усе",
+   "pos": "ADV",
+   "stress": "усе́",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 5079,
+   "lemma": "поміж",
+   "pos": "ADP",
+   "stress": "помі́ж",
+   "variants": [
+    "помі́ж",
+    "по́між"
+   ],
+   "status": "free_variant",
+   "evidence": "dict+en.wikt(both)"
+  },
+  {
+   "rank": 5322,
+   "lemma": "російсько-український",
+   "pos": "ADJ",
+   "stress": "російсько-украї́нський",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict (compound main stress)"
+  },
+  {
+   "rank": 5547,
+   "lemma": "Анастасія",
+   "pos": "PROPN",
+   "stress": "Анаста́сія",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 5865,
+   "lemma": "зводити",
+   "pos": "VERB",
+   "stress": "зво́дити",
+   "variants": [
+    "зво́дити",
+    "зводи́ти"
+   ],
+   "status": "homograph",
+   "evidence": "goroh: зво́дити lead down/erect ; зводи́ти escort there and back"
+  },
+  {
+   "rank": 6054,
+   "lemma": "нульовий",
+   "pos": "ADJ",
+   "stress": "нульови́й",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 6317,
+   "lemma": "підозрюватися",
+   "pos": "VERB",
+   "stress": "підо́зрюватися",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "goroh (dictionary had підозрюва́тися)"
+  },
+  {
+   "rank": 7526,
+   "lemma": "Ватикан",
+   "pos": "PROPN",
+   "stress": "Ватика́н",
+   "variants": [
+    "Ватика́н",
+    "Вати́кан"
+   ],
+   "status": "name_variable",
+   "evidence": "dict; en.wikt differs; stress varies by bearer"
+  },
+  {
+   "rank": 7729,
+   "lemma": "побажання",
+   "pos": "NOUN",
+   "stress": "побажа́ння",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 7869,
+   "lemma": "Аліна",
+   "pos": "PROPN",
+   "stress": "А́ліна",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 8778,
+   "lemma": "минулорічний",
+   "pos": "ADJ",
+   "stress": "минулорі́чний",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 8953,
+   "lemma": "казковий",
+   "pos": "ADJ",
+   "stress": "казко́вий",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 9151,
+   "lemma": "Дуда",
+   "pos": "PROPN",
+   "stress": "Дуда́",
+   "variants": [
+    "Дуда́",
+    "Ду́да"
+   ],
+   "status": "name_variable",
+   "evidence": "dict; en.wikt differs; stress varies by bearer"
+  },
+  {
+   "rank": 9520,
+   "lemma": "мережевий",
+   "pos": "ADJ",
+   "stress": "мере́жевий",
+   "variants": [
+    "мере́жевий",
+    "мережеви́й"
+   ],
+   "status": "free_variant",
+   "evidence": "goroh(both)"
+  },
+  {
+   "rank": 9849,
+   "lemma": "наречений",
+   "pos": "ADJ",
+   "stress": "нарече́ний",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+goroh"
+  },
+  {
+   "rank": 10121,
+   "lemma": "Макаренко",
+   "pos": "PROPN",
+   "stress": "Мака́ренко",
+   "variants": [
+    "Мака́ренко",
+    "Макаре́нко"
+   ],
+   "status": "name_variable",
+   "evidence": "dict; en.wikt differs; stress varies by bearer"
+  },
+  {
+   "rank": 11629,
+   "lemma": "нібито",
+   "pos": "SCONJ",
+   "stress": "ні́бито",
+   "variants": [],
+   "status": "adjudicated",
+   "evidence": "dict+en.wikt (accent artifact)"
+  },
+  {
+   "rank": 11982,
+   "lemma": "тризуб",
+   "pos": "NOUN",
+   "stress": "три́зуб",
+   "variants": [
+    "три́зуб",
+    "тризу́б"
+   ],
+   "status": "free_variant",
+   "evidence": "reader report 2026-10-09: три́зуб in speech and in the Lingua Libre recording; e2u.org.ua lists both; dict+en.wikt give тризу́б"
+  }
+ ]
+}

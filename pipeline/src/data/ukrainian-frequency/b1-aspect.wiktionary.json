@@ -1,0 +1,8845 @@
+{
+"source": "Wiktionary via kaikki.org (wiktextract), Ukrainian verb entries",
+"url": "https://kaikki.org/dictionary/Ukrainian/",
+"license": "CC-BY-SA-3.0",
+"snapshot": "2026-09-11",
+"kept": "aspect (canonical tag) and headword-listed aspect partners only, for the verbs consulted",
+"entries": {
+"аналізувати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"бачити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "побачити",
+"aspect": "pf"
+}
+]
+},
+"бачитися": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"берегти": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"битися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "побитися",
+"aspect": "pf"
+}
+]
+},
+"боротися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поборотися",
+"aspect": "pf"
+}
+]
+},
+"бракувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"брати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "взяти",
+"aspect": "pf"
+}
+]
+},
+"будити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"бігати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "побігати",
+"aspect": "pf"
+}
+]
+},
+"бігти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "побігти",
+"aspect": "pf"
+}
+]
+},
+"в'їхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "в'їжджати",
+"aspect": "impf"
+}
+]
+},
+"важити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"вберегти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вберігати",
+"aspect": "impf"
+}
+]
+},
+"вбивати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вбити",
+"aspect": "pf"
+}
+]
+},
+"вбити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вбивати",
+"aspect": "impf"
+}
+]
+},
+"вбігти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вбігати",
+"aspect": "impf"
+}
+]
+},
+"вважати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"ввезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ввозити",
+"aspect": "impf"
+}
+]
+},
+"ввести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вводити",
+"aspect": "impf"
+}
+]
+},
+"вводити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "ввести",
+"aspect": "pf"
+}
+]
+},
+"ввозити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "ввезти",
+"aspect": "pf"
+}
+]
+},
+"вдарити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вдаряти",
+"aspect": "impf"
+}
+]
+},
+"вдихати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вдихнути",
+"aspect": "pf"
+}
+]
+},
+"везти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "повезти",
+"aspect": "pf"
+}
+]
+},
+"вести": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "повести",
+"aspect": "pf"
+}
+]
+},
+"вживати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вжити",
+"aspect": "pf"
+}
+]
+},
+"взяти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "брати",
+"aspect": "impf"
+}
+]
+},
+"взійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "всходити",
+"aspect": "impf"
+}
+]
+},
+"вибачитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вибачатися",
+"aspect": "impf"
+}
+]
+},
+"вибирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вибрати",
+"aspect": "pf"
+}
+]
+},
+"вибрати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вибирати",
+"aspect": "impf"
+}
+]
+},
+"вибігати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "вибігти",
+"aspect": "pf"
+}
+]
+},
+"вибігти": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"виважити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виважувати",
+"aspect": "impf"
+}
+]
+},
+"вивезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вивозити",
+"aspect": "impf"
+}
+]
+},
+"вивести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виводити",
+"aspect": "impf"
+}
+]
+},
+"виводити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "вивести",
+"aspect": "pf"
+}
+]
+},
+"вивозити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "вивезти",
+"aspect": "pf"
+}
+]
+},
+"вигодувати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"вигравати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "виграти",
+"aspect": "pf"
+}
+]
+},
+"видавати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "видати",
+"aspect": "pf"
+}
+]
+},
+"видати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "видавати",
+"aspect": "impf"
+}
+]
+},
+"видихати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "видихнути",
+"aspect": "pf"
+},
+{
+"form": "видихувати",
+"aspect": "impf"
+}
+]
+},
+"виділити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виділяти",
+"aspect": "impf"
+}
+]
+},
+"виділитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виділятися",
+"aspect": "impf"
+}
+]
+},
+"визнавати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "визнати",
+"aspect": "pf"
+}
+]
+},
+"визнати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "визнавати",
+"aspect": "impf"
+}
+]
+},
+"визначати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "визначити",
+"aspect": "pf"
+}
+]
+},
+"визначити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "визначати",
+"aspect": "impf"
+}
+]
+},
+"визначитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "визначатися",
+"aspect": "impf"
+},
+{
+"form": "визначуватися",
+"aspect": "impf"
+}
+]
+},
+"вийти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виходити",
+"aspect": "impf"
+}
+]
+},
+"викидати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "викинути",
+"aspect": "pf"
+}
+]
+},
+"викинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "викидати",
+"aspect": "impf"
+}
+]
+},
+"викликати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"виконувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "виконати",
+"aspect": "pf"
+}
+]
+},
+"використати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "використовувати",
+"aspect": "impf"
+}
+]
+},
+"використовуватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "використатися",
+"aspect": "pf"
+}
+]
+},
+"викрасти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "викрадати",
+"aspect": "impf"
+}
+]
+},
+"вилетіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вилітати",
+"aspect": "impf"
+}
+]
+},
+"вилізти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вилазити",
+"aspect": "impf"
+},
+{
+"form": "вилізати",
+"aspect": "impf"
+}
+]
+},
+"вилітати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "вилетіти",
+"aspect": "pf"
+}
+]
+},
+"вимагати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"вимкнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вимикати",
+"aspect": "impf"
+}
+]
+},
+"винайти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "винаходити",
+"aspect": "impf"
+}
+]
+},
+"винести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виносити",
+"aspect": "impf"
+}
+]
+},
+"виникати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "виникнути",
+"aspect": "pf"
+}
+]
+},
+"виникнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виникати",
+"aspect": "impf"
+}
+]
+},
+"виносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "винести",
+"aspect": "pf"
+},
+{
+"form": "виношувати",
+"aspect": "impf"
+}
+]
+},
+"випалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "випалювати",
+"aspect": "impf"
+}
+]
+},
+"випасти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "випасати",
+"aspect": "impf"
+},
+{
+"form": "випадати",
+"aspect": "impf"
+}
+]
+},
+"виписати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виписувати",
+"aspect": "impf"
+}
+]
+},
+"виплисти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "випливати",
+"aspect": "impf"
+}
+]
+},
+"виповнитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виповнюватися",
+"aspect": "impf"
+},
+{
+"form": "виповнятися",
+"aspect": "impf"
+}
+]
+},
+"випустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "випускати",
+"aspect": "impf"
+}
+]
+},
+"вирвати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виривати",
+"aspect": "impf"
+}
+]
+},
+"вирватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вириватися",
+"aspect": "impf"
+}
+]
+},
+"виробляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "виробити",
+"aspect": "pf"
+}
+]
+},
+"вирощувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "виростити",
+"aspect": "pf"
+}
+]
+},
+"вирушати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вирушити",
+"aspect": "pf"
+}
+]
+},
+"вирушити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вирушати",
+"aspect": "impf"
+}
+]
+},
+"висловити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "висловлювати",
+"aspect": "impf"
+}
+]
+},
+"висловлювати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "висловити",
+"aspect": "pf"
+}
+]
+},
+"вислужитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вислужуватися",
+"aspect": "impf"
+},
+{
+"form": "вислуговуватися",
+"aspect": "impf"
+}
+]
+},
+"вистачати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вистачити",
+"aspect": "pf"
+}
+]
+},
+"вистачити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вистачати",
+"aspect": "impf"
+}
+]
+},
+"виступити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виступати",
+"aspect": "impf"
+}
+]
+},
+"витекти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "витікати",
+"aspect": "impf"
+}
+]
+},
+"витерпіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "витерплювати",
+"aspect": "impf"
+}
+]
+},
+"витратити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "витрачати",
+"aspect": "impf"
+},
+{
+"form": "витрачувати",
+"aspect": "impf"
+}
+]
+},
+"витрачати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "витратити",
+"aspect": "pf"
+}
+]
+},
+"вихвалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вихваляти",
+"aspect": "impf"
+},
+{
+"form": "вихвалювати",
+"aspect": "impf"
+}
+]
+},
+"виховати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виховувати",
+"aspect": "impf"
+}
+]
+},
+"виховувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "виховати",
+"aspect": "pf"
+}
+]
+},
+"виходити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "вийти",
+"aspect": "pf"
+},
+{
+"form": "виходжувати",
+"aspect": "impf"
+}
+]
+},
+"вишити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вишивати",
+"aspect": "impf"
+}
+]
+},
+"виявитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виявлятися",
+"aspect": "impf"
+}
+]
+},
+"виїжджати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "виїхати",
+"aspect": "pf"
+}
+]
+},
+"виїздити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "виїхати",
+"aspect": "pf"
+},
+{
+"form": "виїжджувати",
+"aspect": "impf"
+}
+]
+},
+"виїхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "виїжджати",
+"aspect": "impf"
+},
+{
+"form": "виїздити",
+"aspect": "impf"
+}
+]
+},
+"вкидати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вкинути",
+"aspect": "pf"
+}
+]
+},
+"вкинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вкидати",
+"aspect": "impf"
+}
+]
+},
+"включати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "включити",
+"aspect": "pf"
+}
+]
+},
+"включити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "включати",
+"aspect": "impf"
+}
+]
+},
+"вкрасти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "красти",
+"aspect": "impf"
+}
+]
+},
+"влізти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "влазити",
+"aspect": "impf"
+},
+{
+"form": "влізати",
+"aspect": "impf"
+}
+]
+},
+"вмирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вмерти",
+"aspect": "pf"
+}
+]
+},
+"вмістити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вміщати",
+"aspect": "impf"
+},
+{
+"form": "вміщувати",
+"aspect": "impf"
+}
+]
+},
+"внести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вносити",
+"aspect": "impf"
+}
+]
+},
+"вносити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "внести",
+"aspect": "pf"
+}
+]
+},
+"водити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"возити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "повозити",
+"aspect": "pf"
+}
+]
+},
+"впливати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вплисти",
+"aspect": "pf"
+},
+{
+"form": "вплинути",
+"aspect": "pf"
+}
+]
+},
+"впустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "впускати",
+"aspect": "impf"
+}
+]
+},
+"врятувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "рятувати",
+"aspect": "impf"
+},
+{
+"form": "врятовувати",
+"aspect": "impf"
+}
+]
+},
+"врятуватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "рятуватися",
+"aspect": "impf"
+},
+{
+"form": "врятовуватися",
+"aspect": "impf"
+}
+]
+},
+"встановити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "встановлювати",
+"aspect": "impf"
+}
+]
+},
+"встигнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "встигати",
+"aspect": "impf"
+}
+]
+},
+"вступати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вступити",
+"aspect": "pf"
+}
+]
+},
+"вступити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вступати",
+"aspect": "impf"
+}
+]
+},
+"втекти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "втікати",
+"aspect": "impf"
+}
+]
+},
+"втиснути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "втискати",
+"aspect": "impf"
+},
+{
+"form": "втискувати",
+"aspect": "impf"
+}
+]
+},
+"втомитися": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"втратити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "втрачати",
+"aspect": "impf"
+}
+]
+},
+"втрачати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "втратити",
+"aspect": "pf"
+}
+]
+},
+"втікати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "втекти",
+"aspect": "pf"
+}
+]
+},
+"входити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "ввійти",
+"aspect": "pf"
+}
+]
+},
+"від'їхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "від'їжджати",
+"aspect": "impf"
+},
+{
+"form": "від'їздити",
+"aspect": "impf"
+}
+]
+},
+"відбитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відбиватися",
+"aspect": "impf"
+}
+]
+},
+"відвезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відвозити",
+"aspect": "impf"
+}
+]
+},
+"відвести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відводити",
+"aspect": "impf"
+}
+]
+},
+"відводити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відвести",
+"aspect": "pf"
+}
+]
+},
+"відвозити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "відвезти",
+"aspect": "pf"
+}
+]
+},
+"віддавати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "віддати",
+"aspect": "pf"
+}
+]
+},
+"віддрукувати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"відділити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відділяти",
+"aspect": "impf"
+}
+]
+},
+"відділитися": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"відзначати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відзначити",
+"aspect": "pf"
+}
+]
+},
+"відзначити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відзначати",
+"aspect": "impf"
+},
+{
+"form": "відзначувати",
+"aspect": "impf"
+}
+]
+},
+"відзначитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відзначатися",
+"aspect": "impf"
+},
+{
+"form": "відзначуватися",
+"aspect": "impf"
+}
+]
+},
+"відкидати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "відкинути",
+"aspect": "pf"
+}
+]
+},
+"відкидатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відкинутися",
+"aspect": "pf"
+}
+]
+},
+"відкинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відкидати",
+"aspect": "impf"
+}
+]
+},
+"відкинутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відкидатися",
+"aspect": "impf"
+}
+]
+},
+"відкликати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "відкликнути",
+"aspect": "pf"
+}
+]
+},
+"відкриватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відкритися",
+"aspect": "pf"
+}
+]
+},
+"відлетіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відлітати",
+"aspect": "impf"
+}
+]
+},
+"відлякати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відлякувати",
+"aspect": "impf"
+}
+]
+},
+"відлітати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "відлетіти",
+"aspect": "pf"
+}
+]
+},
+"відмежувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відмежовувати",
+"aspect": "impf"
+}
+]
+},
+"відмежуватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відмежовуватися",
+"aspect": "impf"
+}
+]
+},
+"відмовитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відмовлятися",
+"aspect": "impf"
+}
+]
+},
+"відмовлятися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відмовитися",
+"aspect": "pf"
+}
+]
+},
+"відмовчатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відмовчуватися",
+"aspect": "impf"
+}
+]
+},
+"відміняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відмінити",
+"aspect": "pf"
+}
+]
+},
+"віднести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відносити",
+"aspect": "impf"
+}
+]
+},
+"віднестися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відноситися",
+"aspect": "impf"
+}
+]
+},
+"відносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "віднести",
+"aspect": "pf"
+}
+]
+},
+"відноситися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "віднестися",
+"aspect": "pf"
+}
+]
+},
+"відправити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відправляти",
+"aspect": "impf"
+}
+]
+},
+"відправитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відправлятися",
+"aspect": "impf"
+}
+]
+},
+"відправляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відправити",
+"aspect": "pf"
+}
+]
+},
+"відпустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відпускати",
+"aspect": "impf"
+}
+]
+},
+"відрадити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відраджувати",
+"aspect": "impf"
+},
+{
+"form": "відраджати",
+"aspect": "impf"
+}
+]
+},
+"відремонтувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відремонтовувати",
+"aspect": "impf"
+}
+]
+},
+"відрізати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "відрізувати",
+"aspect": "impf"
+}
+]
+},
+"відрізнятися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відрізнитися",
+"aspect": "pf"
+}
+]
+},
+"відсвяткувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "святкувати",
+"aspect": "impf"
+},
+{
+"form": "відсвятковувати",
+"aspect": "impf"
+}
+]
+},
+"відтворити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відтворювати",
+"aspect": "impf"
+}
+]
+},
+"відходити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "відійти",
+"aspect": "pf"
+},
+{
+"form": "відходжувати",
+"aspect": "impf"
+}
+]
+},
+"відчувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "відчути",
+"aspect": "pf"
+}
+]
+},
+"відчути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відчувати",
+"aspect": "impf"
+}
+]
+},
+"відійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відходити",
+"aspect": "impf"
+}
+]
+},
+"відірвати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відривати",
+"aspect": "impf"
+}
+]
+},
+"відірватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "відриватися",
+"aspect": "impf"
+}
+]
+},
+"гарантувати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"говорити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поговорити",
+"aspect": "pf"
+}
+]
+},
+"годувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "погодувати",
+"aspect": "pf"
+},
+{
+"form": "згодувати",
+"aspect": "pf"
+}
+]
+},
+"голосувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "проголосувати",
+"aspect": "pf"
+}
+]
+},
+"горіти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "згоріти",
+"aspect": "pf"
+}
+]
+},
+"давати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "дати",
+"aspect": "pf"
+}
+]
+},
+"дати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "давати",
+"aspect": "impf"
+}
+]
+},
+"дбати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "подбати",
+"aspect": "pf"
+}
+]
+},
+"дивувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "здивувати",
+"aspect": "pf"
+}
+]
+},
+"дихати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"добитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "добиватися",
+"aspect": "impf"
+}
+]
+},
+"довести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "доводити",
+"aspect": "impf"
+}
+]
+},
+"довестися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "доводитися",
+"aspect": "impf"
+}
+]
+},
+"доводити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "довести",
+"aspect": "pf"
+}
+]
+},
+"доводитися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "довестися",
+"aspect": "pf"
+}
+]
+},
+"доглядати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "доглянути",
+"aspect": "pf"
+}
+]
+},
+"дозволити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "дозволяти",
+"aspect": "impf"
+}
+]
+},
+"дозволяти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "дозволити",
+"aspect": "pf"
+}
+]
+},
+"долетіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "долітати",
+"aspect": "impf"
+}
+]
+},
+"долітати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "долетіти",
+"aspect": "pf"
+}
+]
+},
+"домовитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "домовлятися",
+"aspect": "impf"
+}
+]
+},
+"донести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "доносити",
+"aspect": "impf"
+}
+]
+},
+"доносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "донести",
+"aspect": "pf"
+},
+{
+"form": "доношувати",
+"aspect": "impf"
+}
+]
+},
+"доповнити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "доповнювати",
+"aspect": "impf"
+}
+]
+},
+"допустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "допускати",
+"aspect": "impf"
+}
+]
+},
+"доставити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "доставляти",
+"aspect": "impf"
+}
+]
+},
+"доставляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "доставити",
+"aspect": "pf"
+}
+]
+},
+"досягати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "досягти",
+"aspect": "pf"
+},
+{
+"form": "досягнути",
+"aspect": "pf"
+}
+]
+},
+"досягнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "досягати",
+"aspect": "impf"
+}
+]
+},
+"досягти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "досягати",
+"aspect": "impf"
+}
+]
+},
+"дотримуватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "дотриматися",
+"aspect": "pf"
+}
+]
+},
+"доходити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "дійти",
+"aspect": "pf"
+}
+]
+},
+"доїхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "доїжджати",
+"aspect": "impf"
+}
+]
+},
+"дратувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"друкувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "надрукувати",
+"aspect": "pf"
+}
+]
+},
+"дізнаватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "дізнатися",
+"aspect": "pf"
+}
+]
+},
+"дізнатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "дізнаватися",
+"aspect": "impf"
+}
+]
+},
+"дійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "доходити",
+"aspect": "impf"
+}
+]
+},
+"ділити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поділити",
+"aspect": "pf"
+},
+{
+"form": "розділити",
+"aspect": "pf"
+}
+]
+},
+"діставати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "дістати",
+"aspect": "pf"
+}
+]
+},
+"дістати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "діставати",
+"aspect": "impf"
+}
+]
+},
+"дістатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "діставатися",
+"aspect": "impf"
+}
+]
+},
+"з'явитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "з'являтися",
+"aspect": "impf"
+}
+]
+},
+"з'являтися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "з'явитися",
+"aspect": "pf"
+}
+]
+},
+"з'єднати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "з'єднувати",
+"aspect": "impf"
+}
+]
+},
+"забирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "забрати",
+"aspect": "pf"
+}
+]
+},
+"заборонити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "забороняти",
+"aspect": "impf"
+}
+]
+},
+"забороняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "заборонити",
+"aspect": "pf"
+}
+]
+},
+"забрати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "забирати",
+"aspect": "impf"
+}
+]
+},
+"завантажити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "завантажувати",
+"aspect": "impf"
+}
+]
+},
+"завершити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "завершувати",
+"aspect": "impf"
+}
+]
+},
+"завершувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "завершити",
+"aspect": "pf"
+}
+]
+},
+"завести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "заводити",
+"aspect": "impf"
+}
+]
+},
+"завмирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "завмерти",
+"aspect": "pf"
+}
+]
+},
+"заводити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "завести",
+"aspect": "pf"
+}
+]
+},
+"загинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "загибати",
+"aspect": "impf"
+}
+]
+},
+"зазначити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зазначати",
+"aspect": "impf"
+}
+]
+},
+"займати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зайняти",
+"aspect": "pf"
+}
+]
+},
+"зайняти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "займати",
+"aspect": "impf"
+}
+]
+},
+"зайнятися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "займатися",
+"aspect": "impf"
+}
+]
+},
+"зайти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "заходити",
+"aspect": "impf"
+}
+]
+},
+"закинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "закидати",
+"aspect": "impf"
+}
+]
+},
+"закликати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"закохатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "закохуватися",
+"aspect": "impf"
+}
+]
+},
+"закричати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"залежати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"залишати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "залишити",
+"aspect": "pf"
+}
+]
+},
+"залишити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "залишати",
+"aspect": "impf"
+}
+]
+},
+"залякати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "залякувати",
+"aspect": "impf"
+}
+]
+},
+"замислитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "замислюватися",
+"aspect": "impf"
+}
+]
+},
+"замовчати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "замовчувати",
+"aspect": "impf"
+}
+]
+},
+"замінити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "замінювати",
+"aspect": "impf"
+},
+{
+"form": "заміняти",
+"aspect": "impf"
+}
+]
+},
+"заміняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "замінити",
+"aspect": "pf"
+}
+]
+},
+"занести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "заносити",
+"aspect": "impf"
+}
+]
+},
+"заносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "занести",
+"aspect": "pf"
+},
+{
+"form": "заношувати",
+"aspect": "impf"
+}
+]
+},
+"запалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "запалювати",
+"aspect": "impf"
+}
+]
+},
+"заперечити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "заперечувати",
+"aspect": "impf"
+}
+]
+},
+"заперечувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "заперечити",
+"aspect": "pf"
+}
+]
+},
+"записатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "записуватися",
+"aspect": "impf"
+}
+]
+},
+"заплакати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"запланувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "заплановувати",
+"aspect": "impf"
+}
+]
+},
+"заповнювати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "заповнити",
+"aspect": "pf"
+}
+]
+},
+"запозичити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "запозичувати",
+"aspect": "impf"
+},
+{
+"form": "запозичати",
+"aspect": "impf"
+}
+]
+},
+"запропонувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пропонувати",
+"aspect": "impf"
+}
+]
+},
+"запустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "запускати",
+"aspect": "impf"
+}
+]
+},
+"зареєструвати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "реєструвати",
+"aspect": "impf"
+}
+]
+},
+"заробити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "заробляти",
+"aspect": "impf"
+}
+]
+},
+"заробляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "заробити",
+"aspect": "pf"
+}
+]
+},
+"засвідчити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "засвідчувати",
+"aspect": "impf"
+}
+]
+},
+"заслужити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "заслуговувати",
+"aspect": "impf"
+}
+]
+},
+"заснути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "засипати",
+"aspect": "impf"
+},
+{
+"form": "засинати",
+"aspect": "impf"
+}
+]
+},
+"застукати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"захистити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "захищати",
+"aspect": "impf"
+}
+]
+},
+"захищати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "захистити",
+"aspect": "pf"
+}
+]
+},
+"заходити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "зайти",
+"aspect": "pf"
+}
+]
+},
+"захопитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "захоплюватися",
+"aspect": "impf"
+}
+]
+},
+"захотіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "хотіти",
+"aspect": "impf"
+}
+]
+},
+"захотітися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "хотітися",
+"aspect": "impf"
+}
+]
+},
+"зацікавити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зацікавлювати",
+"aspect": "impf"
+}
+]
+},
+"зацікавитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зацікавлюватися",
+"aspect": "impf"
+}
+]
+},
+"зберегти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зберігати",
+"aspect": "impf"
+}
+]
+},
+"зберегтися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зберігатися",
+"aspect": "impf"
+}
+]
+},
+"зберігати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зберегти",
+"aspect": "pf"
+}
+]
+},
+"збивати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "збити",
+"aspect": "pf"
+}
+]
+},
+"збудити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "будити",
+"aspect": "impf"
+},
+{
+"form": "збуджувати",
+"aspect": "impf"
+}
+]
+},
+"збудувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "будувати",
+"aspect": "impf"
+}
+]
+},
+"збігатися": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "збігтися",
+"aspect": "pf"
+}
+]
+},
+"збігтися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "збігатися",
+"aspect": "impf"
+}
+]
+},
+"зважити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зважати",
+"aspect": "impf"
+}
+]
+},
+"зважитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зважатися",
+"aspect": "impf"
+}
+]
+},
+"звернути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "звертати",
+"aspect": "impf"
+}
+]
+},
+"звернутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "звертатися",
+"aspect": "impf"
+}
+]
+},
+"звертати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "звернути",
+"aspect": "pf"
+}
+]
+},
+"звертатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "звернутися",
+"aspect": "pf"
+}
+]
+},
+"звести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зводити",
+"aspect": "impf"
+}
+]
+},
+"звестися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зводитися",
+"aspect": "impf"
+}
+]
+},
+"звикнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "звикати",
+"aspect": "impf"
+}
+]
+},
+"зводити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "звести",
+"aspect": "pf"
+}
+]
+},
+"зводитися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "звестися",
+"aspect": "pf"
+}
+]
+},
+"звучати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"згадати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "згадувати",
+"aspect": "impf"
+}
+]
+},
+"згадувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "згадати",
+"aspect": "pf"
+}
+]
+},
+"згоріти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "згоряти",
+"aspect": "impf"
+},
+{
+"form": "згорати",
+"aspect": "impf"
+}
+]
+},
+"здавати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "здати",
+"aspect": "pf"
+}
+]
+},
+"здаватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "здатися",
+"aspect": "pf"
+}
+]
+},
+"здати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "здавати",
+"aspect": "impf"
+}
+]
+},
+"здивувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "дивувати",
+"aspect": "impf"
+}
+]
+},
+"здивуватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "дивуватися",
+"aspect": "impf"
+}
+]
+},
+"здобути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "здобувати",
+"aspect": "impf"
+}
+]
+},
+"здійснюватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "здійснитися",
+"aspect": "pf"
+}
+]
+},
+"злетіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "злітати",
+"aspect": "impf"
+}
+]
+},
+"зловити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ловити",
+"aspect": "impf"
+}
+]
+},
+"злякати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "лякати",
+"aspect": "impf"
+}
+]
+},
+"злякатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "лякатися",
+"aspect": "impf"
+}
+]
+},
+"злітати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "злетіти",
+"aspect": "pf"
+}
+]
+},
+"змусити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "змушувати",
+"aspect": "impf"
+}
+]
+},
+"змінитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "змінюватися",
+"aspect": "impf"
+}
+]
+},
+"зміняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "змінити",
+"aspect": "pf"
+}
+]
+},
+"зміркувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "змірковувати",
+"aspect": "impf"
+}
+]
+},
+"змістити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зміщати",
+"aspect": "impf"
+},
+{
+"form": "зміщувати",
+"aspect": "impf"
+}
+]
+},
+"зміститися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зміщатися",
+"aspect": "impf"
+},
+{
+"form": "зміщуватися",
+"aspect": "impf"
+}
+]
+},
+"знайомитися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "познайомитися",
+"aspect": "pf"
+}
+]
+},
+"знайти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "знаходити",
+"aspect": "impf"
+}
+]
+},
+"знаходити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "знайти",
+"aspect": "pf"
+}
+]
+},
+"значити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"знести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зносити",
+"aspect": "impf"
+}
+]
+},
+"зникати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зникнути",
+"aspect": "pf"
+},
+{
+"form": "зникти",
+"aspect": "pf"
+}
+]
+},
+"зникнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зникати",
+"aspect": "impf"
+}
+]
+},
+"зносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "знести",
+"aspect": "pf"
+},
+{
+"form": "зношувати",
+"aspect": "impf"
+}
+]
+},
+"зняти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "знімати",
+"aspect": "impf"
+}
+]
+},
+"знімати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зняти",
+"aspect": "pf"
+}
+]
+},
+"зрадити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зраджувати",
+"aspect": "impf"
+}
+]
+},
+"зрадіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "радіти",
+"aspect": "impf"
+}
+]
+},
+"зробити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "робити",
+"aspect": "impf"
+}
+]
+},
+"зруйнувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "руйнувати",
+"aspect": "impf"
+}
+]
+},
+"зупинити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зупиняти",
+"aspect": "impf"
+}
+]
+},
+"зупиняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зупинити",
+"aspect": "pf"
+}
+]
+},
+"зупинятися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зупинитися",
+"aspect": "pf"
+}
+]
+},
+"зшити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зшивати",
+"aspect": "impf"
+}
+]
+},
+"зібрати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "збирати",
+"aspect": "impf"
+}
+]
+},
+"зібратися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "збиратися",
+"aspect": "impf"
+}
+]
+},
+"зіграти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "грати",
+"aspect": "impf"
+}
+]
+},
+"зійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "сходити",
+"aspect": "impf"
+},
+{
+"form": "зіходити",
+"aspect": "impf"
+}
+]
+},
+"зійтися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "сходитися",
+"aspect": "impf"
+},
+{
+"form": "зіходитися",
+"aspect": "impf"
+}
+]
+},
+"зірвати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зривати",
+"aspect": "impf"
+}
+]
+},
+"зірватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "зриватися",
+"aspect": "impf"
+}
+]
+},
+"йти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "піти",
+"aspect": "pf"
+}
+]
+},
+"йтися": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"казати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "сказати",
+"aspect": "pf"
+}
+]
+},
+"карати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "покарати",
+"aspect": "pf"
+}
+]
+},
+"керувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"кидати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "кинути",
+"aspect": "pf"
+}
+]
+},
+"кинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "кидати",
+"aspect": "impf"
+}
+]
+},
+"класти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "покласти",
+"aspect": "pf"
+}
+]
+},
+"кликати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "покликати",
+"aspect": "pf"
+}
+]
+},
+"контролювати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "проконтролювати",
+"aspect": "pf"
+}
+]
+},
+"користуватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "скористуватися",
+"aspect": "pf"
+},
+{
+"form": "скористатися",
+"aspect": "pf"
+}
+]
+},
+"красти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "вкрасти",
+"aspect": "pf"
+},
+{
+"form": "украсти",
+"aspect": "pf"
+},
+{
+"form": "покрасти",
+"aspect": "pf"
+},
+{
+"form": "скрасти",
+"aspect": "pf"
+}
+]
+},
+"крикнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "кричати",
+"aspect": "impf"
+}
+]
+},
+"летіти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "полетіти",
+"aspect": "pf"
+}
+]
+},
+"ловити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зловити",
+"aspect": "pf"
+}
+]
+},
+"лягати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "лягти",
+"aspect": "pf"
+}
+]
+},
+"лягти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "лягати",
+"aspect": "impf"
+}
+]
+},
+"лякати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "злякати",
+"aspect": "pf"
+}
+]
+},
+"лізти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "залізти",
+"aspect": "pf"
+},
+{
+"form": "влізти",
+"aspect": "pf"
+},
+{
+"form": "полізти",
+"aspect": "pf"
+}
+]
+},
+"літати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "політати",
+"aspect": "pf"
+}
+]
+},
+"мандрувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"межувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"минати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "минути",
+"aspect": "pf"
+}
+]
+},
+"минути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "минати",
+"aspect": "impf"
+}
+]
+},
+"мислити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"мовчати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"молитися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "помолитися",
+"aspect": "pf"
+}
+]
+},
+"мріяти": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"міняти": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"міркувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"містити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"набирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "набрати",
+"aspect": "pf"
+}
+]
+},
+"набрати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "набирати",
+"aspect": "impf"
+}
+]
+},
+"наважитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "наважуватися",
+"aspect": "impf"
+},
+{
+"form": "наважатися",
+"aspect": "impf"
+}
+]
+},
+"навести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "наводити",
+"aspect": "impf"
+}
+]
+},
+"наводити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "навести",
+"aspect": "pf"
+}
+]
+},
+"навчати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "навчити",
+"aspect": "pf"
+}
+]
+},
+"навчатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "навчитися",
+"aspect": "pf"
+}
+]
+},
+"навчити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "навчати",
+"aspect": "impf"
+}
+]
+},
+"навчитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "навчатися",
+"aspect": "impf"
+}
+]
+},
+"нагадати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "нагадувати",
+"aspect": "impf"
+}
+]
+},
+"нагадувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "нагадати",
+"aspect": "pf"
+}
+]
+},
+"нагодувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "нагодовувати",
+"aspect": "impf"
+}
+]
+},
+"наголосити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "наголошувати",
+"aspect": "impf"
+}
+]
+},
+"наголошувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "наголосити",
+"aspect": "pf"
+}
+]
+},
+"надихати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "надихнути",
+"aspect": "pf"
+},
+{
+"form": "натхнути",
+"aspect": "pf"
+},
+{
+"form": "надихувати",
+"aspect": "impf"
+}
+]
+},
+"надрукувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "друкувати",
+"aspect": "impf"
+}
+]
+},
+"надходити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "надійти",
+"aspect": "pf"
+}
+]
+},
+"надійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "надходити",
+"aspect": "impf"
+},
+{
+"form": "надіходити",
+"aspect": "impf"
+}
+]
+},
+"наділити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "наділяти",
+"aspect": "impf"
+},
+{
+"form": "наділювати",
+"aspect": "impf"
+}
+]
+},
+"найти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "находити",
+"aspect": "impf"
+}
+]
+},
+"наказати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "наказувати",
+"aspect": "impf"
+}
+]
+},
+"наказувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "наказати",
+"aspect": "pf"
+}
+]
+},
+"накинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "накидати",
+"aspect": "impf"
+}
+]
+},
+"накинутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "накидатися",
+"aspect": "impf"
+}
+]
+},
+"накликати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"належати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "належувати",
+"aspect": "impf"
+}
+]
+},
+"налякати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "лякати",
+"aspect": "impf"
+}
+]
+},
+"нанести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "наносити",
+"aspect": "impf"
+}
+]
+},
+"наносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "нанести",
+"aspect": "pf"
+},
+{
+"form": "наношувати",
+"aspect": "impf"
+}
+]
+},
+"народити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "народжувати",
+"aspect": "impf"
+},
+{
+"form": "родити",
+"aspect": "impf"
+}
+]
+},
+"натиснути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "натискати",
+"aspect": "impf"
+},
+{
+"form": "натискувати",
+"aspect": "impf"
+}
+]
+},
+"нести": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "понести",
+"aspect": "pf"
+}
+]
+},
+"носити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поносити",
+"aspect": "pf"
+}
+]
+},
+"ночувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "заночувати",
+"aspect": "pf"
+},
+{
+"form": "переночувати",
+"aspect": "pf"
+}
+]
+},
+"обговорити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обговорювати",
+"aspect": "impf"
+}
+]
+},
+"обговорювати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "обговорити",
+"aspect": "pf"
+}
+]
+},
+"оберегти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "оберігати",
+"aspect": "impf"
+}
+]
+},
+"обирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "обрати",
+"aspect": "pf"
+}
+]
+},
+"обмежувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "обмежити",
+"aspect": "pf"
+}
+]
+},
+"обміняти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обмінювати",
+"aspect": "impf"
+}
+]
+},
+"обміркувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обмірковувати",
+"aspect": "impf"
+}
+]
+},
+"обрати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обирати",
+"aspect": "impf"
+}
+]
+},
+"обслужити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обслуговувати",
+"aspect": "impf"
+},
+{
+"form": "обслужувати",
+"aspect": "impf"
+}
+]
+},
+"обходитися": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "обійтися",
+"aspect": "pf"
+}
+]
+},
+"обшити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обшивати",
+"aspect": "impf"
+}
+]
+},
+"обіймати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "обійняти",
+"aspect": "pf"
+}
+]
+},
+"обійняти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обіймати",
+"aspect": "impf"
+}
+]
+},
+"обійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обходити",
+"aspect": "impf"
+}
+]
+},
+"обійтися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обходитися",
+"aspect": "impf"
+}
+]
+},
+"обіцяти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "пообіцяти",
+"aspect": "pf"
+}
+]
+},
+"оглядати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "оглянути",
+"aspect": "pf"
+},
+{
+"form": "огледіти",
+"aspect": "pf"
+},
+{
+"form": "оглядіти",
+"aspect": "pf"
+}
+]
+},
+"оглянути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "оглядати",
+"aspect": "impf"
+}
+]
+},
+"одержати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "одержувати",
+"aspect": "impf"
+}
+]
+},
+"одержувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "одержати",
+"aspect": "pf"
+}
+]
+},
+"одужати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "одужувати",
+"aspect": "impf"
+}
+]
+},
+"ознайомитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ознайомлюватися",
+"aspect": "impf"
+}
+]
+},
+"опалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "опалювати",
+"aspect": "impf"
+}
+]
+},
+"описати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "описувати",
+"aspect": "impf"
+}
+]
+},
+"оплатити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "оплачувати",
+"aspect": "impf"
+}
+]
+},
+"опустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "опускати",
+"aspect": "impf"
+}
+]
+},
+"опуститися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "опускатися",
+"aspect": "impf"
+}
+]
+},
+"освідчитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "освідчуватися",
+"aspect": "impf"
+},
+{
+"form": "освідчатися",
+"aspect": "impf"
+}
+]
+},
+"охороняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "охоронити",
+"aspect": "pf"
+}
+]
+},
+"палити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "спалити",
+"aspect": "pf"
+},
+{
+"form": "попалити",
+"aspect": "pf"
+}
+]
+},
+"пахнути": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"перебувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "перебути",
+"aspect": "pf"
+}
+]
+},
+"переважити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переважати",
+"aspect": "impf"
+},
+{
+"form": "переважувати",
+"aspect": "impf"
+}
+]
+},
+"перевезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "перевозити",
+"aspect": "impf"
+}
+]
+},
+"перевести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переводити",
+"aspect": "impf"
+}
+]
+},
+"перевиховувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "перевиховати",
+"aspect": "pf"
+}
+]
+},
+"переводити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "перевести",
+"aspect": "pf"
+}
+]
+},
+"перевозити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "перевезти",
+"aspect": "pf"
+}
+]
+},
+"переглядати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "переглянути",
+"aspect": "pf"
+},
+{
+"form": "переглядіти",
+"aspect": "pf"
+}
+]
+},
+"переглянути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переглядати",
+"aspect": "impf"
+}
+]
+},
+"передбачати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "передбачити",
+"aspect": "pf"
+}
+]
+},
+"передбачити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "передбачати",
+"aspect": "impf"
+},
+{
+"form": "передбачувати",
+"aspect": "impf"
+}
+]
+},
+"переживати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "пережити",
+"aspect": "pf"
+}
+]
+},
+"пережити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переживати",
+"aspect": "impf"
+}
+]
+},
+"перейти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переходити",
+"aspect": "impf"
+}
+]
+},
+"перекинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "перекидати",
+"aspect": "impf"
+}
+]
+},
+"перелякати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"перемагати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "перемогти",
+"aspect": "pf"
+}
+]
+},
+"перемістити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переміщати",
+"aspect": "impf"
+},
+{
+"form": "переміщувати",
+"aspect": "impf"
+}
+]
+},
+"переміститися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переміщатися",
+"aspect": "impf"
+},
+{
+"form": "переміщуватися",
+"aspect": "impf"
+}
+]
+},
+"перенести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переносити",
+"aspect": "impf"
+}
+]
+},
+"переносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "перенести",
+"aspect": "pf"
+},
+{
+"form": "переношувати",
+"aspect": "impf"
+}
+]
+},
+"переобирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "переобрати",
+"aspect": "pf"
+}
+]
+},
+"переобрати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переобирати",
+"aspect": "impf"
+}
+]
+},
+"перервати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переривати",
+"aspect": "impf"
+}
+]
+},
+"переставати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "перестати",
+"aspect": "pf"
+}
+]
+},
+"перестати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переставати",
+"aspect": "impf"
+}
+]
+},
+"перетворити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "перетворювати",
+"aspect": "impf"
+}
+]
+},
+"перетворитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "перетворюватися",
+"aspect": "impf"
+}
+]
+},
+"перетворювати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "перетворити",
+"aspect": "pf"
+}
+]
+},
+"перетекти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "перетікати",
+"aspect": "impf"
+}
+]
+},
+"перетерпіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "перетерплювати",
+"aspect": "impf"
+}
+]
+},
+"перетривати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"переховатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переховуватися",
+"aspect": "impf"
+}
+]
+},
+"переходити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "перейти",
+"aspect": "pf"
+}
+]
+},
+"переїхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "переїжджати",
+"aspect": "impf"
+},
+{
+"form": "переїздити",
+"aspect": "impf"
+}
+]
+},
+"пишатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "попишатися",
+"aspect": "pf"
+}
+]
+},
+"плавати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поплавати",
+"aspect": "pf"
+}
+]
+},
+"плисти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поплисти",
+"aspect": "pf"
+}
+]
+},
+"побачити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "бачити",
+"aspect": "impf"
+}
+]
+},
+"побачитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "бачитися",
+"aspect": "impf"
+}
+]
+},
+"побувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "бувати",
+"aspect": "impf"
+}
+]
+},
+"побігти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "бігти",
+"aspect": "impf"
+}
+]
+},
+"поважати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"повезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "везти",
+"aspect": "impf"
+}
+]
+},
+"повести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "поводити",
+"aspect": "impf"
+}
+]
+},
+"повестися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "поводитися",
+"aspect": "impf"
+}
+]
+},
+"поводити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "повести",
+"aspect": "pf"
+}
+]
+},
+"поводитися": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "повестися",
+"aspect": "pf"
+},
+{
+"form": "водитися",
+"aspect": "impf"
+}
+]
+},
+"повозити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "возити",
+"aspect": "impf"
+}
+]
+},
+"повторюватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "повторитися",
+"aspect": "pf"
+}
+]
+},
+"повідомити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "повідомляти",
+"aspect": "impf"
+}
+]
+},
+"повідомляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "повідомити",
+"aspect": "pf"
+}
+]
+},
+"повісити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "вішати",
+"aspect": "impf"
+}
+]
+},
+"погоджуватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "погодитися",
+"aspect": "pf"
+}
+]
+},
+"погодитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "погоджуватися",
+"aspect": "impf"
+},
+{
+"form": "погоджатися",
+"aspect": "impf"
+}
+]
+},
+"погодувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "годувати",
+"aspect": "impf"
+}
+]
+},
+"подати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "подавати",
+"aspect": "impf"
+}
+]
+},
+"подбати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "дбати",
+"aspect": "impf"
+}
+]
+},
+"поділити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "поділяти",
+"aspect": "impf"
+}
+]
+},
+"поділитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ділитися",
+"aspect": "impf"
+},
+{
+"form": "поділятися",
+"aspect": "impf"
+}
+]
+},
+"поділяти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поділити",
+"aspect": "pf"
+}
+]
+},
+"пожартувати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"позичити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "позичати",
+"aspect": "impf"
+}
+]
+},
+"познайомитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "знайомитися",
+"aspect": "impf"
+}
+]
+},
+"позначати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "позначити",
+"aspect": "pf"
+}
+]
+},
+"позначити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "позначати",
+"aspect": "impf"
+}
+]
+},
+"позначитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "позначатися",
+"aspect": "impf"
+}
+]
+},
+"покарати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "карати",
+"aspect": "impf"
+}
+]
+},
+"покидати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "покинути",
+"aspect": "pf"
+}
+]
+},
+"покинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "покидати",
+"aspect": "impf"
+}
+]
+},
+"покласти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "класти",
+"aspect": "impf"
+},
+{
+"form": "покладати",
+"aspect": "impf"
+}
+]
+},
+"покликати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "кликати",
+"aspect": "impf"
+},
+{
+"form": "покликнути",
+"aspect": "pf"
+}
+]
+},
+"полетіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "летіти",
+"aspect": "impf"
+}
+]
+},
+"помилитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "помилятися",
+"aspect": "impf"
+}
+]
+},
+"помилятися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "помилитися",
+"aspect": "pf"
+}
+]
+},
+"поминати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "пом'янути",
+"aspect": "pf"
+},
+{
+"form": "поминути",
+"aspect": "pf"
+}
+]
+},
+"помирати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "померти",
+"aspect": "pf"
+}
+]
+},
+"помолитися": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"поміняти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "міняти",
+"aspect": "impf"
+},
+{
+"form": "мінятися",
+"aspect": "impf"
+}
+]
+},
+"помінятися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "мінятися",
+"aspect": "impf"
+}
+]
+},
+"поміркувати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"помістити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "поміщати",
+"aspect": "impf"
+}
+]
+},
+"помітити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "помічати",
+"aspect": "impf"
+}
+]
+},
+"понести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "нести",
+"aspect": "impf"
+}
+]
+},
+"поносити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "носити",
+"aspect": "impf"
+}
+]
+},
+"пообіцяти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "обіцяти",
+"aspect": "impf"
+}
+]
+},
+"поповнити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "поповнювати",
+"aspect": "impf"
+},
+{
+"form": "поповняти",
+"aspect": "impf"
+}
+]
+},
+"попрощатися": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"порадити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "радити",
+"aspect": "impf"
+}
+]
+},
+"порятувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "рятувати",
+"aspect": "impf"
+}
+]
+},
+"порятуватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "рятуватися",
+"aspect": "impf"
+}
+]
+},
+"посваритися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "сваритися",
+"aspect": "impf"
+}
+]
+},
+"посвідчити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "посвідчувати",
+"aspect": "impf"
+}
+]
+},
+"посидіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "сидіти",
+"aspect": "impf"
+}
+]
+},
+"посилати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "послати",
+"aspect": "pf"
+}
+]
+},
+"поскаржитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "скаржитися",
+"aspect": "impf"
+}
+]
+},
+"послати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "посилати",
+"aspect": "impf"
+},
+{
+"form": "слати",
+"aspect": "impf"
+},
+{
+"form": "стелити",
+"aspect": "impf"
+}
+]
+},
+"послужити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "служити",
+"aspect": "impf"
+}
+]
+},
+"посміхатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "посміхнутися",
+"aspect": "pf"
+}
+]
+},
+"посперечатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "сперечатися",
+"aspect": "impf"
+}
+]
+},
+"поспілкуватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "спілкуватися",
+"aspect": "impf"
+}
+]
+},
+"поспішати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поспішити",
+"aspect": "pf"
+}
+]
+},
+"поспішити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "поспішати",
+"aspect": "impf"
+}
+]
+},
+"поставитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ставитися",
+"aspect": "impf"
+}
+]
+},
+"постановити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "постановляти",
+"aspect": "impf"
+}
+]
+},
+"постаратися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "старатися",
+"aspect": "impf"
+}
+]
+},
+"постояти": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"потворити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "творити",
+"aspect": "impf"
+},
+{
+"form": "спотворити",
+"aspect": "pf"
+}
+]
+},
+"потерпіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "терпіти",
+"aspect": "impf"
+}
+]
+},
+"потиснути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "потискувати",
+"aspect": "impf"
+},
+{
+"form": "потискати",
+"aspect": "impf"
+}
+]
+},
+"потрапити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "потрапляти",
+"aspect": "impf"
+}
+]
+},
+"потрапляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "потрапити",
+"aspect": "pf"
+}
+]
+},
+"потребувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"похвалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "похваляти",
+"aspect": "impf"
+}
+]
+},
+"похвалитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "похвалятися",
+"aspect": "impf"
+}
+]
+},
+"поховати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"поцікавитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "цікавитися",
+"aspect": "impf"
+}
+]
+},
+"почувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "почути",
+"aspect": "pf"
+}
+]
+},
+"пощастити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "щастити",
+"aspect": "impf"
+}
+]
+},
+"поєднати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "поєднувати",
+"aspect": "impf"
+}
+]
+},
+"поєднувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поєднати",
+"aspect": "pf"
+}
+]
+},
+"поїхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "їхати",
+"aspect": "impf"
+}
+]
+},
+"представити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "представляти",
+"aspect": "impf"
+}
+]
+},
+"приберегти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приберігати",
+"aspect": "impf"
+}
+]
+},
+"прибігати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "прибігти",
+"aspect": "pf"
+}
+]
+},
+"прибігти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "прибігати",
+"aspect": "impf"
+}
+]
+},
+"привезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "привозити",
+"aspect": "impf"
+}
+]
+},
+"привести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приводити",
+"aspect": "impf"
+}
+]
+},
+"приводити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "привести",
+"aspect": "pf"
+}
+]
+},
+"привозити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "привезти",
+"aspect": "pf"
+}
+]
+},
+"пригадати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пригадувати",
+"aspect": "impf"
+}
+]
+},
+"пригадувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "пригадати",
+"aspect": "pf"
+}
+]
+},
+"придбати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "придбавати",
+"aspect": "impf"
+}
+]
+},
+"придумати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "придумувати",
+"aspect": "impf"
+}
+]
+},
+"приділити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приділяти",
+"aspect": "impf"
+}
+]
+},
+"приділяти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "приділити",
+"aspect": "pf"
+}
+]
+},
+"призначити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "призначати",
+"aspect": "impf"
+}
+]
+},
+"призупинити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "призупиняти",
+"aspect": "impf"
+}
+]
+},
+"призупиняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "призупинити",
+"aspect": "pf"
+}
+]
+},
+"прийти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приходити",
+"aspect": "impf"
+}
+]
+},
+"прикидатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "прикинутися",
+"aspect": "pf"
+}
+]
+},
+"прикинутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "прикидатися",
+"aspect": "impf"
+}
+]
+},
+"прилетіти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "прилітати",
+"aspect": "impf"
+}
+]
+},
+"прилітати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "прилетіти",
+"aspect": "pf"
+}
+]
+},
+"принести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приносити",
+"aspect": "impf"
+}
+]
+},
+"приносити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "принести",
+"aspect": "pf"
+}
+]
+},
+"припустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "припускати",
+"aspect": "impf"
+}
+]
+},
+"притиснути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "притискати",
+"aspect": "impf"
+},
+{
+"form": "притискувати",
+"aspect": "impf"
+}
+]
+},
+"приховати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приховувати",
+"aspect": "impf"
+}
+]
+},
+"приходити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "прийти",
+"aspect": "pf"
+}
+]
+},
+"приєднатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приєднуватися",
+"aspect": "impf"
+}
+]
+},
+"приїздити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "приїхати",
+"aspect": "pf"
+}
+]
+},
+"приїхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "приїжджати",
+"aspect": "impf"
+},
+{
+"form": "приїздити",
+"aspect": "impf"
+}
+]
+},
+"проаналізувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "аналізувати",
+"aspect": "impf"
+}
+]
+},
+"пробачити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пробачати",
+"aspect": "impf"
+}
+]
+},
+"пробитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пробиватися",
+"aspect": "impf"
+}
+]
+},
+"пробудити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пробуджувати",
+"aspect": "impf"
+}
+]
+},
+"пробудитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пробуджуватися",
+"aspect": "impf"
+}
+]
+},
+"пробігати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "пробігти",
+"aspect": "pf"
+}
+]
+},
+"пробігти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пробігати",
+"aspect": "impf"
+}
+]
+},
+"пробігтися": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"провести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "проводити",
+"aspect": "impf"
+},
+{
+"form": "провадити",
+"aspect": "impf"
+},
+{
+"form": "проводжати",
+"aspect": "impf"
+},
+{
+"form": "проводжувати",
+"aspect": "impf"
+},
+{
+"form": "проваджувати",
+"aspect": "impf"
+}
+]
+},
+"проводити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "провести",
+"aspect": "pf"
+},
+{
+"form": "провадити",
+"aspect": "impf"
+},
+{
+"form": "проводжати",
+"aspect": "impf"
+},
+{
+"form": "проводжувати",
+"aspect": "impf"
+},
+{
+"form": "проваджувати",
+"aspect": "impf"
+}
+]
+},
+"проводитися": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"прогодувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "прогодовувати",
+"aspect": "impf"
+}
+]
+},
+"проголосувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "голосувати",
+"aspect": "impf"
+}
+]
+},
+"продовжитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "продовжуватися",
+"aspect": "impf"
+}
+]
+},
+"продовжуватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "продовжитися",
+"aspect": "pf"
+}
+]
+},
+"проживати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "прожити",
+"aspect": "pf"
+}
+]
+},
+"прожити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "проживати",
+"aspect": "impf"
+}
+]
+},
+"прозвучати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "звучати",
+"aspect": "impf"
+}
+]
+},
+"пройти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "проходити",
+"aspect": "impf"
+}
+]
+},
+"пройтися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "проходжуватися",
+"aspect": "impf"
+}
+]
+},
+"прокидатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "прокинутися",
+"aspect": "pf"
+}
+]
+},
+"прокинутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "прокидатися",
+"aspect": "impf"
+}
+]
+},
+"прокоментувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "коментувати",
+"aspect": "impf"
+}
+]
+},
+"проконтролювати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "контролювати",
+"aspect": "impf"
+}
+]
+},
+"промовчати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "промовчувати",
+"aspect": "impf"
+}
+]
+},
+"пропускати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "пропустити",
+"aspect": "pf"
+}
+]
+},
+"пропустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пропускати",
+"aspect": "impf"
+}
+]
+},
+"прорвати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "проривати",
+"aspect": "impf"
+}
+]
+},
+"протекти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "протікати",
+"aspect": "impf"
+}
+]
+},
+"проходити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "пройти",
+"aspect": "pf"
+},
+{
+"form": "проходжувати",
+"aspect": "impf"
+}
+]
+},
+"прощатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "проститися",
+"aspect": "pf"
+}
+]
+},
+"проіснувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "існувати",
+"aspect": "impf"
+}
+]
+},
+"пустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "пускати",
+"aspect": "impf"
+}
+]
+},
+"під'їздити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "під'їхати",
+"aspect": "pf"
+}
+]
+},
+"під'їхати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "під'їжджати",
+"aspect": "impf"
+},
+{
+"form": "під'їздити",
+"aspect": "impf"
+}
+]
+},
+"підвести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підводити",
+"aspect": "impf"
+}
+]
+},
+"підводити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "підвести",
+"aspect": "pf"
+}
+]
+},
+"підгодувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підгодовувати",
+"aspect": "impf"
+}
+]
+},
+"підготуватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підготовлятися",
+"aspect": "impf"
+},
+{
+"form": "підготовлюватися",
+"aspect": "impf"
+}
+]
+},
+"підміняти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "підмінити",
+"aspect": "pf"
+}
+]
+},
+"піднести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підносити",
+"aspect": "impf"
+}
+]
+},
+"піднестися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підноситися",
+"aspect": "impf"
+}
+]
+},
+"підносити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "піднести",
+"aspect": "pf"
+}
+]
+},
+"підноситися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "піднестися",
+"aspect": "pf"
+}
+]
+},
+"підняти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "піднімати",
+"aspect": "impf"
+},
+{
+"form": "підіймати",
+"aspect": "impf"
+}
+]
+},
+"піднятися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підніматися",
+"aspect": "impf"
+},
+{
+"form": "підійматися",
+"aspect": "impf"
+}
+]
+},
+"піднімати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "підняти",
+"aspect": "pf"
+},
+{
+"form": "підійняти",
+"aspect": "pf"
+}
+]
+},
+"підніматися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "піднятися",
+"aspect": "pf"
+},
+{
+"form": "підійнятися",
+"aspect": "pf"
+}
+]
+},
+"підпалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підпалювати",
+"aspect": "impf"
+}
+]
+},
+"підписувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "підписати",
+"aspect": "pf"
+}
+]
+},
+"підсумувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підсумовувати",
+"aspect": "impf"
+}
+]
+},
+"підтверджувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "підтвердити",
+"aspect": "pf"
+}
+]
+},
+"підтвердити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підтверджувати",
+"aspect": "impf"
+}
+]
+},
+"підтримати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підтримувати",
+"aspect": "impf"
+}
+]
+},
+"підтримувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "підтримати",
+"aspect": "pf"
+}
+]
+},
+"підходити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "підійти",
+"aspect": "pf"
+}
+]
+},
+"підібрати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підбирати",
+"aspect": "impf"
+}
+]
+},
+"підійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підходити",
+"aspect": "impf"
+}
+]
+},
+"підірвати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "підривати",
+"aspect": "impf"
+}
+]
+},
+"піймати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"піти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "іти",
+"aspect": "impf"
+}
+]
+},
+"радити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"радіти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зрадіти",
+"aspect": "pf"
+}
+]
+},
+"рвати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"реалізувати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"ремонтувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"робити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зробити",
+"aspect": "pf"
+}
+]
+},
+"роз'їхатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "роз'їжджатися",
+"aspect": "impf"
+},
+{
+"form": "роз'їздитися",
+"aspect": "impf"
+}
+]
+},
+"розбити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розбивати",
+"aspect": "impf"
+}
+]
+},
+"розбитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розбиватися",
+"aspect": "impf"
+}
+]
+},
+"розбудити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розбуджувати",
+"aspect": "impf"
+},
+{
+"form": "розбуджати",
+"aspect": "impf"
+}
+]
+},
+"розважити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розважати",
+"aspect": "impf"
+},
+{
+"form": "розважувати",
+"aspect": "impf"
+}
+]
+},
+"розвезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розвозити",
+"aspect": "impf"
+}
+]
+},
+"розвести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розводити",
+"aspect": "impf"
+}
+]
+},
+"розвивати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розвинути",
+"aspect": "pf"
+}
+]
+},
+"розвинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розвивати",
+"aspect": "impf"
+}
+]
+},
+"розводити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розвести",
+"aspect": "pf"
+}
+]
+},
+"розвозити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розвезти",
+"aspect": "pf"
+}
+]
+},
+"розглянути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розглядати",
+"aspect": "impf"
+}
+]
+},
+"розгорітися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розгорятися",
+"aspect": "impf"
+},
+{
+"form": "розгоратися",
+"aspect": "impf"
+}
+]
+},
+"роздавати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "роздати",
+"aspect": "pf"
+}
+]
+},
+"роздати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "роздавати",
+"aspect": "impf"
+}
+]
+},
+"роздратувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "роздратовувати",
+"aspect": "impf"
+}
+]
+},
+"розділити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розділяти",
+"aspect": "impf"
+},
+{
+"form": "розділювати",
+"aspect": "impf"
+}
+]
+},
+"розлетітися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розлітатися",
+"aspect": "impf"
+}
+]
+},
+"розлучитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розлучатися",
+"aspect": "impf"
+}
+]
+},
+"розлітатися": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "розлетітися",
+"aspect": "pf"
+}
+]
+},
+"розминати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розім'яти",
+"aspect": "pf"
+}
+]
+},
+"розминутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розминатися",
+"aspect": "impf"
+}
+]
+},
+"розміркувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розмірковувати",
+"aspect": "impf"
+}
+]
+},
+"розмістити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розміщувати",
+"aspect": "impf"
+},
+{
+"form": "розміщати",
+"aspect": "impf"
+}
+]
+},
+"розміститися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розміщатися",
+"aspect": "impf"
+},
+{
+"form": "розміщуватися",
+"aspect": "impf"
+}
+]
+},
+"рознести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розносити",
+"aspect": "impf"
+}
+]
+},
+"розносити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "рознести",
+"aspect": "pf"
+},
+{
+"form": "розношувати",
+"aspect": "impf"
+}
+]
+},
+"розпалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розпалювати",
+"aspect": "impf"
+}
+]
+},
+"розповідати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розповісти",
+"aspect": "pf"
+}
+]
+},
+"розподілити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розподіляти",
+"aspect": "impf"
+}
+]
+},
+"розподіляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розподілити",
+"aspect": "pf"
+}
+]
+},
+"розподілятися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розподілитися",
+"aspect": "pf"
+}
+]
+},
+"розпочати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розпочинати",
+"aspect": "impf"
+}
+]
+},
+"розпочинати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розпочати",
+"aspect": "pf"
+}
+]
+},
+"розпрощатися": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"розпустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розпускати",
+"aspect": "impf"
+}
+]
+},
+"розрадити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розраджувати",
+"aspect": "impf"
+},
+{
+"form": "розраджати",
+"aspect": "impf"
+}
+]
+},
+"розробити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розробляти",
+"aspect": "impf"
+},
+{
+"form": "розроблювати",
+"aspect": "impf"
+}
+]
+},
+"розробляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "розробити",
+"aspect": "pf"
+}
+]
+},
+"розходитися": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "розійтися",
+"aspect": "pf"
+}
+]
+},
+"розцвісти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розцвітати",
+"aspect": "impf"
+}
+]
+},
+"розійтися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розходитися",
+"aspect": "impf"
+},
+{
+"form": "розіходитися",
+"aspect": "impf"
+}
+]
+},
+"розірвати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "розривати",
+"aspect": "impf"
+}
+]
+},
+"руйнувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зруйнувати",
+"aspect": "pf"
+}
+]
+},
+"рятувати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "порятувати",
+"aspect": "pf"
+},
+{
+"form": "врятувати",
+"aspect": "pf"
+},
+{
+"form": "урятувати",
+"aspect": "pf"
+}
+]
+},
+"сваритися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "посваритися",
+"aspect": "pf"
+}
+]
+},
+"свідчити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"сказати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "казати",
+"aspect": "impf"
+}
+]
+},
+"скаржитися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поскаржитися",
+"aspect": "pf"
+}
+]
+},
+"скерувати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "скеровувати",
+"aspect": "impf"
+}
+]
+},
+"скидати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "скинути",
+"aspect": "pf"
+}
+]
+},
+"скидатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "скинутися",
+"aspect": "pf"
+}
+]
+},
+"скинути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "скидати",
+"aspect": "impf"
+}
+]
+},
+"скинутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "скидатися",
+"aspect": "impf"
+}
+]
+},
+"складатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "скластися",
+"aspect": "pf"
+}
+]
+},
+"скластися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "складатися",
+"aspect": "impf"
+}
+]
+},
+"скликати": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": []
+},
+"скористуватися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "користуватися",
+"aspect": "impf"
+},
+{
+"form": "користатися",
+"aspect": "impf"
+}
+]
+},
+"служити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"спалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "спалювати",
+"aspect": "impf"
+}
+]
+},
+"сперечатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "посперечатися",
+"aspect": "pf"
+}
+]
+},
+"спускатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "спуститися",
+"aspect": "pf"
+}
+]
+},
+"спустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "спускати",
+"aspect": "impf"
+}
+]
+},
+"спуститися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "спускатися",
+"aspect": "impf"
+}
+]
+},
+"спілкуватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поспілкуватися",
+"aspect": "pf"
+}
+]
+},
+"ставати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "стати",
+"aspect": "pf"
+}
+]
+},
+"ставитися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поставитися",
+"aspect": "pf"
+}
+]
+},
+"становити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"старатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "постаратися",
+"aspect": "pf"
+}
+]
+},
+"стати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ставати",
+"aspect": "impf"
+}
+]
+},
+"створити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "створювати",
+"aspect": "impf"
+},
+{
+"form": "творити",
+"aspect": "impf"
+}
+]
+},
+"створювати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "створити",
+"aspect": "pf"
+}
+]
+},
+"стерпіти": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"стиснути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "стискати",
+"aspect": "impf"
+},
+{
+"form": "стискувати",
+"aspect": "impf"
+}
+]
+},
+"стиснутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "стискатися",
+"aspect": "impf"
+},
+{
+"form": "стискуватися",
+"aspect": "impf"
+}
+]
+},
+"стрибати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "стрибнути",
+"aspect": "pf"
+}
+]
+},
+"стрибнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "стрибати",
+"aspect": "impf"
+}
+]
+},
+"стривати": {
+"aspect": [
+"pf"
+],
+"partners": []
+},
+"стукати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "стукнути",
+"aspect": "pf"
+}
+]
+},
+"сумніватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "засумніватися",
+"aspect": "pf"
+}
+]
+},
+"сумувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"схвалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "схвалювати",
+"aspect": "impf"
+}
+]
+},
+"сховати": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ховати",
+"aspect": "impf"
+}
+]
+},
+"сховатися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ховатися",
+"aspect": "impf"
+}
+]
+},
+"сходити": {
+"aspect": [
+"impf",
+"pf"
+],
+"partners": [
+{
+"form": "зійти",
+"aspect": "pf"
+}
+]
+},
+"сходитися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "зійтися",
+"aspect": "pf"
+}
+]
+},
+"схопити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "схоплювати",
+"aspect": "impf"
+}
+]
+},
+"сідати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "сісти",
+"aspect": "pf"
+}
+]
+},
+"сісти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "сідати",
+"aspect": "impf"
+}
+]
+},
+"творити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "створити",
+"aspect": "pf"
+}
+]
+},
+"текти": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"терпіти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "потерпіти",
+"aspect": "pf"
+}
+]
+},
+"тиснути": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "потиснути",
+"aspect": "pf"
+}
+]
+},
+"трапитися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "траплятися",
+"aspect": "impf"
+}
+]
+},
+"траплятися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "трапитися",
+"aspect": "pf"
+}
+]
+},
+"тренувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"тривати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"турбуватися": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"увезти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "увозити",
+"aspect": "impf"
+}
+]
+},
+"увозити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "увезти",
+"aspect": "pf"
+}
+]
+},
+"увійти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "входити",
+"aspect": "impf"
+},
+{
+"form": "уходити",
+"aspect": "impf"
+},
+{
+"form": "ввіходити",
+"aspect": "impf"
+},
+{
+"form": "увіходити",
+"aspect": "impf"
+}
+]
+},
+"украсти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "красти",
+"aspect": "impf"
+}
+]
+},
+"унести": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "уносити",
+"aspect": "impf"
+}
+]
+},
+"уникати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "уникнути",
+"aspect": "pf"
+}
+]
+},
+"уникнути": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "уникати",
+"aspect": "impf"
+}
+]
+},
+"уносити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "унести",
+"aspect": "pf"
+}
+]
+},
+"упустити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "упускати",
+"aspect": "impf"
+}
+]
+},
+"усміхатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "усміхнутися",
+"aspect": "pf"
+}
+]
+},
+"усміхнутися": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "усміхатися",
+"aspect": "impf"
+}
+]
+},
+"установити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "установлювати",
+"aspect": "impf"
+}
+]
+},
+"утворити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "утворювати",
+"aspect": "impf"
+}
+]
+},
+"утворювати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "утворити",
+"aspect": "pf"
+}
+]
+},
+"утекти": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "утікати",
+"aspect": "impf"
+}
+]
+},
+"ухвалити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "ухвалювати",
+"aspect": "impf"
+}
+]
+},
+"уявити": {
+"aspect": [
+"pf"
+],
+"partners": [
+{
+"form": "уявляти",
+"aspect": "impf"
+}
+]
+},
+"уявляти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "уявити",
+"aspect": "pf"
+}
+]
+},
+"хвалити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"хвилюватися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "схвилюватися",
+"aspect": "pf"
+}
+]
+},
+"ховати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "сховати",
+"aspect": "pf"
+}
+]
+},
+"ховатися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "сховатися",
+"aspect": "pf"
+}
+]
+},
+"ходити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "походити",
+"aspect": "pf"
+}
+]
+},
+"хотітися": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "захотітися",
+"aspect": "pf"
+}
+]
+},
+"цвісти": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"цікавити": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"цінувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"шити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "пошити",
+"aspect": "pf"
+}
+]
+},
+"шукати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "нашукати",
+"aspect": "pf"
+}
+]
+},
+"існувати": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"іти": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "піти",
+"aspect": "pf"
+}
+]
+},
+"ітися": {
+"aspect": [
+"impf"
+],
+"partners": []
+},
+"їздити": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поїздити",
+"aspect": "pf"
+}
+]
+},
+"їхати": {
+"aspect": [
+"impf"
+],
+"partners": [
+{
+"form": "поїхати",
+"aspect": "pf"
+}
+]
+}
+}
+}

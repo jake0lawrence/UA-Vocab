@@ -1,0 +1,4 @@
+{
+ "note": "Accepted stress.verdict answers from the Validation Desk, projected by npm run validate:export (lemma, rank, verdict, the reviewer words, a credit line on opt-in; never an email, price or payout). Empty until the first review is accepted.",
+ "reviews": []
+}
