@@ -28,6 +28,7 @@ This file is the map between them.
 | `b1-extension/` | Aspect, motion verbs, government, collocations, examples and multiword expressions for validated B1 | seven CSVs | | CC-BY-NC-SA-4.0 where a level column is present; CC-BY-SA-4.0 for the rest |
 | `profiler/` | The text profiler's lexicon and form index (JSON, fetched by the page) | `v1.2.0/lexicon.json` | | CC-BY-NC-SA-4.0 (see its manifest) |
 | `vocab-test/` | The vocabulary-size test's item bank: 60 real lemmas and 60 pseudowords across the 12 frequency bands (JSON) | `v1.2.0/items.json` | | CC-BY-4.0 (see its manifest) |
+| `descriptors/` | How was each archived dataset built, and how should it be cited? A typeset data descriptor (PDF) per dataset with a Zenodo DOI | `frequency-v0.2.0.pdf`, `stress-v1.0.2.pdf` | | Each under the license of the dataset it describes |
 
 **The PULS levels are CC BY-NC-SA 4.0.** Every file that carries a level from the
 Ukrainian Vocabulary Profile (PULS) is licensed CC-BY-NC-SA-4.0 as a whole, the

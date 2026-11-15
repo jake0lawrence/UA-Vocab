@@ -52,6 +52,7 @@ its license and a README that says how it was made.
 | [`b1-extension/`](downloads/ukrainian-frequency/b1-extension) | Aspect, motion verbs, government, collocations, examples and multiword expressions for validated B1 | seven CSVs |  | CC-BY-NC-SA-4.0 where a level column is present; CC-BY-SA-4.0 for the rest |
 | [`profiler/`](downloads/ukrainian-frequency/profiler) | The text profiler's lexicon and form index (JSON, fetched by the page) | `v1.2.0/lexicon.json` |  | CC-BY-NC-SA-4.0 (see its manifest) |
 | [`vocab-test/`](downloads/ukrainian-frequency/vocab-test) | The vocabulary-size test's item bank: 60 real lemmas and 60 pseudowords across the 12 frequency bands (JSON) | `v1.2.0/items.json` |  | CC-BY-4.0 (see its manifest) |
+| [`descriptors/`](downloads/ukrainian-frequency/descriptors) | How was each archived dataset built, and how should it be cited? A typeset data descriptor (PDF) per dataset with a Zenodo DOI | `frequency-v0.2.0.pdf`, `stress-v1.0.2.pdf` |  | Each under the license of the dataset it describes |
 
 Versioned folders keep every release (`v0.1.0/` and `v0.2.0/` for the list,
 `stress/v1.0.0/` to `stress/v1.0.2/` and so on), and each has a
