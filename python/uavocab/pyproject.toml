@@ -34,6 +34,8 @@ Changelog = "https://github.com/jake0lawrence/UA-Vocab/blob/main/python/uavocab/
 "Release files" = "https://github.com/jake0lawrence/UA-Vocab/tree/main/downloads/ukrainian-frequency"
 "Zenodo: frequency list" = "https://doi.org/10.5281/zenodo.22823134"
 "Zenodo: word stress" = "https://doi.org/10.5281/zenodo.23092388"
+"Zenodo: validated levels" = "https://doi.org/10.5281/zenodo.24388000"
+"Zenodo: B1 tables" = "https://doi.org/10.5281/zenodo.24388339"
 
 [project.optional-dependencies]
 test = ["pytest>=7"]

@@ -66,7 +66,7 @@
       "attribution": "Ukrainian Vocabulary Profile (PULS), Synchak, O., Starko, V., Burak, M., Svystun, M., https://puls.peremova.org/ (eLex 2025). Per-lemma levels redistributed with the authors' permission (V. Starko, 2026-07), CC BY-NC-SA 4.0 at the authors' decision (O. Synchak, 2026-09-24). Cite as: Профіль української лексики (ПУЛЬС) / О. Синчак, В. Старко, М. Бурак, М. Свистун та ін. Львів: Школа української мови та культури УКУ, 2026. Snapshot of the published profile taken 2026-07-23; the profile is not final.",
       "citation": "Synchak, O., Starko, V., Burak, M. and Svystun, M. (2025). Corpus-Based Vocabulary Profiling for Ukrainian: From Lexical Analysis to CEFR. eLex 2025. Joined onto the Ukrainian Frequency list (Lawrence, 2026).",
       "url": "https://uavocab.org/research#cefr-validated",
-      "conceptDoi": null
+      "conceptDoi": "10.5281/zenodo.24388000"
     },
     "borodin_a1": {
       "file": "borodin_a1.parquet",
@@ -186,7 +186,7 @@
       "attribution": "Levels: PULS (Synchak, O., Starko, V., Burak, M., Svystun, M.), by permission, CC BY-NC-SA 4.0. Aspect partners: Wiktionary via kaikki.org, CC-BY-SA 3.0. Counts: UberText 2.0 (lang-uk), CC-BY 4.0. No VESUM data is bundled.",
       "citation": "Lawrence, J. (2026). Ukrainian Frequency: the B1 extension, aspect relations. uavocab.org/research.",
       "url": "https://uavocab.org/research#b1-aspect",
-      "conceptDoi": null
+      "conceptDoi": "10.5281/zenodo.24388339"
     },
     "b1_government": {
       "file": "b1_government.parquet",
@@ -215,7 +215,7 @@
       "attribution": "Counts over UberText 2.0, Wikipedia subcorpus (lang-uk), CC-BY 4.0; derived statistics CC-BY-SA 4.0.",
       "citation": "Lawrence, J. (2026). Ukrainian Frequency: the B1 extension, case government. uavocab.org/research.",
       "url": "https://uavocab.org/research#b1-usage",
-      "conceptDoi": null
+      "conceptDoi": "10.5281/zenodo.24388339"
     },
     "b1_collocations": {
       "file": "b1_collocations.parquet",
@@ -243,7 +243,7 @@
       "attribution": "Counts over UberText 2.0, Wikipedia subcorpus (lang-uk), CC-BY 4.0; derived statistics CC-BY-SA 4.0.",
       "citation": "Lawrence, J. (2026). Ukrainian Frequency: the B1 extension, collocations. uavocab.org/research.",
       "url": "https://uavocab.org/research#b1-usage",
-      "conceptDoi": null
+      "conceptDoi": "10.5281/zenodo.24388339"
     },
     "stress": {
       "file": "stress.parquet",

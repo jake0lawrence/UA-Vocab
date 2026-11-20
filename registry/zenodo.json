@@ -31,9 +31,17 @@
       "license": "CC-BY-NC-SA-4.0",
       "hold": false,
       "holdReason": null,
-      "conceptDoi": null,
-      "conceptRecordId": null,
-      "versions": []
+      "conceptDoi": "10.5281/zenodo.24388000",
+      "conceptRecordId": "24388000",
+      "versions": [
+        {
+          "version": "2026-09-13",
+          "doi": "10.5281/zenodo.24388001",
+          "recordId": 24388001,
+          "date": "2026-11-20",
+          "url": "https://zenodo.org/records/24388001"
+        }
+      ]
     },
     "minimums-crosswalk": {
       "title": "A crosswalk of the Ukrainian lexical minimums (Borodin et al., A1 and A2) against the validated Ukrainian Vocabulary Profile",
@@ -49,9 +57,17 @@
       "license": "CC-BY-NC-SA-4.0",
       "hold": false,
       "holdReason": null,
-      "conceptDoi": null,
-      "conceptRecordId": null,
-      "versions": []
+      "conceptDoi": "10.5281/zenodo.24388339",
+      "conceptRecordId": "24388339",
+      "versions": [
+        {
+          "version": "2026-09-13",
+          "doi": "10.5281/zenodo.24388340",
+          "recordId": 24388340,
+          "date": "2026-11-20",
+          "url": "https://zenodo.org/records/24388340"
+        }
+      ]
     },
     "stress": {
       "title": "Ukrainian Frequency: word stress for every lemma of the top-12,000 list (over ukrainian-word-stress, en.wiktionary and uk.wiktionary)",
