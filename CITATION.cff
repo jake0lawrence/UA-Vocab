@@ -22,6 +22,12 @@ identifiers:
     value: 10.5281/zenodo.22823134
     description: "Ukrainian Frequency: a lemma-based, coverage-graded open frequency list for modern Ukrainian (top 12,000, over UberText 2.0). Concept DOI: resolves to the latest version."
   - type: doi
+    value: 10.5281/zenodo.24388000
+    description: "Ukrainian Frequency: the PULS CEFR overlay (validated A1 to C1 levels joined onto the top-12,000 list). Concept DOI: resolves to the latest version."
+  - type: doi
+    value: 10.5281/zenodo.24388339
+    description: "Ukrainian Frequency: the B1 enrichment tables (aspect relations, case government, collocations). Concept DOI: resolves to the latest version."
+  - type: doi
     value: 10.5281/zenodo.23092388
     description: "Ukrainian Frequency: word stress for every lemma of the top-12,000 list (over ukrainian-word-stress, en.wiktionary and uk.wiktionary). Concept DOI: resolves to the latest version."
   - type: url

@@ -15,7 +15,7 @@ its license and a README that says how it was made.
 | Look up any word | https://uavocab.org/words |
 | Every dataset, its license and how to cite it | https://uavocab.org/data |
 | Python: `pip install uavocab` | https://pypi.org/project/uavocab/ |
-| Archived with a DOI (Zenodo) | the frequency list [10.5281/zenodo.22823134](https://doi.org/10.5281/zenodo.22823134), the word-stress column [10.5281/zenodo.23092388](https://doi.org/10.5281/zenodo.23092388) |
+| Archived with a DOI (Zenodo) | the frequency list [10.5281/zenodo.22823134](https://doi.org/10.5281/zenodo.22823134), the validated CEFR levels [10.5281/zenodo.24388000](https://doi.org/10.5281/zenodo.24388000), the B1 tables [10.5281/zenodo.24388339](https://doi.org/10.5281/zenodo.24388339), the word-stress column [10.5281/zenodo.23092388](https://doi.org/10.5281/zenodo.23092388) |
 
 ## Get the data
 
@@ -114,7 +114,7 @@ LanguageTool's LGPL-2.1.
 
 ## Cite
 
-Cite the dataset you used by its Zenodo DOI (the frequency list [10.5281/zenodo.22823134](https://doi.org/10.5281/zenodo.22823134), the word-stress column [10.5281/zenodo.23092388](https://doi.org/10.5281/zenodo.23092388)), or the study:
+Cite the dataset you used by its Zenodo DOI (the frequency list [10.5281/zenodo.22823134](https://doi.org/10.5281/zenodo.22823134), the validated CEFR levels [10.5281/zenodo.24388000](https://doi.org/10.5281/zenodo.24388000), the B1 tables [10.5281/zenodo.24388339](https://doi.org/10.5281/zenodo.24388339), the word-stress column [10.5281/zenodo.23092388](https://doi.org/10.5281/zenodo.23092388)), or the study:
 
 ```
 Lawrence, J. (2026). Ukrainian Frequency: a lemma-based, coverage-graded open frequency list (v0.2.0). uavocab.org/research. Derived from UberText 2.0 (Chaplynskyi, 2023).

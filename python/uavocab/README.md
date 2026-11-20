@@ -32,7 +32,7 @@ the new import.
 | Every dataset, its license and how to cite it | https://uavocab.org/data |
 | The release files (CSV, JSON, Anki, with SHA-256 sums) | https://uavocab.org/research#release |
 | Every release file, the datasheets, and this package's source (fork it) | https://github.com/jake0lawrence/UA-Vocab |
-| Archived copies with DOIs (Zenodo) | frequency list [10.5281/zenodo.22823134](https://doi.org/10.5281/zenodo.22823134), word stress [10.5281/zenodo.23092388](https://doi.org/10.5281/zenodo.23092388) |
+| Archived copies with DOIs (Zenodo) | frequency list [10.5281/zenodo.22823134](https://doi.org/10.5281/zenodo.22823134), word stress [10.5281/zenodo.23092388](https://doi.org/10.5281/zenodo.23092388), validated levels [10.5281/zenodo.24388000](https://doi.org/10.5281/zenodo.24388000), B1 tables [10.5281/zenodo.24388339](https://doi.org/10.5281/zenodo.24388339) |
 | The lemmatizer matched to this list | https://uavocab.org/research/lemmatizer |
 | PyPI | https://pypi.org/project/uavocab/ |
 
@@ -96,6 +96,7 @@ https://github.com/lang-uk/ukrainian-word-stress
 ```
 
 Archived, DOI-minted copies of each dataset are listed in `sources()` under
-`conceptDoi` once they exist (today the frequency list and the stress column;
-the PULS-derived datasets wait on the profile's published license notice).
+`conceptDoi` once they exist (today the frequency list, the stress column, the
+validated levels and the B1 tables; the crosswalk waits on a scope question to
+the profile's authors).
 Cite the concept DOI for the dataset you used.

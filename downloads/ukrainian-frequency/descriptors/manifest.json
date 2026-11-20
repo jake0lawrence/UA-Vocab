@@ -10,6 +10,15 @@
       "pdf": "frequency-v0.2.0.pdf",
       "htmlSha256": "4884bb1aa7703f38552e29467330e58b77519db5c1fb4c7dfe780b2714ad4be3"
     },
+    "validated-cefr": {
+      "title": "Ukrainian Frequency: the PULS CEFR overlay (validated A1 to C1 levels joined onto the top-12,000 list)",
+      "version": "2026-09-13",
+      "doi": "10.5281/zenodo.24388001",
+      "conceptDoi": "10.5281/zenodo.24388000",
+      "license": "CC-BY-NC-SA-4.0",
+      "pdf": "validated-cefr-2026-09-13.pdf",
+      "htmlSha256": "bd8381cf184a524162b2cab99e2fcdce5909b9c3965ff51d69a94d313537fc94"
+    },
     "stress": {
       "title": "Ukrainian Frequency: word stress for every lemma of the top-12,000 list (over ukrainian-word-stress, en.wiktionary and uk.wiktionary)",
       "version": "v1.0.2",
@@ -18,6 +27,15 @@
       "license": "CC-BY-SA-4.0",
       "pdf": "stress-v1.0.2.pdf",
       "htmlSha256": "226ba99a97074e18b56477e02311dc626451a955ac0fc5e27a8f82465c48db1c"
+    },
+    "b1-enrichment": {
+      "title": "Ukrainian Frequency: the B1 enrichment tables (aspect relations, case government, collocations)",
+      "version": "2026-09-13",
+      "doi": "10.5281/zenodo.24388340",
+      "conceptDoi": "10.5281/zenodo.24388339",
+      "license": "CC-BY-NC-SA-4.0",
+      "pdf": "b1-enrichment-2026-09-13.pdf",
+      "htmlSha256": "5933a626769d4887b166fbb1fd2a712af6ed23aae9646d741c164aa049e53746"
     }
   }
 }
