@@ -4,7 +4,34 @@ The open fallback for the Ukrainian Vocabulary Profile's word families, which
 the profile uses to verify levels but has not published. A derivational
 family graph over the [Ukrainian Frequency](https://uavocab.org/research)
 top-12,000 list, built from the English Wiktionary's Ukrainian entries
-(kaikki.org extraction dated 2026-09-09). Snapshot 2026-09-12.
+(kaikki.org extraction dated 2026-10-30). Snapshot 2026-11-20.
+
+## This snapshot (2026-11-20)
+
+Rebuilt from the 2026-10-30 extraction, replacing the snapshot of 2026-09-12
+(extraction 2026-09-20). Two things changed, one upstream and one here:
+
+- **Wiktionary moved its etymologies to a new template.** Most Ukrainian
+  entries now write their etymology with the unified `{{ety}}` template
+  (`{{ety|uk|:af|банк|-івський}}`) instead of `{{af}}`. The extractor read
+  only the old templates, so on the new extraction it would have lost about
+  550 of the 2,452 affix edges it had. It now reads an `:af` segment of
+  `{{ety}}` exactly as it reads `{{af}}`.
+- **A base carrying an inline modifier is now read.** Wiktionary writes a
+  gloss or gender on a part (`банк<t:bank><g:m>`); the extractor used to drop
+  such a part as not a word, and with it the edge. It now drops the modifier
+  and keeps the word. A part in another language (`fr:...`) is still not a
+  Ukrainian base.
+
+Together: affix edges 2,452 to 14,110, words in the graph 18,522 to 28,704,
+list lemmas in a family 4,171 to 7,259 of 12,000, families touching the list
+1,919 to 2,848, largest family 108 to 143 members.
+
+**Known limitation, older than this snapshot.** A compound that Wiktionary
+lists as derived under both of its roots but whose second root does not share
+the first four letters with it (лиходій under лихо and діяти) is not caught
+as a compound, and joins two nests. The largest such chain (лише, лихо, дія,
+чин, зло) had 38 members in the September snapshot and has 112 in this one.
 
 ## families.csv
 
@@ -42,8 +69,12 @@ dropped.
 
 ## The finding
 
-Among the families with two or more validated members, the profile places
-every member at the same level in about a third. A family is not a level,
+Among the families with two or more validated members (920 in this
+snapshot), the profile places every member at the same level in about a fifth
+(192), one level apart in 324, and two or more apart in 404; the mean spread
+is 1.53 levels. The September snapshot, which saw fewer affix edges, read
+about a third (219 of 640, mean spread 1.14): the larger families that the
+fuller reading finds are also more spread out. A family is not a level,
 which is the eLex 2025 paper's own point (писати at A1, its family spread
 across the levels). The gap-fill model therefore uses a family's lowest
 validated level as one feature, computed fold-safe, rather than copying it.
@@ -65,5 +96,7 @@ Join the `on_list = yes` rows to `../v0.1.0/lemmas.csv` on `rank`. The
 The gap-fill model in `../predicted-cefr/` reads the family size, membership
 and lowest validated level as one ablation step (it adds nothing measurable)
 and uses the families to group its cross-validation folds, so related words
-never straddle train and test. The graph is also the evidence behind the open
+never straddle train and test. It reads the graph only when it is retrained;
+the published predicted levels were trained on the September snapshot and are
+unchanged by this one. The graph is also the evidence behind the open
 request to the profile's authors for their own word families.

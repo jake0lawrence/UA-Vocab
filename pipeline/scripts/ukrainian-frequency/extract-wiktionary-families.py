@@ -47,7 +47,7 @@
 #
 # Usage:
 #   python3 scripts/ukrainian-frequency/extract-wiktionary-families.py \
-#       --dump kaikki.org-dictionary-Ukrainian.jsonl --dump-date 2026-09-09
+#       --dump kaikki.org-dictionary-Ukrainian.jsonl --dump-date 2026-10-30
 # House rule: no em-dashes in anything this writes.
 # ---------------------------------------------------------------------------
 import argparse
@@ -63,7 +63,7 @@ DATA = os.path.join(ROOT, "src", "data", "ukrainian-frequency")
 LIB = os.path.join(ROOT, "src", "lib", "ukrainian-frequency")
 DL = os.path.join(ROOT, "public", "downloads", "ukrainian-frequency", "wiktionary-families")
 
-SNAPSHOT_DATE = "2026-09-12"
+SNAPSHOT_DATE = "2026-11-20"
 # --relabel refreshes the validated levels beside list members from the
 # current overlay without the dump; stamped so a reader can tell the two apart.
 RELABEL_DATE = "2026-09-24"
@@ -72,6 +72,12 @@ LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 LEVEL_IDX = {l: i for i, l in enumerate(LEVELS)}
 AFFIX_TEMPLATES = {"af", "affix", "prefix", "pre", "suffix", "suf", "confix", "con"}
 COMPOUND_TEMPLATES = AFFIX_TEMPLATES | {"com", "compound", "univerbation", "univ"}
+# The unified {{ety}} template (English Wiktionary's migration, under way by the
+# 2026-10-30 dump) writes one etymology as segments, each opened by an operator
+# argument: {{ety|uk|:af|банк<t:bank>|-івський}} or {{ety|uk|:bor|fr:x|:af<surf>|a|b}}.
+# These operators carry the same claim as the old templates and are read as them;
+# every other operator (:bor, :inh, :der, :calque ...) names no Ukrainian base.
+ETY_OPERATORS = {":af": "af", ":univ": "univerbation"}
 FUNCTION_POS = {"prep", "conj", "particle", "adv", "pron", "det", "intj", "num", "postp"}
 ASPECT_KEYS = ("pf", "pf2", "pf3", "impf", "impf2", "impf3")
 USED = ("derived", "affix", "aspect")
@@ -81,6 +87,43 @@ def norm(s):
     s = unicodedata.normalize("NFD", s or "")
     s = "".join(ch for ch in s if ch != "́")
     return unicodedata.normalize("NFC", s).replace("’", "'").replace("ʼ", "'").strip().lower()
+
+
+def clean_part(v):
+    """One template part as a node candidate: drop the inline modifiers Wiktionary
+    appends to a part (<t:gloss>, <g:m>, <alt:...>, <pos:...>, <ref:...>; a ref
+    can nest brackets, and modifiers only ever trail the word) and a same-language
+    'uk:' prefix. A part in another language ('fr:...') is not a Ukrainian base."""
+    v = (v or "").split("<", 1)[0]
+    if ":" in v:
+        lang, _, rest = v.partition(":")
+        if lang != "uk":
+            return ""
+        v = rest
+    return norm(v)
+
+
+def etym_groups(tpl):
+    """(template name, [parts]) for each affix-like claim one etymology template
+    makes. An old-style template is one claim (its args 2..n); an {{ety}} template
+    is one claim per :af or :univ segment."""
+    args = tpl.get("args") or {}
+    name = tpl.get("name")
+    if name in COMPOUND_TEMPLATES:
+        return [(name, [args[k] for k in sorted((k for k in args if k.isdigit() and int(k) >= 2), key=int)])]
+    if name != "ety":
+        return []
+    groups, cur = [], None
+    for k in sorted((k for k in args if k.isdigit() and int(k) >= 2), key=int):
+        v = args[k]
+        if v.startswith(":"):
+            op = ETY_OPERATORS.get(v.split("<", 1)[0])
+            cur = (op, []) if op else None
+            if cur:
+                groups.append(cur)
+        elif cur:
+            cur[1].append(v)
+    return groups
 
 
 def node_ok(w):
@@ -107,15 +150,13 @@ def read_edges(path):
                 if node_ok(t) and t != w:
                     edges[kind].add((w, t))
         for tpl in e.get("etymology_templates") or []:
-            if tpl.get("name") not in COMPOUND_TEMPLATES:
-                continue
-            args = tpl.get("args") or {}
-            parts = [norm(v) for k, v in args.items() if k.isdigit() and int(k) >= 2]
-            bases = [p for p in parts if node_ok(p) and p != w]
-            if len(bases) > 1:
-                compounds.add(w)
-            elif len(bases) == 1 and tpl.get("name") in AFFIX_TEMPLATES:
-                edges["affix"].add((w, bases[0]))
+            for name, raw in etym_groups(tpl):
+                parts = [clean_part(v) for v in raw]
+                bases = [p for p in parts if node_ok(p) and p != w]
+                if len(bases) > 1:
+                    compounds.add(w)
+                elif len(bases) == 1 and name in AFFIX_TEMPLATES:
+                    edges["affix"].add((w, bases[0]))
         for ht in e.get("head_templates") or []:
             args = ht.get("args") or {}
             for k in ASPECT_KEYS:
@@ -136,6 +177,29 @@ def read_edges(path):
     for kind in USED:
         edges[kind] = {(a, b) for a, b in edges[kind] if a not in compounds and b not in compounds}
     return edges, headpos, compounds
+
+
+def previous_snapshots(snapshot):
+    """The graph's earlier snapshots, newest first: what each one counted, so a
+    consumer built on an older graph (the gap-fill model is read only when it is
+    retrained) can say which graph it read instead of being held to this one.
+    The committed file's own summary joins the list when this run is a new
+    snapshot; a re-run of the same snapshot carries the list over unchanged."""
+    path = os.path.join(DATA, "wiktionary-families.json")
+    if not os.path.exists(path):
+        return []
+    prev = json.load(open(path, encoding="utf-8"))
+    carried = prev.get("previous") or []
+    if prev.get("snapshot") == snapshot:
+        return carried
+    keep = ("listCovered", "listTotal", "listInMultiMemberFamilies", "familiesTouchingList", "largestFamily")
+    summary = {
+        "snapshot": prev.get("snapshot"),
+        "dumpDate": prev.get("dumpDate"),
+        "counts": {k: prev["counts"][k] for k in keep if k in prev.get("counts", {})} | {"affixEdges": prev.get("counts", {}).get("edges", {}).get("affix")},
+        "labeledSpread": prev.get("labeledSpread"),
+    }
+    return [summary] + carried
 
 
 def union_find(edge_sets):
@@ -238,8 +302,9 @@ def main():
         "largestFamily": max(f["size"] for f in families) if families else 0,
         "largestListMembers": max(len(f["listMembers"]) for f in families) if families else 0,
     }
+    meta_snapshot = committed["snapshot"] if committed else SNAPSHOT_DATE
     meta = {
-        "snapshot": committed["snapshot"] if committed else SNAPSHOT_DATE,
+        "snapshot": meta_snapshot,
         "dumpDate": committed["dumpDate"] if committed else args.dump_date,
         "relabeled": RELABEL_DATE if committed else None,
         "source": "English Wiktionary, Ukrainian entries, via kaikki.org (wiktextract) full dump; CC-BY-SA 3.0",
@@ -248,7 +313,7 @@ def main():
         "rules": [
             "node: one Cyrillic token of three or more letters, stress stripped, apostrophe normalized; reconstructions, bare affixes, Latin and multiword entries are out",
             "derived: headword A lists B under Derived terms",
-            "affix: B's etymology is one affix template over exactly one full-word base A",
+            "affix: B's etymology is one affix claim over exactly one full-word base A, written either as an affix template ({{af}}, {{prefix}}, {{suffix}}, {{confix}}) or as an :af segment of the unified {{ety}} template; inline modifiers on a part (<t:...>, <g:...>, <alt:...>) are dropped before the part is read, and a part in another language is not a base",
             "compound nodes are excluded from the used edges: a word whose etymology names two or more full-word bases, or one that two headwords of different stems both list as derived while it carries both stems",
             "affix bases Wiktionary knows only as function words are dropped, so prepositional compounds do not chain every prefix into one family",
             "aspect: B is A's listed perfective or imperfective partner in the headword template",
@@ -260,6 +325,7 @@ def main():
         "labeledSpread": labeled_spread,
         "downloads": {"families": "/downloads/ukrainian-frequency/wiktionary-families/families.csv",
                       "edges": "/downloads/ukrainian-frequency/wiktionary-families/edges.csv"},
+        "previous": previous_snapshots(meta_snapshot),
     }
     full = dict(meta)
     full["families"] = families

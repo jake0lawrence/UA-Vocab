@@ -8,11 +8,15 @@ graph builds the same kind of grouping from what IS open: the English
 Wiktionary's Ukrainian entries, as extracted by kaikki.org (wiktextract).
 
 - Input: the full kaikki.org Ukrainian dump (`kaikki.org-dictionary-Ukrainian.jsonl`,
-  Last-Modified 2026-09-09, 59,877 entries, not committed: 291 MB). Every edge
-  is taken verbatim from an entry; no family is inferred from spelling.
+  Last-Modified 2026-10-30, 53,277 Ukrainian headwords, not committed: 323 MB;
+  the first snapshot read the 2026-09-09 and 2026-09-20 extractions). Every
+  edge is taken verbatim from an entry; no family is inferred from spelling.
 - Edges used for families: `derived` (headword A lists B under Derived
-  terms), `affix` (B's etymology is one affix template over exactly one
-  full-word base A), `aspect` (B is A's listed perfective or imperfective
+  terms), `affix` (B's etymology is one affix claim over exactly one
+  full-word base A: an `{{af}}`-family template, or since 2026-11-20 an
+  `:af` segment of the unified `{{ety}}` template Wiktionary migrated most
+  Ukrainian etymologies to; a part's inline modifiers such as `<t:bank>` are
+  dropped before it is read, where they used to drop the part), `aspect` (B is A's listed perfective or imperfective
   partner). `related` (Related terms) is recorded in `edges.csv` and NOT
   used: on this dump it chains unrelated roots through shared suffixes and
   cognate lists into families of hundreds.

@@ -1,6 +1,6 @@
 # The PULS CEFR overlay on the Ukrainian Frequency list (datasheet)
 
-The per-lemma validated CEFR levels (A1 to C1) of the Ukrainian Vocabulary Profile (PULS; Synchak, Starko, Burak, Svystun, eLex 2025), joined part-of-speech-aware onto the top-12,000 Ukrainian Frequency lemma list: 6,403 of the 12,000 lemmas carry a validated level, with a per-row record of how the join matched, and the rank distribution of every level per thousand-rank band. Redistributed with the authors' permission under CC-BY-SA 4.0 as a dated snapshot of a profile that is still being extended.
+The per-lemma validated CEFR levels (A1 to C1) of the Ukrainian Vocabulary Profile (PULS; Synchak, Starko, Burak, Svystun, eLex 2025), joined part-of-speech-aware onto the top-12,000 Ukrainian Frequency lemma list: 6,403 of the 12,000 lemmas carry a validated level, with a per-row record of how the join matched, and the rank distribution of every level per thousand-rank band. Redistributed with the authors' permission under CC BY-NC-SA 4.0, the terms the profile publishes at https://puls.peremova.org/terms, as a dated snapshot of a profile that is still being extended.
 
 ## What it is
 
@@ -36,7 +36,7 @@ Treating the overlay as the final PULS profile or as the authors' own publicatio
 
 ## Attribution
 
-- Ukrainian Vocabulary Profile (PULS): Synchak, O., Starko, V., Burak, M., Svystun, M. https://puls.peremova.org/. Paper: Corpus-Based Vocabulary Profiling for Ukrainian: From Lexical Analysis to CEFR, eLex 2025, https://elex.link/elex2025/wp-content/uploads/eLex2025-29-Synchak_etal.pdf. Per-lemma levels redistributed with the authors' explicit permission (V. Starko, July 2026); licensed CC BY-NC-SA 4.0 at the authors' decision (O. Synchak, 2026-09-24), attribution required. The authors' own citation form: Профіль української лексики (ПУЛЬС) / О. Синчак, В. Старко, М. Бурак, М. Свистун та ін. Львів: Школа української мови та культури УКУ, 2026.
+- Ukrainian Vocabulary Profile (PULS): Synchak, O., Starko, V., Burak, M., Svystun, M. https://puls.peremova.org/. Paper: Corpus-Based Vocabulary Profiling for Ukrainian: From Lexical Analysis to CEFR, eLex 2025, https://elex.link/elex2025/wp-content/uploads/eLex2025-29-Synchak_etal.pdf. Per-lemma levels redistributed with the authors' explicit permission (V. Starko, July 2026); licensed CC BY-NC-SA 4.0 at the authors' decision (O. Synchak, 2026-09-24), the license the profile states on its terms page (https://puls.peremova.org/terms, read 2026-11-20), attribution required. The authors' own citation forms: Профіль української лексики (ПУЛЬС) / О. Синчак, В. Старко, М. Бурак, М. Свистун та ін. Львів: Школа української мови та культури УКУ, 2026. Ukrainian Vocabulary Profile (PULS) / O. Synchak, V. Starko, M. Burak, M. Svystun et al. Lviv: Ukrainian Language and Culture School at UCU, 2026. Available at: puls.peremova.org.
 - Frequency ranks: UberText 2.0 (lang-uk; Chaplynskyi 2023), CC-BY 4.0.
 
 ## Cite this deposit

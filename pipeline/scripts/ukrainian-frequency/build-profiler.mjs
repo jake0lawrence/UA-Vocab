@@ -31,7 +31,7 @@ import { SPINE } from "../../src/lib/ukrainian-frequency/release.mjs";
 
 const CHECK = process.argv.includes("--check");
 
-export const VERSION = "v1.2.0";
+export const VERSION = "v1.3.0";
 const LICENSE = "CC-BY-NC-SA-4.0";
 const DATASET = "ukrainian-frequency-profiler";
 const CITATION =
