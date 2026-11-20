@@ -1,6 +1,6 @@
 # Ukrainian Frequency: the B1 enrichment tables (datasheet)
 
-Seven tables over the lemmas the validated Ukrainian Vocabulary Profile (PULS) labels B1 on the Ukrainian Frequency top-12,000 list: each B1 verb related to its aspect partner and its corpus-attested prefixed derivatives (every related verb keeping its own PULS level, so split-level pairs are visible), the motion-verb prefix grid, verb-plus-preposition-plus-case government counts, logDice collocations, two attested example sentences per lemma, and the multiword table a lemma list cannot hold, all counted over open data. Snapshot 2026-09-11, aspect table rebuilt 2026-09-13, multiword table added 2026-09-17. CC-BY-SA 4.0.
+Seven tables over the lemmas the validated Ukrainian Vocabulary Profile (PULS) labels B1 on the Ukrainian Frequency top-12,000 list: each B1 verb related to its aspect partner and its corpus-attested prefixed derivatives (every related verb keeping its own PULS level, so split-level pairs are visible), the motion-verb prefix grid, verb-plus-preposition-plus-case government counts, logDice collocations, two attested example sentences per lemma, and the multiword table a lemma list cannot hold, all counted over open data. Snapshot 2026-09-11, aspect table rebuilt 2026-09-13, multiword table added 2026-09-17. CC BY-NC-SA 4.0 as a whole, because the aspect table carries PULS levels (the profile's published terms, https://puls.peremova.org/terms).
 
 ## What it is
 
@@ -43,7 +43,7 @@ Treating a count over one Wikipedia prefix as a norm of the language; treating a
 
 ## Attribution
 
-- Levels: Ukrainian Vocabulary Profile (PULS), Synchak, O., Starko, V., Burak, M., Svystun, M., https://puls.peremova.org/, redistributed with the authors' permission, CC BY-NC-SA 4.0 at the authors' decision (O. Synchak, 2026-09-24; snapshot 2026-07-23). Cite as: Профіль української лексики (ПУЛЬС) / О. Синчак, В. Старко, М. Бурак, М. Свистун та ін. Львів: Школа української мови та культури УКУ, 2026.
+- Levels: Ukrainian Vocabulary Profile (PULS), Synchak, O., Starko, V., Burak, M., Svystun, M., https://puls.peremova.org/, redistributed with the authors' permission, CC BY-NC-SA 4.0 at the authors' decision (O. Synchak, 2026-09-24; snapshot 2026-07-23, re-read unchanged 2026-11-20), as the profile states on its terms page (https://puls.peremova.org/terms). Cite as: Профіль української лексики (ПУЛЬС) / О. Синчак, В. Старко, М. Бурак, М. Свистун та ін. Львів: Школа української мови та культури УКУ, 2026. Ukrainian Vocabulary Profile (PULS) / O. Synchak, V. Starko, M. Burak, M. Svystun et al. Lviv: Ukrainian Language and Culture School at UCU, 2026. Available at: puls.peremova.org.
 - Aspect partners: Wiktionary via kaikki.org (wiktextract), CC-BY-SA 3.0. https://kaikki.org/dictionary/Ukrainian/
 - Corpus counts and example sentences: UberText 2.0, Wikipedia subcorpus (lang-uk; Chaplynskyi 2023), CC-BY 4.0 for the counts, CC-BY-SA for the Wikipedia text. https://lang.org.ua/en/ubertext/
 - Russianism gate: LanguageTool Ukrainian replacement tables (LGPL), used at build time only.

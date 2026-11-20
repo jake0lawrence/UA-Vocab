@@ -91,6 +91,7 @@ reads them documents what it needs rather than running here.
 |---|---|
 | `list-audit.json` | the audit's evidence: pymorphy3 classes for every row, from VESUM; VESUM (brown-uk/dict_uk) is CC BY-NC-SA and the study never redistributes it |
 | `puls-cefr.raw.csv` | the full PULS harvest; only the list lemmas' levels are redistributed (puls-cefr.SOURCE.md) |
+| `puls-cefr.expressions.raw.csv` | the fixed expressions of the full PULS harvest (2026-11-20 re-read), raw harvest like puls-cefr.raw.csv; none is redistributed |
 | `predicted-cefr.snapshot.json` | the model's feature snapshot, which includes VESUM lexicon features; VESUM (brown-uk/dict_uk) is CC BY-NC-SA and the study never redistributes it |
 | `b1-aspect.json` | its verb rows carry the VESUM lexicon's aspect tag (aspectVesum); VESUM (brown-uk/dict_uk) is CC BY-NC-SA and the study never redistributes it |
 | `b1-aspect.ubertext-counts.json` | carries the VESUM lexicon's aspect per lemma; VESUM (brown-uk/dict_uk) is CC BY-NC-SA and the study never redistributes it |

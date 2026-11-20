@@ -1,6 +1,6 @@
 # A crosswalk of the Ukrainian lexical minimums against the validated CEFR profile (datasheet)
 
-Every lemma in the union of the two published Ukrainian A1 and A2 lexical minimums ("1000 i 1 slovo", Borodin and Turkevych; Borodin and Lazarenko) and the validated Ukrainian Vocabulary Profile (PULS), joined lemma by lemma on the Ukrainian Frequency corpus spine, with each agreement and disagreement classified: 10,366 rows, 1,200 agreements, 583 words the syllabus teaches earlier than the profile validates them, 174 later, 776 validated-A1 or A2 words in neither volume, 172 minimum words the profile does not cover, and 7,461 above a 2,000-word syllabus by arithmetic. Version v1.0.0, CC-BY-SA 4.0.
+Every lemma in the union of the two published Ukrainian A1 and A2 lexical minimums ("1000 i 1 slovo", Borodin and Turkevych; Borodin and Lazarenko) and the validated Ukrainian Vocabulary Profile (PULS), joined lemma by lemma on the Ukrainian Frequency corpus spine, with each agreement and disagreement classified: 10,366 rows, 1,200 agreements, 583 words the syllabus teaches earlier than the profile validates them, 174 later, 776 validated-A1 or A2 words in neither volume, 172 minimum words the profile does not cover, and 7,461 above a 2,000-word syllabus by arithmetic. Version v1.0.0, CC BY-NC-SA 4.0, the terms the profile publishes at https://puls.peremova.org/terms (the v1.0.0 files carry a superseded CC-BY-SA marking; see the README of the latest version).
 
 ## What it is
 

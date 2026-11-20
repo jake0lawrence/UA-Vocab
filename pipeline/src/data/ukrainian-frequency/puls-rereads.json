@@ -1,0 +1,18 @@
+{
+  "note": "Every quarterly re-read of the PULS profile (scripts/ukrainian-frequency/scrape-puls-cefr.py run against puls.peremova.org), newest last. A re-read that finds the single-word senses unchanged leaves puls-cefr.raw.csv and every derived tier alone and is recorded here, so the review's quarterly clock (review/targets.mjs pulsTarget) starts again from its date. The license notice is read first, as the review plan requires.",
+  "rereads": [
+    {
+      "date": "2026-11-20",
+      "against": "2026-07-23",
+      "pages": 208,
+      "senses": 10298,
+      "sensesAdded": 0,
+      "sensesRemoved": 0,
+      "sensesChanged": 0,
+      "expressions": 63,
+      "notice": "posted: https://puls.peremova.org/terms, 'PULS data are distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)'",
+      "result": "Every single-word sense (id, lemma, guideword, level, part of speech, entry type) is identical to the 2026-07-23 snapshot; only page positions moved, because the profile now lists 63 fixed expressions (entry type 'фраза') among the words. None of the 63 is a single token, so none can join a list lemma. The expressions are kept verbatim in puls-cefr.expressions.raw.csv; the snapshot and every derived tier are unchanged.",
+      "scraper": "the browse table's anchors changed from #meaning-N to #meaning_N and gained #fixed_expression_N; the scraper reads both and now stops on a page whose rows do not parse"
+    }
+  ]
+}

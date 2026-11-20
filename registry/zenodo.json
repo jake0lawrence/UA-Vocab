@@ -29,8 +29,8 @@
     "validated-cefr": {
       "title": "Ukrainian Frequency: the PULS CEFR overlay (validated A1 to C1 levels joined onto the top-12,000 list)",
       "license": "CC-BY-NC-SA-4.0",
-      "hold": true,
-      "holdReason": "Relabeled CC-BY-NC-SA-4.0 on 2026-09-24, the license the PULS authors decided on (O. Synchak, by email; the July permission had been carried as CC-BY-SA 4.0 to match the paper). Held until puls.peremova.org posts that notice, so the deposit's license line can cite the authors' published terms rather than an email.",
+      "hold": false,
+      "holdReason": null,
       "conceptDoi": null,
       "conceptRecordId": null,
       "versions": []
@@ -39,7 +39,7 @@
       "title": "A crosswalk of the Ukrainian lexical minimums (Borodin et al., A1 and A2) against the validated Ukrainian Vocabulary Profile",
       "license": "CC-BY-NC-SA-4.0",
       "hold": true,
-      "holdReason": "Every row carries a PULS level (CC-BY-NC-SA-4.0 since 2026-09-24); held with the overlay until puls.peremova.org posts its notice.",
+      "holdReason": "Every row carries a PULS level (CC-BY-NC-SA-4.0 since 2026-09-24). The license notice the hold waited on is posted (https://puls.peremova.org/terms, read 2026-11-20), but the crosswalk carries levels for all 10,194 profiled lemmas, past the list's scope the authors were told about; held until they answer the scope question of 2026-11-15 (docs/ukrainian-frequency/puls-correspondence.md).",
       "conceptDoi": null,
       "conceptRecordId": null,
       "versions": []
@@ -47,8 +47,8 @@
     "b1-enrichment": {
       "title": "Ukrainian Frequency: the B1 enrichment tables (aspect relations, case government, collocations)",
       "license": "CC-BY-NC-SA-4.0",
-      "hold": true,
-      "holdReason": "The aspect table carries PULS levels per related verb (CC-BY-NC-SA-4.0 since 2026-09-24); held with the overlay until puls.peremova.org posts its notice.",
+      "hold": false,
+      "holdReason": null,
       "conceptDoi": null,
       "conceptRecordId": null,
       "versions": []

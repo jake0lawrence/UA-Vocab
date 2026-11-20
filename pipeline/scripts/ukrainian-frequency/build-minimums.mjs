@@ -24,7 +24,7 @@ import { renderReleaseIndex } from "./lib/release-index.mjs";
 
 const CHECK = process.argv.includes("--check");
 
-const VERSION = "v1.2.0";
+const VERSION = "v1.3.0";
 const DATASET = "ukrainian-lexical-minimums-crosswalk";
 // CC-BY-NC-SA, because every row of this table carries a PULS level and the
 // PULS levels are CC BY-NC-SA 4.0 at the authors' decision (2026-09-24). v1.0.0
@@ -34,7 +34,7 @@ const DATASET = "ukrainian-lexical-minimums-crosswalk";
 // volumes remain CC-BY-4.0 in their own right: only the combined table carries
 // the profile's terms.
 const LICENSE = "CC-BY-NC-SA-4.0";
-const SNAPSHOT = "2026-09-13";
+const SNAPSHOT = "2026-11-20";
 const CITATION =
   `Lawrence, J. (2026). A crosswalk between the "1000 i 1 slovo" A1 and A2 lexical minimums and the validated Ukrainian Vocabulary Profile (${VERSION}). jakelawrence.xyz/research/ukrainian-frequency.`;
 
@@ -52,6 +52,16 @@ const README = (counts) => `# A crosswalk of the Ukrainian lexical minimums agai
 Ukrainian has two independent published answers to "which words come first",
 built by different methods. This joins them, lemma by lemma, on a corpus
 frequency spine, and classifies every place they disagree.
+
+## This version
+
+v1.3.0 (2026-11-20) changes one column. The \`relative\` of an absent row is
+partly drawn from the Wiktionary derived-term family graph, and that graph was
+rebuilt on 2026-11-20 from the 2026-10-30 Wiktionary extraction with a fuller
+reading of its etymologies (see \`../../wiktionary-families/README.md\`), so
+129 absent rows name a different relative or gain one where they had none.
+No row was added or removed, no class and no level changed. v1.2.0 and the
+versions before it stay frozen beside this one.
 
 ## The two sides
 
